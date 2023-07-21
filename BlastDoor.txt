@@ -1,0 +1,75 @@
+2023-03-20 19:15:51.205241+1100 0x3d359    Activity    0x7a421              6590   0    IDSBlastDoorService: (CoreFoundation) Resetting CFPreferences/NSUserDefaults
+2023-03-20 19:15:51.370108+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] uncorking domain
+2023-03-20 19:15:51.370762+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.PerfPowerTelemetryClientRegistrationService
+2023-03-20 19:15:51.370812+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.CGXPCServicesAgent
+2023-03-20 19:15:51.370847+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.StreamingUnzipService
+2023-03-20 19:15:51.370862+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.ColorPickerImageLoader
+2023-03-20 19:15:51.370870+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.defaultSyncService
+2023-03-20 19:15:51.370874+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.documentPopoverViewService
+2023-03-20 19:15:51.370879+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.LegacyExternalColorPickerService.arm64
+2023-03-20 19:15:51.370883+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.LegacyExternalColorPickerService.x86_64
+2023-03-20 19:15:51.370888+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.sandboxedServiceRunner
+2023-03-20 19:15:51.370893+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.WindowSharingControlViewService
+2023-03-20 19:15:51.370897+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.automator.xpc.workflowServiceRunner
+2023-03-20 19:15:51.370902+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.VersionsUIHelper
+2023-03-20 19:15:51.370907+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.appkit.xpc.openAndSavePanelService
+2023-03-20 19:15:51.370941+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.ImageKit.RecentPictureService
+2023-03-20 19:15:51.370955+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.quicklook.QuickLookUIService
+2023-03-20 19:15:51.371057+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.siri.DeepSyncVerificationService
+2023-03-20 19:15:51.371099+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.siri.media-indexer
+2023-03-20 19:15:51.371224+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.foundation.UserScriptService
+2023-03-20 19:15:51.371368+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.ImageIOXPCService
+2023-03-20 19:15:51.371426+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.speech.SpeechSynthesisServerXPC
+2023-03-20 19:15:51.371590+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.textkit.nsattributedstringagent
+2023-03-20 19:15:51.371773+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.AnnotationKit.MigratorService
+2023-03-20 19:15:51.372088+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.audio.DriverHelper
+2023-03-20 19:15:51.372102+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.extensionkitservice
+2023-03-20 19:15:51.372260+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.SafariServices.ExtensionHelper
+2023-03-20 19:15:51.372269+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.SafariServices
+2023-03-20 19:15:51.372302+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.LookupViewService
+2023-03-20 19:15:51.372562+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.CoreMLModelSecurityService
+2023-03-20 19:15:51.372662+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.FTLivePhotoService
+2023-03-20 19:15:51.372670+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.FaceTime.FTConversationService
+2023-03-20 19:15:51.372757+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.AssetCacheLocatorService
+2023-03-20 19:15:51.372774+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.Photos.Migration.Reader
+2023-03-20 19:15:51.372782+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.Photos.Migration
+2023-03-20 19:15:51.372814+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.Photos.CPLDiagnose
+2023-03-20 19:15:51.372968+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.CoreDisplay.XPCService
+2023-03-20 19:15:51.372981+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.CMValidateMovieDataReferenceService
+2023-03-20 19:15:51.373099+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.audio.CarbonComponentScanner.x86-64
+2023-03-20 19:15:51.373108+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.audio.ComponentTagHelper
+2023-03-20 19:15:51.373112+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.audio.InfoHelper
+2023-03-20 19:15:51.373117+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.audio.SandboxHelper
+2023-03-20 19:15:51.373292+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.internal.DataDetectorsRemoteScanner
+2023-03-20 19:15:51.373315+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.OSLogService
+2023-03-20 19:15:51.373353+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.ANECompilerService
+2023-03-20 19:15:51.373361+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.private.ANEStorageMaintainer
+2023-03-20 19:15:51.373381+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.ModelIO.AssetLoader
+2023-03-20 19:15:51.373657+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.coremedia.videodecoder
+2023-03-20 19:15:51.373662+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.coremedia.videodecoder.zonto
+2023-03-20 19:15:51.373667+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.coremedia.videoencoder
+2023-03-20 19:15:51.373672+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.coremedia.videoencoder.zonto
+2023-03-20 19:15:51.373772+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.coremedia.pluginformatreader
+2023-03-20 19:15:51.373777+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.coremedia.pluginformatreader.zonto
+2023-03-20 19:15:51.373809+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.intents.intents-helper
+2023-03-20 19:15:51.373840+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.LinkPresentation.LinkSnapshotGeneratorService
+2023-03-20 19:15:51.373921+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.DataDetectorsActionService
+2023-03-20 19:15:51.373928+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.DataDetectorsViewService
+2023-03-20 19:15:51.373968+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.scenekit.SCNSceneLoader
+2023-03-20 19:15:51.373973+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.SceneKit.C3DColladaResourcesCoordinator
+2023-03-20 19:15:51.374296+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.desktopservices.ArchiveService
+2023-03-20 19:15:51.374310+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.ColorSyncXPCAgent
+2023-03-20 19:15:51.374745+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.USDLib.FormatLoader
+2023-03-20 19:15:51.374785+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.DPSubmissionService
+2023-03-20 19:15:51.374852+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.photos.ImageConversionService
+2023-03-20 19:15:51.374859+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.photos.VideoConversionService
+2023-03-20 19:15:51.374905+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.security.XPCAcmeService
+2023-03-20 19:15:51.375216+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.LoginUserService
+2023-03-20 19:15:51.375263+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.security.pboxd
+2023-03-20 19:15:51.375289+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.mscamerad-xpc
+2023-03-20 19:15:51.375467+1100 0x3cdb9    Default     0x0                  1      0    launchd: [pid/6590 [IDSBlastDoorSer]:] Service stub created for com.apple.ZhuGeService
+2023-03-20 19:15:51.380671+1100 0x3d3bd    Default     0x0                  6590   0    IDSBlastDoorService: (BlastDoor) [com.apple.Messages.blastdoor:BlastDoorPipeline] [6499] IDSCommandWebTunnelResponseUnpacker : Success
+2023-03-20 19:15:51.380696+1100 0x3d3a5    Default     0x7a621              6487   0    tccd: [com.apple.TCC:access] REPLY: (501) function=TCCAccessRequest, msgID=6508.87
+2023-03-20 19:15:51.380855+1100 0x3d00a    Activity    0x7a622              6508   0    contactsd: (TCC) tcc_send_request_authorization() IPC
+2023-03-20 19:15:51.381203+1100 0x3d281    Activity    0x7a668              6542   0    fontworker: (CoreServicesInternal) CFURLCreateBookmarkData
+2023-03-20 19:15:51.381596+1100 0x3cfb9    Default     0x0                  6499   0    identityservicesd: (BlastDoor) [com.apple.Messages.blastdoor:BlastDoorPipeline] BlastDoor.IDSCommandWebTunnelResponse : Success (0.875s)
