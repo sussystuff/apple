@@ -1,0 +1,319 @@
+2023-03-20 21:38:56.996017+1100 0x4bd57    Default     0x0                  140    0    AirPlayXPCHelper: (MediaExperience) [com.apple.coremedia:] -FigEndpointUIAgentXPCServer- HandleSetCurrentUIAgent: Set current UI agent to 0x12830ebf0, isCurrent=YES
+2023-03-20 21:38:56.996026+1100 0x4bd57    Default     0x0                  140    0    AirPlayXPCHelper: (MediaExperience) [com.apple.coremedia:] -FigEndpointUIAgentHelper- FigEndpointUIAgentHelper_SetNewUIAgent: Setting new endpointUIAgent (0x12830ebf0) old (0x0)
+2023-03-20 21:38:56.997053+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (MediaToolbox) [com.apple.coremedia:] <<<< FigVirtualDisplayServerCGVD >>>> FigVirtualDisplayServerCGVDStart: Starting server
+2023-03-20 21:38:56.999246+1100 0x4baca    Default     0x0                  8012   0    WindowManager: [com.apple.windowmanagement:xpcconnection] Connection activated | (8277) AirPlayUIAgent
+2023-03-20 21:38:57.005621+1100 0x4bd1c    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow file-read-data /Library/Image Capture/Devices
+2023-03-20 21:38:57.005823+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Creating bonjour devices
+2023-03-20 21:38:57.011353+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]           [Starting] | Disk Browser
+2023-03-20 21:38:57.011897+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]           [Starting] | Wired Browser
+2023-03-20 21:38:57.012696+1100 0x4bd35    Default     0x0                  0      0    kernel: (Sandbox) 1 duplicate report for Sandbox: icdd(8274) allow file-read-data /Library/Image Capture/Devices
+2023-03-20 21:38:57.012705+1100 0x4bd35    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow network-outbound /private/var/run/mDNSResponder
+2023-03-20 21:38:57.013699+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14080] DNSServiceCreateConnection START PID[8274](icdd)
+2023-03-20 21:38:57.016101+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14081] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted/redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.016102+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14081] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.016104+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016115+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016609+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016613+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016780+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016782+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016805+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016806+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016806+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016807+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016807+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016808+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016808+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016811+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016963+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017066+1100 0x4b065    Default     0x0                  0      0    kernel: (Sandbox) 9 duplicate reports for Sandbox: icdd(8274) allow network-outbound /private/var/run/mDNSResponder
+2023-03-20 21:38:57.017075+1100 0x4b065    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow mach-lookup com.apple.DiskArbitration.diskarbitrationd
+2023-03-20 21:38:57.017095+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 15 <mask.hash: 'redacted=='> (PTR)
+2023-03-20 21:38:57.017169+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14082] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted+redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.017170+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14082] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.017170+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017172+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017328+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017330+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017409+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017411+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017412+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017412+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017414+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017415+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017416+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017497+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019209+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 19 <mask.hash: 'tX/redacted=='> (PTR)
+2023-03-20 21:38:57.019293+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14086] DNSServiceBrowse(0, 0, "<mask.hash: 'mZ/+redacted/redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.019294+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14086] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.019776+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14087] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.019776+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14087] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.019777+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019777+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019903+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019904+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020194+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020195+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020196+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020196+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020197+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020197+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020198+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020198+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020199+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020200+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020318+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020390+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14088] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.020391+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14088] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.020391+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020392+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021122+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021124+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021249+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021251+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021252+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021253+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021253+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021254+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021254+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021255+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021255+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021257+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021345+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021408+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14089] DNSServiceBrowse(0, 0, "<mask.hash: 'MAd/redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.021413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14089] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.021416+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021417+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+
+2023-03-20 21:38:57.021721+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021723+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021863+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]      +reg-DACallback | mainThread: yes
+2023-03-20 21:38:57.021897+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021898+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021899+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021899+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021900+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021900+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021901+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021901+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021902+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021903+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.022037+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.023714+1100 0x4b905    Default     0x0                  7552   2    mobileassetd: (libmobileassetd.dylib) [com.apple.mobileassetd:Notice] -[ControlManager handleClientConnection:on:]_block_invoke: assetType: com.apple.MobileAsset.VoiceTriggerAssetsMac client: corespeechd, command: 16 (MA_CLEAN_V1_ASSETS)
+2023-03-20 21:38:57.024153+1100 0x4bd1e    Default     0x0                  8266   0    corespeechd: (AVFAudio) [com.apple.avfaudio:avvc]              AVVC_Log.cpp:45    NOTE: AVVC Details logging is turned on by default for development
+2023-03-20 21:38:57.037392+1100 0x4ae53    Default     0x0                  0      0    kernel: (Sandbox) 2 duplicate reports for Sandbox: icdd(8274) allow mach-lookup com.apple.DiskArbitration.diskarbitrationd
+========
+2023-03-20 21:38:56.928434+1100 0x4bd1c    Debug       0x0                  0      0    kernel: (Sandbox) Sandbox apply: icdd[8274] <bytes>
+2023-03-20 21:38:56.928508+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]                  --- | icdd startup
+2023-03-20 21:38:56.929139+1100 0x4ae53    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow mach-lookup com.apple.FSEvents
+2023-03-20 21:38:56.957499+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) No persisted cache on this platform.
+2023-03-20 21:38:56.957499+1100 0x4bd14    Default     0x0                  8281   0    TextInputMenuAgent: (libMobileGestalt.dylib) No persisted cache on this platform.
+2023-03-20 21:38:56.960930+1100 0x4bd14    Default     0x0                  8281   0    TextInputMenuAgent: (libMobileGestalt.dylib) Could not get size of EAN data (IOConnectCallScalarMethod kAppleNVMeEANGetSize returned 0xE00002E2)
+2023-03-20 21:38:56.960956+1100 0x4bd14    Default     0x0                  8281   0    TextInputMenuAgent: (libMobileGestalt.dylib) Failed to copy 'aptk' from EAN
+2023-03-20 21:38:56.960961+1100 0x4bd14    Default     0x0                  8281   0    TextInputMenuAgent: (libMobileGestalt.dylib) Failed to copy APTicket properties. Falling back to default policy.
+2023-03-20 21:38:56.961061+1100 0x4bd15    Default     0x0                  0      0    kernel: (Sandbox) 2 duplicate reports for Sandbox: icdd(8274) allow mach-lookup com.apple.FSEvents
+2023-03-20 21:38:56.961070+1100 0x4bd15    Error       0x0                  0      0    kernel: (Sandbox) Sandbox: AirPlayUIAgent(8277) deny(1) iokit-open-user-client AppleNVMeEANUC
+2023-03-20 21:38:56.961072+1100 0x4bd15    Default     0x0                  0      0    kernel: IOUC AppleNVMeEANUC failed MACF in process pid 8277, AirPlayUIAgent
+2023-03-20 21:38:56.961098+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) IOServiceOpen failed for class 'AppleNVMeEAN'
+2023-03-20 21:38:56.961104+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) Could not open EAN service and connect
+2023-03-20 21:38:56.961108+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) Failed to copy 'aptk' from EAN
+2023-03-20 21:38:56.961113+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) Failed to copy APTicket properties. Falling back to default policy.
+2023-03-20 21:38:56.961117+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) Creating default MGSysConfigPolicy
+2023-03-20 21:38:56.961317+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) syscfg is not initialized!
+2023-03-20 21:38:56.961339+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) CFDictionaryRef copySyscfgDictionary(void) enumeration of <private> failed.
+2023-03-20 21:38:56.961351+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (libMobileGestalt.dylib) Failed to find key <private>
+2023-03-20 21:38:56.962735+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+2023-03-20 21:38:56.964208+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (AppKit) [com.apple.AppKit:Appearance] Post-registration system appearance: (HLTB: 1)
+2023-03-20 21:38:56.982559+1100 0x4bd40    Debug       0x0                  0      0    kernel: (Sandbox) Sandbox apply: taskgated-helper[8286] <bytes>
+2023-03-20 21:38:56.982745+1100 0x4bd40    Default     0x0                  8286   0    taskgated-helper: [com.apple.ManagedClient:ProvisioningProfiles] Starting taskgated-helper
+2023-03-20 21:38:56.982779+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Creating local devices
+2023-03-20 21:38:56.983808+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2023-03-20 21:38:56.984043+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2023-03-20 21:38:56.984212+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2023-03-20 21:38:56.984348+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2023-03-20 21:38:56.984349+1100 0x4b065    Default     0x0                  1      0    launchd: [system/com.apple.ManagedClient:] service state: spawning
+2023-03-20 21:38:56.984361+1100 0x4b065    Default     0x0                  1      0    launchd: [system/com.apple.ManagedClient:] launching: ipc (mach)
+2023-03-20 21:38:56.988285+1100 0x4bd15    Debug       0x0                  8277   0    AirPlayUIAgent: (AE) [com.apple.appleevents:connection] Creating an xpc connection, serviceName=com.apple.coreservices.appleevents
+2023-03-20 21:38:56.988293+1100 0x4bd15    Debug       0x0                  8277   0    AirPlayUIAgent: (AE) [com.apple.appleevents:connection] Saving connection as the default connection, connectionID=0x0x600000344380
+2023-03-20 21:38:56.988293+1100 0x4bd15    Debug       0x0                  8277   0    AirPlayUIAgent: (AE) [com.apple.appleevents:connection] Resuming xpc connection.
+2023-03-20 21:38:56.988579+1100 0x4bc88    Activity    0x9ebaa              264    0    appleeventsd: New XPC Connection
+2023-03-20 21:38:56.988653+1100 0x4bc88    Activity    0x9ebab              264    0    appleeventsd: Handle XPC Event
+2023-03-20 21:38:56.989427+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (HIServices) [com.apple.processmanager:front-35286506] SignalReady: pid=8277 asn=0x0-0x3a43a4
+2023-03-20 21:38:56.989847+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (LaunchServices) [com.apple.processmanager:front-35286506] SIGNAL: pid=8277 asn=0x0x-0x3a43a4
+2023-03-20 21:38:56.996017+1100 0x4bd57    Default     0x0                  140    0    AirPlayXPCHelper: (MediaExperience) [com.apple.coremedia:] -FigEndpointUIAgentXPCServer- HandleSetCurrentUIAgent: Set current UI agent to 0x12830ebf0, isCurrent=YES
+2023-03-20 21:38:56.996026+1100 0x4bd57    Default     0x0                  140    0    AirPlayXPCHelper: (MediaExperience) [com.apple.coremedia:] -FigEndpointUIAgentHelper- FigEndpointUIAgentHelper_SetNewUIAgent: Setting new endpointUIAgent (0x12830ebf0) old (0x0)
+2023-03-20 21:38:56.997053+1100 0x4bd15    Default     0x0                  8277   0    AirPlayUIAgent: (MediaToolbox) [com.apple.coremedia:] <<<< FigVirtualDisplayServerCGVD >>>> FigVirtualDisplayServerCGVDStart: Starting server
+2023-03-20 21:38:56.998691+1100 0x4bd14    Activity    0xa0cd5              8281   0    TextInputMenuAgent: (SharedFileList) #SFLAPI LSSharedFileListCreate
+2023-03-20 21:38:56.998783+1100 0x4bd43    Activity    0xa0cd6              8281   0    TextInputMenuAgent: (SharedFileList) #SFLAPI LSSharedFileListCopySnapshot
+2023-03-20 21:38:56.999246+1100 0x4baca    Default     0x0                  8012   0    WindowManager: [com.apple.windowmanagement:xpcconnection] Connection activated | (8277) AirPlayUIAgent
+2023-03-20 21:38:57.000309+1100 0x4ae53    Default     0x0                  1      0    launchd: [system/com.apple.ManagedClient [8287]:] service state: running
+2023-03-20 21:38:57.000314+1100 0x4ae53    Default     0x0                  1      0    launchd: [system/com.apple.ManagedClient [8287]:] internal event: INIT, code = 0
+2023-03-20 21:38:57.000323+1100 0x4ae53    Default     0x0                  1      0    launchd: [system/com.apple.ManagedClient [8287]:] Successfully spawned ManagedClient[8287] because ipc (mach)
+2023-03-20 21:38:57.003229+1100 0x754      Error       0x0                  144    7    WindowServer: (SkyLight) [com.apple.SkyLight:default] CGLayerKit called back with no connection
+2023-03-20 21:38:57.005621+1100 0x4bd1c    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow file-read-data /Library/Image Capture/Devices
+2023-03-20 21:38:57.005823+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Creating bonjour devices
+2023-03-20 21:38:57.011353+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]           [Starting] | Disk Browser
+2023-03-20 21:38:57.011495+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[0]: TemporalValidity =(leaf)[]> 0
+2023-03-20 21:38:57.011502+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[1]: TemporalValidity =(leaf)[]> 0
+2023-03-20 21:38:57.011897+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]           [Starting] | Wired Browser
+2023-03-20 21:38:57.012058+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[1]: TemporalValidity =(leaf)[]> 0
+2023-03-20 21:38:57.012068+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[1]: TemporalValidity =(leaf)[]> 0
+2023-03-20 21:38:57.012070+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[0]: TemporalValidity =(leaf)[]> 0
+2023-03-20 21:38:57.012077+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[0]: TemporalValidity =(path)[]> 0
+2023-03-20 21:38:57.012078+1100 0x4ba2b    Default     0xa0b6a              439    0    trustd: [com.apple.securityd:policy] cert[1]: TemporalValidity =(path)[]> 0
+2023-03-20 21:38:57.012211+1100 0x4bcc0    Default     0xa06f6              8004   0    Safari: (Security) [com.apple.securityd:SecError] Trust evaluate failure: [leaf TemporalValidity] [ca1 TemporalValidity]
+2023-03-20 21:38:57.012245+1100 0x4a1be    Default     0x0                  410    0    distnoted: [com.apple.distnoted:diagnostic] register name: com.apple.sessionDidMoveOnConsole object: kCFNotificationAnyObject token: 200000001 pid: 8274
+2023-03-20 21:38:57.012299+1100 0x4bcc0    Activity    0xa0b6b              8004   0    Safari: (Security) SecTrustEvaluateIfNecessary
+2023-03-20 21:38:57.012696+1100 0x4bd35    Default     0x0                  0      0    kernel: (Sandbox) 1 duplicate report for Sandbox: icdd(8274) allow file-read-data /Library/Image Capture/Devices
+2023-03-20 21:38:57.012705+1100 0x4bd35    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow network-outbound /private/var/run/mDNSResponder
+2023-03-20 21:38:57.013699+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14080] DNSServiceCreateConnection START PID[8274](icdd)
+2023-03-20 21:38:57.016101+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14081] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted/redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.016102+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14081] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.016104+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016115+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016609+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016613+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016780+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016782+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016805+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016806+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016806+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016807+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016807+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016808+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016808+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016811+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.016963+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017066+1100 0x4b065    Default     0x0                  0      0    kernel: (Sandbox) 9 duplicate reports for Sandbox: icdd(8274) allow network-outbound /private/var/run/mDNSResponder
+2023-03-20 21:38:57.017075+1100 0x4b065    Default     0x0                  0      0    kernel: (Sandbox) Sandbox: icdd(8274) allow mach-lookup com.apple.DiskArbitration.diskarbitrationd
+2023-03-20 21:38:57.017095+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 15 <mask.hash: 'redacted=='> (PTR)
+2023-03-20 21:38:57.017169+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14082] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted+redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.017170+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14082] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.017170+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017172+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017328+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017330+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017409+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017411+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017412+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017412+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017414+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017415+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017416+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017497+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017566+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 16 <mask.hash: 'redacted+redacted/oC6g=='> (PTR)
+2023-03-20 21:38:57.017671+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14083] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.017672+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14083] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.017672+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017673+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017961+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.017976+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018083+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018084+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018085+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018086+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018086+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018087+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018087+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018087+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018088+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018089+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018214+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018228+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 17 <mask.hash: 'redacted=='> (PTR)
+2023-03-20 21:38:57.018278+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14084] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.018279+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14084] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.018279+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018280+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018812+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14085] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.018813+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14085] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.018813+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.018814+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019293+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14086] DNSServiceBrowse(0, 0, "<mask.hash: 'mZ/+redacted/redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.019294+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14086] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.019294+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019295+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019542+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019544+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019568+1100 0x4bd5d    Default     0x0                  8266   2    corespeechd: (MobileAsset) [com.apple.mobileassetd:Notice] -[MAXpcManager ensureConnection]: Creating client/daemon connection: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx9B0B
+2023-03-20 21:38:57.019618+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019619+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019620+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019620+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019621+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019621+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019622+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019622+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019623+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019624+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019703+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019732+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 20 <mask.hash: 'redacted=='> (PTR)
+2023-03-20 21:38:57.019776+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14087] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.019776+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14087] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.019777+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019777+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019903+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.019904+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020194+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020195+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020196+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020196+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020197+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020197+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020198+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020198+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020199+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020200+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020318+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020325+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 21 <mask.hash: 'redacted+g=='> (PTR)
+2023-03-20 21:38:57.020390+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14088] DNSServiceBrowse(0, 0, "<mask.hash: 'redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.020391+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14088] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.020391+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.020392+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021122+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021124+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021249+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021251+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021252+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021253+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021253+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021254+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021254+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021255+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021255+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021257+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021345+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021354+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 22 <mask.hash: 'redacted+redacted=='> (PTR)
+2023-03-20 21:38:57.021408+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14089] DNSServiceBrowse(0, 0, "<mask.hash: 'MAd/redacted=='>", "<mask.hash: 'redacted=='>") START PID[8274](icdd)
+2023-03-20 21:38:57.021413+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] [R14089] DNSServiceBrowse Start domain enumeration for WAB and mDNS PID[8274](icdd)
+2023-03-20 21:38:57.021416+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021417+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021721+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021723+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021863+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]      +reg-DACallback | mainThread: yes
+2023-03-20 21:38:57.021897+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021898+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021899+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021899+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021900+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021900+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021901+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021901+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021902+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.021903+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.022037+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] <private>
+2023-03-20 21:38:57.022043+1100 0xa07      Default     0x0                  223    0    mDNSResponder: [com.apple.mDNSResponder:Default] mDNS_StartQuery_internal: NumAllInterfaceRecords 32 NumAllInterfaceQuestions 23 <mask.hash: '/redacted=='> (PTR)
+2023-03-20 21:38:57.101991+1100 0x4ae53    Default     0x0                  1      0    launchd: [pid/8266 [corespeechd]:] Service stub created for com.apple.FTLivePhotoService
+2023-03-20 21:38:57.102000+1100 0x4ae53    Default     0x0                  1      0    launchd: [pid/8266 [corespeechd]:] Service stub created for com.apple.FaceTime.FTConversationService
+2023-03-20 21:38:57.102193+1100 0x4ae53    Default     0x0                  1      0    launchd: [pid/8266/com.apple.audio.AUHostingService.arm64e:] created the implicit endpoint upfront
+2023-03-20 21:38:57.102196+1100 0x4ae53    Default     0x0                  1      0    launchd: [pid/8266/com.apple.audio.AUHostingService.arm64e:] draining messages from com.apple.audio.AUHostingService.arm64e
+========
+2023-03-20 21:39:07.102243+1100 0x4bd63    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Device database was flushed
+2023-03-20 21:39:07.102261+1100 0x4bd63    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Device timer was canceled
+2023-03-20 21:39:07.102285+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Destroyed local devices
+2023-03-20 21:39:07.102297+1100 0x4bd1c    Default     0x0                  8274   0    icdd: [com.apple.imagecapture:icdd]            Device DB | Destroyed bonjour devices
