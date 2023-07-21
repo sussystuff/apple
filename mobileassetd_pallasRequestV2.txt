@@ -1,0 +1,41 @@
+2023-03-18 18:07:08.697096+1100 0xb128     Default     0x2ef5a              209    2    mobileassetd: (libmobileassetd.dylib) [com.apple.mobileassetd:Notice] -[DownloadManager pallasRequestV2:normalizedType:withPurpose:options:using:with:autoAssetJob:clientName:then:]_block_invoke: the Pallas response XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX body is: {
+    AssetAudience = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx";
+    AssetSetId = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx";
+    Assets =     (
+                {
+            AssetType = "com.apple.MobileAsset.TimeZoneUpdate";
+            Build = 10M2648;
+            BundleVersion = "2022g.1.0";
+            FormatVersion = 1;
+            ICUTZSchemaVersion = 44l;
+            Ramp = 0;
+            ShouldAlertAll = 0;
+            "_AssetReceipt" =             {
+                AssetReceipt = "redacted==";
+                AssetSignature = "redacted=";
+            };
+            "_CompressionAlgorithm" = zip;
+            "_DownloadSize" = 580501;
+            "_IsZipStreamable" = 1;
+            "_MasteredVersion" = 2648;
+            "_Measurement" = "redacted=";
+            "_MeasurementAlgorithm" = "SHA-1";
+            "_UnarchivedSize" = 4075520;
+            "__BaseURL" = "https://updates.cdn-apple.com/2022/patches/032-13260/redacted";
+            "__CanUseLocalCacheServer" = 1;
+            "__RelativePath" = "com_apple_MobileAsset_TimeZoneUpdate/redacted.zip";
+            "__override_dupe__" = 1;
+            iOSVersion = "10.0";
+        }
+    );
+    LegacyXmlUrl = "";
+    Nonce = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX";
+    PallasNonce = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX";
+    PostingDate = "2022-12-06";
+    SessionId = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX";
+    Transformations =     {
+        RSEPDigest = data;
+        SEPDigest = data;
+        "_Measurement" = data;
+    };
+}
