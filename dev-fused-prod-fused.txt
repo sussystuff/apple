@@ -1,0 +1,20 @@
+//Mac-mini
+
+2023-03-13 16:00:46.053544+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Internal Build: false
+2023-03-13 16:00:46.053565+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Hardware Model: J274AP
+2023-03-13 16:00:46.053567+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Should Hactivate: false
+2023-03-13 16:00:46.053568+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] FPGA: false
+2023-03-13 16:00:46.053569+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Dev-fused Undemoted: false
+2023-03-13 16:00:46.053570+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Prod-fused Demoted: false
+2023-03-13 16:00:46.053584+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Activation State: Activated
+2023-03-13 16:00:46.053585+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] ____________________________________________________________________
+2023-03-13 16:00:46.055465+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_oic: entry
+2023-03-13 16:00:46.055924+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: SEP command 38 (v7) returned 0
+2023-03-13 16:00:46.055928+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_oic: exit: success (0)
+2023-03-13 16:00:46.057846+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: entry
+2023-03-13 16:00:46.058027+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: SEP command 15 (v7) returned 0
+2023-03-13 16:00:46.058029+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: exit: success (0)
+2023-03-13 16:00:46.063629+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: entry
+2023-03-13 16:00:46.063767+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: SEP command 15 (v7) returned 0
+2023-03-13 16:00:46.063768+1100 0x5e015    Default     0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: exit: success (0)
+2023-03-13 16:00:46.064922+1100 0x5e015    Default     0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Activation State: Activated
