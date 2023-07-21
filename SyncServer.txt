@@ -1,0 +1,11 @@
+2023-03-02 22:54:14:034|SyncServer|5993|0x14e105f50|Logging|Info| Logging initialized, engine version 729 : log level 3
+2023-03-02 22:54:14:487|SyncServer|5993|0x14e105f50|DataManager|Warning| Client com.apple.AddressBook image file path /System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app/Contents/Resources/Contacts.icns does not exist.
+2023-03-02 22:54:14:490|SyncServer|5993|0x14e1136f0|SyncManager|Info| Really resetting all sync data
+2023-03-02 22:54:14:490|SyncServer|5993|0x14e1136f0|DataManager|Warning| Resetting Sync Data - Including Clients and Schemas=YES
+2023-03-02 22:54:14:490|SyncServer|5993|0x14e1136f0|Server|Warning| Admin database corrupted. Resetting data directory.
+2023-03-02 22:54:14:518|SyncServer|5993|0x14e1136f0|Server|Info| Cancelling all sync plans.
+2023-03-02 22:54:14:523|SyncServer|5993|0x14e1136f0|Server|Info| Goodnight, Gracie.
+2023-03-02 22:54:24:601|SyncServer|5997|0x159706190|Logging|Info| Logging initialized, engine version 729 : log level 3
+2023-03-02 22:54:24:698|SyncServer|5997|0x159706190|DataManager|Warning| Client com.apple.AddressBook image file path /System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app/Contents/Resources/Contacts.icns does not exist.
+2023-03-02 22:56:25:023|SyncServer|5997|0x159706190|Server|Info| Cancelling all sync plans.
+2023-03-02 22:56:25:030|SyncServer|5997|0x159706190|Server|Info| Goodnight, Gracie.
