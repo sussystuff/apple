@@ -1,0 +1,45 @@
+2023-04-05 07:48:00.604104+1000 0x116f     Info        0x0                  417    0    WiFiAgent: (LaunchServices) [com.apple.launchservices:cas] information in shared memory for 0x0-0x18018 with seed 522 was still valid, so using cached info { "CFBundleGetInfoString"="17.0, Copyright © 2012-2019 Apple Inc. All rights reserved.", "DTSDKBuild"="22E244", "DTPlatformVersion"="13.3", "LSApplicationHasRegistered"=true, "LSASN"=ASN:0x0-0x18018:, "LSBundlePath"="/System/Library/CoreServices/WiFiAgent.app", "NSPrincipalClass"="NSApplication", "LSExecutableFilenameLowerCaseKey"="wifiagent", "BundleIdentifierLowerCase"="com.apple.wifi.wifiagent", "NSMainNibFile"="MainMenu", "LSBundlePathDeviceID"=16777229, "CFBundleDisplayName"="Wi-Fi", "CFBundleNameLowerCase"="wifiagent", "LSExecutableFileName"="WiFiAgent", "LSApplicationHasSignalledItIsReady"=true, "DTXcodeBuild"="14E6097d", "CFBundleNumericVersion"=0, "ApplicationType"="UIElement", "LSCheckInTime*"=now-ish 2023/04/05 07:48:00, "LSPersistenceSuppressRelaunchAtLogin"=true, "DTPlatformName"="macosx", "DTCompiler"="com.apple.compilers.llvm.clang.1_0", "CFBundleVersion"="1728", "DTSDKName"="macosx13.3.internal", "LSDYLDPlatformKey"=1, "CFBundleExecutablePathINode"=11529215003121021<…>
+
+
+=========
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>20A241133</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>backgroundassets.user</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.backgroundassets.user</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>backgroundassets.user</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>22D39</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>13.2</string>
+	<key>DTSDKBuild</key>
+	<string>22D39</string>
+	<key>DTSDKName</key>
+	<string>macosx13.2.internal</string>
+	<key>DTXcode</key>
+	<string>1400</string>
+	<key>DTXcodeBuild</key>
+	<string>14A6270d</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.2</string>
+</dict>
+</plist>
