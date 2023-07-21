@@ -1,0 +1,36 @@
+com.apple.siritts <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abs-client</key>
+	<string>1821501079</string>
+	<key>application-identifier</key>
+	<string>com.apple.sirittsd</string>
+	<key>com.apple.coreaudio.register-internal-aus</key>
+	<true/>
+	<key>com.apple.developer.networking.multipath_extended</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriTextToSpeech</string>
+	</array>
+	<key>com.apple.private.assets.bypass-asset-types-check</key>
+	<true/>
+	<key>com.apple.private.coreaudio.borrowaudiosession.allow</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.tailspin.dump-output</key>
+	<true/>
+	<key>com.apple.trial.client</key>
+	<array>
+		<string>406</string>
+	</array>
+	<key>fairplay-client</key>
+	<string>511712240</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.siri.osprey</string>
+	</array>
+</dict>
+</plist>
