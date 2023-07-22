@@ -1,4 +1,4 @@
-triald (TrialServer) on macOS pushing experiments to iOS devices nearby via CloudKit, using Siri voice commands and Attest (renamed as 'Attestation').
+triald (TrialServer) on macOS pushing experiments to iOS devices nearby. They appear to use a combination of CloudKit, Siri embedded speech commands and evidence suggests Firebase App Attest using Developer Mode.
 
 Fun stuff:
 2023-04-05 07:48:01.426824+1000 0x11fb     Default     0x3c50               429    0    cloudd: (CloudKitDaemon) [com.apple.cloudkit:OP] Finished operation <CKDRecordFetchAggregator: 0x143d43e60; qos=Utility, operationID=44786FA024B4A22D, operationGroupID=4A8A57E127D87D30, operationGroupName=EphemeralGroup, stateFlags=executing, flags=allows-cellular|allows-expensive, runningFor=0.09, <private>> metrics=<private>
