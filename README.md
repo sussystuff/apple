@@ -111,8 +111,3 @@ https://www.virustotal.com/gui/file/65bd08bd6f1b8d8b6a6f708fbd26602e0dae1eb78740
 VirusTotal - File - automount 
 https://www.virustotal.com/gui/file/0eb35c0382feb5d0712ad6451560fc08020b6be9660387eb22c89e1ed3b1cfe9/behavior
 
-VirusTotal - File - com.apple.Safari 
-https://www.virustotal.com/gui/file/c668611861dabc39dc714dd950a1b68a6a16c3b287849f1af747c7f92b250a37/behavior
-
-VirusTotal - File - com.apple.WebKit.WebContent.Safari 
-https://www.virustotal.com/gui/file/fe98efd6792b174af3fa16ecf181d503e0001b2e3286f4b3c73cdf6057ce07ae/behavior
