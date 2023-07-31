@@ -33,6 +33,11 @@ https://www.virustotal.com/gui/file/85e65fcc8382508216078954678ff5b3cc8114ef93d2
 VirusTotal - File - SafariWidgetIcon.pdf
 https://www.virustotal.com/gui/file/9bfc4590ac787f85133acbf244f1d318e11b20c405b9137da48c17aea64976e8
 
+VirusTotal - File - RobloxLauncher.exe
+// https://www.virustotal.com/gui/file/586d829ff6cbaabc90f39551782c27040f614f258820a417526d19ed182a36fd/details
+// This was found in a folder on one of the iPads, oddly enough it is alsomentioned in a post here where others are experiencing similar issues:
+//MessagesViewService [666] —New Malware/spyware type? https://developer.apple.com/forums/thread/683370
+
 VirusTotal - File - OyxB5AHJ.exe
 https://www.virustotal.com/gui/file/9fc1f1276875f700e8f664b4282730e716e31c983bfabf7a9bf25ad34452c9ca/relations
 
