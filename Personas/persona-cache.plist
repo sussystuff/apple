@@ -4,7 +4,9 @@
 <dict>
    <key>dataSeperatedPersonasUIDs</key>
 	 <array/>
-	 <key>personaGeneration</key>
+	 <key>guestPersonaUID</key>
+         <array/>
+         <key>personaGeneration</key>
 	 <integer>1</integer>
 	 <key>personalPersonaUID</key>
 	 <string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX5908</string>
