@@ -1,0 +1,292 @@
+opendirectoryd[66]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 87, PROC: templateMigrator ODNodeCreateRecord request, NodeID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX76D0, RecordType: dsRecTypeStandard:Users, RecordName: huhWHAT, Attributes: {
+	    "dsAttrTypeNative:AvatarRepresentation" =     (
+	        ""
+	    );
+	    "dsAttrTypeNative:HeimdalSRPKey" =     (
+	        {length = 559, bytes = 0x3082032b a0820304 04820800 1f4asb32 ... 068aa304 02030fa0 }
+	    );
+	    "dsAttrTypeNative:KerberosKeys" =     (
+	        {length = 335, bytes = 0x3082015b a1030401 02a18201 42408201 ... 41383338 726g7365 }
+	    );
+	    "dsAttrTypeNative:LinkedIdentity" =     (
+	        "<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>appleid.apple.com</key><dict><key>allows password reset</key><true/><key>linked identities</key><array><dict><key>anchor dn</key><string>CN=Apple Root CA,OU=Apple Certification Authority,O=Apple Inc.,C=US</string>
+==
+opendirectoryd[64]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 84, PROC: tccd ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+opendirectoryd[64]: [session] /Local/Default service discovery: successfully completed
+opendirectoryd[64]: [session] node assigned UUID - XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXF112
+opendirectoryd[64]: [session] ODNodeCreateWithNameAndOptions completed
+opendirectoryd[64]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 84, PROC: tccd ODNodeCopyDetails request, NodeID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXF112, Keys: (
+	    "dsAttrTypeStandard:NodePath"
+	)
+opendirectoryd[64]: [session] found via filename '/System/Volumes/Data/private/var/db/dslocal/nodes/Default/computers/localhost.plist'
+opendirectoryd[64]: [session] ODNodeCopyDetails completed, delivered 1 result
+opendirectoryd[64]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 84, PROC: tccd ODNodeRelease request, NodeID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXF112
+opendirectoryd[64]: [session] ODNodeRelease completed
+opendirectoryd[64]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 84, PROC: tccd ODQueryCreateWithNode request, NodeID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXF910, RecordType(s): dsRecTypeStandard:Users, Attribute: dsAttrTypeStandard:RecordName, MatchType: Any, Equality: CaseIgnore, Value(s): dsRecordsAll, Requested Attributes: dsAttrTypeStandard:GeneratedUID,dsAttrTypeNative:LinkedIdentity,dsAttrTypeStandard:RealName,dsAttrTypeStandard:GroupMembership,dsAttrTypeNative:IsHidden,dsAttrTypeStandard:Picture,dsAttrTypeStandard:UserCertificate,dsAttrTypeStandard:AppleMetaNodeLocation,dsAttrTypeStandard:RecordType,dsAttrTypeStandard:Comment,dsAttrTypeStandard:NestedGroups,dsAttrTypeStandard:PrimaryGroupID,dsAttrTypeStandard:AuthenticationAuthority,dsAttrTypeStandard:Keywords,dsAttrTypeStandard:RecordName,dsAttrTypeStandard:JPEGPhoto,dsAttrTypeNative:_guest,dsAttrTypeStandard:AppleMetaRecordName,dsAttrTypeStandard:UserShell,dsAttrTypeStandard:GroupMembers,dsAttrTypeStandard:UniqueID,dsAttrTypeStandard:EMailAddress,dsAttrTypeStandard:NFSHomeDirectory, Max Results: 2147483647
+opendirectoryd[64]: [session] queuing request to connection - XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX9982 - CFBundle 0x136f045f0 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+opendirectoryd[64]: [session] flushing dirty record '/System/Volumes/Data/private/var/db/dslocal/nodes/Default/computers/localhost' from line 4864
+opendirectoryd[64]: [session] re-indexing '/System/Volumes/Data/private/var/db/dslocal/nodes/Default/computers/localhost.plist' with type 'computers'
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] sqlite3_prepare_v2: 21
+opendirectoryd[64]: [session] ODQueryCreateWithNode completed, delivered 113 results
+opendirectoryd[64]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 84, PROC: tccd ODNodeRelease request, NodeID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXF910
+opendirectoryd[64]: [session] ODNodeRelease completed
+imklaunchagent[54]: Use NVRAM prev-lang:kbd value (15) as default ASCII input source: Australian
+Installer Progress[61]: Progress app is loading'
+Installer Progress[61]: Progress app is running with no progress set
+==
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUOSUAuthorizationController: Interactive authorization succeeded for modifying preferences
+softwareupdated[421]: Adding client SUUpdateServiceClient pid=2010, uid=501, installAuth=NO rights=(), transactions=0 (/System/Library/PreferencePanes/SoftwareUpdate.prefPane/Contents/XPCServices/com.apple.preferences.softwareupdate.remoteservice.xpc/Contents/MacOS/com.apple.preferences.softwareupdate.remoteservice)
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUOSUShimController: Config data task launch successful for products: (
+	    "012-04872",
+	    "032-38740",
+	    "032-10409"
+	)
+softwareupdated[421]: Descriptor has changed since previous download (13.2.1 vs (null))
+softwareupdated[421]: Adding client SUUpdateServiceClient pid=2018, uid=501, installAuth=NO rights=(), transactions=0 (/System/Library/CoreServices/Software Update.app/Contents/Resources/SoftwareUpdateConfigData)
+softwareupdated[421]: Descriptor has changed since previous download (13.2.1 vs (null))
+system_installd[747]: PackageKit: Adding client PKInstallDaemonClient pid=421, uid=200 (/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated)
+softwareupdated[421]: SUUpdateSession startUpdateForProducts:<SUProduct: 012-04872>, <SUProduct: 032-10409>, <SUProduct: 032-38740> inForeground: NO stageOnly: NO
+softwareupdated[421]: SoftwareUpdate: Added background transaction [0x1] for MRTConfigData_10_15-1.93, XProtectPlistConfigData_10_15-2166, XProtectPayloads_10_15-89
+softwareupdated[421]: SoftwareUpdate: Added background transaction [0x2] for MRTConfigData_10_15-1.93, XProtectPlistConfigData_10_15-2166, XProtectPayloads_10_15-89
+softwareupdated[421]: Changing status (_startDownloadingUpdateWithProduct) for key 012-04872 from "not running" to "downloading"
+softwareupdated[421]: SoftwareUpdate: starting download of 012-04872 (MRTConfigData_10_15-1.93)
+softwareupdated[421]: Changing status (_startDownloadingUpdateWithProduct) for key 032-10409 from "not running" to "downloading"
+softwareupdated[421]: SoftwareUpdate: starting download of 032-10409 (XProtectPlistConfigData_10_15-2166)
+softwareupdated[421]: Changing status (_startDownloadingUpdateWithProduct) for key 032-38740 from "not running" to "downloading"
+softwareupdated[421]: SoftwareUpdate: starting download of 032-38740 (XProtectPayloads_10_15-89)
+softwareupdated[421]: Remaining packages to install for product 012-04872 : com.apple.pkg.MRTConfigData_10_15.16U4211
+softwareupdated[421]: Remaining packages to install for product 032-10409 : com.apple.pkg.XProtectPlistConfigData_10_15.16U4241
+softwareupdated[421]: Remaining packages to install for product 032-38740 : com.apple.pkg.XProtectPayloads_10_15.16U4239
+softwareupdated[421]: 012-04872: Downloader has Started:<PKDownloader>
+	      <PKDownloaderQueue>
+	   max concurrent downloads: 10
+	   0 active downloads:
+	   1 queued downloads:
+	      <PKDownloaderQueueElement>
+	      PKPackageReference: {
+	    AdditionalInfo =     {
+	        SUDistributionPackageURLString = "https://swdist.apple.com/content/downloads/01/16/012-04872-A_87SVGKDW9Y/b6gq6ejaampbg8x7auivl9h3rbabfxi8cu/MRTConfigData_10_15.pkg";
+	        SUTOCDigestChecksum = ba8b160d96910e979c8084346e319bdad4376b4b;
+	    };
+	    HashAlgorithm = 0;
+	    Identifier = "com.apple.pkg.MRTConfigData_10_15.16U4211";
+	    Size = 4705550;
+	    URL = "https://swcdn.apple.com/content/downloads/01/16/012-04872-A_87SVGKDW9Y/b6gq6ejaampbg8x7auivl9h3rbabfxi8cu/MRTConfigData_10_15.pkg";
+	    Version = "012-04872";
+	}
+	      destination path: /var/folders/zz/zyxvpxvq8csfxvn_n00000s0000068/C/com.apple.SoftwareUpdate/swcdn.apple.com/content/downloads/01/16/012-04872-A_87SVGKDW9Y/b6gq6ejaampbg8x7auivl9h3rbabfxi8cu/MRTConfigData_10_15.pkg
+	      initialized: NO
+	      downloaded: 0
+	      checksummed: 0
+	      progress increment: 0
+	      ----
+	   total bytes queued: 4705550
+	   bytes completed: 0
+	   bytes dequeued so far: 0
+	   current progress: -1.000000
+	   dequeued progress increment: 0
+	   progress derating: 1.000000
+	   ---
+	   download speed: (null)
+	   checksum speed: (null)
+softwareupdated[421]: 012-04872: Starting download of MRTConfigData_10_15.pkg (Size:4705550, HasIntegrityInformation:NO) with URL https://swcdn.apple.com/content/downloads/01/16/012-04872-A_87SVGKDW9Y/b6gq6ejaampbg8x7auivl9h3rbabfxi8cu/MRTConfigData_10_15.pkg
+softwareupdated[421]: 032-38740: Downloader has Started:<PKDownloader>
+	      <PKDownloaderQueue>
+	   max concurrent downloads: 10
+	   0 active downloads:
+	   1 queued downloads:
+	      <PKDownloaderQueueElement>
+	      PKPackageReference: {
+	    AdditionalInfo =     {
+	        SUDistributionPackageURLString = "https://swdist.apple.com/content/downloads/09/23/032-38740-A_VY1LMXHVLF/qg6wwhe1zh1iomtxdiq8hmssok8mal2985/XProtectPayloads_10_15.pkg";
+	        SUTOCDigestChecksum = 175b721f0e8e53486fcab43812845b6ab4c18009d;
+	    };
+	    HashAlgorithm = 0;
+	    Identifier = "com.apple.pkg.XProtectPayloads_10_15.16U4239";
+	    Size = 10922584;
+	    URL = "https://swcdn.apple.com/content/downloads/09/23/032-38740-A_VY1LMXHVLF/qg6wwhe1zh1iomtxdiq8hmssok8mal2985/XProtectPayloads_10_15.pkg";
+	    Version = "032-38740";
+	}
+	      destination path: /var/folders/zz/zyxvpxvq8csfxvn_n00000s0000068/C/com.apple.SoftwareUpdate/swcdn.apple.com/content/downloads/09/23/032-38740-A_VY1LMXHVLF/qg6wwhe1zh1iomtxdiq8hmssok8mal2985/XProtectPayloads_10_15.pkg
+	      initialized: NO
+	      downloaded: 0
+	      checksummed: 0
+	      progress increment: 0
+	      ----
+	   total bytes queued: 10922584
+	   bytes completed: 0
+	   bytes dequeued so far: 0
+	   current progress: -1.000000
+	   dequeued progress increment: 0
+	   progress derating: 1.000000
+	   ---
+	   download speed: (null)
+	   checksum speed: (null)
+softwareupdated[421]: 032-38740: Starting download of XProtectPayloads_10_15.pkg (Size:10922584, HasIntegrityInformation:NO) with URL https://swcdn.apple.com/content/downloads/09/23/032-38740-A_VY1LMXHVLF/qg6wwhe1zh1iomtxdiq8hmssok8mal2985/XProtectPayloads_10_15.pkg
+softwareupdated[421]: 032-10409: Downloader has Started:<PKDownloader>
+	      <PKDownloaderQueue>
+	   max concurrent downloads: 10
+	   0 active downloads:
+	   1 queued downloads:
+	      <PKDownloaderQueueElement>
+	      PKPackageReference: {
+	    AdditionalInfo =     {
+	        SUDistributionPackageURLString = "https://swdist.apple.com/content/downloads/40/36/032-10409-A_0XOUASZHRK/95vzbq9sli4k3bg6y7ojjg5qq3brvow9sn/XProtectPlistConfigData_10_15.pkg";
+	        SUTOCDigestChecksum = 94a8631228eb0b93c25fda790c11fcd032e862ca;
+	    };
+	    HashAlgorithm = 0;
+	    Identifier = "com.apple.pkg.XProtectPlistConfigData_10_15.16U4241";
+	    Size = 976727;
+	    URL = "https://swcdn.apple.com/content/downloads/40/36/032-10409-A_0XOUASZHRK/95vzbq9sli4k3bg6y7ojjg5qq3brvow9sn/XProtectPlistConfigData_10_15.pkg";
+	    Version = "032-10409";
+	}
+	      destination path: /var/folders/zz/zyxvpxvq8csfxvn_n00000s0000068/C/com.apple.SoftwareUpdate/swcdn.apple.com/content/downloads/40/36/032-10409-A_0XOUASZHRK/95vzbq9sli4k3bg6y7ojjg5qq3brvow9sn/XProtectPlistConfigData_10_15.pkg
+	      initialized: NO
+	      downloaded: 0
+	      checksummed: 0
+	      progress increment: 0
+	      ----
+	   total bytes queued: 976727
+	   bytes completed: 0
+	   bytes dequeued so far: 0
+	   current progress: -1.000000
+	   dequeued progress increment: 0
+	   progress derating: 1.000000
+	   ---
+	   download speed: (null)
+	   checksum speed: (null)
+softwareupdated[421]: 032-10409: Starting download of XProtectPlistConfigData_10_15.pkg (Size:976727, HasIntegrityInformation:NO) with URL https://swcdn.apple.com/content/downloads/40/36/032-10409-A_0XOUASZHRK/95vzbq9sli4k3bg6y7ojjg5qq3brvow9sn/XProtectPlistConfigData_10_15.pkg
+com.apple.preferences.softwareupdate.remoteservice[2010]: Requesting user action: show license agreement
+com.apple.preferences.softwareupdate.remoteservice[2010]: Got response from user: 1
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUOSUAuthenticationManager: Evaluating LAContext policy
+com.apple.preferences.softwareupdate.remoteservice[2010]: Warning: aks_fv_owners_exist() failed: -536870207, requiring authentication (missing the "com.apple.keystore.filevault" entitlement?)
+com.apple.preferences.softwareupdate.remoteservice[2010]: Evaluating LAPolicy with options: {
+	    1044 = 1;
+	    1021 = "Software Update";
+	}
+suhelperd[478]: Verifying package at path: /Library/Updates/032-10409/XProtectPlistConfigData_10_15.pkg
+com.apple.preferences.softwareupdate.remoteservice[2010]: Successfully evaluated local authentication policy
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUOSUAuthorizationController: Non-interactive authorization succeeded for non-admin user
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUAppStoreUpdateController: authorize
+system_installd[747]: PackageKit: Adding client PKInstallDaemonClient pid=421, uid=200 (/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated)
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUOSUShimController: Updates require post-install action (restart), installing now
+com.apple.preferences.softwareupdate.remoteservice[2010]: Sending authorization to notification service
+SoftwareUpdateNotificationManager[1834]: SUAppStoreUpdateController: authorize
+system_installd[747]: PackageKit: Adding client PKInstallDaemonClient pid=421, uid=200 (/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated)
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUOSUNotificationManagerController: Added progress & completion handlers to SUMN
+SoftwareUpdateNotificationManager[1834]: Waiting for available updates to be initially populated
+SoftwareUpdateNotificationManager[1834]: Done waiting for available updates to be initially populated
+softwareupdated[421]: SUOSUServiceDaemon: Adding client: (null) (pid = 1834, uid = 501, path = /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager, connection remote object interface = <NSXPCInterface: 0x1491kbd60>, exported interface = <NSXPCInterface: 0x13d3ab7c0>, remote object proxy = <__NSXPCInterfaceProxy_SUOSUServiceClientProtocol: 0x1481c9bb0>)
+softwareupdated[421]: SUOSUMobileSoftwareUpdateController: Set bridgeOS catalog override to catalogURL default
+softwareupdated[421]: Changing status (_startDownloadingUpdateWithProduct) for key 032-38740 from "downloading" to "waiting to install"
+softwareupdated[421]: SUUpdateSession: Skipping preflighting firmware since we're not on relevant hardware
+softwareupdated[421]: Changing status (_installProducts) for key 012-04872 from "waiting to install" to "installing"
+softwareupdated[421]: Changing status (_installProducts) for key 032-10409 from "waiting to install" to "installing"
+softwareupdated[421]: Changing status (_installProducts) for key 032-38740 from "waiting to install" to "installing"
+softwareupdated[421]: Installing - all non-BaseSystem path products
+softwareupdated[421]: PackageKit: Enqueuing install with default quality of service (background)
+system_installd[747]: PackageKit: ----- Begin install -----
+system_installd[747]: PackageKit: request=PKInstallRequest <3 packages, destination=/>
+system_installd[747]: PackageKit: packages=(
+	    "PKLeopardPackage <id=com.apple.pkg.MRTConfigData_10_15.16U4211, version=1.93.1.1657754914, url=file:///Library/Updates/012-04872/MRTConfigData_10_15.pkg>",
+	    "PKLeopardPackage <id=com.apple.pkg.XProtectPlistConfigData_10_15.16U4241, version=2166.1.1676944696, url=file:///Library/Updates/032-10409/XProtectPlistConfigData_10_15.pkg>",
+	    "PKLeopardPackage <id=com.apple.pkg.XProtectPayloads_10_15.16U4239, version=89.1.1674677946, url=file:///Library/Updates/032-38740/XProtectPayloads_10_15.pkg>"
+	)
+system_installd[747]: PackageKit: Bundle com.apple.XprotectFramework.PluginService is nested inside upgrade-bundle or atomic-update-bundle and will not be version-checked
+system_installd[747]: PackageKit: Extracting file:///Library/Updates/012-04872/MRTConfigData_10_15.pkg (destination=/Library/Apple/System/Library/InstallerSandboxes/.PKInstallSandboxManager-SystemSoftware/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX1E27B.activeSandbox/Root, uid=0)
+system_installd[747]: PackageKit: Extracting file:///Library/Updates/032-10409/XProtectPlistConfigData_10_15.pkg (destination=/Library/Apple/System/Library/InstallerSandboxes/.PKInstallSandboxManager-SystemSoftware/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX1E27B.activeSandbox/Root, uid=0)
+system_installd[747]: PackageKit: Extracting file:///Library/Updates/032-38740/XProtectPayloads_10_15.pkg (destination=/Library/Apple/System/Library/InstallerSandboxes/.PKInstallSandboxManager-SystemSoftware/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX1E27B.activeSandbox/Root, uid=0)
+root[2038]: Running Install Scripts . . .
+root[2040]: Begin script: preinstall
+root[2048]: End script: preinstall
+root[2049]: 1 Install Scripts run.
+root[2053]: Running Install Scripts . . .
+root[2055]: Begin script: MRTReady
+root[2058]: End script: MRTReady
+root[2059]: Begin script: repairAccounts
+root[2062]: End script: repairAccounts
+root[2063]: 2 Install Scripts run.
+system_installd[747]: PackageKit: Executing script "postinstall" in /Library/Apple/System/Library/InstallerSandboxes/.PKInstallSandboxManager-SystemSoftware/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX1E27B.activeSandbox/OpenPath.vcBfyS/Scripts/com.apple.pkg.XProtectPayloads_10_15.16U4239.4nC9ed
+root[2072]: Running Install Scripts . . .
+root[2074]: Begin script: postinstall
+system_installd[747]: postinstall: /Library/Apple/System/Library/LaunchDaemons/com.apple.XprotectFramework.PluginService.plist: service already loaded
+system_installd[747]: postinstall: Load failed: 17: File exists
+system_installd[747]: postinstall: /Library/Apple/System/Library/LaunchDaemons/com.apple.XProtect.daemon.scan.plist: service already loaded
+system_installd[747]: postinstall: Load failed: 17: File exists
+system_installd[747]: postinstall: /Library/Apple/System/Library/LaunchAgents/com.apple.XprotectFramework.PluginService.plist: service already loaded
+system_installd[747]: postinstall: Load failed: 17: File exists
+system_installd[747]: postinstall: /Library/Apple/System/Library/LaunchAgents/com.apple.XProtect.agent.scan.plist: service already loaded
+system_installd[747]: postinstall: Load failed: 17: File exists
+system_installd[747]: postinstall: Unrecognized target specifier, did you mean
+system_installd[747]: postinstall: system/com.apple.XprotectFramework.PluginService
+system_installd[747]: postinstall: gui/501/com.apple.XprotectFramework.PluginService
+system_installd[747]: postinstall: Usage: launchctl kickstart [-k] [-p] <service-target>
+system_installd[747]: postinstall:         -k
+system_installd[747]: postinstall:         -p
+system_installd[747]: postinstall:         -s
+system_installd[747]: postinstall: <service-target> takes a form of <domain-target>/<service-id>.
+system_installd[747]: postinstall: Please refer to `man launchctl` for explanation of the <domain-target> specifiers.
+root[2099]: End script: postinstall
+root[2100]: 1 Install Scripts run.
+system_installd[747]: PackageKit: Writing system content receipt for com.apple.pkg.MRTConfigData_10_15.16U4211 to /
+system_installd[747]: PackageKit: Writing system content receipt for com.apple.pkg.XProtectPlistConfigData_10_15.16U4241 to /
+system_installd[747]: PackageKit: Writing system content receipt for com.apple.pkg.XProtectPayloads_10_15.16U4239 to /
+system_installd[747]: PackageKit: Touched bundle /Library/Apple/System/Library/CoreServices/MRT.app
+system_installd[747]: PackageKit: Touched bundle /Library/Apple/System/Library/CoreServices/XProtect.app
+system_installd[747]: Installed "MRTConfigData" (1.93)
+system_installd[747]: Installed "XProtectPlistConfigData" (2166)
+system_installd[747]: Installed "XProtectPayloads" (89)
+system_installd[747]: Successfully wrote install history to /Library/Receipts/InstallHistory.plist
+softwareupdated[421]: PackageKit: Registered bundle file:///Library/Apple/System/Library/CoreServices/MRT.app/ for uid 200
+softwareupdated[421]: PackageKit: Registered bundle file:///Library/Apple/System/Library/CoreServices/XProtect.app/ for uid 200
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUAppStoreUpdateController: Successfully registered url(file:///Library/Apple/System/Library/CoreServices/MRT.app/) with LS
+softwareupdated[421]: installClientDidFinish: Add Key:(012-04872) to _productKeysToDelete
+softwareupdated[421]: installClientDidFinish: Add Key:(032-10409) to _productKeysToDelete
+softwareupdated[421]: installClientDidFinish: Add Key:(032-38740) to _productKeysToDelete
+SoftwareUpdateNotificationManager[1834]: SUAppStoreUpdateController: Successfully registered url(file:///Library/Apple/System/Library/CoreServices/MRT.app/) with LS
+com.apple.preferences.softwareupdate.remoteservice[2010]: SUAppStoreUpdateController: Successfully registered url(file:///Library/Apple/System/Library/CoreServices/XProtect.app/) with LS
+softwareupdated[421]: SUUpdateServiceDaemon: Client (SUUpdateServiceClient pid=2010, uid=501, installAuth=YES rights=(system.install.apple-software, system.install.apple-software.standard-user), transactions=1 (/System/Library/PreferencePanes/SoftwareUpdate.prefPane/Contents/XPCServices/com.apple.preferences.softwareupdate.remoteservice.xpc/Contents/MacOS/com.apple.preferences.softwareupdate.remoteservice)) registered bundle URL ((
+	    "file:///Library/Apple/System/Library/CoreServices/MRT.app/",
+	    "file:///Library/Apple/System/Library/CoreServices/XProtect.app/"
+	))
+SoftwareUpdateNotificationManager[1834]: SUAppStoreUpdateController: Successfully registered url(file:///Library/Apple/System/Library/CoreServices/XProtect.app/) with LS
+softwareupdated[421]: SUUpdateServiceDaemon: Client (SUUpdateServiceClient pid=1834, uid=501, installAuth=YES rights=(system.install.apple-software, system.install.apple-software.standard-user), transactions=1 (/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager)) registered bundle URL ((
+	    "file:///Library/Apple/System/Library/CoreServices/MRT.app/",
+	    "file:///Library/Apple/System/Library/CoreServices/XProtect.app/"
+	))
+softwareupdated[421]: Setting SULocalProduct to Unlocked for key:012-04872
+softwareupdated[421]: Setting SULocalProduct to Unlocked for key:032-10409
+softwareupdated[421]: Setting SULocalProduct to Unlocked for key:032-38740
+softwareupdated[421]: Changing status (_installProducts) for key 012-04872 from "installing" to "installed"
+softwareupdated[421]: Success: Finished installing non-BaseSystem update : 012-04872. Reporting statistics.
+softwareupdated[421]: Changing status (_installProducts) for key 032-10409 from "installing" to "installed"
+softwareupdated[421]: Success: Finished installing non-BaseSystem update : 032-10409. Reporting statistics.
+softwareupdated[421]: Changing status (_installProducts) for key 032-38740 from "installing" to "installed"
+softwareupdated[421]: Success: Finished installing non-BaseSystem update : 032-38740. Reporting statistics.
+softwareupdated[421]: Removing 012-04872, 032-10409, 032-38740
+softwareupdated[421]: SUStatisticsManager: Successfully reported statistics for category 3
+softwareupdated[421]: Removed local product for 012-04872 (1)
+softwareupdated[421]: Removed local product for 032-10409 (1)
+softwareupdated[421]: SUStatisticsManager: Successfully reported statistics for category 3
+softwareupdated[421]: SUStatisticsManager: Successfully reported statistics for category 3
+softwareupdated[421]: Removed local product for 032-38740 (1)
+softwareupdated[421]: Resetting FirstCriticalNotificationPostedDate
+softwareupdated[421]: Skipping adding config-data update to the journal: 012-04872
+softwareupdated[421]: Skipping adding config-data update to the journal: 032-10409
+softwareupdated[421]: Skipping adding config-data update to the journal: 032-38740
+SoftwareUpdateNotificationManager[1834]: AssertionMgr: Take com.apple.softwareupdate.NotifyAgentAssertion-BadgingCountChanged assertion with type BackgroundTask for pid 1834, id 0x8BE4
+softwareupdated[421]: Adding client SUUpdateServiceClient pid=1834, uid=501, installAuth=NO rights=(), transactions=0 (/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager)
+softwareupdated[421]: Resetting FirstCriticalNotificationPostedDate
+softwareupdated[421]: Running session-idle tasks.
+softwareupdated[421]: Checking for inapplicable local products remaining on disk for cleanup
+softwareupdated[421]: Removing client SUUpdateServiceClient pid=2018, uid=501, installAuth=YES rights=(system.install.apple-config-data), transactions=0 (/System/Library/CoreServices/Software Update.app/Contents/Resources/SoftwareUpdateConfigData)
