@@ -1,0 +1,214 @@
+{"app_name":"GooglePhotos","timestamp":"2023-08-09 10:14:34.00 +1000","app_version":"6.30.0","slice_uuid":"1FAFDF86-A377-3027-B65E-E54FB0D48170","adam_id":962194608,"build_version":"6.30.520129263","bundleID":"com.google.photos","duration_ms":"72911411","share_with_app_devs":0,"is_first_party":0,"bug_type":"145","os_version":"iPhone OS 16.5.1 (20F770750d)","incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX89","name":"GooglePhotos","roots_installed":0}
+Date/Time:        2023-08-08 13:59:20.434 +1000
+End time:         2023-08-09 10:14:31.845 +1000
+OS Version:       iPhone OS 16.5.1 (Build 20F770750d)
+Architecture:     arm64e
+Report Version:   40
+Incident Identifier: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX89
+
+Data Source:      Microstackshots
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXCC slid base address 0x1af1a0000, slide 0x2f1a0000
+
+Command:          GooglePhotos
+Path:             /private/var/containers/Bundle/Application/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX6A/GooglePhotos.app/GooglePhotos
+Identifier:       com.google.photos
+Version:          6.30.0 (6.30.520129263)
+Adam ID:          962194608
+Is First Party:   No
+Beta Identifier:  XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX25
+Resource Coalition ID: 662
+Architecture:     arm64
+Parent:           UNKNOWN [1]
+PID:              23820
+
+Event:            disk writes
+Action taken:     none
+Writes:           4302.40 MB of file backed memory dirtied over 72911 seconds (59.01 KB per second average), exceeding limit of 49.71 KB per second over 86400 seconds
+Writes limit:     4294.97 MB
+Limit duration:   86400s
+Writes caused:    4302.40 MB
+Writes duration:  72911s
+Duration:         72911.41s
+Duration Sampled: 690.52s
+Steps:            198 (10.49 MB/step)
+
+Hardware model:   iPad12,1
+Active cpus:      6
+HW page size:     16384
+VM page size:     16384
+
+Advisory levels:  Battery -> 2, User -> 3, ThermalPressure -> 0, Combined -> 2
+Free disk space:  1393.01 MB/59.59 GB, low space threshold 150 MB
+Vnodes Available: 69.39% (13877/20000, 10000 allocated, 10000 soft limit)
+
+Preferred User Language: en-AU, ja-AU
+Country Code:     AU
+Keyboards:        en_AU QWERTY, emoji Emoji
+OS Cryptex File Extents: 16667
+
+Heaviest stack for the target process:
+  147  ??? (dyld + 89580) [0x1d5686dec]
+  147  ??? (GooglePhotos + 823056) [0x102558f10]
+  147  ??? (UIKitCore + 3789644) [0x1b854b34c]
+  147  ??? (UIKitCore + 3790568) [0x1b854b6e8]
+  147  ??? (GraphicsServices + 4956) [0x1f0d5335c]
+  147  ??? (CoreFoundation + 521196) [0x1b61be3ec]
+  147  ??? (CoreFoundation + 501088) [0x1b61b9560]
+  147  ??? (CoreFoundation + 625704) [0x1b61d7c28]
+  147  ??? (libdispatch.dylib + 74484) [0x1bd6192f4]
+  147  ??? (libdispatch.dylib + 75428) [0x1bd6196a4]
+  147  ??? (libdispatch.dylib + 16044) [0x1bd60aeac]
+  147  ??? (libdispatch.dylib + 8992) [0x1bd609320]
+  147  ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 60424128) [0x10e9dbfc0]
+  147  ??? (Foundation + 445900) [0x1b04e9dcc]
+  101  ??? (Foundation + 321684) [0x1b04cb894]
+  101  ??? (Foundation + 668880) [0x1b05204d0]
+  101  ??? (libsystem_kernel.dylib + 9816) [0x1f477e658]
+
+
+Powerstats for:   GooglePhotos (Google Photos) [23820]
+UUID:             1FAFDF86-A377-3027-B65E-E54FB0D48170
+Path:             /private/var/containers/Bundle/Application/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX6A/GooglePhotos.app/GooglePhotos
+Identifier:       com.google.photos
+Version:          6.30.0 (6.30.520129263)
+Adam ID:          962194608
+Is First Party:   No
+Beta Identifier:  XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX25
+Resource Coalition ID: 662
+Architecture:     arm64
+Parent:           UNKNOWN [1]
+UID:              501
+Footprint:        16.20 MB -> 95 MB (+78.80 MB) (max 117.41 MB )
+Pageins:          32638 pages
+Start time:       2023-08-09 10:02:58.843 +1000
+End time:         2023-08-09 10:14:29.362 +1000
+Num samples:      198 (100%)
+Primary state:    147 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Interactive, Requested Thread QoS User Interactive, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 198 samples Active
+Power Source:     198 samples on Battery, 0 samples on AC
+  147  ??? (dyld + 89580) [0x1d5686dec]
+    147  ??? (GooglePhotos + 823056) [0x102558f10]
+      147  ??? (UIKitCore + 3789644) [0x1b854b34c]
+        147  ??? (UIKitCore + 3790568) [0x1b854b6e8]
+          147  ??? (GraphicsServices + 4956) [0x1f0d5335c]
+            147  ??? (CoreFoundation + 521196) [0x1b61be3ec]
+              147  ??? (CoreFoundation + 501088) [0x1b61b9560]
+                147  ??? (CoreFoundation + 625704) [0x1b61d7c28]
+                  147  ??? (libdispatch.dylib + 74484) [0x1bd6192f4]
+                    147  ??? (libdispatch.dylib + 75428) [0x1bd6196a4]
+                      147  ??? (libdispatch.dylib + 16044) [0x1bd60aeac]
+                        147  ??? (libdispatch.dylib + 8992) [0x1bd609320]
+                          147  ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 60424128) [0x10e9dbfc0]
+                            147  ??? (Foundation + 445900) [0x1b04e9dcc]
+                              101  ??? (Foundation + 321684) [0x1b04cb894]
+                                101  ??? (Foundation + 668880) [0x1b05204d0]
+                                  101  ??? (libsystem_kernel.dylib + 9816) [0x1f477e658]
+                              46   ??? (Foundation + 322556) [0x1b04cbbfc]
+                                46   ??? (Foundation + 320444) [0x1b04cb3bc]
+                                  46   ??? (Foundation + 668880) [0x1b05204d0]
+                                    46   ??? (libsystem_kernel.dylib + 9816) [0x1f477e658]
+  51   ??? (libsystem_pthread.dylib + 2940) [0x21544ab7c]
+    49   ??? (libsystem_pthread.dylib + 3548) [0x21544addc]
+      49   ??? (libdispatch.dylib + 93404) [0x1bd61dcdc]
+        47   ??? (libdispatch.dylib + 49316) [0x1bd6130a4]
+          42   ??? (libdispatch.dylib + 46388) [0x1bd612534]
+            42   ??? (libdispatch.dylib + 16044) [0x1bd60aeac]
+              42   ??? (libdispatch.dylib + 8992) [0x1bd609320]
+                41   ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 25228220) [0x10c84b3bc]
+                  41   ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 25237332) [0x10c84d754]
+                    25   ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 25242056) [0x10c84e9c8]
+                      25   ??? (libsqlite3.dylib + 177588) [0x1db06b5b4]
+                        25   ??? (libsqlite3.dylib + 223256) [0x1db076818]
+                          25   ??? (libsqlite3.dylib + 84376) [0x1db054998]
+                            25   ??? (libsqlite3.dylib + 246252) [0x1db07c1ec]
+                              25   ??? (libsqlite3.dylib + 247580) [0x1db07c71c]
+                                24   ??? (libsqlite3.dylib + 309440) [0x1db08b8c0]
+                                  24   ??? (libsqlite3.dylib + 345852) [0x1db0946fc]
+                                    24   ??? (libsqlite3.dylib + 310124) [0x1db08bb6c]
+                                      24   ??? (libsystem_kernel.dylib + 10592) [0x1f477e960]
+                                        24   <Effective Thread QoS Utility, Requested Thread QoS Utility>
+                                1    ??? (libsqlite3.dylib + 309520) [0x1db08b910]
+                                  1    ??? (libsystem_kernel.dylib + 11400) [0x1f477ec88]
+                                    1    <Effective Thread QoS Utility, Requested Thread QoS Utility>
+                    16   ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 25242188) [0x10c84ea4c]
+                      16   ??? (libsqlite3.dylib + 82664) [0x1db0542e8]
+                        16   ??? (libsqlite3.dylib + 82852) [0x1db0543a4]
+                          16   ??? (libsqlite3.dylib + 84376) [0x1db054998]
+                            16   ??? (libsqlite3.dylib + 246252) [0x1db07c1ec]
+                              16   ??? (libsqlite3.dylib + 247580) [0x1db07c71c]
+                                16   ??? (libsqlite3.dylib + 309440) [0x1db08b8c0]
+                                  16   ??? (libsqlite3.dylib + 345852) [0x1db0946fc]
+                                    16   ??? (libsqlite3.dylib + 310124) [0x1db08bb6c]
+                                      16   ??? (libsystem_kernel.dylib + 10592) [0x1f477e960]
+                                        16   <Effective Thread QoS Utility, Requested Thread QoS Utility>
+                1    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 55841860) [0x10e57d444]
+                  1    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 55915692) [0x10e58f4ac]
+                    1    ??? (Foundation + 445900) [0x1b04e9dcc]
+                      1    ??? (Foundation + 321684) [0x1b04cb894]
+                        1    ??? (Foundation + 668880) [0x1b05204d0]
+                          1    ??? (libsystem_kernel.dylib + 9816) [0x1f477e658]
+                            1    <Effective Thread QoS User Initiated, Requested Thread QoS Background>
+          5    ??? (libdispatch.dylib + 46612) [0x1bd612614]
+            5    ??? (libdispatch.dylib + 16044) [0x1bd60aeac]
+              5    ??? (libdispatch.dylib + 8992) [0x1bd609320]
+                5    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 60373896) [0x10e9cfb88]
+                  5    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 60349892) [0x10e9c9dc4]
+                    5    ??? (CoreFoundation + 134324) [0x1b615fcb4]
+                      5    ??? (CoreFoundation + 470020) [0x1b61b1c04]
+                        5    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 60429076) [0x10e9dd314]
+                          5    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 60429324) [0x10e9dd40c]
+                            5    ??? (Foundation + 254020) [0x1b04bb044]
+                              5    ??? (Foundation + 247000) [0x1b04b94d8]
+                                5    ??? (Foundation + 503728) [0x1b04f7fb0]
+                                  5    ??? (Foundation + 504432) [0x1b04f8270]
+                                    5    ??? (libremovefile.dylib + 6432) [0x22deb4920]
+                                      5    ??? (libremovefile.dylib + 5240) [0x22deb4478]
+                                        5    ??? (libsystem_kernel.dylib + 19408) [0x1f4780bd0]
+                                          5    <Effective Thread QoS Utility, Requested Thread QoS Utility>
+        2    ??? (libdispatch.dylib + 49368) [0x1bd6130d8]
+          2    ??? (libdispatch.dylib + 46388) [0x1bd612534]
+            2    ??? (libdispatch.dylib + 16044) [0x1bd60aeac]
+              2    ??? (libdispatch.dylib + 8992) [0x1bd609320]
+                2    ??? (libsystem_kernel.dylib + 19408) [0x1f4780bd0]
+                  2    <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+    2    ??? (libsystem_pthread.dylib + 3488) [0x21544ada0]
+      2    ??? (libdispatch.dylib + 90456) [0x1bd61d158]
+        2    ??? (libdispatch.dylib + 88388) [0x1bd61c944]
+          2    ??? (libdispatch.dylib + 27032) [0x1bd60d998]
+            2    ??? (libdispatch.dylib + 29488) [0x1bd60e330]
+              2    ??? (libdispatch.dylib + 16044) [0x1bd60aeac]
+                2    ??? (libdispatch.dylib + 77764) [0x1bd619fc4]
+                  2    ??? (Foundation + 268444) [0x1b04be89c]
+                    2    ??? (Foundation + 246284) [0x1b04b920c]
+                      2    ??? (Foundation + 247000) [0x1b04b94d8]
+                        2    ??? (Foundation + 503728) [0x1b04f7fb0]
+                          2    ??? (Foundation + 503840) [0x1b04f8020]
+                            2    ??? (Foundation + 683796) [0x1b0523f14]
+                              2    ??? (CFNetwork + 505384) [0x1b71cb628]
+                                2    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 51013496) [0x10e0e2778]
+                                  2    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 51013260) [0x10e0e268c]
+                                    2    ??? (<4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E> + 51011124) [0x10e0e1e34]
+                                      2    ??? (Foundation + 816012) [0x1b054438c]
+                                        1    ??? (Foundation + 446236) [0x1b04e9f1c]
+                                          1    ??? (libsystem_kernel.dylib + 17088) [0x1f47802c0]
+                                            1    <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+                                        1    ??? (Foundation + 445900) [0x1b04e9dcc]
+                                          1    ??? (Foundation + 321684) [0x1b04cb894]
+                                            1    ??? (Foundation + 668880) [0x1b05204d0]
+                                              1    ??? (libsystem_kernel.dylib + 9816) [0x1f477e658]
+                                                1    <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+
+  Binary Images:
+           0x102490000 -                ???  com.google.photos 6.30.0 (6.30.520129263) <1FAFDF86-A377-3027-B65E-E54FB0D48170>  /private/var/containers/Bundle/Application/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX6A/GooglePhotos.app/GooglePhotos
+           0x10b03c000 -                ???  ???                                       <4EAF6CA8-6ED9-3F5D-9F04-22EFDB8B988E>
+           0x1b047d000 -        0x1b0d5afff  Foundation                                <6E76DC96-11AF-3B2E-B71E-215F9CC6E822>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1b613f000 -        0x1b6526fff  CoreFoundation                            <4230C122-42E8-383B-BEEC-EE7B61F8BB61>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1b7150000 -        0x1b751bfff  CFNetwork                                 <6AAFE7C4-F1C4-3020-AD16-70591C86D7B0>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1b81ae000 -        0x1b99d2fff  UIKitCore                                 <B3834960-244B-34E4-9EA0-CA4BB44EF0F3>  /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+           0x1bd607000 -        0x1bd64dfff  libdispatch.dylib                         <BB347F0E-F21C-3607-82E6-C8D750FDBF8C>  /usr/lib/system/libdispatch.dylib
+           0x1d5671000 -        0x1d56f6a23  dyld                                      <6987370A-C385-3135-A27F-6731706BCBD8>  /usr/lib/dyld
+           0x1db040000 -        0x1db1abff3  libsqlite3.dylib                          <960C2B48-91AD-3137-99EB-2A1452BB2177>  /usr/lib/libsqlite3.dylib
+           0x1f0d52000 -        0x1f0d5afff  GraphicsServices                          <E830AD84-D612-3B6B-8DE7-EA61A786D132>  /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+           0x1f477c000 -        0x1f47b3ff7  libsystem_kernel.dylib                    <75DA6452-934E-3F80-B181-D47074378E83>  /usr/lib/system/libsystem_kernel.dylib
+           0x21544a000 -        0x215455ff3  libsystem_pthread.dylib                   <56698309-210A-3137-97D4-14E4604B1117>  /usr/lib/system/libsystem_pthread.dylib
+           0x22deb3000 -        0x22deb5fff  libremovefile.dylib                       <660DE2AC-A93E-3D13-8851-55965FB67AC3>  /usr/lib/system/libremovefile.dylib
