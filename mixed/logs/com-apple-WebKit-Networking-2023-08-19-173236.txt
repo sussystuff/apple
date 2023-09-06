@@ -1,0 +1,220 @@
+{"app_name":"com.apple.WebKit.Networking","timestamp":"2023-08-19 17:32:36.00 +1000","app_version":"8615","slice_uuid":"e1675909-d44f-316d-89cb-cc92dd0e7c2a","build_version":"8615.3.12.10.2","platform":2,"bundleID":"com.apple.WebKit.Networking","share_with_app_devs":0,"is_first_party":1,"bug_type":"309","os_version":"iPhone OS 16.6 (20G75)","roots_installed":0,"name":"com.apple.WebKit.Networking","incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX47"}
+{
+  "uptime" : 540000,
+  "procRole" : "Foreground",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "iPad12,1",
+  "coalitionID" : 445,
+  "osVersion" : {
+    "isEmbedded" : true,
+    "train" : "iPhone OS 16.6",
+    "releaseType" : "User",
+    "build" : "20G75"
+  },
+  "captureTime" : "2023-08-19 17:32:34.9354 +1000",
+  "incident" : "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX47",
+  "pid" : 10233,
+  "cpuType" : "ARM-64",
+  "roots_installed" : 0,
+  "bug_type" : "309",
+  "procLaunch" : "2023-08-19 17:32:33.9634 +1000",
+  "procStartAbsTime" : 13189022607319,
+  "procExitAbsTime" : 13189045239281,
+  "procName" : "com.apple.WebKit.Networking",
+  "procPath" : "\/private\/preboot\/Cryptexes\/OS\/System\/Library\/Frameworks\/WebKit.framework\/XPCServices\/com.apple.WebKit.Networking.xpc\/com.apple.WebKit.Networking",
+  "bundleInfo" : {"CFBundleShortVersionString":"8615","CFBundleVersion":"8615.3.12.10.2","CFBundleIdentifier":"com.apple.WebKit.Networking"},
+  "parentProc" : "launchd",
+  "parentPid" : 1,
+  "coalitionName" : "com.apple.mobilesafari",
+  "crashReporterKey" : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "throttleTimeout" : 10,
+  "codeSigningID" : "com.apple.WebKit.Networking",
+  "codeSigningTeamID" : "",
+  "codeSigningFlags" : 570434305,
+  "codeSigningValidationCategory" : 1,
+  "codeSigningTrustLevel" : 0,
+  "vmRegionInfo" : "0x138 is not in any region.  Bytes before following region: 68719476424\n      REGION TYPE                 START - END      [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      commpage (reserved)     1000000000-7000000000 [384.0G] ---\/--- SM=NUL  ...(unallocated)",
+  "exception" : {"codes":"0x0000000000000001, 0x0000000000000138","rawCodes":[1,312],"type":"EXC_BAD_ACCESS","signal":"SIGSEGV","subtype":"KERN_INVALID_ADDRESS at 0x0000000000000138"},
+  "termination" : {"flags":0,"code":11,"namespace":"SIGNAL","indicator":"Segmentation fault: 11","byProc":"exc handler","byPid":10233},
+  "vmregioninfo" : "0x138 is not in any region.  Bytes before following region: 68719476424\n      REGION TYPE                 START - END      [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      commpage (reserved)     1000000000-7000000000 [384.0G] ---\/--- SM=NUL  ...(unallocated)",
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":2555124,"threadState":{"x":[{"value":0},{"value":4294967307},{"value":6914185395,"symbolLocation":511,"symbol":".str.81"},{"value":4294967306},{"value":18446744073709551004},{"value":28},{"value":51},{"value":4294967529},{"value":0},{"value":13},{"value":6914185237,"symbolLocation":353,"symbol":".str.81"},{"value":3275352116300771171},{"value":8299417714467955571},{"value":6157470338},{"value":10},{"value":0},{"value":6927700748,"symbolLocation":0,"symbol":"WTF::StringImpl::startsWith(WTF::StringView) const"},{"value":8134689264},{"value":0},{"value":4446097232},{"value":4446520064},{"value":4446520320},{"value":4445986848},{"value":4446097232},{"value":8055342080,"symbolLocation":0,"symbol":"WTF::StringImpl::s_emptyAtomString"},{"value":6157470856},{"value":6157471328},{"value":6157471256},{"value":1}],"flavor":"ARM_THREAD_STATE64","lr":{"value":6901515248},"cpsr":{"value":2147483648},"fp":{"value":6157471184},"sp":{"value":6157470608},"esr":{"value":2449473542,"description":"(Data Abort) byte read Translation fault"},"pc":{"value":6901515520,"matchesCrashFrame":1},"far":{"value":312}},"queue":"com.apple.main-thread","frames":[{"imageOffset":28468480,"symbol":"WebCore::ContentSecurityPolicy::reportViolation(WTF::String const&, WebCore::ContentSecurityPolicyDirectiveList const&, WTF::String const&, WTF::String const&, WTF::String const&, WTF::StringView const&, WTF::TextPosition const&, JSC::JSGlobalObject*, WTF::URL const&, WebCore::Element*) const","symbolLocation":980,"imageIndex":1},{"imageOffset":28545564,"symbol":"std::__1::__function::__func<WebCore::ContentSecurityPolicy::allowConnectToSource(WTF::URL const&, WebCore::ContentSecurityPolicy::RedirectResponseReceived, WTF::URL const&) const::$_21, std::__1::allocator<WebCore::ContentSecurityPolicy::allowConnectToSource(WTF::URL const&, WebCore::ContentSecurityPolicy::RedirectResponseReceived, WTF::URL const&) const::$_21>, void (WebCore::ContentSecurityPolicyDirective const&)>::operator()(WebCore::ContentSecurityPolicyDirective const&)","symbolLocation":184,"imageIndex":1},{"imageOffset":28465780,"symbol":"WebCore::ContentSecurityPolicy::allowConnectToSource(WTF::URL const&, WebCore::ContentSecurityPolicy::RedirectResponseReceived, WTF::URL const&) const","symbolLocation":484,"imageIndex":1},{"imageOffset":2518536,"symbol":"WebKit::NetworkLoadChecker::checkRequest(WebCore::ResourceRequest&&, WebCore::ContentSecurityPolicyClient*, WTF::CompletionHandler<void (std::__1::variant<WebCore::ResourceRequest, WebKit::NetworkLoadChecker::RedirectionTriplet, WebCore::ResourceError>&&)>&&)","symbolLocation":1644,"imageIndex":2},{"imageOffset":2803120,"symbol":"WebKit::PingLoad::PingLoad(WebKit::NetworkConnectionToWebProcess&, WebKit::NetworkResourceLoadParameters&&, WTF::CompletionHandler<void (WebCore::ResourceError const&, WebCore::ResourceResponse const&)>&&)","symbolLocation":1268,"imageIndex":2},{"imageOffset":2428904,"symbol":"WebKit::NetworkConnectionToWebProcess::loadPing(WebKit::NetworkResourceLoadParameters&&)","symbolLocation":296,"imageIndex":2},{"imageOffset":1082568,"symbol":"WebKit::NetworkConnectionToWebProcess::didReceiveNetworkConnectionToWebProcessMessage(IPC::Connection&, IPC::Decoder&)","symbolLocation":6168,"imageIndex":2},{"imageOffset":10354316,"symbol":"IPC::Connection::dispatchMessage(std::__1::unique_ptr<IPC::Decoder, std::__1::default_delete<IPC::Decoder>>)","symbolLocation":332,"imageIndex":2},{"imageOffset":10365224,"symbol":"WTF::Detail::CallableWrapper<IPC::Connection::enqueueIncomingMessage(std::__1::unique_ptr<IPC::Decoder, std::__1::default_delete<IPC::Decoder>>)::$_15, void>::call()","symbolLocation":188,"imageIndex":2},{"imageOffset":343268,"symbol":"WTF::RunLoop::performWork()","symbolLocation":200,"imageIndex":3},{"imageOffset":347056,"symbol":"WTF::RunLoop::performWork(void*)","symbolLocation":36,"imageIndex":3},{"imageOffset":864552,"symbol":"__CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__","symbolLocation":28,"imageIndex":4},{"imageOffset":915380,"symbol":"__CFRunLoopDoSource0","symbolLocation":176,"imageIndex":4},{"imageOffset":411112,"symbol":"__CFRunLoopDoSources0","symbolLocation":244,"imageIndex":4},{"imageOffset":499924,"symbol":"__CFRunLoopRun","symbolLocation":828,"imageIndex":4},{"imageOffset":521196,"symbol":"CFRunLoopRunSpecific","symbolLocation":612,"imageIndex":4},{"imageOffset":270260,"symbol":"-[NSRunLoop(NSRunLoop) runMode:beforeDate:]","symbolLocation":212,"imageIndex":5},{"imageOffset":269896,"symbol":"-[NSRunLoop(NSRunLoop) run]","symbolLocation":64,"imageIndex":5},{"imageOffset":108152,"symbol":"_xpc_objc_main","symbolLocation":496,"imageIndex":6},{"imageOffset":117028,"symbol":"xpc_main","symbolLocation":156,"imageIndex":6},{"imageOffset":2110848,"symbol":"WebKit::XPCServiceMain(int, char const**)","symbolLocation":68,"imageIndex":2},{"imageOffset":89580,"symbol":"start","symbolLocation":2220,"imageIndex":7}]},{"id":2555126,"name":"JavaScriptCore libpas scavenger","frames":[{"imageOffset":5496,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":8},{"imageOffset":32888,"symbol":"_pthread_cond_wait","symbolLocation":1232,"imageIndex":9},{"imageOffset":1129668,"symbol":"scavenger_thread_main","symbolLocation":1428,"imageIndex":3},{"imageOffset":5816,"symbol":"_pthread_start","symbolLocation":148,"imageIndex":9},{"imageOffset":2952,"symbol":"thread_start","symbolLocation":8,"imageIndex":9}]},{"id":2555127,"frames":[{"imageOffset":2932,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":9}]},{"id":2555128,"queue":"WebResourceLoadStatisticsStore Process Data Queue","frames":[{"imageOffset":12704,"symbol":"__fcntl","symbolLocation":8,"imageIndex":8},{"imageOffset":10368,"symbol":"fcntl","symbolLocation":88,"imageIndex":8},{"imageOffset":310540,"imageIndex":10},{"imageOffset":379004,"imageIndex":10},{"imageOffset":1002948,"imageIndex":10},{"imageOffset":506080,"symbol":"sqlite3_wal_checkpoint_v2","symbolLocation":544,"imageIndex":10},{"imageOffset":31417368,"symbol":"WebCore::SQLiteDatabase::checkpoint(WebCore::SQLiteDatabase::CheckpointMode)","symbolLocation":188,"imageIndex":1},{"imageOffset":31416368,"symbol":"WebCore::SQLiteDatabase::open(WTF::String const&, WebCore::SQLiteDatabase::OpenMode)","symbolLocation":1768,"imageIndex":1},{"imageOffset":2393856,"symbol":"WebKit::DatabaseUtilities::openDatabaseAndCreateSchemaIfNecessary()","symbolLocation":92,"imageIndex":2},{"imageOffset":2812984,"symbol":"WebKit::ResourceLoadStatisticsDatabaseStore::openAndUpdateSchemaIfNecessary()","symbolLocation":56,"imageIndex":2},{"imageOffset":2812664,"symbol":"WebKit::ResourceLoadStatisticsDatabaseStore::ResourceLoadStatisticsDatabaseStore(WebKit::WebResourceLoadStatisticsStore&, WTF::SuspendableWorkQueue&, WebKit::ShouldIncludeLocalhost, WTF::String const&, PAL::SessionID)","symbolLocation":316,"imageIndex":2},{"imageOffset":3013448,"symbol":"WTF::Detail::CallableWrapper<WebKit::WebResourceLoadStatisticsStore::WebResourceLoadStatisticsStore(WebKit::NetworkSession&, WTF::String const&, WebKit::ShouldIncludeLocalhost, WebCore::ResourceLoadStatistics::IsEphemeral)::$_19, void>::call()","symbolLocation":72,"imageIndex":2},{"imageOffset":721888,"symbol":"void WTF::dispatchWorkItem<WTF::(anonymous namespace)::DispatchWorkItem>(void*)","symbolLocation":60,"imageIndex":3},{"imageOffset":16044,"symbol":"_dispatch_client_callout","symbolLocation":20,"imageIndex":11},{"imageOffset":46388,"symbol":"_dispatch_lane_serial_drain","symbolLocation":668,"imageIndex":11},{"imageOffset":49316,"symbol":"_dispatch_lane_invoke","symbolLocation":384,"imageIndex":11},{"imageOffset":93404,"symbol":"_dispatch_workloop_worker_thread","symbolLocation":648,"imageIndex":11},{"imageOffset":3548,"symbol":"_pthread_wqthread","symbolLocation":288,"imageIndex":9},{"imageOffset":2940,"symbol":"start_wqthread","symbolLocation":8,"imageIndex":9}]},{"id":2555129,"queue":"com.apple.WebKit.Cache.Storage.background","frames":[{"imageOffset":11952,"symbol":"lstat","symbolLocation":8,"imageIndex":8},{"imageOffset":378516,"symbol":"std::__1::__fs::filesystem::detail::(anonymous namespace)::posix_lstat(std::__1::__fs::filesystem::path const&, stat&, std::__1::error_code*)","symbolLocation":80,"imageIndex":12},{"imageOffset":388676,"symbol":"std::__1::__fs::filesystem::__symlink_status(std::__1::__fs::filesystem::path const&, std::__1::error_code*)","symbolLocation":28,"imageIndex":12},{"imageOffset":166208,"symbol":"WTF::FileSystemImpl::fileTypePotentiallyFollowingSymLinks(WTF::String const&, WTF::FileSystemImpl::ShouldFollowSymbolicLinks)","symbolLocation":260,"imageIndex":3},{"imageOffset":3542308,"symbol":"WebKit::NetworkCache::traverseDirectory(WTF::String const&, WTF::Function<void (WTF::String const&, WebKit::NetworkCache::DirectoryEntryType)> const&)","symbolLocation":144,"imageIndex":2},{"imageOffset":3657460,"symbol":"WTF::Detail::CallableWrapper<WebKit::NetworkCache::traverseRecordsFiles(WTF::String const&, WTF::String const&, WTF::Function<void (WTF::String const&, WTF::String const&, WTF::String const&, bool, WTF::String const&)> const&)::$_43::operator()(WTF::String const&, WebKit::NetworkCache::DirectoryEntryType) const::'lambda'(WTF::String const&, WebKit::NetworkCache::DirectoryEntryType), void, WTF::String const&, WebKit::NetworkCache::DirectoryEntryType>::call(WTF::String const&, WebKit::NetworkCache::DirectoryEntryType)","symbolLocation":216,"imageIndex":2},{"imageOffset":3542364,"symbol":"WebKit::NetworkCache::traverseDirectory(WTF::String const&, WTF::Function<void (WTF::String const&, WebKit::NetworkCache::DirectoryEntryType)> const&)","symbolLocation":200,"imageIndex":2},{"imageOffset":3657080,"symbol":"WTF::Detail::CallableWrapper<WebKit::NetworkCache::traverseRecordsFiles(WTF::String const&, WTF::String const&, WTF::Function<void (WTF::String const&, WTF::String const&, WTF::String const&, bool, WTF::String const&)> const&)::$_43, void, WTF::String const&, WebKit::NetworkCache::DirectoryEntryType>::call(WTF::String const&, WebKit::NetworkCache::DirectoryEntryType)","symbolLocation":184,"imageIndex":2},{"imageOffset":3542364,"symbol":"WebKit::NetworkCache::traverseDirectory(WTF::String const&, WTF::Function<void (WTF::String const&, WebKit::NetworkCache::DirectoryEntryType)> const&)","symbolLocation":200,"imageIndex":2},{"imageOffset":3656596,"symbol":"WebKit::NetworkCache::traverseRecordsFiles(WTF::String const&, WTF::String const&, WTF::Function<void (WTF::String const&, WTF::String const&, WTF::String const&, bool, WTF::String const&)> const&)","symbolLocation":92,"imageIndex":2},{"imageOffset":3656072,"symbol":"WebKit::NetworkCache::Storage::synchronize()::$_14::operator()()","symbolLocation":188,"imageIndex":2},{"imageOffset":721888,"symbol":"void WTF::dispatchWorkItem<WTF::(anonymous namespace)::DispatchWorkItem>(void*)","symbolLocation":60,"imageIndex":3},{"imageOffset":16044,"symbol":"_dispatch_client_callout","symbolLocation":20,"imageIndex":11},{"imageOffset":29488,"symbol":"_dispatch_continuation_pop","symbolLocation":504,"imageIndex":11},{"imageOffset":27032,"symbol":"_dispatch_async_redirect_invoke","symbolLocation":584,"imageIndex":11},{"imageOffset":88388,"symbol":"_dispatch_root_queue_drain","symbolLocation":396,"imageIndex":11},{"imageOffset":90456,"symbol":"_dispatch_worker_thread2","symbolLocation":164,"imageIndex":11},{"imageOffset":3488,"symbol":"_pthread_wqthread","symbolLocation":228,"imageIndex":9},{"imageOffset":2940,"symbol":"start_wqthread","symbolLocation":8,"imageIndex":9}]},{"id":2555141,"name":"com.apple.NSURLConnectionLoader","frames":[{"imageOffset":3236,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":8},{"imageOffset":80756,"symbol":"mach_msg2_internal","symbolLocation":80,"imageIndex":8},{"imageOffset":81484,"symbol":"mach_msg_overwrite","symbolLocation":540,"imageIndex":8},{"imageOffset":4584,"symbol":"mach_msg","symbolLocation":24,"imageIndex":8},{"imageOffset":495652,"symbol":"__CFRunLoopServiceMachPort","symbolLocation":160,"imageIndex":4},{"imageOffset":500304,"symbol":"__CFRunLoopRun","symbolLocation":1208,"imageIndex":4},{"imageOffset":521196,"symbol":"CFRunLoopRunSpecific","symbolLocation":612,"imageIndex":4},{"imageOffset":2459376,"imageIndex":13},{"imageOffset":374052,"symbol":"__NSThread__start__","symbolLocation":716,"imageIndex":5},{"imageOffset":5816,"symbol":"_pthread_start","symbolLocation":148,"imageIndex":9},{"imageOffset":2952,"symbol":"thread_start","symbolLocation":8,"imageIndex":9}]},{"id":2555142,"frames":[{"imageOffset":2932,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":9}]},{"id":2555143,"frames":[{"imageOffset":2932,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":9}]},{"id":2555144,"frames":[{"imageOffset":2932,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":9}]},{"id":2555152,"frames":[{"imageOffset":2932,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":9}]},{"id":2555153,"frames":[{"imageOffset":2932,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":9}]}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 4309401600,
+    "size" : 16384,
+    "uuid" : "e1675909-d44f-316d-89cb-cc92dd0e7c2a",
+    "path" : "\/private\/preboot\/Cryptexes\/OS\/System\/Library\/Frameworks\/WebKit.framework\/XPCServices\/com.apple.WebKit.Networking.xpc\/com.apple.WebKit.Networking",
+    "name" : "com.apple.WebKit.Networking"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6873047040,
+    "size" : 41689056,
+    "uuid" : "68f62772-437b-31e1-9c6d-c62357d9e257",
+    "path" : "\/System\/Library\/PrivateFrameworks\/WebCore.framework\/WebCore",
+    "name" : "WebCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6915391488,
+    "size" : 11911168,
+    "uuid" : "0a07c3a5-3b5d-3da8-b846-9ec23cc911fe",
+    "path" : "\/System\/Library\/Frameworks\/WebKit.framework\/WebKit",
+    "name" : "WebKit"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6927302656,
+    "size" : 24219648,
+    "uuid" : "9840b0ef-5a92-3bcf-97fc-f8f58aa14d39",
+    "path" : "\/System\/Library\/Frameworks\/JavaScriptCore.framework\/JavaScriptCore",
+    "name" : "JavaScriptCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6600945664,
+    "size" : 4096000,
+    "uuid" : "a900b459-0127-379e-9cba-0eab9c5d559f",
+    "path" : "\/System\/Library\/Frameworks\/CoreFoundation.framework\/CoreFoundation",
+    "name" : "CoreFoundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6503649280,
+    "size" : 9297920,
+    "uuid" : "1715de5d-0893-3af0-b0c0-550bb14f91ec",
+    "path" : "\/System\/Library\/Frameworks\/Foundation.framework\/Foundation",
+    "name" : "Foundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 8198967296,
+    "size" : 270336,
+    "uuid" : "a0d322a3-d772-3260-9690-71f28737c43c",
+    "path" : "\/usr\/lib\/system\/libxpc.dylib",
+    "name" : "libxpc.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7126855680,
+    "size" : 547412,
+    "uuid" : "c3fc2ee4-367f-3086-beb8-420ad442bf88",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7648190464,
+    "size" : 229352,
+    "uuid" : "681b06a0-7f6b-3fa3-a2ce-063dc1da7b1b",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 8198692864,
+    "size" : 49140,
+    "uuid" : "aa302f5a-ffe5-327a-a003-3b288b935de1",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7221067776,
+    "size" : 1490932,
+    "uuid" : "167064e4-8f09-34e8-bd7b-dcb59717915a",
+    "path" : "\/usr\/lib\/libsqlite3.dylib",
+    "name" : "libsqlite3.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6723403776,
+    "size" : 290816,
+    "uuid" : "5d16936b-4e4c-3276-ba7a-69c9bc760aba",
+    "path" : "\/usr\/lib\/system\/libdispatch.dylib",
+    "name" : "libdispatch.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6842376192,
+    "size" : 577528,
+    "uuid" : "73d4f57e-a129-3e37-9440-8eeb0d608273",
+    "path" : "\/usr\/lib\/libc++.1.dylib",
+    "name" : "libc++.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6617796608,
+    "size" : 3977216,
+    "uuid" : "045d4271-e64e-3229-a49f-caff707aa77f",
+    "path" : "\/System\/Library\/Frameworks\/CFNetwork.framework\/CFNetwork",
+    "name" : "CFNetwork"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  }
+],
+  "sharedCache" : {
+  "base" : 6483869696,
+  "size" : 2954362880,
+  "uuid" : "446cf75d-836a-33d3-9182-80ba7ad2a83a"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=769.9M resident=0K(0%) swapped_out_or_unallocated=769.9M(100%)\nWritable regions: Total=294.8M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=294.8M(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nDispatch continuations            6144K        1 \nKernel Alloc Once                   32K        1 \nMALLOC                            57.5M       34 \nMALLOC guard page                  128K        8 \nSQLite page cache                  256K        2 \nSTACK GUARD                        176K       11 \nStack                             6448K       11 \nWebKit Malloc                    192.1M        6 \nWebKit Malloc (reserved)          32.0M        1         reserved VM address space (unallocated)\n__AUTH                            1302K      153 \n__AUTH_CONST                      17.8M      447 \n__CTF                               824        1 \n__DATA                            4921K      439 \n__DATA_CONST                      20.8M      452 \n__DATA_DIRTY                      3875K      417 \n__FONT_DATA                        2352        1 \n__INFO_FILTER                         8        1 \n__LINKEDIT                       311.8M        2 \n__OBJC_RO                         79.3M        1 \n__OBJC_RW                         2432K        1 \n__TEXT                           458.1M      459 \ndyld private memory                272K        1 \nlibnetwork                         128K        8 \nmapped file                       30.2M        6 \nshared memory                       32K        2 \n===========                     =======  ======= \nTOTAL                              1.2G     2467 \nTOTAL, minus reserved VM space     1.2G     2467 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.main-thread"
+  }
+},
+  "logWritingSignature" : "d5ed221f791d5373d39407e8591e71a0d566e81a",
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "62699e1ec1ff2978b47f6c3b",
+      "factorPackIds" : {
+        "SIRI_FIND_MY_CONFIGURATION_FILES" : "631f72d1de559130376df1fb"
+      },
+      "deploymentId" : 240000023
+    },
+    {
+      "rolloutId" : "6010753cf9bfc4000c247bdd",
+      "factorPackIds" : {
+        "BIFROST_DEV_2" : "64c554b5bf05d6111f21ac94"
+      },
+      "deploymentId" : 240000316
+    }
+  ],
+  "experiments" : [
+    {
+      "treatmentId" : "fff57ce0-9c82-4fc8-8002-02aca4bfb9b3",
+      "experimentId" : "63c87e2a85b8e5034c21d498",
+      "deploymentId" : 400000027
+    },
+    {
+      "treatmentId" : "a092db1b-c401-44fa-9c54-518b7d69ca61",
+      "experimentId" : "64a844035c85000c0f42398a",
+      "deploymentId" : 400000016
+    }
+  ]
+}
+}
