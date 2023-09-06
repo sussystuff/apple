@@ -1,0 +1,27 @@
+timestamp: 1691396555269
+isAnonymous: true 
+deviceConfigld: 7422
+investigationld: 0 
+model: "iPad12,1" 
+softwareBuild: "20G75" 
+firmwareVersion: "iBoot-8422.142.2" 
+buildtype: "User" tz_offset: 36000
+metric_file_type: 1
+metriclogs {
+  triggerTime: 1691396550154
+  triggerld: 7143424
+  profileld: 394
+  multitouchBootEvents {
+  timestamp: 1691396538880
+  version: 1569
+ }
+}
+metriclogs {
+  triggerTime: 1691396550160
+  triggerld: 7143424
+  profileld: 394
+  multitouchBootEvents {
+    timestamp: 1691396538932
+    version: 1569
+ }
+}
