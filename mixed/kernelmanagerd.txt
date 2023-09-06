@@ -1,0 +1,2766 @@
+com.apple.kernelmanagerd
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.O.dtd">
+<plist version="1.0">
+<dict> 
+	<key>com.apple.keystore.filevault</key>
+	<true/>
+	<key>com.apple.private.KextAudit.user-access</key>
+	<true/>
+	<key>com.apple.private.allow-bless</key>
+	<true/>
+	<key>com.apple.private.applecredentialmanager.allow</key>
+	<true/>
+	<key>com.apple.private.iokit.nvram-panicmedic</key>
+	<true/>
+	<key>com.apple.private.iokit.system-nvram-allow</key>
+	<true/>
+	<key>com.apple.private.kernel.get-kext-info</key>
+	<true/>
+	<key>com.apple.private.security.bootpolicy</key>
+	<true/>
+	<key>com.apple.private.security.iocatalog-management</key>
+	<true/>
+	<key>com. apple.private.security.kext-collection-management</key>
+	<true/>
+	<key>com.apple.private.security.kext-management</key>
+	<true/>
+	<key>com.apple.private.security.storage.SystemExtensionManagement</key>
+	<true/>
+	<key>com.apple.private.security.syspolicy.kext-management</key>
+	<true/>
+	<key>com.apple.private.spawn-driver</key>
+	<true/>
+	<key>com.apple.private.storagekitd.statuschange</key>
+	<true/>
+	<key>com.apple.private.system-extensions.extension-point</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceSystemPolicyAllFiles</string>
+	</array>
+	<key>com.apple.private.xpc.launchd.job-manager</key>
+	<string>com.apple.kernelmanagerd</string>
+	<key>com.apple.rootless.storage.KernelExtensionManagement</key>
+	<true/>
+	<key>com.apple.rootless.storage.KernelExtensionStaging</key>
+	<true/>
+	<key>com.apple.rootless.volume.Preboot</key>
+	<true/>
+	<key>com.apple.rootless.volume.iSCPreboot</key>
+	<true/>
+</dict>
+</plist>
+
+
+/System/Library/PrivateFrameworks/DiskImages2.framework/Versions/A/DiskImages28/us/lib/libcselect.dylib
+/System/Library/PrivateFrameworks/AppServerSupport.framework/Versions/A/AppServerSupport
+/System/Library/PrivateFrameworks/AppleKeyStore.framework/Versions/A/AppleKeyStore
+/usr/lib/libcompression.dylib
+/usr/lib/libamsupport.dylib
+/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+/System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement/us/lib/libbootpolicy.dylib
+/System/Library/Frameworks/SystemExtensions.framework/Versions/A/SystemExtensions
+/us/lib/libKernelCollectionBuilder.dylib
+/System/Library/PrivateFrameworks/SystemPolicy.framework/Versions/A/SystemPolicy
+/System/Library/Frameworks/Security.framework/Versions/A/Security/us/lib/libauthinstall.dylib
+/usr/lib/libimg4.dylib
+/System/Library/Frameworks/KernelManagement.framework/Versions/A/KernelManagementp/System/Library/PrivateFrameworks/apfs_boot_mount.framework/Versions/A/apfs boot mount
+/usr/lib/libSystem.B.dylib
+X/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation/usr/lib/libobjc.A.dylib
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+/System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS
+/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+/System/Library/PrivateFrameworks/LogginqSupport.framework/Versions/A/LoggingSupport
+/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServicesH/ur/lib/swift/libswiftCompression.dylib
+/usr/lib/swift/libswiftCore.dylib
+/usr/lib/swift/libswiftCoreFoundation.dylib
+/usr/lib/swift/libswiftDarwin.dylib
+/usr/lib/swift/libswiftDispatch.dylib
+
+saveAux
+started
+complete
+error
+setUp
+status:
+fatalError:
+checkpoint
+Kexts
+discarded
+hash
+teamID
+kextsToBH
+GenerateUID
+cdHash
+Entries:
+kextsToBH
+versionBuild
+GenerateUID
+cryptex
+current
+OSExtension
+send (event:)
+send (event:)
+Unloaded
+Loaded
+skipping
+false
+kmlog
+dext_asan_sb
+OSKernelCPUType
+unique-chip-id
+dextASanSandbox
+inRecovery
+inBaseSystem
+inDarwinOSX
+inFVUnlock
+inKcgen
+inMainOS
+inSafeBoot
+variant
+kcSuffix
+isAppleInternal
+processInfo
+getECID (H¾)
+get(key:)
+set(key:value)
+delete(key:)
+AliasTarget
+get(property:)
+terminatе (_:)
+bootArgs
+kcSuffix
+dexASanSandbox
+DextValidation
+is not dext
+GetDexts
+LoadExtension
+UnloadExtension
+processInfo
+AUP
+getECID (H¾)
+unknownID
+eventend
+begin
+OSExtension
+KernelExtension
+RealizedInfo
+(new)
+(existing)
+Warning:
+was not found!
+validID
+validateID
+authenticateID
+includedID
+appleExcludedID
+approvedID
+approvalID
+completeID
+OSKernelCPUType
+buildvalidation
+saveAux started completed error setUp
+checkpointfatalError
+discardedKexts
+inExcludeListID
+appleID
+sipProtectedID
+UserLoadID
+AllowedID
+appleAuxiliaryID
+Executable for: not found
+<no version>
+<none>
+HSLCLK
+entitledID;
+subscriber
+send (to:)
+activate ()
+NVRAM
+get (key:)
+set (key:value:)
+delete (key:)
+.DS_Store
+GH. bundle
+¿realPath (:)
+¿removeItem(at:)
+@none
+dapple
+@team
+anchorapple
+rulesID
+^PlugInsIEPH
+rules2ID
+^PlugInsIGPH
+omitHC
+weightHCPH
+weightHCPT
+nestedHC
+weightHKPLc
+¿were copied
+Must provide a
+Nvram error:
+Invalid error:
+KcgenOS error:
+Fileset error:
+Knox error:
+OSBundleID
+EnableCoreDumps
+None
+Apple
+OSBundleCPUType
+OSBundlePath
+OSBundleStarted
+OSBundleLoadTag
+OSBundleClasses
+Load
+SendResource
+Name
+Value
+RequestTag
+CheckInToken
+Unload
+KCNamePageable
+AUxKCName
+loadfilesetkc
+CollectionType
+Any
+Auxiliary
+System
+Codeless
+LoadedState
+DaemonReady
+GetDext
+IOMatchDefer
+KCID_Boot
+KCID_Pagable
+KCID_Prelink
+VersionManager
+VersionKMBuild
+arch
+resolved
+KEXT_TRACE_FILE
+bootuuid_kern
+bootargs_kern
+safeboot_kern
+target_hw
+__KCGEN_INFO__kext_strs
+_KCGEN_INFO__kext_errs
+RECEIPT_INFO
+_LINKINFO_symbolsets
+ТЕХТ:
+PRELINK_INFO:
+LINKEDIT
+SymbolSets
+SymbolsName
+SymbolPredix
+AliasTarget
+com.apple.kpi
+kernel_
+Versions
+Any_Match
+All_Match
+get-task-allow
+Library/KCGen
+kcgen_mode
+osenvironment
+kernelCache
+KCaux
+/System/
+KCCurrentAux
+KCTempAux
+AppleSoftware
+kcgen-date
+root-live-fs
+panicmedic
+Name
+UserInfo
+isPlaceholder
+bundleID
+researchkasandebug_development
+_kasan_development
+release:
+development
+debug kasan research
+kegen
+Network-Root
+Local-Root
+Console-Root
+SafeBoot
+DriverKit
+Auxiliary
+AMSupportURLConnectionDelegate
+AMSupportURLSession
+kernelmanagerd
+KernelExtensionReceipt
+KernelCollectionReceipt
+kernelmanagerdBuildVersionPlist
+DeveloperKitClient
+RealDeveloperKitClient
+MinimalDeveloperKitClient
+_CURLResourceKeyNNSURLResourceKey
+Foundation
+kernelmanagerdKcgenSideEffects
+VolumeType
+VolumeFamily
+MountedVolume
+MountedPrebootVolume
+MountediSCPrebootVolume
+MountedDataVolume
+MountedSystemVolume
+CheckpointType
+CheckpointStatus
+Checkpoint
+KcgenCheckpoints
+KcgenInstructions
+Entry
+BuildInputManager
+PrebootManager
+AdminUser
+CodingKeys
+kernelmanagerdSIPStatus
+EmbeddedSIPStatus
+RBSProcessIdentitv
+RBSLaunchContext
+RBSLaunchRequest
+RunningBoardSupport
+kernelmanagerdProcessIdentityish
+LaunchContextish
+LaunchRequestish
+RunningBoardish
+kernelmanagerdCoreAnalyticsEvent
+CoreAnalyticsClient
+RealCoreAnalyticsClient
+kernelmanagerdCacheBuilderFactory
+CacheBuilder
+CacheBuilderDelegate
+CacheBuilderResults
+pRealCacheBuilderFactory
+RealCacheBuilder
+CFileResultKind
+ProgressKind
+kernelmanagerdD
+NSProcessInfo
+KernelRequest
+KernelRequestWithIdentifier
+KernelRequestFromKernel
+KernelRequestFromUserResponseType
+KernelRequests
+GetRequests
+GetLoaded
+LoadedOption
+LoadExtension
+UnloadExtension
+SendResource
+LoadFileset
+LoadCodeless
+DextLaunch
+RequestResource
+LoadRequest
+LoadNotification
+UnloadNotification
+RequestExit
+MissingAuxKCBundles
+AuxKCBundleAvailable
+GetDaemonActive
+GetDrivers
+DextUpdateNotification
+KernelLogMessage
+IOTerminationAction
+ProcessInfoish
+KernelClient
+RealKernelClient
+OSLogType
+os_loq_type_
+CFDictionary
+CFDictionaryRef
+CFDataNCFDataRef
+CollectionKind
+kernelmanagerdRealSIPStatus
+DifferenceState
+CollectionKind
+Invalid request
+kernelmanagerdDaemon
+DextLaunchContext
+RequestSource
+ActivatableRequestSource
+KernelRequestSource
+NSXPCRequestSource
+NSXPCRequestDelegate
+kernelmanagerdMountCompletionHandlerData
+RealDiskManagerClient
+Holder
+DASession
+DASessionRef
+DMDiskErrorType
+DADissenter
+DADissenterRef
+DADisK
+DADiskRef
+CFMutableArray
+CFMutableArravRef
+CFArray
+CFArravRef
+kernelmanagerdRealAuthenticatedBootPolicyClient
+RealBootPolicyClient
+bootpolicy_os_type_t
+bootpolicy_security_mode_t
+bootpolicy_error_t
+kernelmanagerdDeviceProperty
+DeviceProperties
+RealDeviceProperties
+kernelmanagerdFeatureFlag
+FeatureFlagsClient
+RealFeatureFlagsClient
+LoadRequestFlags
+CFileAttributeKey
+NSFileAttributeKey
+Foundation
+ItemReplacementOptions
+NSFileManagerItemReplacementOptions
+_CURLResourceKey
+NSURLResourceKey
+Foundationd
+kernelmanagerdPropertyCheckable
+PropertyCheck
+kernelmanagerdLoggingEvent
+OSLogEventSignpostType
+OSLogEventStreamFlags
+kernelmanagerdExtensionManager
+Updatable; OnQueue
+FilterMatch:_ _CCollectionKind
+kernelmanagerdRealizedInfo
+Flags
+LoadInfo
+LoadState
+RealizedKernelCollection
+kernelmanagerdXPCEventPublisher
+XPCEventSubscriberFlags
+RealXPCEventPublisher
+kernelmanagerdNVRAMClient
+RealNVRAMClient
+kernelmanagerdDaemonSideEffects
+KernelManagerDaemon
+UnloadRequestFlags
+-DependencyInfo
+_CollectionKind
+kernelmanagerd MachOSegmentName
+MachOSectionName
+MachOSymbol
+MachOSourceVersion
+Img4PayloadType
+FilesetOffset
+MachOFileSize
+MachOAddress
+MachOKernelcacheTags
+MachOData
+AnyMachHeader
+_mach_header
+mach_header_64
+compression_algorithm
+NXArchInfo
+CodingKeys
+segment_command_64x
+STRUCT_ARM_ THREAD STATE64
+fat_arch
+fat_arch_64
+fat header-list
+NXByteOrder__Unnamed_union_n_Unlock
+kcep
+kerf
+kerz
+kewf
+kowz
+kclf
+kclz
+kernelmanagerd
+NSFileHandle
+NSFileManager
+FileHandleish
+CopyFileFlags
+FileManagerish
+CFileAttributeKey
+NSFileAttributeKeyFoundation
+statfs
+URLResourceKey
+NSURLResourceKey
+fsid
+kernelmanagerdDistNote
+RealistNote
+kernelmanagerdKextHistoryItem
+SystemPolicClient
+NullSystemPolicyClient
+AllowAllSystemPolicyClient
+AllowARVOnlySystemPolicyClient
+kernelmanagerdCodeSigningTeam
+CodeSigningHash
+CodeSigningInfo
+CodeSignatureType
+SignatureResolutionStrategy
+CodeSigningResolver
+RealCodeSigningInfo
+RealCodeSigningResolver
+CCFStringNCFStringRef
+CFMutableDictionary
+CFMutableDictionaryRef
+CFDictionary
+CFDictionaryRefCoreFoundation
+SecCertificateNSecCertificateRef
+kernelmanagerdURLResourceValuesish
+kernelmanagerdSideEffects
+SideEffect
+DummyEffect
+kernelmanagerdDiskManagerClient
+LimitedDiskManagerClient
+BuildSpecificationFlags
+BuiltCacheInfo
+_CStripModeFileAttributeKey
+NSFileAttributeKeyCollectionKindFoundation
+DependencyResolutionSet
+DependencyError
+LSApplicationRecord
+kernelmanagerdApplicationRecordish
+kernelmanagerdOSExtensionLocation
+KernelExtension
+DriverExtension
+CCollectionKind
+kernelmanagerdBlessClient
+RealBlessClient
+BlessHandle
+CCFStringNCFStringRefStCFNumberNCFNumberRef
+CoreFoundation
+kernelmanagerdDaemonLauncher
+RealDaemonLauncher
+NSBUndle
+kernelmanagerdBundleish
+BundleResolver
+UncachedBundle
+RealBundleResolver
+CCFBUndleNCFBundleRef
+kernelmanagerd
+AuthenticationMethod
+AuthenticatedBootPolicyClient
+BootPolicvClient
+_CBootPolicySecurityMode
+bootpolicy_os_type_t
+bootpolicy_error_t
+kernelmanagerdKernelCollection
+CCollectionKind
+kernelmanagerdSystemExtensionsClient
+RealSystemExtensionsClient
+LookupSpec
+LookupError
+CCollectionKind
+kernelmanagerd
+KMError
+CCollectionKind
+OSKextReturnError
+CURLResourceKey
+NSURLResourceKeyStFoundation
+kernelmanagerdTelemetryLoadReport
+CodingKeys
+AuxiliaryExtensionsSizeEvent
+CURLResourceKey
+NSURLResourceKeyStFoundation
+kernelmanagerdDextRecord
+DextRecordHistory
+DextRecordTable
+DextRecordPlistManager
+BHCodingKeys
+SPKernelExtensionHistoryItem
+kernelmanagerdSKEEntry
+RealSystemPolicyClient
+OrderSpecification
+IOKitSerialization
+TypeNameBucket
+PackageType
+PropertyListManager
+XPCUtil
+RegisteredApplicationNotification
+processResults
+UnregisteredApplicationNotification
+CCollectionKind
+InfoKeysR
+DriverTeamIdentifierConstants
+MKextKeys
+LoadInfoKeysR
+KextRequestKeysR
+KextRequestFlagsQ
+PersonalityKeysR
+PersonalityValuesR
+CollectionKeysR
+ContextKeysR
+EnvKeysR
+SysctlKeys
+MachO
+SymbolSetKeys
+KernelResourceIdentifier
+KextExcludeListKeysR
+EntitlementKeysR
+SecPropertyKeys
+SecOIDKeysRX
+StagingConstantsR
+PrebootStashingConstantsR
+MountedVolumeConstantsR
+DataStashingConstantsRt
+DeveloperKitConstantsR4
+MaxLengthConstantsR
+NVRAMKeysR
+LogSignpostsR
+LifeCycleLogSignPostsR
+ExtendedAttributeConstantsR
+DistNoteConstantsR
+VariantKindR
+SecureBootPolicyRF
+BootEnvironmentR\F
+KcgenModeOptionsQ
+AppleCopyrightR
+OSBundleRequiredValueQ
+DriverKitEnablementFeatureFlagsR
+DriverKitDaemonFeaturesRDE
+DriverKitDaemonPathsRE
+DriverKitPersonalityFeatureFlagsRD
+KextsOutOfOSImageFeatureFlagsR|D
+ThirdPartyDriverKeysRDD
+SupportsThirdPartyDriversDevicePropertyQ
+__CCollectionKindStripMode
+kernelmanagerdKernelManagementConfigurationQC
+ExceptionsConfigurationQ
+_CNXArchInfoCodingKeys
+NXByteOrder
+kernelmanagerdLaunchServicesC
+NullLaunchServicesPX
+RealLaunchServicesP
+Unsigned kext
+kernelmanagerdTelemetryReportExtensionCodingKeysQ
+DriverInstallEventQ
+DriverApprovalEventQ
+DriverLaunchEventQ
+kernelmanagerdAuditManagerQ
+__CKextAuditLoadStatus
+kernelmanagerdAPFSClientC
+RealAPFSClientP
+_Csnap_vol_uuid_tSt
+statfsattribute_set
+fsid
+kernelmanagerdBridgeClientC
+RealBridgeClientP
+__CKextAuditBridgeResponset
+KextAuditLoadNotificationKext
+kernelmanagerdKernelExtensionAuditQT
+__CKextAuditLoadNotificationKext
+kernelmanagerdFileSystemEventSourceP
+SystemExtensionsRequestSourceP
+KernelManagementXPCRequestDelegateP
+__COSKernelManagementUnloadOptions
+OSKernelManagementLoadOptions
+CFArrayNCFArrayRefSt
+kernelmanagerdExceptionsRx-
+ExceptionListQL-
+ExceptionTypeR
+ExceptionMatchQ
+VersionSpecR
+systemDomaininitWithPlist:domain:submitAndStart:
+localizedFailureReasonstatepididentityForDextWithServerName:tagString:containingAppBundleID:
+initcontextWithIdentity:initWithContext:execute:bundleIdentifiersetBundleIdentifier:
+dextCheckInPortsetDextCheckinPort:_ _additionalEnvironment_setAdditionalEnvironment:
+argumentssetArguments:executionOptionssetExecutionOptions:_overrideExecutablePath_
+setOverrideExecutablePath:environmentprocessNameresumesetDelegate:_setQueue:
+dealloceffectiveUserIdentifierprocessIdentifiervalueForEntitlement:listener:
+shouldAcceptNewConnection:.cxx_destructinterfaceWithProtocol:setExportedInterface:
+setExportedObject:setInterruptionHandler:setInvalidationHandler:isEqual:
+hashsuperclassclassselfperformSelector:performSelector:withObject:performSelector:withObject:
+withObject:isProxyisKindOfClass:isMemberOfClass:conformsToProtocol:respondsToSelector:
+retainreleaseautoreleaseretainCountzonedescriptiondebugDescriptionsetDefaultDASession:
+objectForKeyedSubscript:setDiskForBootPreference:atFolderLocation:isOS9:disksisAPFSVolumeDisk:
+error:wholeDiskForDisk:error:diskIdentifierForDisk:error:isInternalDisk:error:
+initWithUnsignedInt:setOptionUserId:setCredential:type:
+externalizedContextarchivedDataWithRootObject:requiringSecureCoding:error:
+fileHandleWithStandardErrorinitWithMachServiceName:
+lockunlockliveLocalStoreprepareWithCompletionHandler:initWithLiveSource:setFlags:
+setFilterPredicate: setEventHandler: setDroppedEventHandler:
+activateinvalidatecomposedMessageformatStringprocesssendersignpostNamesignpostTypepredicateForm
+atevaluateWithObject:propertyListWithData:options:format:error:fileHandleForReadingAtPath:
+fileHandleForWritingAtPath:fileHandleForUpdatingAtPath:initWithFileDescriptor:closeOnDealloc:
+fileExistsAtPath:isDirectory:createDirectoryAtURL:withIntermediateDirectories:attributes:error:
+isExecutableFileAtPath:createSymbolicLinkAtPath:withDestinationPath:error:removeItemAtURL:error
+:removeItemAtPath:error:replaceItemAtURL:withItemAtURL:backupItemName:options:resultingItemURL:
+error:attributesOfItemAtPath:error:createFileAtPath:contents:attributes:
+contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
+currentDirectoryPathcloseFilereadDataOfLength:readDataToEndOfFileseekToFileOffset:
+seekToEndOfFileoffsetInFiledefaultManagerwriteData:setAttributes:ofItemAtPath:error:
+initWithContentsOfURL:options:error:
+localizedNameinstallSessionIdentifieruniqueInstallIdentifierULfileDescriptorinitWithInt:_cfBundlebundleWithIdentifier:pathsForResourcesOfType:inDirectory:pathForResource:ofType:
+builtInPlugInsURLbundleURLexecutablePathlocalizedInfoDictionaryinfoDictionarycontinueCleanupFor
+Upgrade:bundleLocation:error:initWithDomain:code:userInfo:
+identifierstagedBundleURLkernelExtensionHistorycurrentUAKLtriggerPanicMedicWithError:
+areKernelExtensionsApproved:withError:triggerKernelCollectionRebuildFlow:withKernelExtensions:
+withError:updateLastUsedTimes:withError:getCurrentUAKLHash:withError:
+findBundledKernelExtensions:notifyLoadedKernelExtension:withPath:
+notifyUnsupportedKernelExtension:error:
+lastUsedisCodelessisUnsupportedisDeprecatedisNotarizedcdHashbundleIDteamIDpathboolValueUTF8Stri
+ngsetLaunchPath:setStandardOutput:setStandardError:
+launchwaitUntilExitterminationStatusfileHandleForReadingmainBundlemanagedAttachWithParams:
+handle:error :BSDNameinitWithURL:error:listener:validateExtension:atTemporaryBundleURL:
+replyHandler:listener:willStartExtension:replyHandler:listener:willTerminateExtension:
+replyHandler:listener:willUninstallExtension:replyHandler:listener:willReplaceExtension:
+withExtension:replyHandler:listener:startExtension:replyHandler:listener:terminateExtension:
+replyHandler:loadExtensionsWithPaths:withReplyBlock:loadExtensionsWithPaths:withNoAuth:
+withReplyBlock:loadExtensionsWithPaths:withIdentifiers:withNoAuth:withReplyBlock:
+loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:options:withReplyBlock:
+loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:
+options:withReplyBlock:unloadExtensionsWithIdentifiers:withClassNames:options:withReplyBlock:
+pathOfExtensionWithIdentifier:withReplyBlock:checkAllFilesetsWithReplyBlock:
+clearAllStagedExtensionsWithReplyBlock:dumpStateWithReplyBlock:getCollectionPathWithCollection:
+withReplyBlock:triggerPanicMedicInRecoveryWithPath:withReplyBlock:triggerAuKCCleanup:
+withReplyBlock:buildAuxiliaryKernelCollectionForVolume:extensionsMap:instructionsData:
+withReplyBlock:migrateAuKCForVolumeGroupUUID:withMigrationSuccess:withReplyBlock:
+shortVersionStringbundleVersionFailed to submit job: %{public}s@Job submitted but not running: %d%s:
+%: could not get path for policy volume
+%: could not get path for boot caches
+%s: could not get path for source directory
+%: could not get path for destination directory
+%s: could not get path for OS manifest
+Deprecated key: %s. Ignoring.
+%: could not get path for recovery volume
+bless2_gc is deprecated, call bless2_g_with_args instead
+cannot get tag for payload, %d
+unrecognized tag for custom object: %X
+cannot get manifest for payload object, %s
+stitching failed, %d
+cannot get path for boot objects in preboot volume, %d
+the world is ending, take cover
+cannot convert auxi to a string, %d
+cannot open boot object file for writing, %d
+cannot write boot object data to file, %d
+cannot get chip id %d
+cannot get board id %d
+cannot get security domain %d
+cannot get unique-chip-id %d
+could not get device path for iSC preboot, %d
+cannot convert device path name to string
+Missing argument: %s or %s required
+Invalid file descriptor value %d for argument %s
+Incorrect type for argument: %s
+volume not on a valid boot device (per registry property)
+sEOC SMC key will not be written. Continuing...
+the volume does not have a group uuid
+cannot set the container UUID %d
+root privilege is required to set the boot volume
+Key not written to the SMC; continuing...
+could not get iterator for volume device: %X
+invalid type for device characteristics
+no device characteristics for volume
+invalid type for invalid-startup-disk property
+cannot find is container
+cannot find gpt
+parent of container scheme is ???
+parent of container scheme is not gpt, it's '%' (%zu)
+could not find iBoot img4 file: %s
+could not read contents of iBoot img4 file: %s
+could not parse %s as an Image4 file: %d
+no 'iocv' payload property in iBoot, looking at version string
+could not get version string for iBoot img4
+could not allocate memory for version string: %d
+no 'iocv' property in version string
+file %llu too large %lld
+only read %zd of %zu bytes (%d)
+munmap failed with %d
+cannot get nvram entry
+cannot create key string
+cannot create property string
+NVRAM set %s = %s
+cannot set property mach err Ox%x
+cannot get current security mode, %s
+Current security mode is %s
+could not extract last path component from %s: %could not open boot object %s: %d
+could not read contents of boot object %s: %d
+Could not create firmware object
+No valid chip was available for this firmware
+boot object %s failed to verify: %d
+cannot get policy volume mount point, %d
+cannot get local policy status, %s
+volume has no local policy
+cannot get preboot volume mount point, %d
+string too small for nsih path
+Invalid value for argument %s: %d
+Incorrect or missing required argument: %s
+Not a valid UUID value for override: %s
+cannot remove old boot obiects %d
+cannot load os mainfest %d
+cannot load bootcaches.plist %d
+cannot load buildmanifest %d
+cannot open staging directory %d
+install boot objects failed %d
+cannot commit new boot objects %d
+cannot get media object for root volume %d
+cannot get role for root volume
+cannot get %sUUID for root volume %d
+cannot get device for root volume %d
+cannot get registry entry for disk %s
+cannot find registry entry for disk %s
+cannot get root volume information %d
+cannot allocate volume properties
+bad refreshed entry
+returned group too short %u < %zu
+too few attrs returned %u, size %u
+entry name truncated %zu bytes
+zero-length entry name
+un-terminated entry name
+bad next entry
+cannot get ISC preboot volume mount point, %d
+cannot parse name %s as a UUID
+cannot get current active nsih value, %s
+cannot open directory % %d
+cannot form nsih string for path, %d
+cannot delete old boot objects %d
+cannot remove directory %s %d
+cannot reset iterator %d, %d
+cannot load bootcaches.plist file %d
+cannot create cfdata
+cannot deserialize plist, cf error %zd
+missing bless2 plist dictionary
+bless2 entry is not a dictionary
+cannot get build identity %s, %d
+cannot pull out source boot objects %d
+machine chip %u, board %u, sec domain %u
+unmapped authinstall error %u
+cannot create url from '%s'
+cannot create variant string
+cannot get build identity 'manifest' entry, %d
+cannot create staging base %d
+cannot unlink %d/'%s', %d
+new dir %d/'%s'
+mkdirat failed %d
+cannot format nsih string, %d
+path '%s' is illegal
+build path %d/'%s'
+illegal '..' component
+cannot make boot object iterator %d
+object %zu doesn't match bootobj spec
+installation failed %d
+cannot open apticket.der
+cannot write apticket.der
+no boot obiects
+cannot open source boot object %d
+cannot open dest boot object %d
+stitching failed %d
+cannot convert bootobject name to string
+object '%s'
+cannot get '%' in buildmanifest %d
+cannot open % from bundle %d, %d
+cannot get entry for boot object '%s', %d
+cannot get boot object info, %d
+cannot get boot object path, %d
+cannot convert boot object path to C string
+payload type for object "%" is not a string
+paylod type for object "%s" is not a valid payload type
+cannot convert payload type for object "%" to C string
+cannot convert bootobject dest to string
+cannot load source object %d
+could not re-create payload with new tag %s
+cannot write out stitched object %d
+cannot truncate stitched object to %u, %d
+cannot fsync stitched object %d
+preallocation is not supported on this filesystem
+failed to preallocate %lld bytes: %s (%d)
+0x%08llX bytes preallocated for %d
+commit staging %d/'%s'
+Missing argument: a preboot volume is required
+Missing argument: a policy volume is required
+could not get a matching dictionary for %s
+cannot create array for role property
+cannot create dictionary for property match
+could not find preboot volumes: %X
+No BSD Name for preboot volume!
+cannot convert BSD Name property to C string
+Updating preboot volume at /dev/ %s
+Cannot create inputs dictionary for %s
+Cannot create outputs dictionary for %s
+Callback for preboot volume at /dev/% failed: %d%s: could not get path for preboot volume
+Invalid file descriptor value % for output %s
+Incorrect type for output: %s
+Missing callback output: a preboot volume is required
+Updating UUID directory %s
+"%s" not a valid uid directory name
+no active nsih value for UUID %s
+no proposed nsih value for UUID %s
+Updating objects for nsih %s
+No linked auk manifest for path
+cannot get digest for 'auxk' from manifest, %d
+'auxk' digest has Unexpected size: %ld
+No directory for AuxKC objects
+Found auxkc file %s
+Obsolete auxkc file %s found
+Removing obsolete aukc file %s
+Ignoring in-use auxkc file %s
+couldn't get payload from auxkc file: %d
+could not open new auxkc file %s: %d
+couldn't write data to new aukc file %s: %d
+Wrote new auxkc file %s
+No linked fuos manifest for path
+cannot get manifest hash, %d
+couldn't convert manifest hash to digit string: %d
+cannot get digest for 'fuos' from manifest, %d
+"fuos' digest has unexpected size: %ld
+No directory for custom KC objects
+could not open file %s: %d
+could not load data from file %s: %d
+couldn't parse %s as an Image4 file: %d
+couldn't get manifest hash for file %s: %d
+couldn't get payload hash for file %s: %d
+Found custom kc file %s
+Obsolete custom KC file %s found
+Removing obsolete custom KC file %s
+cannot remove file %s: %d
+Ignoring in-use custom KC file %s
+file already up to date, no restitching required
+couldn't get payload from fuos file: %d
+re-stitching failed: %d
+could not open new custom KC file %s: %d
+couldn't write data to new custom KC file %s: %d
+Wrote new custom KC file %s
+cannot parse object payload as an im4p, %d
+cannot get tag for object payload, %d
+cannot get active nsih value, %s
+cannot form active nsih string for volume, %d
+cannot get proposed nsih value, %s
+cannot form proposed nsih string for volume, %d
+cannot get asmb node in device tree
+cannot get booted nsih value
+cannot form currently booted nsih string for volume, %d
+no boot directory to clean up
+cannot open boot directory %d
+cannot garbage collect %d
+rename phase failed %d
+remove phase failed %d
+skipping %s
+exclude nsih '%s'
+gc '%s'
+cannot rename %d/'%s' -> %d/; %d
+Warning: nsih '%s' directory not found during iteration
+unmapped img4 error %d
+cannot get device tree hashing type
+hashing method is not a string
+non SHA-384 algorithm returned,
+only wrote %zd of %zu bytes (%d)
+cannot get volume's container
+cannot iterate children, mach err 0x%x
+child %s, class %s
+cannot get bsd dev node
+cannot convert dev node to string
+cannot get uid ???
+cannot convert uid to string
+iokit returned non-uuid
+cannot get service
+cannot get boot triple %d
+volume uid '%s'
+cannot get volume uid %d
+group uuid '%s'
+not backed by gpt
+container uid "%s'
+backing storage looks like a diskimage
+disk is external?: %d
+cannot determine container type %d
+container type uid '%s'
+cannot get protocol characteristics
+cannot get gpt slice uid %d
+Invalid underlying gpt type '%s'
+cannot get device tree
+could not find AppleSMC kext: %X
+could not get AppleSMC kext from iterator
+could not open AppleSMC service: %X
+could not initiate communication with AppleSMC service: %X
+invalid I/0 port for writing SMC key
+value too large for SMC communication: %lu bytes
+could not write AppleSMC key: %X
+could not send close message to AppleSMC service: %X
+error closing AppleSMC service: %X
+%s : %s: called.
+%s : %s: CS[%u] created.
+%: %: returning, err = %ld.
+%s: %s: CS[%u] acquired.
+%s: %s: returning, -> ctx = %p.
+%s: %s: CS[%u] %s.
+%s: %s: returning.
+%s: %s: returning, err = %ld, var=%u.
+%: %: returning, err = %ld, code=%u.
+%: %s: log level set to %d.
+%s: %s: legacy backend detected.
+%: %s: Server version is %d.
+%s: %s: cmd (%u) on CS[%u] -> err 0x%x (%d)
+%s: %s: cmd (%u) on CS[%u] -> ok.
+RunningBoardSupport
+kernelmanagerdDeveloperKitClient
+_ObjectiveCBridgeableP_pi
+kernelmanagerdSIPStatus
+kernelmanagerdProcessIdentityishP
+kernelmanagerdLaunchContextishP
+kernelmanagerdLaunchRequestishP
+kernelmanagerdRunningBoardishP
+kernelmanagerdCoreAnalyticsEventP
+kernelmanagerdCoreAnalyticsClientP
+kernelmanagerdCacheBuilderFactoryP
+kernelmanagerdCacheBuilderP
+kernelmanagerdKernelRequestFromUserP
+kernelmanagerdKernelRequestP
+kernelmanagerdKernelRequestWithIdentifierP
+kernelmanagerdKernelRequestFromB0P
+kernelmanagerdProcessInfoishP
+kernelmanagerdKernelClientP
+kernelmanagerdRequestSourceDaemonQ
+kernelmanagerdDaemon
+associatedApplicationIdentifier_
+kernelmanagerdActivatableRequestSource
+_dispatch_source_mach_recv_
+OS_dispatch_queue
+NSObjectDaemon
+NSXPCListener
+kernelmanagerdNSXPCRequestDelegateP
+NSXPCConnection_OS_dispatch_semaphore
+GSMManagerSpy
+LAContextCS
+kernelmanagerdDeviceProperty
+kernelmanagerdDeviceProperties
+kernelmanagerdFeatureFlag
+kernelmanagerdFeatureFlagsClient
+OptionSet
+SetAlgebra
+ExpressibleBArrayLiteral
+kernelmanagerdPropertyCheckable
+NSPredicate_OSLogEventLiveStream
+NSPredicate_NSRecursiveLock
+OS_dispatch_queue
+key_value
+kernelmanagerdXPCEventPublisher
+OS_xpc_event_publisher
+kernelmanagerdNVRAMClient
+NSLoCk
+key_data_offset_value
+kernelmanagerdMachOData
+kernelmanagerdFileHandleish
+kernelmanagerdFileManagerish
+OS_xpc_object_
+kernelmanagerdDistNote
+kernelmanagerdKextHistoryItem
+kernelmanagerdSystemPolicyClient
+kernelmanagerdCodeSigningInfo
+kernelmanagerdCodeSigningResolver
+kernelmanagerdURLesourceValuesish
+kernelmanagerdSideEffects
+kernelmanagerdDiskManagerClient
+key_value versionS_identifier_dependent_dependency_requiredVersion_error
+KernelExtensionPolicy
+KernelExtensionHistory
+kernelmanagerdTypeNameBucket
+KernelExtensionHistoryCS
+OS_xpc_object_p
+kernelmanagerdTypeNameBucketP
+kernelmanagerdLaunchServices
+kernelmanagerdAPFSClient
+kernelmanagerdBridgeClient
+OSSystemExtensionPointListener
+OSSystemExtensionInfo
+cdHashteamIDbundleIDHashversionkersProductBuildVersionse_rawValueRawValue_ ObjectiveCTypeRawValuecontentssystemrecoverydataprebootiscPrebootsevolumeGroupUUIDsystemBsdName recoveryBsdNamedataBsdNameprebootBsdNameiscPrebootBsdNamevolumevolumeTypebsdNamemountURLdidMountmountedPrebootmountediSCPrebootmountedDatamountedSystemsetUpvalidationbuildsaveAukcstartedcompletederrorstatusfatalErrorcheckpointsdiscardedKextsversionkextsToBuildbundlePathMainOSteamIDcdHashfolderURLkextFolderURLinstructionsPlistURLcheckpointsPlistURLUAKLPlistURLkcgenFolderURLadminUserListURLvolumeFamilyprebootVolumebuildInputManagerGeneratedUIDcallbackkinddatawarningsbuilderdoneresult_delegateResponseTypeRawValueAllCasesargumentsloadedunloadedanytypemessagemodulecla Ss$_ _Lazy_storage_$_isAppleInternal$_ _ lazy_storage_$_inRecovery$__lazy_storage_$_inBaseSystem$ _lazy_storage_$_inDarwinOS$__lazy_storage_$_inFVUnlock$__lazy_storage_$_inKcgen$__lazy_storage_ $_ _inMainOS$_ _lazy_storage_$_inSafeBoot$. _Lazy_storage_$_variant$_ _lazy_storage_$_bootArgs$_ lazy_storage_$_kcSuffix$_ _lazy_storage_$_disableAuxKCAtBoot$_ _ Lazy_storage_$_enableKextLogging$ _lazy_storage_$_dextASanSandbox$__lazy_storage_$_processInforawValueenabledallPresentdifferenceDaemonthirdPartyfirstPartydaemondispatchSourcereguestQueueservicePortlistenersuccesserrorStatussemdiskArbSessionqueuecallbacksRegisteredcallbackDenyRemoveDiskNamedmManagerseholderdmcRawValuebpcrefcontextownersExistse$__lazy_storage_$_isBootPolicyAvailablerawValueRawValueElementRawValueArrayLiteralElementrawValue_rawValue_ObjectiveCType_rawValueRawValue_ObjectiveCTypedescriptionblockcomposedMessageformatStringprocesssendersignpostNamesignpostTypeprocessIdentifierrawValueElementRawValueArrayLiteralElementsesettings_tableexceptionLists_historyItems_loadInfobundleElisionsmanagerVersionbootPathsystemPathauxPathsystemAuxPathrepositoryPathsbundlePathsbundleIdentifiersauxiliaryBundlePathskernelArchuserArchvariantvolumeRootsdkPathskdkPathsbuildVersionconfigexceptionsfilterflagsketsOutOfOSImageFeatureCheckpointrawValueincludeIdentifiersexcludeIdentifiersoptionalIdentifierspredicatespredicatesForAllrecursiveLockcollectionsinvalidExtensionsloadedIdentifiersbyExtensionbyIdentifierbyCollectionKindbURLwrappedValueupdateBlocktoggledvaluequeveincludeexcludenoneElementRawValueArrayLiteralElementflagsextcsicsthistoryItemloadInfouuidunstagedURLbundleArchesrepoIndexvalidationErrorsrawValuecacheLoadAddressloadStateloadInfoDictloadednotLoadedotherUUIDotherVersioncollectionbootCollectionUUIDpageableCollectionUUID extensionsElementRawValueArrayLiteralElementrawValuepublisherqueuenamependingSubscribers. subscribers$_lazy_storage_$_secureBootPolicy$__lazy_storage_$_ apfsSnapshotsEnabledoptionsElementRawValueArrayLiteralElementcontentsserssconfigmanagerqueueutilityQueueauKCContentsInKernelapprovedKextsWaitingToBeBuiltdaemonResourceLockdextRecordPlistManagerkmdSignposterdaemonCheckInIntervalrawValuedepends0ndependedOnByRawValuesegmentsectionnamekindkpikpiPrefixkpiAliasundefinedabsolutepreboundindirectrawValueotherkernelauxcustomkclokcepkcrfkcrzkcwfkcwzkclfkclzheader64header32magiccputypecpusubtypefiletypencmdssizeofcmdsflagsreservedbyteorderdescriptionn_Unn_typen_sectn_descn_valuenfat_archoffsetsizealign__X__opaque_fp__opaque_tr__opaque_sp__opaque_pc__cpsr__opaque_flagscmcmdsizesegnamevmaddrvmsizefileofffilesizemaxprotinitprotnsectsRawValueElementArrayLiteralElementrawValue_rawValue_ObjectiveCTypef_bsizef_iosizef_blocksf_bfreef_bavailf_filesf_ffreef_fsidf_ownerf_typef_flags_fssubtypef_fstypenamef_mntonnamef_mntfromnamef_flags_extf_reservedvalkextHistoryvaklPathfmawValueteamIDplatformBinarynonerawValueunknownappleunsignedsignedNotAppleRootsignedAppleRootsignedDeveloperIDstrictstrictNoNetworknormaladhocarvbasicentitlementscdHashsigningIdentifiersubjectCNissuerCNsigningTimeseseElementRawValueArrayLiteralElementmanagerVersionnewCollectionsinputCollectionsrequiredIdentifiersoptionalIdentifiersexcludedIdentif iersrequiredPathskernelPathstripemitMachoWithExtinstructionsDatadiscardedKextsoutputPathsflagsr awValuebuiltResultsreceipt_rawValue_ObjectiveCTypenodesresolveddependenciesincompatibilitiesinvalidVersionidentifierNotFoundcompatibilityNotFoundcircularDependencyincompatiblityconsideredconsideredAllinfolocationoriginURLdigestbundlecollectionkernelRawValuekcvolumeSummarybundletokenlocalUserCommandLinerecoveryUserCommandLinerawValueRawValueverspatharchkinddataRawValueidentifierurlcollectionextensionTypebundleswithExtensionnoExtensionRawValuemultipledeserializationkernelCommunicationkernelRequestdriverKitLaunchextensionLoadcollectionLoadcollectionLinkageresourceLoadinvalidArgumentnotFoundkernelCollectionBuildrealizingdependencyResolutionmissingDependencyRequestincompatibleVersionincompatibleArchitecturevalidationinvalidPropertiesfilesystemdiskAccessflowccessrecoverynvramAccessbinaryParsingfutureVersioncacheBuildingstagingsystemPolicyunapprovedToLoadunapprovedToLoadMultipleauthenticationsandboxconfigurationloggingErrorsubprocessFailedinsufficientPermissionsinvalidKeyunloadlistErrorrunninglistErrordumpstateErrordiagnoseErrorbootPolicyexceptionListcodeSigningtriggerPanicMedicconsistencyCheckinSafeBootinDarwinOSinternalErrorrequiresRebootinKcgenOSduplicateExtensioninExcludeListmigrationErrorunsupportedErrordeveloperToolsErrorfilesetErrormissingDeveloperKitkdkInstallerErrorknoxDownloaderErrorpackageInstallerErrordextRecordErrorsystemExtensionWaitForTerminationsystemExtensionsErrorserialization_rawValueRawValue_ObjectiveCTypeRawValueextensionsallLoadsuserLoadsauxKCSizekextSizesname_rawValue.ObjectiveCTypepathisBeingReplacedhistoryversiontabledextRecordPlistPathseplistLockbundleIDcdHashVersionBootSessionSignedKernelExtensionsUnsignedKernelExtensionsfm$_ _lazy_storage_$_spAvailable$__lazy_storage_$_spClient$_lazy_storage_$_spHistoryincreasingdecreasing0therKextDextNotPresentpathseValueisPlaceholderbundleIDsstandardOutputstandardErrorreturnCodeRawValueElementRawValueArrayLiteralElementAllCasesrawValuekcSuffixreleasedevelopmentdebugaddressSanitizerresearchdisabledglobalpersonalkcgenallDextsEnabledhidDextsEnabledecmDextsEnablede1000DextEnabledthirdPartyDextsoneProcesskextsOutOfOSkextsInKDKdeviceTreePathpropertyNameManagerVersionKernelPathArchitecturesBootKernelCollectionSystemKernelCollectionAuxiliaryKernelCollectionBaseSystemKernelCollectionSystemVolumeSystemKernelCollectionDaemonExtensionPathsPlatformExtensionPathsAllExtensionsPathsAuxiliaryExtensionPathsPlatformDriverExtensionsDirectoryUserDriverExtensionsDirectoryUserSystemExtensionsDirectoryThirdPartyDriverKitStagingDirectoryApprovalsDatabasePathApplicationCachePathExceptionsDeniedIdentifiersnamecputypecpusubtypebyteorderdescriptionrawValueRawValuebundleIDversionnamepathexecPathisCodelesshashteamIDsubjectCNissverCNsigningTimesignatureTypeisFatarchitecturespersonalityNamesapprovedExtensionInfolaunchedExtensionInfoseauxkcrawValueRawValuef_bsizef_iosizef_blocksf_bfreef_bavailf_filesf_ffreef_fsidf_ownerf_typef_flagsf_fssubtypef_fstypenamef_mntonnamef_mntfromnamef_flags_extf.reservedlengthreturned_attrssnap_uidvalcommonattrvolattrdirattrfileattrforkattrshouldAuditKextskextAuditIOConnectionkcloadTypecdHashteamIDbundleHashkextVersionpaddingstatusketAuditEntriesloadTypecdHashteamIDbundleHashkextVersionpaddingDaemonkmstreamCallbacksysExtPointListenerdaemonconnectionrawValueArrayLiteralElementRawValueElementRawValueAllCasestypelistversionversionExcludeListsignatureExceptionListstrictExceptionListversionStringspeccdhashanylessThanless0rEqualequalgreaterThangreater0rEqualFatal errorDown-casted Array element failed to match the target typeExpected NArray element failed to match the Swift Array Element typeExpected Cannot find best developer kit: No stem build version given / derivedCould not find aSDK or KDK installed that matches system's build version Could not getBuildVersion since noside-effects foundCould not find %{public}sCould not read from %{public}s: %{public}sCould notgetXcodeDevDir since no side-effects foundCould not obtain selected Xcode developer dirSelectedXcode developer dir: %{public}sCould not getMatchingDevKit since no side-effects foundCould notget real path for %{public}s: %{public}sCould not get real path for %{public}s%{public}s DevKit does not contain %{public}smatching KDK not found in %{public}smacOSInternalKDK is notfound in the System volume file hierarchy at %public smacOSInternalKDK is not found in theData volume file hierarchy at %{public}sretry failed: macOSInternalKDK is not found in the Datavolume file hierarchy at %{public}sCannot getXcodeDevDir on MinimalDeveloperKitClientCannotgetMacOSSDKPath on MinimalDeveloperKitClientCannot getMacOSKDKPath onMinimalDeveloperKitClientCannot getValidKextRepoPath onMinimalDeveloperKitClient_TtC14kernelmanagerd22RealDeveloperKitClient_TtC14kernelmanagerd25MinimalDeveloperKitClientProductBuildVersioncould not get a matchingDeveloper Kit directory: %{public}sAttaching a AllowAllSystemPolicyClient sinceSPKernelExtensionPolicy is Unavailable in darwinOSAttaching a MinimalDeveloperKitClient sincedeveloper kits are Unavailable in darwinOSAttaching a AllowARVOnlySystemPolicyClient sinceSPernelExtensionPolicy is Unavailable in base systemAttaching a MinimalDeveloperKitClientsince developer kits are unavailable in base systemTried to get system disk layout info usingLimitedDiskManagerClient.The system disk lavout was not as per LimitedDiskManagerClient's assumptions.Unexpected related errors may follow.cannot create UUID object from Unable to get device namefor not mounted and tryMount not requestedtrying to mount volume %{public's not found mountedafter mounting itcan not stat disk at volume %{public}s mounted at %{public}sgetting currentsnapshout mounted at: %{public}sattempting to find root-snapshot for %{public}smounting %{public}s, snapshot %{public}sSystemRootSnapshot.XXXXXXmountpoint is already mounted atsnapshot %public}s, continuingvolume % is already mounted at %public}sexpecting to find %smounted at %{public}sTrying to inititalize mounted volume at %{public}s usingLimitedDiskManagerClient:This client cannot guarantee if this volume will be mounted and remain mounted for theentirety of it's Usage.unmounting volume: %{public}sunmounting volume: %{public}s failed%Unable to create bundle from path: Unable to create extension from bundle: ' in bundle at"Cannot get bundle for Copying kext from % to %sError committing temp direcory. It ended upin: Loading allowed admin users from: %{public}sCould not open admin user list: failed todecode allowed user list: %Impossible to write to kcgen checkpoint plist error %{public}sAboutto copy UAKL in preboot folder at %About to copy instructions in preboot folder at %sAbout tocopy kexts in preboot folder at %Instruction plist not found, nothing to be migratedNo iSCPreboot volumecould not open preboot mount path: could not open iSC preboot mount path: sourecauxiliary collection does not exist: copying auxiliary collection to: %public}so device nodefor iSC preboot volumeusing libbless2 to install preboot objectopened preboot: %{public}s(%@)opened iSC preboot: %{public}s (%@)preboot object data is not in im4p format is not aString orDatasetUpvalidationbuildsaveAuxkcstartedcompletederror_TtC14kernelmanagerd16KcgenSideEffects_TtC14kernelmanagerd12VolumeFamilyvolumeGroupUUIDsystemBsdNamerecoveryBsdNamedataBsdNameprebootBsdNameiscPrebootBsdName_TtC14kernelmanagerd13MountedVolumevolumevolumeTypebsdNamemountURLdidMountTtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountedPrebootVolumemountedPreboot_TtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountediSCPrebootVolumemountediSCPrebootTtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountedDataVolumemountedData_TtC14kernelmanagerd19MountedSystemVolumemountedSystem_TtC14kernelmanagerd10CheckpointstatusfatalError_TtC14kernelmanagerd17BuildInputManagerfolderURLkextFolderURLinstructionsPistURLcheckpointsPlistURLUAKLPlistURL_TtC14kernelmanagerd14PrebootManagerkcgenFolderURLadminUserListURLvolumeFamilyprebootVolumebuildInputManagerbundlePathMainOSCannot find UUID folder path is not a directoryImpossible to writeto kgenFlowNvram error %{public}sInvalid instructions plist version Cannot get bundle for kextCannot get bundleIdentifier for bundle creating instruction for % chash: %{public}s team: %{public}sInvalid checkpoint Cannot find mount path Couldn't determine protection class ofvolume at path: %{public}s (%)_TtC14kernelmanagerd17EmbeddedSIPStatus@"NSDictionary"8@?0_TtC14kernelmanagerd23RealCoreAnalyticsClientExecutable path is nil with non-nil data for thebundle with identifier Executable path • is non-nil with nil data for the bundlewithidentifiercreateCacheBuilder(for:stripMode:arch:verbose:)_TtC14kernelmanagerd23RealCacheBuilderFactory_TtC14kernelmanagerd16RealCacheBuilderbuilderdoneresult_delegate has no predicateUnrecognizedpredicate requires arguments, but none were providedkernelmanagerd/KernelClient.swiftUnknowncollection kind (kernel): %{public}sterminate IOService instance 'logs response loadingextension from in-kernel fileset: %public}s (%{public}s start, %{public}smatch)fvunlockkcgenkmlog not specifieddext_asan_sb boot-arg present: %dUnknown error occurredstopping classes (error code You must be running as root to Unable to deserialize logdata.Unable to get log flags and messages. Unable to deserialize kernel response.Received anunexpected null/empty response for request: CPU Type is not a number?OSKernelCPUSubtypeCPUSubtype is not a number?Unknown CPU type % with subtype %dIODeviceTree:/chosenecid read fromIORegistry is not CFDatacould not convert ecid to DataNo IOEntry found for IODeviceTree:chosenenableKextLoggingdisableAuKCAtBootgetSysctlByName(_:expect:)kextRequestWithLogs(request:expect:)getRunningArchitecturesendDataToCatalog(flag:_:)notifyCatalogModuleLoaded(moduleID:)pgetRunningUserspaceArchitecture()LoadedUnloadedAny_TtC14kernelmanagerd16RealKernelClient$__lazyp_storage_$_isAppleInternal$_lazy_storage_$_inRecovery$_lazy_storage_$_inBaseSystem$_lazy_storage_$_inDarwinOS$__lazy_storage_$_inFVUnlock$_lazy_storage_$_inKcgen$_lazy_storage_inMainOS$__Lazy_storage_$_inSafeBoot$_ _lazy_storage_$_variant$_lazy_storage_$_bootArgs$__lazy_storage_$_kcSuffix$__lazy_storage_$_disableAuKCAtBoot$__lazy_storage_$_enableKextLogging$lazy_storage_$_dextASanSandbox$__lazy_storage_$_processInfo_TtC14kernelmanagerd13RealSIPStatusenabledunknown differencemach-oUUIDchanged fromkernelmanagerd/Difference.swiftEncountered Unexpected kernel load informationupdated extension
+'%{public}s' found in collection '{public}s' (%{public}s)updated extension " found in
+collection 'updated extension '{public}s' found on disk at '%{public}s' (%{public}s)' found on
+disk at 'no Info.plist digestsInfo.plist changedmatched extension '%{public}s' from '%{public}
+s' inside current collection '{public}s'ignoring Driverkit extension '{public}s' from '%
+{public}s'Unable to resolve dext with identifier , could not find dextFound %{public}d dexts
+with bundle identifier %{public}sNo unique identifier available to disambiguate between dexts
+of bundle identifier %{public}sArbitrarily picking first dext with bundle idenfier %{public}
+sPicked matching dext for bundle identifier %{public}s: %{public}sRequest to strictly match a
+dext of bundle identifier without the needed unique identifierUsing unique id %{public}s to
+pick dext matching bundle identifier %{public}sNo dexts with bundle identifier %{public}s
+matched unique id %public}sDid not find dext with bundle identifier and unique identifier %
+{public}s %{public}s Ox%lx %{public}s, is not a DriverExtensionInvalid check in token port:
+v8@?0com.apple.kernelmanagerd.KernelRequestSourcekernelmanagerd/DaemonSupport.swiftGot invalid
+service port.activate Attempt by non-root pid %d to access interfaceAttempt by unentitled pid
+% to access interfaceCould not determine running kernel architecture.Could not determine
+running Userspace
+architecture.daemondispatchSourcerequestQueueservicePortc32@0:8@16@24listenerkernelmanagerd.
+NSXPCRequestSourceinit()listener (_:shouldAcceptNewConnection:)Pid: %Connection with client pid
+% invalidated. Connection with client pid % interrupted. Received MIG messageUnknown MIG
+message received.Failed to process MIG
+message.OS_dispatch_source_mach_recvNSXPCListenerDelegate
+@"NSXPCListener"16@"NSXPCConnection"OS_dispatch_source
+Fatal errorDown-casted Array element failed to match the target type
+Expected NArray element failed to match the Swift Array Element type
+Expected Cannot find best developer kit: No stem build version given / derivedCould not find a
+SDK or KDK installed that matches system's build version Could not getBuildVersion since no
+side-effects foundCould not find %{public}sCould not read from %{public}s: %{public}sCould not
+getXcodeDevDir since no side-effects foundCould not obtain selected Xcode developer dirSelected
+Xcode developer dir: %{public}sCould not getMatchingDevKit since no side-effects foundCould not
+get real path for %{public}s: %{public}sCould not get real path for %{public}s%{public}s Dev
+Kit does not contain %{public}smatching KDK not found in %{public}smacOSInternalKDK is not
+found in the System volume file hierarchy at %public smacOSInternalKDK is not found in the
+Data volume file hierarchy at %{public}sretry failed: macOSInternalKDK is not found in the Data
+volume file hierarchy at %{public}Cannot getXcodeDevDir on MinimalDeveloperKitClientCannot
+getMacOSSDKPath on MinimalDeveloperKitClientCannot getMacOSKDKPath on
+MinimalDeveloperKitClientCannot getValidKextRepoPath on
+MinimalDeveloperKitClient_TtC14kernelmanagerd22RealDeveloperKitClient_
+TtC14kernelmanagerd25MinimalDeveloperKitClientProductBuildVersioncould not get a matching
+Developer Kit directory: %{public}sAttaching a AllowAllSystemPolicyClient since
+SPKernelExtensionPolicy is Unavailable in darwinOSAttaching a MinimalDeveloperKitClient since
+developer kits are Unavailable in darwinOSAttaching a AllowARVOnlySystemPolicyClient since
+SPernelExtensionPolicy is Unavailable in base systemAttaching a MinimalDeveloperKitClient
+since developer kits are unavailable in base systemTried to get system disk layout info using
+LimitedDiskManagerClient.
+The system disk lavout was not as per LimitedDiskManagerClient's assumptions.
+Unexpected related errors may follow.cannot create UUID object from Unable to get device name
+for not mounted and tryMount not requestedtrying to mount volume %{public's not found mounted
+after mounting itcan not stat disk at volume %{public}s mounted at %{public}sgetting current
+snapshout mounted at: %{public}sattempting to find root-snapshot for %{public}smounting %
+{public}s, snapshot %{public}sSystemRootSnapshot.XXXXXXmountpoint is already mounted at
+snapshot %public}s, continuingvolume % is already mounted at %public}sexpecting to find %s
+mounted at %{public}sTrying to inititalize mounted volume at %{public}s using
+LimitedDiskManagerClient:
+This client cannot guarantee if this volume will be mounted and remain mounted for the
+entirety of it's Usage.unmounting volume: %{public}sunmounting volume: %{public}s failed
+%Unable to create bundle from path: Unable to create extension from bundle: ' in bundle at
+"Cannot get bundle for Copying kext from % to %sError committing temp direcory. It ended up
+in: Loading allowed admin users from: %{public}sCould not open admin user list: failed to
+decode allowed user list: %Impossible to write to kcgen checkpoint plist error %{public}sAbout
+to copy UAKL in preboot folder at %About to copy instructions in preboot folder at %sAbout to
+copy kexts in preboot folder at %Instruction plist not found, nothing to be migratedNo iSC
+Preboot volumecould not open preboot mount path: could not open iSC preboot mount path: sourec
+auxiliary collection does not exist: copying auxiliary collection to: %public}so device node
+for iSC preboot volumeusing libbless2 to install preboot objectopened preboot: %{public}s
+(%@)opened iSC preboot: %{public}s (%@)preboot object data is not in im4p format is not a
+String or
+DatasetUpvalidationbuildsaveAuxkcstartedcompletederror_TtC14kernelmanagerd16KcgenSideEffects_
+TtC14kernelmanagerd12VolumeFamilyvolumeGroupUUIDsystemBsdNamerecoveryBsdNamedataBsdNameprebootB
+sdNameiscPrebootBsdName_
+TtC14kernelmanagerd13MountedVolumevolumevolumeTypebsdNamemountURLdidMount
+TtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountedPrebootVolumemountedPreboot_
+TtC14kernelmanagerdP33_
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountediSCPrebootVolumemountediSCPreboot
+TtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountedDataVolumemountedData_
+TtC14kernelmanagerd19MountedSystemVolumemountedSystem_
+TtC14kernelmanagerd10CheckpointstatusfatalError_
+TtC14kernelmanagerd17BuildInputManagerfolderURLkextFolderURLinstructionsPistURLcheckpointsPlis
+tURLUAKLPlistURL_
+16@0: 8hashTq, N, superclassT#, N, descriptionT@"NSString", N, RdebugDescriptionc24@0:8@"Protocol"16
+@"NSString"16@0:8RealDiskManagerClient callback queuekernelmanagerd/
+RealDiskManagement. swiftCannot create DASessionunable to create DADisk for Could not get disk
+infoCould not get disk NSULtrying to mount iteration %dissenter error was %could not mount:
+Could not mount volume mount timed out bless2 is available, trying to find iSC preboot
+volumeSystem Disk layout:
+Requested Target: %public}s, %public}s (%{public}s)
+OS Preboot Volume: %{public}s
+iSC Preboot Volume: %{public}s
+Chosen Preboot Volume: %{public}s
+System Volume: %{public's
+Recovery Volume: %{public}s
+Data Volume: %public}sbless2 is not available, no isC preboot volume/System/Library/
+CoreServicesUnable to setBootWithCompletionBlock for uid
+TtC14kernelmanagerd26MountCompletionHandlerDatasuccesserrorStatussem_
+TtC14kernelmanagerd21RealDiskManagerClient@16@0:8v16@0:
+8diskArbSessioncallbacksRegisteredcallbackDenyRemoveDiskNamedmManagerholderAPFSContainerVolumeG
+roupGetSystemAndDataVolumes returned APFSVolumeRoleFind failed APFSVolumeRoleFind( returned
+DiskManagement returned no diskscould not find disk for UUID found a disk matching group UUID %
+{public}s: %{public}sallowing unmount/eject: %{public}scallbacksRegistered is 0 when trying to
+unregister callbackapprovalCallbackHandler called!Could not get reference to
+RealDiskManagerClientCould not get bsd name for %{public}sDissenting to unmount/reject %
+{public}s from KernelManagementKernelManagement is using it!preventing unmount/eject: %{public}s
+No context passed to MountCompletionHandlerDisk successfully mountedFailed to mount disk
+(status: 0x%, reason: %{public}s)Cannot createLinkedManifest on a system without
+ownersreceived an empty ACMContextRef for a systems with ownersError creating linked manifest:
+code Cannot update local policy for kcOS on a system without ownersError updating local policy:
+code Cannot updateCustomBootObject on a system without ownersError updating custom os local
+policy: code Error setting 3rd party kexts tag: code Error setting permissive security tag:
+code bootpolicy_verify_local_policy_pairing said pairing is okay,
+no need to apply paired recovery fixups to this volumeError getting BootPolicy mode for System/
+Library/Caches/apticket.derbootpolicy_update_local_policy_for_post_software_update_fixups
+returned Successfully fixed local policy pairing with
+bootpolicy_update_local_policy_for_post_software_update_fixupsSPLAT fixups to local policy
+neededNo owners exist on the system. Not attempting to delete ACMContextRefUnable to get
+getpwnamUnable to get valid externalizedContextUnable to set credentials, possibly wrong name
+or passwordnot a valid admin user for the volume at ∞No owners were found on this system. We
+will not attempt to consume rebuild tokensUnable to allocate authentication context.attempting
+to consume kcos auth tokenUnable to consume authentication token, Boot policy error: %Failed
+to get security mode err=Current boot policy mode: %{public}sNo side effects found for
+RealBootPolicyClientapplying Local Policy fixups as needed... Cannot read
+local_policy_boolean_tag: %{public}sBoot policy not availableError for
+bootpolicy_get_sip_flags: code Error verifying UAKL: code Error getting AuxKCManifest: code
+Received empty AuxKCManifestError updating local policy nonce: code Error finalizing local
+policy: code Could not get current OS type from boot policy: Could not convert current OS type
+to string using bootpolicy_os_type_to_stringSystem not booted in macOS Recovery, it is running
+%{public}sSystem booted in %{public}s, modifying security settings is
+allowedbootpolicy_get_current_os_type_restrictions_override_status returned %public}sSystem is
+booted with overrides, allowing modifications to security
+settingsbootpolicy_verify_local_policy_pairing returned %{public}sRealBootPolicyClient does not
+have valid side effectsSPLAT manifest does not exist at %s, skipping SPLAT local policy
+fixupsbootpolicy_get_spih found a SPLAT image4 manifest hash, no need to update local policy
+with SPLAT fixupsCould not get
+ECID_TtC14kernelmanagerd33RealAuthenticatedBootPolicyClientbpcrefcontextownersExist_
+TtC14kernelmanagerd20RealBootPolicyClient$_ _ lazy_storage_$_isBootPolicyAvailablecannot find
+default uid%sfixing up paired recovery local policy... Could not fix paired recovery local
+policy: %{public}sfixing up splat local policy...Could not fix splat local policy: %{public}sno
+fixups needed for paired recovery local policy...Cannot find a default uid to use as
+targetUnable to get valid ACMContextCreateWithExternalFormCould not get
+unsafeFileSystemRepresentation for
+bootpolicy_update_local_policy_for_post_software_update_fixups_with_splat
+returned Successfully updated local policy SPLAT fixups using
+bootpolicy_update_local_policy_for_post_software_update_fixups_with_splatbootpolicy_create_
+paired_recoveryos_local_policy returned Successfully created paired recoveryOs local
+policyStarting userland kernel management subsystem (%{public}
+sKernelManagement_executables-331.81.1kernelmanagerd/main.swiftThis daemon may only be started
+by initproc.com.apple.KernelManagementPingServerBootstrap check in failed: kernelmanagerdServer
+name: %{public}scom.apple.KernelExtensionServercom.apple.kernelmanagerd.NSXPCRequestSource:
+starting log stream reflection..
+" or process = 'kmutil')Could not find property Could not
+find entry with device tree path
+_TtC14kernelmanagerd20RealDevicePropertiesisFeatureEnabled(key:)_
+TtC14kernelmanagerd22RealFeatureFlagsClientconsiderLoadsOrRebuilds(paths:identifiers:
+personalityNames:extraRepositories:dependencyKextsAndRepositories:existingAuKCContents:flags:)
+kcgen activation settings: %{public}sextensions matching requested identifiers:%{public}
+sextensions matching requested paths:extensions matching requested paths after filtering with
+boot and sys KC contents:additional build candidates: %{public}sfailed to load existing
+contents of %{public}s: %{public}shandling quick AKEL check returned error %{public}s. Ignoring
+it as it will be captured in the full dependency resolutionAt least one of the request
+extensions / bundled extensions %{public}s are NOT in the exclude list. Will do full resolution
+of load requestbuilding not requiredresolved kext load request:
+% direct platform kext loads,
+% direct auxiliary kext loads,
+%d aukc candidates (%{public}s)
+% awaiting reboot (already approved)
+% approvals neededpre-flighting %{public}s buildpre-flight failed, building only existing
+%{public}s contents: %{public}sbeginning %{public}s build for % kextsCould not set up copy of
+build information: %Writing new %{public}s to %{public}sWritten %{public}s data to %{public}s,
+moving to %public}sfailed to move %{public}s to %{public}s: %{public}sfailed to copy data to
+kogen staging area: Unable to consider the following unapproved extensions due to errors. Check
+logs for details:
+auxkc build requires reboot%{public}s, calling out to syspolicydAll unapproved kexts are in
+approvedKextsWaitingToBeBuilt, skip call to system policyunapproved kexts foundunapproved kexts
+found but authorization disallowed, removing % extensions from auk build listdirect loads: %
+{public}sloadExtension for %{public}s failed with: %{public}sNo bundle for auxKC
+extensionCannot load if kernel extension not found at expected location: auKC filesystem
+check: %{public}s found at %{public}sExtension: %{public}s is not avaiable in the kernel for
+direct loadExtension: %{public}s is not same as the one in the kernel (%{public}s). Cannot
+direct load.Extension: %public}s does not have the same Info.plist hash as the one in the
+kernel. Cannot direct load.Extension: %{public}s with UUID %{public}s being considered for load
+does not have the same UUID as the one in the kernel (%{public}s). Cannot direct load.blocked
+% candidates in %{public}: %{public}sCannot load extensions Since all requested extensions are
+in the exclude list, load request resolution can exit herereporting % requested extensions in
+exclude list as unsupported kexts to syspolicyd:All requested extensions are in exclude list:
+Auxkc not found: %{public}sextensions matching in search paths:Requesting approval for an
+extension without a bundle?preparing to build collection without kcgen...failed to wrap
+collection in img4no receipt data returned from buildAdding auxiliary collection to local
+policyInstalling auxiliary collction to preboot (via bless2)preparing for collection build with
+kcgen mode ..
+.. copying stashed build data to prebootsetting next boot environment: kcgenreporting
+% requested kexts that are unsupported to syspolicyd:one or more extensions are unsupported to
+load Not reporting % requested kexts that are unsupported since this is a forced rebuild
+requestresolveLoadRequest(existingAuKCRequestedInfo:existingAuKCContents:requestedExts:
+repositoryExts:bundledKexts:optionalDependencies:appleInternalBuildCandidates:flags:)platform
+dext requests (direct loadable): %{public}splatform kext requests (direct loadable): %{public}
+sother kext requests: %{public}srequesting latest approval status and kext history from system
+policy for: %{public}skets for dependency resolution: %{public}sGetting updated approval
+statuses from system policyapproval results: %{public}scodeless kexts depended on by codeful
+candidates: %{public}scodeless kexts with all dependencies already built: %{public}scodeless
+kexts waiting for dependencies to be built: %{public}sexisting, approved %{public}s direct
+loads: %{public}sUnable to load ' in unprivileged request.existing, loadable, and approved %
+{public}s direct loads: %{public}sexisting approved %{public}s direct load dependencies: %
+{public}snew %{public}s candidates: %{public}sUsing previously obtained approval statuses from
+system policyapproved all extension urls because .noCheckApprovals was givenWarning: resolved
+dependencies do not contain a requested extension: {public}%saux kc is missing/empty,
+considering all known kexts for approvalaux kc is missing/empty, considering kext history for
+approvalaux kc instructions missing/empty, attempting to use existing aux kc contentsCannot
+create bundle for historyItem entry %public}s, omitting itCannot create extension from history
+item bundle %{public}s, omitting itextension %{public}s had no bundleURLExtension %{public}s
+encountered dependency error: "{public}s". Omitting from build.removing inauthentic candidate
+%{public}sfound candidate in %public}s, excluding from %public}s build: %public}s (loaded in-
+kernel)removing unsupported and unapproved candidate after consulting System Policy %{public}
+scannot find unstaged path in disk for %{public}schecking unstaged bundle path %public}s for %
+{public}schecking bundle path %{public}s for %{public}s %{public}s (bundled kexts)%{public}s
+is not a supported plugin, skipping...%public}s is not a kernel extension, skipping... %
+{public}s (plugin kext)Checking unstaged bundle path %{public}s for %{public}s' not found at
+expected location: consuming unused kcgen build tokenConsidering dependency path %{public}
+Resolved dependency path %{public}s to %{public}sIgnoring %{public}s in dependency paths: %
+{public}sIgnoring %{public}s in dependency paths, as it is not a ketConsidering %{public}s as
+a dependencyIgnoring %publicss in dependency paths: already a system path or extension is
+not .kextkernelmanagerd/Validation.swiftInternal error: unexpected extension type?Other
+validation Error: %{public}sOther validation error: Validation Error: %{public}sCouldn't find
+extension's bundle has invalid or missing package typeInvalid parent directory for . Should
+only appear in one of the
+directories reserved for driver extensions:
+validating extension at %{public}sS contents are valid is a symlink with an invalid parent
+directory.
+Symlinks are allowed from these parent directories: Unable to get real path of symlink at is a
+symlink to which is not contained in a valid platform extensions directoryBundle URL %{public}
+s is a valid symlink to %{public}s. Should not appear in any of the
+directories reserved for driver extensions:
+Skipping FS validation for kext Skipping FS validation for kext already in collection FS
+validation skippedCan't determine owner/permissions for Invalid ownership () should be (0:0) on
+Invalid permissions : should not be group/other writableBad code signatureException list
+trustedPlatform binary trustedThird-party kext in collectionTrusted Apple kext in
+collectionApple prefix trustedRejected by exclude listNo authentication enabled, trusted%
+{public}s found in built-in deny list%{public}s matches %{public}s.authenticate (into:)%{public}
+s: %{public}sBundle contains symlink pointing outside of itself: , which does not have path
+prefix validateExtFilesystem(into:)com.apple.kernelmanagerdFailed to initialize temporary
+directory: Failed to resolve temporary directory: Failed to resolve cache directory:
+DARWIN_CACHE_DIRSandbox initialization error: Failed to initialize cache directory: ' should be
+absentThese properties should be absent: " should be present' should have type ' should be one
+of the values: ' should have type String with a maximum length of ' should have type String
+with prefix: ' should be a collection of type with a size in the range [' must be a valid kext
+versionProperties Under EXACTLY ONE OF:
+must have valid Apple copyright stringblockv24@?
+O@"OSLogEventLiveSource 8@"NSError 16failed to create live stream source: %{public}sv16@?
+O@"OSLogEventProxy"8v16@?0@"OSLogEventDroppedContext"8Logging event dropped.Initializing with
+settings: %{private}sLooking for the %{public}sSkipping %{public}s, manager settings does not
+contain a path to itWarning: %{public}s was not found!Unable to read contents of file at
+Skipping %{public}s, cannot mapBoot Collection:
+Repositories:
+Bundle Identifiers:
+Auxiliary Bundle Paths:
+Kernel Architecture:
+Userspace Architecture: kernelmanagerd/Manager.swiftUpdate block not set in update ()Unable to
+get contents of loaded collection: %{public}sloading primary collection from %{public}
+attempting to find primary collection from boot objects pathattempting to find auxiliary
+collection via local policyCould not search for bundles in auKC: %{public}sfinding bundles in
+repositories: %{public}sfinding bundles at additional paths: %{public}sSwift/
+Dictionary.swiftCouldn't load bundle '%{public}s' from history: %{public}sunable to load
+extension: %{public}s: %{public}sIgnoring kext at %{public}s with incompatible
+architecture.AKEL has been updated is an invalid collection typeNo auxKC path found in
+managerCannot read kernel collection contents of disk from Could not open file to write
+collection at wrote unwrapped kernel collection to %{public}sunwrapped kernel collection
+already present at %{public}sCannot map pre-existing collection at Could not get running
+architecture infoUnable to determine if pre-existing unwrapped kernelcollection has unchanged:
+%{public}sremoving pre-existing unwrapped kernelcollection at %{public}spre-existing unwrapped
+kernelcollection at %{public}s is stalepre-existing unwrapped kernelcollection at %{public}s is
+still valid%{public}s are present only Intel Macs kernel collection pathinvalid
+kernelcollection kind: %{public}s to unwrap and
+uncompress_TtC14kernelmanagerd16ExtensionManagersettings_tableexceptionLists_historyItems_
+loadInfobundleElisions.
+TtCC14kernelmanagerd16ExtensionManager11LookupTablerecursiveLockcollectionsinvalidExtensionsloa
+dedIdentifiersbyExtensionbyIdentifierbyCollectionKindbyURLSwift/NativeDictionary.swiftDuplicate
+values for key: 'no auxiliary collection found on disk via local policyusing auxiliary
+collection from: %{public}sUpdated loaded info for %d
+extensions.RealizedKernelCollectionauxiliaryOptionalmatchesExludeFiltermatchesIncludeFilterrequ
+iresExplicitLoadinStrictSignatureExceptionListinSignatureExceptionListdependenciesAuthenticated
+dependenciesAuthenticdependenciesValidateddependenciesValidCouldnotcreateextensionfrom
+bundle at %{public}s, uid %{public}s %{public}svalid %{public}sauthentic %{public}
+sapprovedCould not get contents of to get executable for Encountered errors while reading
+executables: %{public}srealizedInfo for (%{public}s) may not contain info on vuid or
+bundleArchPtrauth ABI mismatch: binary is built against version , but needed version <no-
+bundle-identifier>Realize dext %{public}sCollection had no prelink UUID key?Prelink info has no
+Could not create extension from load info:
+_TtC14kernelmanagerd12RealizedInfoflagsextcsicsthistoryItemloadInfouidunstagedURLbundleArchesr
+epoIndexvalidationErrors.
+TtC14kernelmanagerd24RealizedKernelCollectioncollectionbootCollectionUUIDpageableCollectionUUID
+extensionsCannot realize extra load info from 32-bit collection.Fileset entry had bad
+identifier: offset %lluFileset entry found for %{public}s, but not included in prelink info/
+Library/Extensions/System/Library/ExtensionsNo UnstagedURL found for %{public}s, cannot
+determine if absent executables are okayCould not determine if absent executables are allowed
+for %{public}s: %{public}sCould not get unstaged real path for %{public}s, cannot determine if
+absent executables are okaykernelmanagerd/XPCEventPublisher.swiftFailed to create XPC event
+publisher v28@?0I8Q12@"<OS_хрс_object>"20v12@?0i8Unable to bridge xpc event
+dictionary_TtC14kernelmanagerd21RealXPCEventPublisherpublishernamependingSubscribers_
+subscribersXPC Event Handler %publicss error: %dPC Event %publicss: Removing subscriber
+%lxXPC Event %{public}s: Pending subscriber %llxv16@?0@"<OS_xpc_object>"8XPC Event %{public}s:
+Unexpected reply from previously pending subscriber %llxXPC Event %{public}s: Pending
+subscriber %lx replied with unexpected type %{public}XPC Event %{public}s: Pending subscriber
+%lx replied with error %{public}sXPC Event %{public}s: Added new subscriber %llx (%{public}
+s)Could not append Could not prepare vram content stringIODeviceTree:/optionskernelmanagerd/
+NVRAM.swiftNVRAM isn't supported on this system?IONVRAM-DELETE-PROPERTYCould not delete VRAM
+km-progress-tracker-Setting progress status for %publicss: %public sCold not write progress
+status for %{public}s: %{public}sGetting progress status for %{public}sCould not find %{public}
+s on NVRAMFound %{public}s, could not translate value to DataFound %{public}s, could not
+translate to UTF8 StringFound status value for %{public}s: %{public}sDeleting progress status
+for %{public}
+ssecUreBootPolicvapfsSnapshotsEnabledsetBoot0nce(environment:)_
+TtC14kernelmanagerd15RealNVRAMClient$__lazy_storage_$_secureBootPolicy$__lazy_storage_$_
+apfsSnapshotsEnabledoptionsXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+AppleSecureBootPolicykernelmanagerd/Damon.swiftcom.apple.kernelmanagerd.utilityQueuedoesn't
+have a bundle?Kernel management encountered error loading resource: %{public}sCould not find
+resource named Could not load resource at path Loading resource with name %{public}s from path
+%{public}s for kext %{public}sRequest for resource Preparing collection load into kernelkernel
+collection content:
+%{public}s: %{public}s
+%{public}s: %{public}s
+codeless personalities: %{public}sLoading kernel collection content %publics the first
+time this bootLoading fileset kernel collections and codeless extensionsan error occurred while
+loading the collections: %{public}sNot loading fileset kernel collection. Will only load
+codeless extensions...an error occurred while loading the codeless kext %{public}s: %{public}
+sRefusing unload request for DriverKit extension %{public}sInserted load info for %d in-kernel
+extensions.loading existing auxiliary collection contents from stashed instructionsdid not load
+any extensions from stashed instructions: %{public}srealized unsupported errors Did not find
+anv candidate kexts for %Multiple extensions requested for the same identifier "Could not find
+dependency candidate matching requested extension: "Overall migration was not successfulCannot
+get UUID for Nothing to be done for x86 is not a valid UUID stringusing boot collection: %
+{public}sStarting generating content to stash auxkc input build informationAbout to copy UAKL
+in temporary folder at %{public sCannot find an UAKL in the system to loadAbout to create
+instructions plist in temporary folder at %{public}sAbout to stash kexts in temporary folder at
+%{public}sAbout to commit temporary folder %{public}s to %{public}sUnexpected extension
+location in %s: %{public}slookupLoadedExtensionPath(withIdentifier:)Identifier: %{public}
+sLooked up extension by bundle ID that was missing a bundle.Error getting kernel requests: %
+{public}sError occurred while demuxing request %{public}s: %{public}sUnexpected request Error
+occurred while handling request "%{public}s": %{public}sReceived kext unload notification: %
+{public}sTemporary staging directory was not found: %{public}sPermamanent staging directory was
+not found: %{public}sRemoving item at %{public}s...Could not remove item at %{public}s: %
+{public}sloading existing %{public}s from diskexisting %{public}s invalid: %{public}s%{public}s
+%{public}scannot load or rebuild %{public}s: %{public}ssending path for %{public}s as %{public}
+s= Extensions by identifier:
+multiple candidates found for = Loaded auxiliary extensions:
+= Invalid extensions:
+KernelCollections are already unwrapped and uncompressed on % Macsfailed to find codeless
+extensions: %{public}sfailed to find driver extensions: %{public}sdaemon activation failed,
+collections are NOT loaded: %{public}sCould not process loaded extensions: %s [Error] Interval
+already ended%{public}s: Not loading auxkcauxiliary collection build succeeded but returned no
+resultsauxiliary collection build did not return receipt
+data_TtC14kernelmanagerd17DaemonSideEffectscontents.
+TtC14kernelmanagerd19KernelManagerDaemonrssconfigmanagerqueueutilityQueueauxKCContentsInKernela
+pprovedKextsWaitingToBeBuiltdaemonResourceLockdextRecordPlistManagerkmdSignposterdaemonCheckInI
+ntervalCould not emit Unwrapped and uncompressed kernel collections: %{public}sUnexpected
+daemon queue request Kernel requested shutdown. Goodbye!Error occurred while handling request %
+{public}s: %{public}s%{public}s %{public}s 0x%xUnable to create bundle at path was not a kext?
+Realizing and inserting %{public}s into managerNot inserting kext %s, executables are not
+present in the BaseSystem%public}s is not a valid KernelExtension, should be realized for
+validation%public}s is not in any collection, it is in %{public}s, should be realized and
+inserted into manager%{public}s already in a collection at %scould not get real path for %
+{public}s, cannot check validity: %{public}scould not get real path for %{public}s, cannot
+check validity%<public}s real path is %{public}s%<public}s is in mounted system volume.
+%public}s will be considered valid for resource loading.
+No need to realize from disk to check validity ...%public}s in auxiliary kernel collection,
+should be realized for validationReceived kext load notification: %{public}sReceived update
+notification for bundle ID %{public}s, unique ID %{public}s Could not find dext with bundle ID
+and unique ID
+for which an update notification was receivedLoadRequest with nil identifier%{public}sDidn't
+expect kext load request for executableCould not delete temp directory at %{public}s: %{public}
+sKernelCollectionNo valid kexts left to buildbeginning auxiliary collection build (for kcgend):
+destination: %{public}s
+bundlePaths: %{public}sRemoving %{public}s from build: %{public}swriting auxiliary
+collection to staging area: %{public}sLooping without changing ket input! prev:Skipping kext
+from build: %{public}scannot get bundle id for Resolved: %{public}s is not authentic alredy
+present in boot kNo manifest found, nothing to do for aukcFailed to migrate auk: %public}
+Migration succeed reboot required: %public^sAttempting to consume auk tokenCannot consume
+auxkc token: %{public}smissing dependencies for: %{public}s, removing from build as it is
+marked as optionalUnable to consider %{public}s: %{public}sapple-prefixed bundle found without
+explicit auxiliary collection load requirement: %public}sfailed to create bundle from path,
+unable to include: %public^sfailed to realize extension %public's from stashed instructions:
+%{public}sLoading codeless extension: %{public}sCannot load an extension without a
+bundle. Cannot dynamically load an extension containing an executable.an error occurred while
+loading the codeless kext: %{public}sCannot determine UUIDFalling back to arch %{public}sCan't
+find arch %{public}s in binaryCould not find fileoffset of .
+TEXT segment of Could not find
+size of
+TEXT segment of Could not find fileoffset of .
+PRELINK INFO segment of Could not find
+size of
+_PRELINK_INFO segment of Could not find fileoffset of -
+-LINKEDIT segment of Could not
+find size of .
+_LINKEDIT segment of Invalid k: fileset should begin with text segmentInvalid
+k: mach-o tags can be calculated for boot and auxiliary kernel collections onlyCould not find
+kclo for must always be Invalid kc: Cannot calculate mach-o tags system kernel
+collectionCould not find kcep value for Cannot calculate macho kernelcache tags for Intel
+kernelcacheskernel in fileset has no symbol sets informationUnable to parse linkinfo for kernel
+in filesetWrong symbolsets type for kernel in filesetEncountered error while scanning load
+commands for arch warning: libcompression not linked; returning existing data.warning:
+libcompression not linked; not compressing.Compressing data with %{public}swarning:
+libImg4Linked not linkedibimg4 not linked, cannot tell if data is in im4p formatwarning:
+libcompression not linkedlibcompression not linked, cannot tell if data is compressedCould not
+generate payload properties %<public}sAMAuthInstallError creating encoding properties data: %
+{public}dAMAuthInstallApImg4ReCreatePayloadWithProperties did not create an encoded payload: %
+{public}dCould not encode compression info: Payload is compressed but cannot find uncompressed
+lengthCould not encode compression info: Payload is compressed but cannot find algorithm
+infoCould not encode compression infoCould not create DEREncoder: %{public}dUnsupported
+compressions algorithm: %{public}d, only COMPRESSION_LZFSE_SMALL_BLOCKS is
+supportedDEREncoderAddUInt32 error while encoding algorithm: %{public}dDEREncoderAddUInt32
+error while encoding size: %{public}dCould not encode compression info into buffer:: %{public}
+dError encoding img4 payload: %dImg4 format not .im4p (%), attempting to decode as .img4Img4
+error: format neither im4p nor img4 (%)Img4 payload length: %Cannot compress: Invalid buffer.
+Returning existing dataCompression buffer size % (try %)Compressed data: % bytes. Compression
+error (encoding buffer returned 0 size!)unable to read Mach-O header as a 32-bit or 64-bit
+Mach-0 headerHeader was already determined to be 64-bit.Binary not large enough to accomodate
+32-bit headerBinary not large enough to accomodate 64-bit headerUnable to read mach header
+(Executable has no symbol table (Executable has internal overrun (Executable has overrun for
+string at offset Cannot decompress: Invalid buffer. Returning existing dataData compressed with
+%{public}sDecompression buffer size % (try %)Decompressed data: % bytes.Decompression error
+(decoding buffer returned O size!); returning existing data.Not compressed; returning existing
+data. (%)Binary does not have valid magicBinary not large enough to accomodate fat arch
+headersBinary not large enough to accomodate fat headerBinary not large enough to accommodate
+magicBinary not large enough to accommodate headersUnable to read fat headerBinary is
+fat.Artifact is not a valid fat Mach-OSwapping big-endian fat header., but needed arch Found
+64-bit Mach-0 header, but expected 32-bit.Found 32-bit Mach-0 header, but expected 64-bit.Wrong
+type for symbol set bundle identifierWrong type for symbol setEncountered unknown symbol set
+entry While calculating get_L_UNIXTHREAD_PCAddress could not find ARM_THREAD_STATE64 flavor:
+%While calculating get_LC_UNIXTHREAD_PCAddress, could not find ARM_THREAD_STATE64 state type
+with %d size. It was %d countCould not write to FileHandle %{public}s: %{public}s (contents: '%
+{public}s')failed to open file at path: %{public}s
+(%)currentDirectoryPathcreateRestrictedDirectory(at:mode:protectionClass:)contentsOfMacho(
+atPath:options:)createTemporaryMachO(atPath:contents:attributes:)createSymbolicLink(atPath:
+withDestinationPath:)contentsOfFile(atPath:options:)contentsOfDirectory(at:
+includingPropertiesForKeys:options:)allContentsOfDirectory(at:includingPropertiesForKeys:
+options:)fileExists(atPath:isDirectory:)copyFile(_:_:_:)createDirectory(at:
+withIntermediateDirectories:attributes:)replaceItem(at:withItemAt:backupItemName:options:
+resultingItemURL:)removeItem(atPath:)createFile(atPath:contents:attributes:)isExecutableFile(
+atPath:)fileHandle(forReadingAt:)fileHandle(forWritingAt:)fileHandle(forUpdatingAt:)fileHandle(
+forDirectory:)getResourceValues(forURL:withKeys:)isInstalledViaARoot(atURL:)createTempDirectory
+(at: template: )ensureDirectory(at:)attributesOfItem(atPath:)pathIsVolume(forPath:)
+pathInMountedSystemVolume_:Could not create enumerator for registering handler for pc event
+stream: %{public}s'xpc event stream handler registered for: '{public}
+s'_TtC14kernelmanagerd12RealistNoteUnable to create extension from moved bundle.Ensuring
+parent directory %{public}s existsError creating staging directory: Moving %{public}s to final
+location at %{public}sError renaming bundle during staging: Unable to determine result of
+bundle renaming from Error renaming bundle, result ended up in Staged bundle is invalid or
+nonexistent.Removing temporary bundle at %{public}sCould not remove temporary staging directory
+%{public}s: %{public}s has no identifier. Detected invalid temporary staging path: Created %
+{public}s, copying files from %{public}sError copying bundle while staging: Copied bundle is
+invalid or nonexistent.Bundle identifier contains invalid charactersStaging directory at %
+{public}s does not exist, attempting to create.Unable to create restricted staging area at %
+{public}s, more errors likely to follow.. (%{public}s)Unexpected file where staging directory
+should be, attempting to removeUnable to remove unexpected file at %{public}s, more errors
+likely to follow... (%{public}s) is in exclude list: SPKernelExtensionPolicy is unavailable,
+NullSystemPolicyClient returning approvals for:gathering approvals for: %{public}
+sSPKernelExtensionPolicy is unavailable, NullSystemPolicyClient cannot gather approvals from
+userSPKernelExtensionPolicy is Unavailable, NullSystemPolicyClient cannot trigger rebuild for:
+%{public}sSPKernelExtensionPolicy is Unavailable, NullSystemPolicyClient cannot update last
+seen times for: %{public}sSPKernelExtensionPolicy is unavailable, NullSystemPolicyClient
+returning a nil UAKL hashSPKernelExtensionPolicy is Unavailable, NullSystemPolicyClient cannot
+find bundled kexts for: %public}sSPKernelExtensionPolicy is Unavailable,
+NullSystemPolicyClient cannot trigger panic medicSPKernelExtensionPolicy is unavailable,
+NullSystemPolicyClient cannot notify load of %public}sSPKernelExtensionPolicy is Unavailable,
+NullSystemPolicyClient cannot notify unsupported kexts at : %{public}sSPKernelExtensionPolicy is
+unavailable, AllowAllSystemPolicyClient returning approvals for:SPKernelExtensionPolicy is
+unavailable, AllowAllSystemPolicyClient cannot gather approvals from
+userSPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient cannot trigger rebuild
+for: SPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient cannot update last seen
+times for: %{public}sSPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient
+returning a nil UAKL hashSPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient
+cannot find bundled kexts for: %{public}sSPKernelExtensionPolicy is Unavailable,
+AllowAllSystemPolicyClient cannot trigger panic medicSPKernelExtensionPolicy is unavailable,
+AllowAllSystemPolicyClient cannot notify load of %{public}sSPKernelExtensionPolicy is
+unavailable, AllowAllSystemPolicyClient cannot notify unsupported kexts at: %{public}
+SSPKernelExtensionPolicy is Unavailable, AllowAVOnlySystemPolicyClient returning approvals for
+all kexts in the ARV: %{public}sSPKernelExtensionPolicy is unavailable,
+AllowARVOnlySystemPolicyClient cannot gather approvals from userSPKernelExtensionPolicy is
+unavailable, AllowARVOnlySystemPolicyClient cannot trigger rebuild for: SPKernelExtensionPolicy
+is unavailable, AllowAVOnlySystemPolicyClient cannot update last seen times for: %{public}
+SSPKernelExtensionPolicy is unavailable, AllowAVOnlySystemPolicyClient returning a nil UAKL
+hashSPKernelExtensionPolicy is Unavailable, AllowARVOnlySystemPolicyClient cannot find bundled
+kexts for: %{public}sSPKernelExtensionPolicy is unavailable, AllowARVOnlySystemPolicyClient
+cannot trigger panic medicSPKernelExtensionPolicy is unavailable,
+AllowARVOnlySystemPolicyClient cannot notify load of %{public}sSPKernelExtensionPolicy is
+unavailable, AllowARVOnlySystemPolicyClient cannot notify unsupported kets at: %{public}
+sgetApprovalState(for:)gatherApprovals(for:)triggerCompleteAuxiliaryCollectionRebuild(for:
+softwareUpdate:)updateLastSeenTimes(for:)getCurrentUAKLHash(getURLsOfBundledKexts(at:)
+triggerPanicMedic()notifyLoadedKext(bundleID:kextPath:)notifyUnsupportedKexts(urls:)_
+(%)currentDirectoryPathcreateRestrictedDirectory(at:mode:protectionClass:)contentsOfMacho(
+atPath:options:)createTemporaryMachO(atPath:contents:attributes:)createSymbolicLink(atPath:
+withDestinationPath:)contentsOfFile(atPath:options:)contentsOfDirectory(at:
+includingPropertiesForKeys:options:)allContentsOfDirectory(at:includingPropertiesForKeys:
+options:)fileExists(atPath:isDirectory:)copyFile(_:_:_:)createDirectory(at:
+withIntermediateDirectories:attributes:)replaceItem(at:withItemAt:backupItemName:options:
+resultingItemURL:)removeItem(atPath:)createFile(atPath:contents:attributes:)isExecutableFile(
+atPath:)fileHandle(forReadingAt:)fileHandle(forWritingAt:)fileHandle(forUpdatingAt:)fileHandle(
+forDirectory:)getResourceValues(forURL:withKeys:)isInstalledViaARoot(atURL:)createTempDirectory
+(at: template: )ensureDirectory(at:)attributesOfItem(atPath:)pathIsVolume(forPath:)
+pathInMountedSystemVolume_:Could not create enumerator for registering handler for pc event
+stream: %{public}s'xpc event stream handler registered for: '{public}
+s'_TtC14kernelmanagerd12RealistNoteUnable to create extension from moved bundle.Ensuring
+parent directory %{public}s existsError creating staging directory: Moving %{public}s to final
+location at %{public}sError renaming bundle during staging: Unable to determine result of
+bundle renaming from Error renaming bundle, result ended up in Staged bundle is invalid or
+nonexistent.Removing temporary bundle at %{public}sCould not remove temporary staging directory
+%{public}s: %{public}s has no identifier. Detected invalid temporary staging path: Created %
+{public}s, copying files from %{public}sError copying bundle while staging: Copied bundle is
+invalid or nonexistent.Bundle identifier contains invalid charactersStaging directory at %
+{public}s does not exist, attempting to create.Unable to create restricted staging area at %
+{public}s, more errors likely to follow.. (%{public}s)Unexpected file where staging directory
+should be, attempting to removeUnable to remove unexpected file at %{public}s, more errors
+likely to follow... (%{public}s) is in exclude list: SPKernelExtensionPolicy is unavailable,
+NullSystemPolicyClient returning approvals for:gathering approvals for: %{public}
+sSPKernelExtensionPolicy is unavailable, NullSystemPolicyClient cannot gather approvals from
+userSPKernelExtensionPolicy is Unavailable, NullSystemPolicyClient cannot trigger rebuild for:
+%{public}sSPKernelExtensionPolicy is Unavailable, NullSystemPolicyClient cannot update last
+seen times for: %{public}sSPKernelExtensionPolicy is unavailable, NullSystemPolicyClient
+returning a nil UAKL hashSPKernelExtensionPolicy is Unavailable, NullSystemPolicyClient cannot
+find bundled kexts for: %public}sSPKernelExtensionPolicy is Unavailable,
+NullSystemPolicyClient cannot trigger panic medicSPKernelExtensionPolicy is unavailable,
+NullSystemPolicyClient cannot notify load of %public}sSPKernelExtensionPolicy is Unavailable,
+NullSystemPolicyClient cannot notify unsupported kexts at : %{public}sSPKernelExtensionPolicy is
+unavailable, AllowAllSystemPolicyClient returning approvals for:SPKernelExtensionPolicy is
+unavailable, AllowAllSystemPolicyClient cannot gather approvals from
+userSPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient cannot trigger rebuild
+for: SPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient cannot update last seen
+times for: %{public}sSPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient
+returning a nil UAKL hashSPKernelExtensionPolicy is Unavailable, AllowAllSystemPolicyClient
+cannot find bundled kexts for: %{public}sSPKernelExtensionPolicy is Unavailable,
+AllowAllSystemPolicyClient cannot trigger panic medicSPKernelExtensionPolicy is unavailable,
+AllowAllSystemPolicyClient cannot notify load of %{public}sSPKernelExtensionPolicy is
+unavailable, AllowAllSystemPolicyClient cannot notify unsupported kexts at: %{public}
+SSPKernelExtensionPolicy is Unavailable, AllowAVOnlySystemPolicyClient returning approvals for
+all kexts in the ARV: %{public}sSPKernelExtensionPolicy is unavailable,
+AllowARVOnlySystemPolicyClient cannot gather approvals from userSPKernelExtensionPolicy is
+unavailable, AllowARVOnlySystemPolicyClient cannot trigger rebuild for: SPKernelExtensionPolicy
+is unavailable, AllowAVOnlySystemPolicyClient cannot update last seen times for: %{public}
+SSPKernelExtensionPolicy is unavailable, AllowAVOnlySystemPolicyClient returning a nil UAKL
+hashSPKernelExtensionPolicy is Unavailable, AllowARVOnlySystemPolicyClient cannot find bundled
+kexts for: %{public}sSPKernelExtensionPolicy is unavailable, AllowARVOnlySystemPolicyClient
+cannot trigger panic medicSPKernelExtensionPolicy is unavailable,
+AllowARVOnlySystemPolicyClient cannot notify load of %{public}sSPKernelExtensionPolicy is
+unavailable, AllowARVOnlySystemPolicyClient cannot notify unsupported kets at: %{public}
+sgetApprovalState(for:)gatherApprovals(for:)triggerCompleteAuxiliaryCollectionRebuild(for:
+softwareUpdate:)updateLastSeenTimes(for:)getCurrentUAKLHash(getURLsOfBundledKexts(at:)
+triggerPanicMedic()notifyLoadedKext(bundleID:kextPath:)notifyUnsupportedKexts(urls:)_
+TtC14kernelmanagerd22NullSystemPolicyClientkextHistoryvaklPath_
+TtC14kernelmanagerd26AllowAllSystemPolicyClient_
+TtC14kernelmanagerd30AllowVOnlySystemPolicyClientfmUnable to determine signature for %
+{public}s, generating adhoc signature... (%public}s)Error deriving adhoc signature for %
+{public}s: %{public}sAdhoc cdhash: %public}sCannot use resolveSignatureOrGeneratedHocOne with
+adhoc strategyCan't resolve code signing info of extension without a bundleUnable to create
+SecStaticCodeRe at Invalid bundle signature for Could not create SecRequirement Could not
+allocate data for signing Could not allocate signing attributes for Unable to create signer for
+Unable to create adhoc signature for Adhoc signature data length is %d bytes.Unable to attach
+adhoc signature for Unknown extension type for , cannot check code signature.Could not create
+SecRequirement for anchor apple generic and certificate 1[field.redacted] and
+certificate leaf[field.redacted] and certificate
+leaf[field.redacted]anchor apple genericFailed to get signature type: Unable
+to create SecRequirement for checking Apple root: %luFailed to get signature type: Unable to
+create SecRequirement for checking Developer ID:
+%luresolveCodeSigningInfo(ext:_:arch:)_
+TtC14kernelmanagerd19RealCodeSigningInfoentitlementsteamIDcdHashsigningIdentifiersubjectCNissue
+rCNsigningTime_TtC14kernelmanagerd23RealCodeSigningResolver(anchor apple
+or (anchor apple generic and certificate leaf[field.redacted] exists)
+or (anchor apple generic and certificate 1[field.redacted] exists and
+certificate leaf[field.redacted] exists and notarized)
+or anchor apple
+generic and certificate leaf[field.redacted] exists)
+or (anchor apple
+generic and certificate leaf[field.redacted] exists)
+or anchor apple
+generic and certificate 1[field.redacted] exists and
+(certificate leaf[field.redacted] exists or
+certificate leaf[field.redacted] exists))) and entitlement[^(
+Frameworks|SharedFrameworks|Plugins|Plug-ins|XPCServices|Helpers|MacOS)/Could not copy signing
+informationSigning information did not contain a cdhashsigning information did not contain an
+executable urlsigning information did not contain a signing identifierNo team ID in signing
+dict and no Apple-prefix in signing identifier.Adhoc signature; forcing no team IDallowing
+Apple-prefixed bundle '%{public}s' installed from a rootSecCertificateRefkernelmanagerd/
+SideEffects.swiftThis wasn't supposed to call
+_TtC14kernelmanagerd11DummyEffectLimitedDiskManagerClient initialized without
+SideEffectsPreboot volume does not appear to be mounted at iSCPreboot volume does not appear to
+be mounted at %public system volume does not appear to be mounted at Data volume does not
+appear to be mounted at LimitedDiskManagerClient cannot prevent mount %{public}s without a
+mount pointLimitedDiskManagerClient cannot prevent mount without a mount pointCould not find
+mountPoint for device %{public}s; cannot unmount deviceLimitedDiskManagerClient cannot prevent
+removal of %{public}sLimitedDiskManagerClient cannot allow removal of %{public}
+S_TtC14kernelmanagerd24LimitedDiskManagerClientforce-unmounting volume at %{public}sforce-
+unmounting volume at % failed: %ferrno}d bytes to apfs_mount_args, apfsCould not mount mounted
+%{public}s, snapshot %{public}s at %Expected to build at least 1 collectionInvalid KC type
+Must provide a kernel path when building New %{public}s written to: %{public}sMoving new %
+{public}s to %{public}sCan't swap new %{public}s for existing one: %{public}sCan't see new %
+{public}s after rename to %{public}s after rename to Specify collection path for noWriteResults
+or noInsertResultsAlready have %{public}s, skipping... Cannot include extension without bundle
+in collection. [Logging for XBS] Used kext bundle identifier: Collections contents contain more
+than one extension with path 'Collections contents contain more than one extension with
+identifier 'Collection built successfully. Going to write %{public}s to %{public}sGoing to write
+raw mach-o form of %{public}s to %{public}sCould not get collection's properties to encode in
+payloadCould not wrap collection into im4pCollection wrapped successfully into im4pUnable to
+compress collection binary. Data compressed successfully.kernel mach-o at Considered all
+applicable versions of While considering is incompatible with Circular dependency detected:
+names a dependency on " , but could not find version compatible with ', which was not found.
+with an invalid version 'Regested extension ' has no remaining valid candidates._
+TtCC14kernelmanagerd16ExtensionManager23DependencyResolutionSetnodesresolveddependenciesincompa
+tibilities<Missing Identifier>unable to create extension from '%{public}s', bundle contains no
+Info.plist contentsunable to create extension from '%{public}s', unrecognised package type
+{public}s'unable to create extension from '%{public}s', Info.plist digest is missing (no
+collection, personalities
+only)_TtC14kernelmanagerd11OSExtensioninfolocationoriginURLdigest.
+TtC14kernelmanagerd15KernelExtension_TtC14kernelmanagerd15DriverExtensionNo keys can have the
+prefix ' requires an Apple kextPropertyCheck<String>Could not determine running
+architecture. bless2 is not available, cannot install custom objectbless2 is not available,
+cannot obtain bootObjectsPathlibauthinstall not linked, cannot call bless2_summarizeFailed to
+call bless2_summarize, error BlessHandle created against %{public}sbless2_isc_preboot() failed:
+bless2_bootobjects_path() failed: boot objects path: %{public}sbless2_install_custom_obj()
+failed: successfully installed custom boot
+object_TtC14kernelmanagerd15RealBlessClientkc_TtC14kernelmanagerd11BlessHandlevolumeSummary_
+DextCheckInPortUnable to bridge job launch
+dictionary_TtC14kernelmanagerd18RealDaemonLauncherLaunching driver extension: %{public}sDext
+bundle for contains no
+executable.ProgramArgumentsReslideSharedCacheLimitLoadToSessionTypeCFBundleIdentifier_
+NullBootstrapPortJetsamPropertiesIdentifierHardResourceLimitsSoftResourceLimitsEnvironmentVari
+ablescom.apple.dext.asanLaunching driver extension via running board: %{public}s contains no
+executablecreateBundle(identifier:)createBundle(path:)createBundle(url:)_
+TtC14kernelmanagerd14UncachedBundlebundle_TtC14kernelmanagerd18RealBUndleResolverunknown
+bootpolicy os type:
+BOOTPOLICY_UNKNOWN_OSBOOTPOLICY_RESTORE_OSBOOTPOLICY_KC_OSBOOTPOLICY_RECOVERY_OSBOOTPOLICY_ONE_
+TRUE_RECOVERY_OSBOOTPOLICY_MAC_OSunknown boot policy security mode: permissive securityLocal
+policy is not available.You must move to Medium security (Using Startup Disk) before installing
+custom boot
+objects.withLocalPolicyTransaction(method:prebootManager:_:)isBootPolicyAvailablebootPolicyMode
+(forVolume:)consumeRebuildToken()consumeRebuildTokenAndApplyFixups(forVolume:rebootRequired:)
+isSIPEnabledAccordingToLocalPolicy(forVolume:)areKextsAllowed(forVolume:)verifyUAKL(volumeUUID:
+vaklData:)getAuKCManifest(forVolume:)getNISH(forVolume:)getCustomUAKLHash(forVolume:)
+getCustomKCHash(forVolume:)osSupportsChangingSecuritySettings)systemSecurity0verridesEnabled)
+isLocalPolicyPairedCorrectly(forVolume:)doesSplatManifestRequireFixups(prebootManager:)
+getSplatManifestURL (prebootManager: )Local policy is not available; silently failing auxKC local
+policy update.Could not createLinkedManifest and/or update auKC receipt: %{public}sCould not
+determine and/or apply fixes to paired recovery local policy: %{public}sCould not determine
+and/or apply fixes to splat local policy: %{public}sPrelink info section has no kind: %{public}
+sCould not get information for architecture 'Unable to find info' section. Prelink info value
+for is not an integerManager version is
+TtC14kernelmanagerd16KernelCollectionverspatharchkinddataSSystemExtensionPointListenerOSSyste
+mExtensionClientOSSystemExtensionClient is not
+availablecontinueCleanupForDextUpgrade(for:at:)_
+TtC14kernelmanagerd26RealSystemExtensionsClientCollision: replacing %{public}sAttempted to load
+an AppleKextExcludeList which wasn't a kext?Reading exclude list from %{public}sreporting %d
+newly unsupported kexts to syspolicyd after AKEL update:Could not find extension for non-
+identifier lookupUpdating load info with information for % extensions.Did not find extension
+in auxKC matching %s, using timestamps to pick best candidateDid not find extension in manager
+matching %, using timestamps to pick best candidateLooking for latest used extensions with
+bundle ID %{public}sNo elision list for '%{public}s Invalid UTF-8 elision list for '%{public}
+'Another collection at was already specified.Cannot insert more than one of the same kind of
+collection.Cannot update extension without a bundle is missing linkage metadata linked against
+contentsOfFile failed on '%{public}s', errno: %{darwin.errno}dcontentsOfFile failed on
+*%
+{public}s' for '%{public}s', errno: %{darwin.errno}dRead elision list from %{public}s' for '%
+{public}s 'Extension with identifier ' %{public}sGoing to remove all auKs for volumeCould
+not find and remove auxiliary kernel collection from data volume: %{public}sError occured
+finding and removing auxiliary kernel collection from boot volume: %{public}sbless2 is not
+available, skipping auxiliary collection removals from boot volumebless2 is available, removing
+auxiliary collection from boot objects pathError setting nvram in panic medic: %{public}
+sexisting %{public}s contents: %{public}
+Fatal errorDown-casted Array element failed to match the target type
+Expected NArray element failed to match the Swift Array Element type
+Expected Cannot find best developer kit: No stem build version given / derivedCould not find a
+SDK or KDK installed that matches system's build version Could not getBuildVersion since no
+side-effects foundCould not find %{public}sCould not read from %{public}s: %{public}sCould not
+getXcodeDevDir since no side-effects foundCould not obtain selected Xcode developer dirSelected
+Xcode developer dir: %{public}sCould not getMatchingDevKit since no side-effects foundCould not
+get real path for %{public}s: %{public}sCould not get real path for %{public}s%{public}s Dev
+Kit does not contain %{public}smatching KDK not found in %{public}smacOSInternalKDK is not
+found in the System volume file hierarchy at %public smacOSInternalKDK is not found in the
+Data volume file hierarchy at %{public}sretry failed: macOSInternalKDK is not found in the Data
+volume file hierarchy at %{public}Cannot getXcodeDevDir on MinimalDeveloperKitClientCannot
+getMacOSSDKPath on MinimalDeveloperKitClientCannot getMacOSKDKPath on
+MinimalDeveloperKitClientCannot getValidKextRepoPath on
+MinimalDeveloperKitClient_TtC14kernelmanagerd22RealDeveloperKitClient_
+TtC14kernelmanagerd25MinimalDeveloperKitClientProductBuildVersioncould not get a matching
+Developer Kit directory: %{public}sAttaching a AllowAllSystemPolicyClient since
+SPKernelExtensionPolicy is Unavailable in darwinOSAttaching a MinimalDeveloperKitClient since
+developer kits are Unavailable in darwinOSAttaching a AllowARVOnlySystemPolicyClient since
+SPernelExtensionPolicy is Unavailable in base systemAttaching a MinimalDeveloperKitClient
+since developer kits are unavailable in base systemTried to get system disk layout info using
+LimitedDiskManagerClient.
+The system disk lavout was not as per LimitedDiskManagerClient's assumptions.
+Unexpected related errors may follow.cannot create UUID object from Unable to get device name
+for not mounted and tryMount not requestedtrying to mount volume %{public's not found mounted
+after mounting itcan not stat disk at volume %{public}s mounted at %{public}sgetting current
+snapshout mounted at: %{public}sattempting to find root-snapshot for %{public}smounting %
+{public}s, snapshot %{public}sSystemRootSnapshot.XXXXXXmountpoint is already mounted at
+snapshot %public}s, continuingvolume % is already mounted at %public}sexpecting to find %s
+mounted at %{public}sTrying to inititalize mounted volume at %{public}s using
+LimitedDiskManagerClient:
+This client cannot guarantee if this volume will be mounted and remain mounted for the
+entirety of it's Usage.unmounting volume: %{public}sunmounting volume: %{public}s failed
+%Unable to create bundle from path: Unable to create extension from bundle: ' in bundle at
+"Cannot get bundle for Copying kext from % to %sError committing temp direcory. It ended up
+in: Loading allowed admin users from: %{public}sCould not open admin user list: failed to
+decode allowed user list: %Impossible to write to kcgen checkpoint plist error %{public}sAbout
+to copy UAKL in preboot folder at %About to copy instructions in preboot folder at %sAbout to
+copy kexts in preboot folder at %Instruction plist not found, nothing to be migratedNo iSC
+Preboot volumecould not open preboot mount path: could not open iSC preboot mount path: sourec
+auxiliary collection does not exist: copying auxiliary collection to: %public}so device node
+for iSC preboot volumeusing libbless2 to install preboot objectopened preboot: %{public}s
+(%@)opened iSC preboot: %{public}s (%@)preboot object data is not in im4p format is not a
+String or
+DatasetUpvalidationbuildsaveAuxkcstartedcompletederror_TtC14kernelmanagerd16KcgenSideEffects_
+TtC14kernelmanagerd12VolumeFamilyvolumeGroupUUIDsystemBsdNamerecoveryBsdNamedataBsdNameprebootB
+sdNameiscPrebootBsdName_
+TtC14kernelmanagerd13MountedVolumevolumevolumeTypebsdNamemountURLdidMount
+TtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountedPrebootVolumemountedPreboot_
+TtC14kernelmanagerdP33_
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountediSCPrebootVolumemountediSCPreboot
+TtC14kernelmanagerdP33_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMountedDataVolumemountedData_
+TtC14kernelmanagerd19MountedSystemVolumemountedSystem_
+TtC14kernelmanagerd10CheckpointstatusfatalError_
+TtC14kernelmanagerd17BuildInputManagerfolderURLkextFolderURLinstructionsPistURLcheckpointsPlis
+tURLUAKLPlistURL_
+sbuildAuKC(buildList:extraRepositories:requestedAuKC:dependents:)tryingtobuild:
+bundlePaths: %{public}sBuild failure: %{public}sEncountered error with %{public}s during
+dependency resolution: %{public}s. Omitting from build.building %{public}s failed: %{public}
+sextension %{public}s failed to link: %{public}susing system collection: %{public}sexisting
+(loaded) manager collections for buildprelink info missing boot KCIDChecking %{public}s kid %
+{public}s at %{public}s against auxkc linked kid %{public}sAuKC boot KCID does not match
+loaded boot KCIDprelink info missing pageable KCIDAUKC pageable KCID does not match loaded
+pageable KCIDfound % unsupported kexts while validating auk: %{public}s (at %{public}
+s)Error reporting unsupported kexts to syspolicyd: %{public}sCould not find %{public}s in
+manager. Attempting to insert bundleCould not get prelink info bundle URL for %{public sCould
+not create bundle for %{public}s at %{public}sUnexpected error inserting bundle for %{public}
+removing outdated preboot auxiliary collectionsCould not remove outdated auxiliary
+collections: %public sbless2 is not available, no preboot auxiliary collections to clean
+upunexpected error checking if daemon is active: %{public}skernel reports daemon is not active:
+%{public}s%{public}s %{public}s in %{public}s, telling kernel to mark as %{public}sError
+sending missing auxKC bundle %{public}s to kernel: %{public}sgetCustomUAKLHash failed with %
+{public}sauxp is not presentauxp is present - an auxkc is expectedperforming auxiliary
+activation for the first time this bootauxiliary extensions not allowed - skipping activation
+logic%{public}s did not load: %{public}sAttempting to clean up and build from
+approvals.couldn't construct deferred auxiliary collection from history: %{public}sconstructed
+auxiliary collection from historyauxiliary collection audit failedAuKC building is disabled
+during boot due to boot-arg. Proceeding without AuxKC.unexpected error while realizing already-
+loaded deferred auxiliary collection: %public}sdaemon is not yet active, auxiliary collection
+not deferred, yet is loaded?deferred auxiliary collection not loaded in kernel at
+activationauxiliary collection not expected, cleanup lingering stateconstructed deferred
+auxiliary collection from historyCannot activate auxiliary collection in Apple Silicon base
+system / darwinOSNot the first activation this boot - skipping auxiliary collection
+activationdiscovering codeless extensions from historyhistory: %{public}sauxiliary collection
+build succeeded by returned no resultscould not create extension from history item path: %
+{public}scould not create extension from bundle contents: %{public}sfailed to load bundle at %
+{public}s: %{public}spanicmedic has been turned on, removing %{public}sCould not tell
+syspolicyd about panicmedic: %{public}sCouldn't check linkage of auk on disk: %{public}
+sLinkage of failed deferred auk mismatched (SU: %{public}sLinkage of failed deferred auxkc
+was validFound %public}s, could not translate to DataFound %{public}s: %{public}sAuxiliary
+collection error: %{public}sload invalid macho ro rangeload find macho ro range failedload
+macho failedload macho invalid vmrangeload macho invalid filetypeload macho valid failedinvalid
+image typeinvalid compressedinvalid signaturecleaning up any kexts or plists in kcgen's preboot
+stashCould not cleanup preboot kcgen mode stashed content: %{public}scleaning up any kexts or
+plists in kcgen's data volume stashCould not cleanup data volume kgen mode stashed content: %
+{public}skexts not allowed, nothing to be done for kgen roundtripCannot handle possible kcgen
+errors: %{public}sNo instructions plist found in prebootCould not find progress status value
+for kcgend on NVRAMNo instructions and checkpoint plists found in prebootKcgen roundtrip failed
+with nvram set to: %{public}sKcgen roundtrip failed: found an instruction plist but not a
+checkpoint plistFound checkpoint plist without an instruction plist in customer buildKcgen
+roundtrip failed checkpoint %{public}s: %{public}skext %{public}s was discarded: %{public}
+sKcgen roundtrip failed: missing last checkpoint or errors foundRoundtrip through kcgenOs was
+successfulKcgen roundtrip failed with: %{public}skcgend progress value read from NVRAM: %
+{public}sDeleting Preboot contentCannot delete Preboot content: %{public}sConsuming the
+tokenValidate approvals: Could not get prelink bundle path for %{public}sCould not generate
+list of auxKC prelink bundle URLsValidate approval for %{public}s in auKC: not found in
+approval statesKexts in auKC not all approvedValidate approval for %{public}s in auxKC: not
+approvedValidate approval for %{public}s in auKC: approvedinstallation check: no prelink info
+bundle for %{public}serror sending missing auxKC bundles to kernel: %{public}sInstallation
+check: missing bundle for %{public}s at %{public}sinstallation check: bundle for %{public}s is
+at %{public}sconstructAuxiliaryCollectionFromHistoryaddingFlags:)Failed to load Apple
+collections for auxiliary activation: %{public}sNo fileset UUID for auxKC, error: %{public}
+sKernel-reported fileset UUID for auK: %{public sRemoving auxiliary kernel collection from
+data volumeauxiliary collection removed: %{public}so auxiliary collection(s) found on disk via
+local policy to removelinked auKC path: %{public}sCould not remove auKC at %{public}s: %
+{public}s
+Removed old auxiliary collection in boot volume at: %{public}so prelinked bundle path in
+collection metadata for %{public}scannot create bundle from disk contents at %public}s,
+omitting it and removing referencescannot create extension from bundle %{public}s, omitting it
+and removing referencesunable to insert disk contents of %{public}s into manager: %{public}
+removing references to %{public}s...Attempting to remove auxKC - %{public}sRemoved auxiliary
+collection removed at: %public}sCould not delete auKs from boot volume: Removed auxiliary
+collection in boot volume at: %{public}sSysExtensionWaitForTerminationError: DextRecord Error:
+packageInstaller Error: KDK-Installer Error: Missing Developer Kit: DeveloperTools Error:
+Unsupported Error: migrateAuKCForVolumeGroupUUID failed: Duplicate extension error :Loading
+extension(s): requires a rebootInternal error: In exclude list: DarwinOS error: Safe boot
+error: Error occurred checking UUIDs: Error occurred triggering Panic Medic: Code signature
+error: <unknown security error>Error reading the AppleKextExcludeList: Boot policy error: Error
+occured while running subcommand 'Error occurred while dumping kernelmanagerd state: Error
+occured while reading kextinfo from kernel: Error occurred while using kclist: Error occUrred
+unloading extensions: Insufficient permissions for action: Error encountered executing
+subprocess: Incompatible architecture: Wanted version of compatible with version, but only
+found version 'Error interacting with logging system: Failed to read configuration file: Failed
+to enter sandbox: Extension with identifiers not approved to load. Please approve using System
+Preferences. Extension with identifier is not approved to load. Please approve using System
+Preferences. System policy error: Unable to stage extension: Format appears to be from the
+future: Could not parse binary: KcgenFlow apis sequence error: Recovery environment specific
+error: Error while managing resource: Could not find: Error occurred while building a
+collection: An unknown error occurred while building the cache.Filesystem error: ' has invalid
+properties: Authenticating extension failed: Validating extension failed: Unable to resolve
+dependencies: Unable to read extension: Resource load failed error Kernel request failed:
+Communicating with kernel failed: Building kernel collection failed: Invalid argument:
+Collection linkage invalid: An error occurred while loading Loading extension failed: Launching
+driver extension failed: Serialization failed.Deserialization failed: globalErrorEncountered
+error: %{public}sunexpected call to symlinkExtension unexpected call to unlinkExtension
+Validating dext %{public} at %{public}sCould not make bundle from %{public}sCould not make
+bundle from Extension %{public}s is not valid, errors: %{public}sExtension is not valid:
+Extension %{public}s is not valid, error: %{public}sNo staged bundle provided in system
+extension informationCould not find bundle after insertion is not of type
+DriverExtensioninserted new dext extension with ID %{public}s, unique ID (%{public}s) at (%
+{public}s) into managerAdding %{public}s to the DextRecordPlist as the 'most recently sent'
+dext for ID %{public}sLoading dext %{public}s in the kernel... Could not find dext
+bundlehandleWillTerminate extension with ID %{public}s, unique ID (%{public}s)Checking
+DextRecordPlist to see if %{public}s is being replaced%{public}s is being replaced and cannot
+be terminated right away is being replacedhandling replacement system extension of ID %{public}
+s with old path (%{public}s)
+and new path (%{public}s)Could not find old dext bundledext being replaced has unique ID:
+{public}supdating DextRecordPlist to reflect that %{public}s will be replacedhandling upgrade
+notification for system extension of ID %public}s with path (%{public}s)
+and unique ID (%{public}s)Cannot handle update notification: is not a DriverExtensionCannot
+handle update notification: invalid dext bundleCould not cleanup dext from DextRecordPlist: %
+{public}sCold not communicate with sysextd to continueCleanupForDextUpgrade synced
+DextRecordTable contents: %{public}sDext records to be synced with the Manager:
+%{public}sList of realized system extension dexts to be removed from the Manager: %{public}
+scould not remove sysEx system extensions are being activated %public}s for the first time
+this bootAll system extension dexts realized in Manager:
+%{public}sFinished syncing system extension dexts between Manager and DextRecordPlistDext
+records most recently sent by sysextd according to DextRecordPlist: %{public}sSystemExtensions
+to be activated: %{public}sCould not activate system extensions: %{pulic}s, Platform dexts to be
+activated: %{public}sAll dexts to be activated: %{public}sunexpected sysEx without bundleMost
+Recently Sent system extensions list does not contain %{public}s.
+Will not activate this system extensiondextRecords synced from the DextRecordPlist do not
+contain %{public}s.
+Removing this realized system extension from the Manager.syncing DextRecordTable with
+Manager ... DextRecordTable was empty. Populating DextRecordTable for the first time.
+Trying to read contents of %public}s to guess most recently sent dexts... No dexts were found
+in %{public}s, DextRecordPlist will remain empty.
+No System extensions will be activated.saving DextRecordTable to plistCleaning up dext symlink
+at %{public}scould not find realPath for %{public}scould not create bundle from symlink at %
+{public}s -> %{public}sFound %public}s in %public}s which is not a symlink.
+Skipping. DextRecord %{public}s was cleaned up from DextRecordTable but was not found in manager
+to complete cleanup%{public}s is not being replaced and will be terminatedwarning: could not
+remove %{public}s from DextRecordPlist: %{public}s/var/db/
+loadedkextmt.plistcom.apple.kernelmanagement.auxilarykernelcollectionFailedtoloadexisting
+extension load report plist: %{public}sFailed to encode loaded extensions data: %{public}
+sailed to write extension load report plist.Alerts sentAll requestsUser
+requestslargest_kext_id_largest_kext_size_; isBeingReplaced: does not have a valid bundle
+pathdextRecordHistory does not contain any records for %{public}swarning: dextRecordHistory
+contains a record (%{public}s) for
+(%{public}s) but we expected it to be S{public}s under replacementcannot remove:
+dextRecordHistory does not contain any records for cannot remove: dextRecordHistory contains a
+record but we expected it to be
+under replacement%public}s is a new dext being added to dextRecordHistory for the first time%
+{public}s) that will be replaced is not the MRS record. MRS is %{public}scould not update:
+dextRecordHistory did not have any records for (%{public}s) was already marked as 'being
+replaced' in dextRecordHistorycould not check replacement status: dextRecordHistory did not
+have any records for cannot getDextsBeingReplaced: upgraded dext (%{public}s) that was upgraded
+is not the MRS record. MRS is %{public}scannot cleanupDextsThatWereReplaced: Could not find a
+dext record for path in dextRecordHistorydextRecordHistory for upgraded dext could not reset:
+dextRecordHistory did not have any records for DextRecordHistory contains duplicate records for
+some dextsDextRecordTable contains no recorded history of cannot update: DextRecordTable
+contains no DextRecordHistory of cannot check: DextRecordable contains no DextRecordHistory of
+Removing all older dext records of dext %{public}s which was upgradedcannot reset:
+DextRecordTable contains no DextRecordHistory of cannot obtain MRS: DextRecordTable contains no
+DextRecordHistory of Unexpected call to populate DextRecordTable when it is not emptycannot
+populate table: DextRecordPlist could not be read from disk: DextRecordPlist is not found at %
+{public}sDextRecordPlist read from disk is invalid: DextRecordTable read from plist: %{public}
+sDextRecordPlist being written to disk is invalid: Saving DextRecordsPlist to
+diskDextRecordTable saved to plist: %{public}
+S_TtC14kernelmanagerd22DextRecordPlistManagerdextRecordPlistPathplistLockCleaning Up DextRecord
+%{public}s%public}s is being cleaned up but is was never marked as 'beingReplaced' does not
+contain a bundleURLcom.apple.security.syspolicy.kextUnable to return kext history - system
+policy is unavailable.Unable to return UAKL path - system policy is unavailable.System policy
+is unavailable.Prompting for complete auxiliary collection rebuild because of: '%{public}
+s'v16@?
+o@"NSData"8_TtC14kernelmanagerd22RealSystemPolicyClient$_lazy_storage_$_spAvailable$_ lazY_
+storage_$_spClient$_lazy_storage_$_
+spHistorySignedKernelExtensionsUnsignedKernelExtensionsSPKernelExtensionPolicySPKernelExtension
+HistoryBootstrap lookup failed for '%{public}s'Unable to get mach port for '%{public}
+s'com.apple.kernelmanagerd.loggingError encountered while deserializing: %{public}sunknown
+collectionauxiliary kext collectionsystem kext collectionboot kernel collectionkernelmanagerd/
+Utilities.swiftInitialization error: was never attachedCould not create extension from %Could
+not find plist Could not to write to plist at B24@?0q8@"<OS_pc_object>"16Cannot read
+stdoutCannot read stderrProcess %{public}s returned %{public}
+devalue_TtC14kernelmanagerd7XPCUtilWarning: % is already
+attachedApplicationCacheActivationStateManagerActiveDriversStateManagerApprovalSettingStateMan
+agerApprovalsManagerDriverBinManagerKernelStateManagerApplicationManagerSystemPolicyClientLoadR
+equestResolutionkey value CFBundleDisplayNameOSBundleUsageDescriptionIOKitPersonalities_
+PrelinkBundlePathOSKernelResourceOSBundleRequiredOSBundleLibrariesOSBundleIsInterfaceOSBundleCo
+mpatibleVersionAppleSecurityExtensionAppleKernelExternalComponentOSBundleSharedExecutableIdenti
+fierOSBundleLoadAddressOSBundleLoadSizeOSBundleAllowUserLoadOSBundleAllowserTerminateOSBundleR
+equireExplicitLoad_InfoPlistDigestOSBundleOptionalAuKCCFBundleGetInfoStringNSHUmanReadableCopy
+rightIOUserServerNamekOSBundleDextUniqueIdentifierOSBundleTeamIdentifier_MKEXTInfoDictionaries_
+MKEXTBundlePathOSBundleMachOHeadersOSBundleLogStringsOSBundleCPUSubtypeOSBundleTextUUIDOSBundle
+PrelinkedOSBundleExecLoadAddressOSBundleExecLoadSizeOSBundleWiredSizeOSBUndleRetainCountOSBundl
+eCacheLoadAddressOSBundleDependencies_BundleCollectionTypeOSBundleExecutablePathKextRequest
+PredicateDext Daemon LaunchKext Load NotificationKet Unload NotificationKext Load RequestKext
+Resource RequestKext Request ArgumentsIOKit Daemon ExitDriver Extension Server NameDriver
+Extension Server TagDriverkit Reside Shared CacheKext Request Result CodeStart Exclude
+LevelStart Matching Exclude LevelPersonality NamesGet Loaded Kext InfoGet Kernel RequestsKext
+Request Info KeysTerminate IOServicesCodeless PersonalitiesGet Kexts in
+CollectionMissingAuKCBUndlesMissing Bundle IDsAuKBundleAvailableBundle
+AvailabilityLoadCodelessKextCodeless Kext Info_CodelessKextBundlePathDext Daemon
+UpgradeOSBundleDextStatectiveSBundleDextStatectiveLoadedOSBundleDextStateActiveUnloadedOSBun
+dleDextStatePendingUpgradeIOPersonalityPublisherIOUserServerCDHashIOUserServer0neProcessCFBundl
+eIdentifierKernelcom.apple.kpi.iokit_PrelinkInfoDictionaryOSPrelinkInfoContainsUUIDskern.
+osbuildconfigkern.filesetuuidkern.systemfilesetuuidkern.auxiliaryfilesetuuidkern.
+targetsystemvolgroupuuidcom.apple.kernel.com.apple.kernelcom.apple.fsplaceholdercom.apple.kpi.
+kasancom.apple.kpi.kcovcom.apple.kpi.privatecom.apple.kpi.unsupportedOSKextExcludeListcom.apple
+.developer.driverkitcom.apple.get-task-allowcom.apple.security.get-task-
+allowcom.apple.private.driverkit.driver-launch-configurationcom.apple.private.security.kext-
+collection-managementcom.apple.private.security.only-bootkc-
+managementcom.apple.private.security.iocatalog-
+managementcom.apple.private.kernelmanagement.collection-
+buildercom.apple.private.kernelmanagement.migrationcom.apple.private.security.driver-
+managementKernelExtensionManagement/Library/StagedExtensions/private/var/db/
+KernelExtensionManagement/
+StagingStashedExtensionscom.apple.kcgen.checkpoints.plistcom.apple.kcgen.instructions.plistcom.
+apple.kcgen.vakl.plistkernelcache.auxiliarysystemCollectionboot-breadcrumbsSystem/Library/
+Caches/com.apple.kernelcacheskernelcache.aukcSystem/Library/Caches/com.apple.kernelcaches/
+kernelcacheSystem/Library/Caches/com.apple.kernelcaches/kernelcache.custom/System/Volumes/
+Preboot/var/db/AdminUserRecoveryInfo.plist/System/Volumes/Preboot/System/Volumes/iSCPreboot/
+System/Volumes/Data/private/var/db/KernelExtensionManagement/AuKC//private/var/db/
+KernelExtensionManagement/KernelCollections/
+BootKernelCollection.kcAuxiliaryKernelCollection.c/var/db/KernelExtensionManagement/
+DextRecordTable.plist/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/
+Developer/SDKs/Library/Developer/KDKs/AppleInternal/Developer/KDKs/System/AppleInternal/
+Developer/KDKs/System/Library/CoreServices/SystemVersion.plistSystem/Library/Extensions/
+System.kext/PlugIns/Libkern.kext/Libkernone-time-boot-
+commandUserExtensionLoadUserExtensionPathLookupExtensionStagingExtensionRemovalExtensionRealizi
+ngDextLaunchResourceLoadKernelLoadRequestDaemonActivationCollectionLoadReadPrelinkInfoAkelExten
+sionLoadDriverkitExtensionLoadFullBundleLoadValidateKextApprovalsAppleCollectionLoadRealizeLoad
+edCollectionsValidateAukcAuthenticityAuxKCMigrationDextRecordPlistTransactionSystemExtensionsA
+ctivationDaemonCheckInResult
+OKDaemonInitStartedDaemonInitCompletecom.apple.root.installedcom.apple.rootlesscom.apple.
+distnoted.matchingcom.apple.LaunchServices.applicationRegisteredcom.apple.LaunchServices.
+applicationUnregisteredintentional hang enabled (for testing)intentional crash enabled (for
+testing)intentional early hang enabled (for testing)automatic reboot disabled (for
+testing)asynchronous timed checkin with kernel watchdog enableduserspace watchdog
+disabledlogging reflection to serial enabledpanic on AuKC save error enabledtest preboot
+enabledkcgen disabled (overrides enable) Apple Inc. All rights reserved.^[0-9]{4}-[0-9]
+{4}$DriverKitE1000DextEnabledECMDextsEnabledHIDDextsEnabledAlDextsEnabledcom.apple.DriverKit-
+AppleEthernetE1000com.apple.DriverKit.AppleUserECMcom.apple.DriverKit.AppleUserECMDatacom.apple
+.AppleUserHIDDriversThirdPartyDexts/private/var/tmp/com.apple.driverkitd/DriverExtensions/
+private/var/tmp/com.apple.driverkitd/driver-approvals.plist/private/var/tmp/
+com.apple.driverkitd/applications.plist
+OneProcessEnabledkextsOutOfOSkextsInKDKKextsOutOfOSImageKextsOutOfOSImageFeatureFlags should
+have only one checkpoint enabled. Found %{public}sforcing checkpoint to %{public}
+skextsOutOfOSImageFeatureFlags: %{public}skextsOutOfOSImageFeatureFlags checkpoint is
+kextsOutOfOS but the %{public}s binary is present: We conclude kext binaries are not really
+missing on this systemallowThirdPartyDextsIODeviceTree:/productsupports-third-party-
+drivers aux_k_receiptcom.apple.KernelManagementcom.apple.kernelmanagementConfiguration has
+unrecognized format.Could not get contents of KernelManagement configuration file.Could not get
+path of main executable.Could not get contents of main executable.Could not find configuration
+data in executable section for architectures Could not get path of KernelManagement
+configuration resource.Could not find KernelManagement.framework for configuration
+file.BootKernelCollectionSystemKernelCollectionAuxiliaryKernelCollectionBaseSystemKernelCollect
+ionSystemVolumeSystemKernelCollectionDaemonExtensionPathsPlatformExtensionPathsAllExtensionsPat
+hsAuxiliaryExtensionPathsPlatformDriverExtensionsDirectoryUserDriverExtensionsDirectoryUserSyst
+emExtensionsDirectoryThirdPartyDriverKitStagingDirectoryApprovalsDatabasePathApplicationCachePa
+thDeniedIdentifiersUnexpected call to applicationRecord(fromBundleID:)Unexpected call to
+applicationRecord_TtC14kernelmanagerd18NullLaunchServices_
+TtC14kernelmanagerd18RealLaunchServicescom.apple.message.personalitynamescom.apple.message.
+architecturecom.apple.message.fatcom.apple.message.signaturetypecom.apple.message.
+signingtimecom.apple.message.issuercncom.apple.message.subjectcncom.apple.message.teamidcom.
+apple.message.hashcom.apple.message.codelesscom.apple.message.kextexecpathcom.apple.message.
+kextpathcom.apple.message.kextnamecom.apple.message.versioncom.apple.message.bundleID3rd-party
+kext with deuid+ certificate3rd-party kext with Apple root3rd-party kext without Apple
+rootApple kext with Apple
+rootcom.apple.km.driverkit.installcom.apple.km.driverkit.approvalcom.apple.km.driverkit.
+launchCould not determine running architectureCould not find receipt in auxKCSkipping kext
+auditing: SIP is offEncountered error while reading auKC receipt: %{public}sAudit of auxiliary
+collection: Unexpected status: %{public}sAudit of auxiliary collection, extension: %02X%02X..
+%02X%02XAudit of auxiliary collection: %{public}sUnable to get mounts (errno %d)Mount point %
+{public}s with device %{public}s is not an APFS volume (%{public}s).Could not find device name
+for getattrlist() failed for ATTR_ VOL_UUID at %{public}s: %dsnapshot uid mounted at %{public}
+s: %{public}sfound root snapshot: %{public}s (%{public}s)root from snapshot not set, rooting
+from livefsNo root snapshot found for %{public}s: %{errno}do root snapshot found for invalid
+device handleDisk image is attached as %public}sCould not get mount point for
+mountImage(path:_:)volumeGroupUUID(forMountPoint:)volumeGroupUUID(forDeviceName:)
+volumeSnapshotUUID(atURL:)volumeRootSnapshot(atURL:)deviceName(forAPFSMountPoint:)mountPoint(
+forDeviceName:)_TtC14kernelmanagerd14RealAPFSClientCannot get group volume for setting up
+RealBridgeClientDisabling kext auditing: We are on Apple SiliconDisabling kext auditing: could
+not get master port, error: %dextAuditDisabling kext auditing: could not open connection with
+kext audit kext, error: Ox%x, sys: Ox%x, sub: Ox%x, code: Ox%xSet up kext auditing with
+connection %disabling kext auditing: could not find kext audit kextError communicating with
+kext audit kext, error: 0x%x, sys: Ox%x, sub: Ox%x, code:
+Ox%x_TtC14kernelmanagerd16RealBridgeClientshouldAuditKextskextAuditIOConnection%02x%02x ...
+%02x%02xError decoding receipt entry first byte sequence for CD hashError decoding receipt
+entry, first byte sequence is length %d, not expected length (%)Error decoding receipt entry,
+first byte sequence is length , not expected length (Error decoding receipt entry second byte
+sequence for team IDError decoding receipt entry, second byte sequence is length %d, not 0 or
+%Error decoding receipt entry, second byte sequence is length Error decoding receipt entry
+third byte sequence for bundle ID hashError decoding receipt entry, third byte sequence is
+length %d, not expected length (%)Error decoding receipt entry, third byte sequence is length
+Error decoding kernel extension version in receipt entryError, found ⅚d trailing bytes in
+sequence trailing bytes in sequenceError decoding kernel extension version in receipt entry,
+could not translate integer %llu to valid kernel extension version stringError decoding kernel
+extension version in receipt entry, could not translate integer to valid kernel extension
+version stringError decoding top level of receiptError decoding version of receiptError reading
+version %llu of receipt (when only 1 is understood)Error reading verion Error decoding
+receipt's entry listWARNING: Unable to watch %{public}s!Listening for file system events from %
+{public}s/Library/Extensions/Error loading/realizing auKC on /Library/Extensions fsevent: %
+{public}scom.apple.kernelmanagerd.system-extensionsincoming connection from pid %d
+Attempt by unentitled pid % to access kogen interfacettempt by unentitled pid %d to access
+migration
+interfacepathOfExtension(withIdentifier:withReply:)getCollectionPath(withCollection:withReply:)
+TtC14Kernelmanagerd21FileSystemEventSourcekmstreamCallback_
+TtC14kernelmanagerd29SystemExtensionsRequestSourcev48@
+sysExtPointListener_TtC14kernelmanagerd34KernelManagementXPCRequestDelegate
+connectionmigrateAuxKC(forVolumeGroupUUID:withMigrationSuccess:withReply:)
+buildAuxiliaryKernelCollection(forVolume:extensionsMap:instructionsData:withReply:)
+triggerAuKCCleanup(_:withReply:)triggerPanicMedicInRecovery(withPath:withReply:)dumpState(
+reply:)clearAllStagedExtensions(reply:)checkAllFilesets(reply:)Error looking up extension path:
+%public}s®{public}s: Unloading identifiers: %public}s, classNames: %public}
+sunloadExtensions(withIdentifiers:withClassNames:options:withReply:)failed to unload
+extensions: %{public}sUnable to find the extension to unload (%{public}s) in auxKC, looking in
+system/bootKCMissing extension with identifier %public}s: Loading paths: %public}s,
+identifiers: %{public}s, personalityNames: %public}
+sloadExtensions(withPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:
+options:withReply:)failed to load/rebuild extensions: %public}ssysextd delegate terminate
+extension: %{public}s (%{public}s/%{public}s)sysextd delegate start extension: %{public}s (%
+{public}s/%{public}s)No staged bundle provided to start extension call for sysext delegate
+will-replace extension: %{public}s (%{public}s/%{public}s) with extension: %{public}s (%
+{public}s/%{public}s)No staged bundle url provided for new %{public}sFailed to handle
+willReplace dext %{public}s / %{public}s, error: %{public}ssysextd delegate will-uninstall
+extension: %{public}s (%{public}s/%{public}s)sysextd delegate will-terminate extension: %
+{public}s (%public}s/%public}s)Failed to terminate dext %public}s, error: %public}sFailed
+to terminate dext %public}s, it is being replaced: %{public}sFailed to terminate dext %
+{public}s, extension not found: %{public}ssysextd delegate will-start extension: %{public}s (%
+{public}s/%{public}s)sysextd delegate validate extension: %{public}s (%{public}s/%{public}
+)Validation of %{public}s error: %{public}sValidation of %{public}s error: invalidProperties:
+%{public}sValidation of %{public}s error: .invalidArgument: %{public}sfsevents watch callback
+firedexpected a '[String]' representing a file-paths but got %public sfile system event source
+fired with no context object%{public}s was modified by event %{public}slibrary rebuild request
+failed: %{public}sKernelManagementClientProtocolv32@0:8@"NSArray"
+com.apple.driver.KextExcludeList/Library/Apple/
+System/Library/Extensions/AppleKextExcludeList.kext
+OSKextStrictExceptionHashListOSKextSigExceptionHashList has an invalid or missing version. has
+an invalid format.Invalid match specification '/AppleInternal/Applications/Crash Test
+Dummy.app/Contents/Resources/PanicTest.kext/AppleInternal/CoreOS/IOSimulationStorageDriver/
+IOSimulationStorageDriver.kext/AppleInternal/CoreOS/syspolicyd/ASP_kernel_test.kext/
+AppleInternal/CoreS/tests/IOHIDFamily/CameraUnitTest.kext/AppleInternal/CoreOS/tests/
+IOHIDFamily/IOHIDActionQueueTestDriver.kext/AppleInternal/CoreOS/tests/IOHIDFamily/
+IOHIDEventFastPathTestDriver.kext/AppleInternal/CoreOS/tests/xu/testkext/pgokext.kext/
+AppleInternal/CoreS/tests/xn/unit_tests/testIOConnectMapMemoryPortLeak_45265408/
+testIOConnectMapMemoryPortLeak_45265408/testIOConnectMapMemoryPortLeak_45265408.kext/
+AppleInternal/Diagnostics/OS/Plugins/Ethernet.plugin/Contents/Resources/EtherPerf_Kext.kext/
+AppleInternal/Diagnostics/OS/Plugins/Mikey.plugin/Contents/Resources/AppleMikeyDiags.kext/
+AppleInternal/Diagnostics/OS/Plugins/Processor.plugin/Contents/Resources/AppleMSRDiag.kext/
+AppleInternal/Diagnostics/Tools/EtherPerfServerApp.app/Contents/Resources/EtherPerf_Kext.kext/
+AppleInternal/Diagnostics/Tools/IOPortCoreScripts/Kext/AppleTestDevice-IOUSBHostFamily.kext/
+AppleInternal/Library/Extensions/AirPortBrcmNIC-MFG.kext/AppleInternal/Library/Extensions/
+AppleFPGARainier.kext/AppleInternal/Library/Frameworks/ADVAccess.framework/Versions/A/
+Resources/ADVDriverClient.kext/AppleInternal/Tests/IOKitUser/Kexts/DoNothing.kext/
+AppleInternal/Tests/LocalAuthenticationSecureIO/TestData/Blacklists/Default/
+AppleKextDenyList.kext/AppleInternal/Tests/networking/kctl-test-kext.kext/AppleInternal/Tests/
+networking/keepaliveoffloadkext.kext/AppleInternal/Tests/networking/kiff_extension.kext/System/
+Library/Extensions/AirPortBrcm4360-MFG.kext/System/Library/Extensions/
+AppleAstrisGpioProbe.kext/System/Library/Extensions/AppleEFIPerf.kext/System/Library/
+Extensions/AppleHWAccess.kext/System/Library/Extensions/
+AppleIntelCPUPowerManagementDriver.kext/System/Library/Extensions/AppleNVMePassThrough.kext/
+System/Library/Extensions/AppleQuaibridge.kext/System/Library/Extensions/AppleUSBKDP.kext/
+System/Library/Extensions/KernelRelayTesterHost.kext/System/Library/Extensions/MEDetect.kext/
+System/Library/Extensions/MojoKDP.kext/System/Library/Extensions/RUSBHostFamily.kext/System/
+Library/Extensions/SiValPMU_VCOMDriver.kext/System/Library/Extensions/fipscavs_kext_tool.kext/
+Library/Extensions/Astris.kext/Library/Extensions/AppleKIS.kext/Library/Extensions/
+AppleKIS.kext/Contents/PlugIns/AppleRSMHost.kext/Library/Extensions/Astris-
+IOUSBHostFamily.kext/Library/Extensions/view.kextLTLEEQGTGEInvalid identifier and version
+Invalid chash value 'noverifypreboot_volpreboot_path%: could not get path for preboot volume
+bless2_boot_with_argspolicy_volpolicy_path%s: could not get path for policy volume
+boot_oncebless2_verify_with_argsbc_fdbc_path%s: could not get path for boot caches
+bless2_install_with_argssrc_fdsrc_path%s: could not get path for source directory
+dst_fddst_path%s: could not get path for destination directory
+osman_fdosman_path%s: could not get path for OS manifest
+gman_fdDeprecated key: %s. Ignoring.
+INSTALL_KEY_GLOBAL_MANIFEST_FDgman_pathINSTALL_KEY_GLOBAL_MANIFEST_PATHpol_fdpol_
+pathvariantforce_uidpreboot_fdbless2_g_with_argsrecovery_fdrecovery_path%s:couldnotget
+path for recovery volume
+policy_fdbless2_gc is deprecated, call bless2_g_with_args instead
+bless2_bootobjects_pathbless2_install_custom_objpayloadthe volume does not have a group uid
+cannot get ISC preboot volume mount point, %d
+cannot get tag for payload, %d
+unrecognized tag for custom object: %X
+cannot get manifest for payload object, %s
+stitching failed, %d
+cannot get path for boot objects in preboot volume, %d
+/System/Library/Caches/com.apple.kernelcaches/kernelcache.auk./System/Library/Caches/
+com.apple.kernelcaches/kernelcache.custom.the world is ending, take cover
+cannot convert auxi to a string, %d
+cannot open boot object file for writing, %d
+cannot write boot object data to file, %d
+bless2_update_all_custom_objsbless2_g_all_custom_objschip-idcannot get chip id %d
+board-idcannot get board id %d
+security-domaincannot get security domain %d
+unique-chip-idcannot get unique-chip-id %d
+get_media_group_uidbless2.cis_apfs_volume(vol)VolGroupUUIDcould not get device path for iSC
+preboot, %d
+dev/cannot convert device path name to string
+Incorrect type for argument: %s
+BOOT_KEY_NOVERIFYBOOT_KEY_ PREBOOT_FDInvalid file descriptor value %d for argument %s
+BOOT_KEY_PREBOOT_PATHMissing argument: % or % required
+BOOT_KEY_POLICY_FDBOOT_KEY_POLICY_PATHBOOT_KEY_BOOT_ONCEvolume not on a valid boot device (per
+registry property)
+SEOC SMC key will not be written. Continuing...
+cannot set the container UUID %d
+root privilege is required to set the boot volume
+Key not written to the SMC; continuing...
+IOServicecould not get iterator for volume device: %X
+IOBlockStorageDeviceDevice Characteristicsinvalid type for device characteristics
+no device characteristics for volume
+Invalid Startup Diskinvalid type for invalid-startup-disk property
+IOMediacannot find is container
+cannot find gpt
+AppleAPFSContainerSchemeparent of container scheme is ???
+parent of container scheme is not gpt, it's '%'(%zu)
+IOGUIDPartitionSchemeUUID%/%susr/standalone/firmware/iBoot.img4could not find iBoot img4 file:
+%s
+could not read contents of iBoot img4 file: %s
+could not parse %s as an Image4 file: %d
+no 'iocv' payload property in iBoot, looking at version string
+could not get version string for iBoot img4
+could not allocate memory for version string: %d
+[iocv=no 'iocv' property in version string
+file_loadfile %llu too large %lld
+file_load_lensave &$ (save # EINVAL) ! (out-›data & FILE_MMAPPED_FLAG) len < INT_MAXonly read
+%d of %zu bytes (%d)
+unmapped img4 error %d
+munmap failed with %d
+XXXXXXXX-XXX-XXXX-XXXX-XXXXXXXXXXXX:alt-boot-volume%s:%:%suuid_reswap!errorcannotgetnvram
+entry
+cannot create key string
+cannot create property string
+NVRAM set %s = %s
+cannot set property mach err 0x%x
+XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX:boot-
+volumeVERIFY_KEY_PREBOOT_FDVERIFY_KEY_PREBOOT_PATHVERIFY_KEY_POLICY_FDVERIFY_KEY_POLICY_
+PATHcannot get policy volume mount point, %d
+cannot get current security mode, %s
+Current security mode is %s
+FullReducedPermissiveUnknownsr/standalone/firmware/devicetree.img4could not extract last path
+component from %s: %dcould not open boot obiect %s: %d
+could not read contents of boot obiect %s: %d
+Could not create firmware obiect
+com.apple.blessNo valid chip was available for this firmware
+boot obiect %s failed to verify: %d
+cannot get local policy status, %s
+volume has no local policy
+cannot get preboot volume mount point, %d
+string too small for nsih path
+INSTALL_KEY_BOOTCACHES_FDINSTALL_KEY_BOOTCACHES_PATHINSTALL_KEY_SRCDIR_FDInvalidvaluefor
+arqument %s: %d
+INSTALL_KEY_SRCDIR_PATHINSTALL_KEY_DSTDIR_FDINSTALL_KEY_DSTDIR_PATHINSTALL_KEY_OS_MANIFEST_
+FDINSTALL_KEY_OS_MANIFEST_PATHIncorrect or missing required argument: %s
+INSTALL_KEY_POLICY_VOL_FDINSTALL_KEY_POLICY_VOL_PATHINSTALL_KEY_VARIANTINSTALL_KEY_OVERRIDE.
+UUIDNot a valid UUID value for override: %s
+cannot remove old boot obiects %d
+cannot load os mainfest %d
+cannot load bootcaches.plist %d
+cannot load buildmanifest %d
+cannot open staging directory %d
+install boot objects failed %d
+cannot commit new boot objects %d
+cannot get media object for root volume %d
+cannot get role for root volume
+cannot get %sUUID for root volume %d
+group cannot get device for root volume %d
+cannot get registry entry for disk %s
+cannot find registry entry for disk %s
+cannot get root volume information %d
+get_apfs_roleRolecannot allocate volume properties
+SystemPrebootRecoverydir_iter_refreshret # EFAULT(ret > 0) && (ret < (int) sizeof(iter
+›buf bad refreshed entry
+returned group too short %u < %zU
+too few attrs returned %u, size %u
+entry name truncated %zu bytes
+zero-length entry name
+un-terminated entry name
+dir_cur_entrydir_entry_aligned(entry)dir_iter_advanceObad next entry
+dir_entry_is_dirsanitize_dir_entry (entry)cannot parse name % as a UUID
+cannot get current active nih value, %s
+/bootcannot open directory % %d
+cannot form nsih string for path, %d
+cannot delete old boot objects %d
+open_dircannot remove directory %s %d
+cannot reset iterator %d, %d
+cannot load bootcaches.plist file %d
+plist_deserializekCFALlocatorNullcannot create cfdata
+cannot deserialize plist, cf error %d
+cf_is_dict (plist)bless2missing bless2 plist dictionary
+bless2 entry is not a dictionary
+Versioncannot get build identity %s, %d
+cannot pull out source boot objects %d
+machine chip %u, board %u, sec domain %u
+unmapped authinstall error %u
+get_build_identitycannot create url from '%s'
+cannot create variant string
+Manifestcannot get build identity manifest' entry, %d
+stagingcannot create staging base %d
+new_dirxout # -1cannot unlink %d/'%', %d
+new dir %d/'%s'
+mkdirat failed %d
+%/boot/%scannot format nsih string, %d
+path '%s' is illegal
+build path %d/'%s'
+build_dir_pathmake_component(path[0] # '\0') &s (path[0] # '/')xend = '/'illegal
+component
+cannot make boot object iterator %d
+object %u doesn't match bootobj spec
+installation failed %d
+cannot open apticket.der
+cannot write apticket.der
+BootObjectsno boot objects
+bootobj_sanitize_valcf_is_dict(d)DestinationPathManifestRulecannot open source boot object %d
+cannot open dest boot obiect %d
+stitching failed %d
+open_src_objcf_is_string(cf_name)cannot convert bootobject name to string
+object '%s'
+cannot get '%s' in buildmanifest %d
+cannot open %s from bundle %d, %d
+cannot get entry for boot object '%s', %d
+Infocannot get boot object info, %d
+Pathcannot get boot object path, %d
+cannot convert boot object path to C string
+Img4PayloadTypepayload type for object "%" is not a string
+paylod type for object "%" is not a valid payload type
+cannot convert payload type for object "%" to C string
+open_dst_objcf_is_dict (src-›val)cf_is_string(dst)cannot convert bootobject dest to string
+cannot load source object %d
+could not re-create payload with new tag %s
+cannot write out stitched obiect %d
+cannot truncate stitched object to %u, %d
+cannot fsync stitched object %d
+preallocation is not supported on this filesystem
+failed to preallocate %lld bytes: %s (%d)
+0x%0811X bytes preallocated for %d
+build_file_pathcommit staging %d/'%s'
+PATH_KEY_PREBOOT_FDMissing argument: a preboot volume is required
+PATH_KEY_POLICY_FDPATH_KEY_POLICY_PATHMissing argument: a policy volume is required
+CUSTOM_KEY_PREBOOT_FDCUSTOM_KEY_PREBOOT_PATHCUSTOM_KEY_POLICY_FDCUSTOM_KEY_POLICY_PATHUPDATE_
+KEY_POLICY_FDUPDATE_KEY_POLICY_PATHCCUSTOM_KEY_POLICY_FDGCCUSTOM_KEY_POLICY_
+PATHAppleAPSVolumecould not get a matching dictionary for %s
+cannot create array for role property
+cannot create dictionary for property match
+IOPropertyMatchcould not find preboot volumes: %X
+BSD NameNo BSD Name for preboot volume!
+cannot convert BSD Name property to C string
+Updating preboot volume at /dev/%s
+Cannot create inputs dictionary for %s
+Cannot create outputs dictionary for %s
+in_preboot_devCallback for preboot volume at /dev/% failed:
+%dout_preboot_fdout_preboot_pathupdate_one_prebootIncorrect type for output: %s
+UPDATE_KEY_OUT_PREBOOT_FDInvalid file descriptor value %d for output %s
+UPDATE_KEY_OUT_PREB00T_PATHMissing callback output: a preboot volume is required
+Updating UUID directory %s
+"%s" not a valid uid directory name
+no active nsih value for UUID %s
+no proposed nsih value for UUID %s
+Updating objects for nsih %s
+/System/Library/Caches/com.apple.kernelcachesNo linked auk manifest for path
+cannot parse object payload as an im4p, %d
+cannot get manifest hash, %d
+couldn't convert manifest hash to digit string: %d
+cannot get digest for 'auxk' from manifest, %d
+'auxk' digest has unexpected size: %ld
+No directory for AuxKC objects
+kernelcache.auxkc.could not open file %s: %d
+could not load data from file %s: %d
+couldn't parse %s as an Image4 file: %d
+couldn't get manifest hash for file %s: %d
+couldn't get payload hash for file %s: %d
+Found auxkc file %s
+Obsolete auxkc file %s found
+Removing obsolete auxkc file %s
+cannot remove file %s: %d
+Ignoring in-use auxkc file %s
+file already up to date, no restitching required
+couldn't get payload from auxkc file: %d
+re-stitching failed: %d
+%.%scould not open new aukc file %s: %d
+couldn't write data to new auxkc file %s: %d
+Wrote new aukc file %s
+No linked fuos manifest for path
+cannot get digest for 'fuos' from manifest, %d
+"fuos' digest has unexpected size: %ld
+No directory for custom KC objects
+kernelcache.custom. Found custom kc file %s
+Obsolete custom KC file %s found
+Removing obsolete custom KC file %s
+Ignoring in-use custom KC file %s
+couldn't get payload from fuos file: %d
+kernelcache.customcould not open new custom KC file %s: %d
+couldn't write data to new custom KC file %s: %d
+Wrote new custom KC file %s
+cannot get tag for object payload, %d
+GC_KEY_PREBOOT_FDGC_KEY_PREBOOT_PATHGC_KEY_RECOVERY_FDGC_KEY_RECOVERY_PATHGC_KEY_POLICY_FDGC.
+KEY_POLICY_PATHcannot get active nsih value, %s
+cannot form active nsih string for volume, %d
+cannot get proposed nsih value, %s
+cannot form proposed nsih string for volume, %d
+IODeviceTree:/chosen asmbcannot get asmb node in device tree
+lp-nsihcannot get booted nsih value
+cannot form currently booted nsih string for volume, %d
+no boot directory to clean up
+cannot open boot directory %d
+cannot garbage collect %d
+bootgc_boot_dirdir # stagingrename phase failed %d
+remove phase failed %d
+skipping %s
+exclude nsih '%s'
+gc '%s'
+cannot rename %d/'%s' -> %d/ : %d
+Warning: nsih '%' directory not found during iteration
+open_dict_keyCFStringGetFileSystemRepresentation(cfstr, path, max)%
+02hhXbinary_to_hex_stringnumChars > Ocrypto-hash-methodcannot get device tree hashing type
+hashing method is not a string
+sha2-384non SHA-384 algorithm returned, '%'
+file_write_dataonly wrote %zd of %u bytes (%d)
+cannot get volume's container
+cannot iterate children, mach err 0x%x
+child %s, class %s
+cannot get bsd dev node
+cannot convert dev node to string
+cannot get uid ???
+cannot convert uid to string
+iokit returned non-vuid
+cannot get service
+cannot get boot triple %d
+cannot get volume id %d
+volume uid '%s'
+group vuid "%s'
+not backed by gpt
+cannot get gpt slice uid %d
+container uid "%s'
+backing storage looks like a diskimage
+disk is external?: %d
+cannot determine container type %d
+container type uid "%s'
+Protocol Characteristicscannot get protocol characteristics
+Physical InterconnectVirtual InterfaceEmbeddedDeviceTypeRootXXXXXXXX-XXXX-XXXX-
+XXXX-XXXXXXXXXXXXXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXXXXXXXXX-XXXX-XXXX-
+XXXX-XXXXXXXXXXXXInvalid underlying gpt type '%s'
+Content Hintcannot get device tree
+Generic BootPolicy errorError in SEP communicationError in SEP storageBoot Policy file I/O
+errorBoot Policy data size errorImage4 error in Boot PolicyACM error in Boot PolicySecurity
+mode error in Boot PolicyKey store error in Boot PolicyUnknown BootPolicy errorcannot get
+servicecannot convert device path name to cstringcannot get volume's containerKey not written
+to the SMC; continuing...root privilege is required to set the boot volumesEOC SMC key will not
+be written. Continuing...volume has no local policystring too small for nsih pathvolume not on
+a valid boot device (per registry property)bless2_gc is deprecated, call bless2_g_with_args
+insteadthe world is ending, take coverMissing argument: a preboot volume is requiredcannot get
+device tree hashing typehashing method is not a stringcannot create array for role
+propertycannot create dictionary for property matchMissing argument: a policy volume is
+requiredcannot get device treecannot get uid ???cannot convert uid to cstringiokit returned
+non-uidno device characteristics for volumeinvalid type for device characteristicsinvalid type
+for invalid-startup-disk propertyno 'iocv' payload property in iBoot, looking at version
+stringno 'iocv' property in version stringcould not get version string for iBoot img4cannot
+find gptcannot find is containerparent of container scheme is ???cannot get nvram entrycannot
+create key stringcannot create property stringCould not create firmware objectNo valid chip was
+available for this firmwarecannot get role for root volumecannot write apticket.dercannot open
+apticket.dercannot allocate volume propertiesbad refreshed entrybad next entryzero-length entry
+nameun-terminated entry namecannot create cfdatamissing bless2 plist dictionarybless2 entry is
+not a dictionarycannot create variant stringillegal ..' componentno boot objectscannot convert
+bootobject name to stringcannot convert bootobject dest to stringcannot convert boot object
+path to C stringpreallocation is not supported on this filesystemNo BSD Name for preboot
+volume!cannot convert BSD Name property to C stringMissing callback output: a preboot volume is
+requiredNo directory for AuxKC objectsNo linked auk manifest for pathfile already up to date,
+no restitching requiredNo directory for custom KC objectsNo linked fuos manifest for pathcannot
+get asmb node in device treecannot get booted nsih valuethe volume does not have a group vuidno
+boot directory to clean upcannot get bsd dev nodecannot convert dev node to cstringnot backed
+by gptbacking storage looks like a diskimagecannot get protocol characteristicsAppleSMCcould
+not find AppleSMC kext: %X
+could not get AppleSMC kext from iterator
+could not open AppleSMC service: %X
+could not initiate communication with AppleSMC service: %X
+invalid I/0 port for writing SMC key
+value too large for SMC communication: %lu bytes
+could not write AppleSMC key: %X
+could not send close message to AppleSMC service: %
+error closing AppleSMC service: %X
+could not get AppleSMC kext from iteratorinvalid I/0 port for writing SMC key%s: %s: mem:
+type=%≤ ptr=% size=%u (total=%u raw=% data=%u types=%u) %s:% (%s) .
+acm_mem_alloc_infoNULLacm_mem_free_info/AppleInternal/Library/BuildRoots/
+XXXXXXXX-XXXX-XXXX-XXX-XXXXXXXXXXXX/Library/Caches/com.apple.bs/Sources/
+AppleCredentialManager_ClientLibs/common/
+LibSerialization.
+cDeserializeVerifyPolicyDeserializeVerifyAcConstraintDeserializeProcessAclarrayof
+ACMCredentialRefDeserializeCredentialListDeallocCredentialList%:%: called.
+getLengthOfParameters%: %: returning, err = %ld.
+serializeParametersdeserializeParametersLibCall_ACMernelControl_BlockLibCall_
+ACMGlobalContextCredentialGetProperty_BlockLibCall_ACMContextVerifyPolicyWithPreflight
+BlockLibCall_ACMContextVerifyPolicyEx_BlockLibCall_ACMGlobalContextVerifyPolicy_BlockLibCall_
+ACMGetEnvironmentVariable_Block/AppleInternal/Library/BuildRoots/XXXXXXXX-XXXX-XXXX-XXXX-
+XXXXXXXX/Library/Caches/com.apple.bs/Sources/AppleCredentialManager_ClientLibs/common/
+LibCallBlock.cLibCall_ACMTRMLoadState_BlockLibCall_ACMContextUnloadToImage_BlockLibCall
+ACMGetAclAuthMethod_BlockverifyAcConstraintForOperationCommandInternalUtil_
+hexDumpToStrHelperCommonUtil.csrc!srcLendst||!
+dstCapacityACMUtil_WriteToBufferUtil_ReadFromBuffer<data>/AppleInternal/
+Library/BuildRoots/XXXXXXX-XXXX-XXXX-XXX-XXXXXXXXXXXX/Library/Caches/com.apple.bs/Sources/
+AppleCredentialManager_ClientLibs/common/CommonUtil.cUtil_SafeDeallocParametersarrayof
+ACMParameterUtil_DeallocCredentialACMCredential-
+ACMCredentialDataPassphraseExtractableACMCredential-
+ACMCredentialDataPassphraseEnteredACMCredential-ACMCredentialDataBiometryMatchedACMCredential
+- ACMCredentialDataPasscodeValidatedACMCredential -
+ACMCredentialDataPasscodeValidated2ACMCredential -
+ACMCredentialDataUser0utputDisplayedACMCredential -
+ACMCredentialDataContinuityUnlockACMCredential-ACMCredentialDataKextDenyListACMCredential
+ACMCredentialDataSecureIntentACMCredential-
+ACMCredentialDataBiometryMatchAttemptedACMCredential-ACMCredentialDataAPACMCredential-
+ACMCredentialDataSignatureACMCredentialUtil_AllocCredentialUtil_
+AllocRequirementACMRequirementACMRequirement-
+ACMRequirementDataPasscodeValidatedACMRequirement-
+ACMRequirementDataPassphraseEnteredACMRequirement-
+ACMRequirementDataBiometryMatchedACMRequirement-ACMRequirementDataSecureIntentACMRequirement
+- ACMRequirementDataBiometryMatchAttemptedACMRequirement -
+ACMRequirementDataUser0utputDisplayedACMRequirement - ACMRequirementDataAPACMRequirement
+ACMRequirementDataKeyRefACMRequirement-ACMRequirementDataAccessGroupsACMRequirement-
+ACMRequirementDataKofNACMRequirement-ACMRequirementDataAndACMRequirement-
+ACMRequirementData0rACMRequirement - ACMRequirementDataKofNWithAttributesACMRequirement-
+ACMRequirementDataBiometryMatchedWithAttributesACMRequirement
+ACMRequirementDataPushButtonWithAttributesACMRequirement-
+ACMRequirementDataSecureStateWithAttributesACMRequirement-
+ACMRequirementDataPasscodeValidatedWithAttributesUtil_CreateRequirement%:%:returning.
+Util.
+DeallocRequirementACMLibACMContextCreateACMContextCreateWithExternalFormACMContextDeletedestroy
+eddeletedACMContextGetExternalFormACMContextAddCredentialACMContextRemoveCredentialsByTypeACMCo
+ntextRemoveCredentialsByValueACMContextContainsCredentialTypeACMContextAddCredentialWithScope/
+AppleInternal/Library/BuildRoots/XXXXXXX-XXXX-XXXX-XXX-XXXXXXXXXXXX/Library/Caches/
+com.apple.xbs/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c
+ACMGlobalContextAddCredentialACMContextRemoveCredentialsByTypeAndScopeACMGlobalContextRemoveCre
+dentialsBTypeACMContextRemoveCredentialsByValueAndScopeACMContextRemovePassphraseCredentialsBy
+PurposeAndScopeACMContextReplacePassphraseCredentialsWithScopeACMContextContainsCredentialTypeE
+XACMContextContainsPassphraseCredentialWithPurposeACMContextVerifyPolicyACMContextVerifyPolicyw
+ithPreflightACMContextVerifyPolicyExACMGlobalContextVerifyPolicyACMParseAclAndCopyConstraintCha
+racteristicsACMCredentialGetPropertyACMRequirementGetSubrequirementsACMRequirementGetPropertyAC
+MRequirementGetPropertiesACMGetAclAuthMethodACMSetEnvironmentVariableACMSetEnvironmentVariableW
+ithAccessPolicyACMGetEnvironmentVariableACMernelControlACMGlobalContextCredentialGetPropertyAC
+MContextCredentialGetPropertyACMContextSetDataACMContextGetDataACMContextSetDataExACMContextGet
+DataExACMContextGetDataPropertyACMContextGetInfoupdateLogLevelFromKextinitAppleCredentialManage
+rv24@?0г^v8Q16getServerVersionperformCommandioKitTransportLibCall_BuildCommand/AppleInternal/
+Library/BuildRoots/XXXXXXX-XXXX-XXXX-XXX-XXXXXXXXXXXX/Library/Caches/com.apple.bs/Sources/
+AppleCredentialManager_ClientLibs/common/
+LibCall.cLibCall_ACMContextCreateACMHandleWithPayloadLibCall.
+ACMContextCreateWithExternalFormLibCall_ACMContextDeleteLibCall_
+ACMContexAddCredentialWithScopeLibCall_ACMContexRemoveCredentialsByTypeAndScopeLibCall_
+ACMContextRemoveCredentialsByValueAndScopeLibCall.
+ACMContextVerifyPolicyAndCopyRequirementExLibCall_ACMRequirementDeleteLibCall_
+ACMKernelControlLibCall.ccommandCursor = commandBuffer +
+sizeof(commandBuffer)LibCall_ACMPingLibCall_ACMKernDoubleClickNotifyLibCall_
+ACMContextCredentialGetPropertyLibCall_ACMGlobalContextCredentialGetPropertyLibCall_
+ACMContextVerifyPolicyExLibCall_ACMGlobalContextVerifyPolicyExLibCall_
+ACMGetEnvironmentVariableLibCall_ACMSetEnvironmentVariableLibCall_ACMTRMLoadStateLibCall_
+ACMTRMSaveStateLibCall_ACMContextLoadFromImageLibCall_ACMContextUnloadToImageLibCall_
+ACMContextSetDataLibCall_ACMContextGetDataLibCall_ACMPublishTrustedAccessoriesLibCall_
+ACMContextGetInfoverifyAclConstraintInternalLibCall_
+ACMSecContextVerifyAcConstraintAndCopyRequirementLibCall_ACMSecSetBuiltinBiometryLibCall_
+ACMSecSetBiometryAvailabilityprocessAclCommandInternal%:%s:command=%u.
+%: %s: context = %p.
+%: %s: acl = %p, aclLength = %ZU.
+%: % (len=%u): acl:%02x %s: %: operation = %p, operationLength = %zu.
+%: % (len=%): operation:%: %s: parameters = %p, parameterCount = %u.
+%: %: maxGlobalCredentialAge = %u.
+%: %: constraintState = %p.
+%: %s: requirePasscode = %p.
+aclRequiresPasscodeInternalprocessAclInternal.
+_isPlatformOrVariantPlatformVersionAtLeastos_
+version_check.cPlatform2 = PLATFORM_MACOS && "unexpected
+platform"_availability_version_
+checkCFDataCreateWithBytesNoCopyCFPropertyListCreateWithDataCFPropertyListCreateFromXMLDataCFSt
+ringCreateWithCStringNoCopyCFDictionaryGetValueCFGetTypeIDCFStringGetTypeIDCFStringGetCStringCF
+Release/System/Library/CoreServices/SystemVersion.plistrProductVersion%d.%d.%d-süÿes
+danchorappleID:
+@OSBundleUUID:
+@EnableCoreDumps:
+@OSBundleCPUType:
+@OSBundlePath:
+dOSBundleStarted:
+@OSBundleLoadTag:
+@OSBundleClasses:
+ALoad:
+@Send Resource:
+Name Value Request Tag
+@Check In Token:
+@Unloaded: PageableKCName AuxKCName loadfilesetkc
+@LoadFromKC; Collection Type AnyAuxiliarySystemPrimaryCodelessLoadedState
+DaemonReady;
+@Get Dexts;
+AIOMatchDefer
+_BootKCID
+_PageableKCID
+_PrelinkKCID
+ManagerVersion
+KMBuildVersionID= arch resolved
+KEXT TRACE FILE
+@kern.bootuuid
+kern.bootargs kern.safebootID=
+targetSymbolsSets
+Symbols
+SymbolName
+SymbolPrefix
+AliasTarget com.apple.kpi.ID
+@__kernel_Versions_Any_Match_All_Match
+@get-task-allow
+@Library/KCGen
+kcgen-modeosenvironmenti/kernelCacheDB
+dauxKC
+CurrentAuKCTempAuxKCApple Software
+kcgen-dataroot-live-fspanicmedic
+Name UserInfoe isPlaceholder bundleIDs Copyright
+RootConsole Local-Root Network-Root Safe Boot DriverKit Auxiliary_x86_64
+RootConsole Local-Root Network-Root DriverKit Safe Boot Auxiliary
+_AMAuthInstallApImg4CreatePayloadWithProperties.
+AMAuthInstallApImg4CreateStitchTicket_AMAuthInstallApImg4GetPayloadPropertiesData_
+AMAuthInstallApImg4ReCreatePayload_AMAuthInstallApSetParameters_
+AMAuthInstallBundleCopyBuildIdentityForVariant_AMAuthInstallCreate_
+APFSContainerVolumeGroupGetSystemAndDataVolumes_APFSGetVolumeGroupID_APFSVolumeRoleFind_
+AnalyticsSendEventLazy_CC_SHA256_CC_SHA384_CFArrayAppendValue_CFArrayCreateMutable_
+CFArrayGetCount_CFArrayGetTypeID_CFArrayGetValueAtIndex_CFBooleanGetTypeID_
+CFBooleanGetValue_CFBundleCopyBuiltInPlugInsURL_CFBundleCopyBundleURL
+CFBundleCopyExecutableURL_CFBundleCopyResourceURL_
+CFBundleCopyResourceURLsOfTypeInDirectory_CFBundleGetInfoDictionary_
+CFBundleGetLocalInfoDictionary_CFDataCreate_CFDataCreateMutable_
+CFDataCreateWithBytesNoCopy_CFDataGetBytePtr_CFDataGetLength_CFDataGetTypeID_
+CFDictionaryAddValue_CFDictionaryCreateMutable_CFDictionaryGetCount.
+CFDictionaryGetKeysAndValues_CFDictionaryGetTypeID_CFDictionaryGetValue_
+CFDictionarySetValue_CFEqual_CFErrorGetCode_CFGetTypeID_CFNumberCreate_CFNumberGetTypeID
+-CFNumberGetValue_CFPropertyListCreateWithData_CFRelease_CFRetain_CFStringCompare_
+CFStringCreateWithCString_CFStringFindAndReplace_CFStringGetCString_
+CFStringGetCStringPtr_CFStringGetFileSystemRepresentation_CFStringGetLength_
+CFStringGetMaximumSizeOfFileSystemRepresentation_CFStringGetTypeID_CFURLCreateWithBytes_
+CFUUIDCreateFromString_DADiskCopyDescription_DADiskCreateFromBSDName_DADiskGetBSDName_
+DADiskMount_DADiskUnmount_DADissenterCreate_DADissenterGetStatus.
+DADissenterGetStatusString_DARegisterDiskUnmountApprovalCallback_DASessionCreate_
+DASessionSetDispatchQueue_DAUnregisterCallback_DEREncoderAddUInt32_DEREncoderCreate_
+DEREncoderCreateEncodedBuffer_DEREncoderDestroy_FSEventStreamCreate_
+FSEventStreamSetDispatchQueue_FSEventStreamStart_IOBSDNameMatching_IOCFSerialize_
+IOCFUnserialize_IOCatalogueModuleLoaded_IOCatalogueSendData_IOCatalogueTerminate_
+IOConnectCallScalarMethod_IOConnectCallStructMethod_IOIteratorNext_IOMasterPort_
+IOObjectConformsTo_IOObjectGetClass_IOObjectRelease_IOObjectRetain_
+IORegistryEntryCreateCFProperty_IORegistryEntryCreateIterator_IORegistryEntryFromPath_
+IORegistryEntryGetChildIterator_IORegistryEntryGetName_IORegistryEntryGetParentEntry_
+IORegistryEntrySetCFProperty_IORegistryGetRootEntry_IOServiceClose.
+IOServiceGetMatchingService_IOServiceGetMatchingServices_IOServiceMatching_IOServiceOpen
+_Img4DecodeCopyManifestDigest_Img4DecodeCopyPayloadDigest.
+Img4DecodeGetObjectPropertyData_Img4DecodeGetPayloadPropertiesInteger_
+Img4DecodeGetPayloadType_Img4DecodeGetPayloadVersion_Img4DecodeInit_
+Img4DecodeInitManifest_Img4DecodeInitPayload_Img4EncodeCreatePayload_
+Img4EncodeStitchManifest_NDR_record_\SClassFromString_NSFileGroupOwneraccountID_
+NSFileOwnerAccountID_NSFilePosixPermissions_NSLocalizedDescriptionKey_NSULFileSizeKey_
+NSURLISDirectoryKey_NSURLIsSymbolicLinkey_NSURLPathkey_NXFindBestFatArch_
+NGetArchInfoFromCpuType_NGetArchInfoFromName_OSKernelManagementErrorDomain_
+OSKetParseVersionCFString_OSKetParseVersionString_OSKextVersionGetString_
+OSSystemExtensionErrorDomain_SecCertificateCopyCommonName_SecCertificateCopyValues_
+SecCodeCopySigningInformation_SecCodeSetDetachedSignature_SecCodeSignerAddSignature_
+SecCodeSignerCreate_SecCopyErrorMessageString_SecRequirementCreateWithString_
+SecStaticCodeCheckValidity_SecStaticCodeCreateWithPath.
+SecStaticCodeCreateWithPathAndAttributes__Block_copy__Block_object_assign_Block_object_
+dispose_
+_Block_release__CFBundleCopyInfoPlistURL__CFBundleCreateUnique_
+CEXPCCreateXPCObjectFromCFObject__NSConcreteStackBlock_ __chkstk_darwin___assert_rtn___
+bzero_.
+_error_
+_stack_chk_fail__-_stack_chk_guard_ ___strlcat_chk_ _stricpy_
+chk_img4_chip_ap_reduced__img4_chip_ap_vma2__img4_runtime_default_
+kCFBundlePackageTypeKey_ _kCFBundleShortVersionStringKey_ _objc_autoreleasePoolPop__objc_
+autoreleasePoolPush_os_feature_enabled_impl__os_log_default__os_log_error_impl__Os_log_
+impl__os_signpost_emit_with_name_impl _ set_User_dir_suffix_swiftEmptyArrayStorage_
+swiftEmptyDictionarySingleton_swiftEmptySetSingleton_swift_
+isClassOrObjCExistentialType_swift_stdlib_reportUnimplementedInitializer__xpc_error_key
+. description_abm_get_isc_device_node_abm_get_isc_device_path_addCollectionFile_
+addKernelFile_addKextDataFile_addPrelinkInfo_addSegmentData_aks_fv_owners_exist_basename
+_r_bootpolicy_consume_kcos_auth_token_bootpolicy_create_linked_manifest_bootpolicy-
+create_paired_recoveryos_local_policy_bootpolicy_default_policy_volume_path_value_
+bootpolicy_default_sfr_manifest_path_value_bootpolicy_error_to_string_bootpolicy_get_
+current_os_type_bootpolicy_get_current_os_type_restrictions_override_status_bootpolicy_
+get_linked_manifest_bootpolicy_get_local_policy_boolean_tag_bootpolicy_get_local_policy_
+digest_tag_bootpolicy_get_nsih_bootpolicy_get_security_mode_bootpolicy_get_sip_flags_
+bootpolicy_get_spih_bootpolicy_has_local_policy_support_bootpolicy_os_type_to_string_
+bootpolicy_root_volume_uuid_Value_bootpolicy_update_local_policy_boolean_tag_bootpolicy_
+update_local_policy_for_custom_os_bootpolicy_update_Local_policy_for_kcos_bootpolicy_
+update_local_policy_for_post_software_update_fixups_bootpolicy_update_local_policy_for_
+post_software_update_fixups_with_splat_bootpolicy_update_local_policy_nonce_begin_
+bootpolicy_update_local_policy_nonce_end_bootpolicy_update_local_policy_nonce_reset.
+bootpolicy_verify_local_policy_pairing_bootpolicy_verify_local_policy_uakl_bootpolicy_
+volume_has_Local_policy_bootstrap_check_in_bootstrap_look_up2_bootstrap_port_calloc_
+coder_decode_sequence_ti_ccder_decode_ti_ccder_decode_uint64_ccder_encode_constructed_tl
+_ccder_encode_raw_octet_string_ccder_encode_Uint64_ccder_sizeof_ccder_sizeof_raw_octet_
+string_ccder_sizeof_uint64_close_compression_decode_buffer_compression_decode_scratch_
+buffer_size_compression_encode_buffer_compression_encode_scratch_buffer_size_compression
+_stream_identify_algorithm_confstr_copyfile_copyfile_state_alloc_copyfile_state_free_
+copyfile_state_get_copyfile_state_set_createKernelCollectionBuilder_csr_check_
+destroyKernelCollectionBuilder_dispatch_main_dispatch_mig_server_dispatch_once_f_
+dispatch_semaphore_create_dispatch_sync_dlsym_dup_exit_fclose_fcntl_fflush_fopen_fread_
+free_fsctl_fseek_fstat$INODE64_fstatat$INODE64_fsync_ftell_ftruncate_
+getCollectionFileResults_getErrors_getKextErrors_getattrist_getattrlistbulk_geteuid_
+getmntinfo$INODE64_getpass_getppid_getpwnam_getuid_getxattr_img4_chip_select_
+personalized_ap_img4_firmware_destroy_img4_firmware_execute_img4_firmware_new_img4_
+firmware_select_chip_KAMAuthInstallApParameterBoardID_KAMAuthInstallApParameterChipID.
+kAMAuthInstallApParameterSecurityDomain_KCFAllocatorDefault_KCFAllocatorNull_
+KCFBooleanTrue_KCFBundleExecutableKey_kCFBundleIdentifierKey_kCFBundleNameKey_
+KCFBundleVersionKey_KCFNULl_KCFTypeArrayCallBacks_KCFTypeDictionaryKeyCallBacks_
+kCFTypeDictionaryValueCallBacks_kDADiskDescriptionMatchVolumeMountable_
+kDADiskDescriptionVolumePathKey_kIOMainPortDefault_kIOMasterPortDefault_
+kImg4DecodeLocalPolicyEc384Sha384_kSecCodeAttributeArchitecture_kSecCodeInfoCertificates
+- SecCodeInfoEntitlementsDict_KSecCodeInfoIdentifier_KSecCodeInfoMainExecutable_
+kSecCodeInfoTeamIdentifier_kSecCodeInfoTimestamp_kSecCodeInfoUnique_
+kSecCodeSignerDetached_kSecCodeSignerDigestAlgorithm_KSecCodeSignerIdentity_
+kSecCodeSignerResourceRules_kSecOIDCommonName_KSecOIDX509V1IssuerName_
+kSecPropertyKeyLabel_kSecPropertyKeyValue_kext_request_Iseek_mach_error_string_mach_host
+_self_mach_msg_mach_port_deallocate_mach_port_mod_refs_mach_task_self__macho_find_symtab
+_macho_get_section_by_name_macho_get_section_by_name_64_macho_scan_load_commands_malloc_
+malloc_size_memcmp_memcpy_memmove_memset_memset_s_mkdirat_mkdtempat_np_mkstemp_mmap_
+mount_munmap_objc_alloc_objc_allocWithZone_objc_autorelease_objc_autoreleaseReturnValue_
+objc_msgSend_objc_msgSendSuper2_objc_opt_self_objc_release_objc_retain_objc_
+retainAutorelease_objc_retainAutoreleasedReturnValue_objc_retainBlock_open_openat_os_
+boot_mode_query_os_log_type_enabled_os_variant_allows_internal_security_policies_os_
+variant_has_internal_content_os_variant_is_basesystem_os_variant_is_darwinos_os_variant_
+is_recovery_printf_proc_name_pthread_getschedparam_pthread_self_pthread_set_qos_class_
+self_np_pthread_setschedparam_putchar_puts_read_realpath$DARWIN_EXTSN_renameat_renameatx
+_np_rewind_rootless_check_trusted_class_rootless_mkdir_restricted_rootless_protected_
+volume_runKernelCollectionBuilder_sandbox_init_with_parameters_setProgressCallback_
+snprintf_sscanf_statfs$INODE64_strcasecmp_strchr_strcmp_strdup_strerror_strlcat_strlcpy_
+strlen_strncmp_strnlen_strrchr_strstr_strtol_swap_fat_arch_swap_fat_arch_64_swap_fat_
+header_swap_mach_header_swap_mach_header_64_swift_allocBox_swift_allocError_swift.
+allocObject_swift_allocateGenericClassMetadata_swift_allocateGenericValueMetadata_swift_
+arrayAssignWithTake_swift_arrayDestroy_swift_arrayInitWithCopy_swift.
+arrayInitWithTakeBackToFront_swift_arrayInitWithTakeFrontToBack_swift_beginAccess_swift_
+bridgeObjectRelease_swift_bridgeObjectRelease_n_swift_bridgeObjectRetain_swift_
+bridgeObjectRetain_n_swift_checkMetadataState_swift_conformsToProtocol_swift_
+deallocClassInstance_swift_deallocObject_swift_deallocPartialClassInstance_swift_
+deletedMethodError_swift_dynamicCast_swift_dynamicCastClass_swift_
+dynamicCastClassUnconditional_swift_dynamicCastObjCClass_swift_
+dynamicCastObjcClassUnconditional_swift_dynamicCastUnknownClass_swift_endAccess_swift_
+errorRelease_swift_errorRetain_swift_getAssociatedConformanceWitness_swift_
+getAssociatedTypeWitness_swift_getAtKeyPath_swift_getEnumCaseMultiPayload_swift_
+getEnumTagSinglePayloadGeneric_swift_getErrorValue_swift_getForeignTypeMetadata_swift.
+getGenericMetadata_swift_getKeyPath_swift_getMetatypeMetadata_swift_getObjCClassMetadata
+_swift_getObjectType_swift_getSingletonMetadata_swift_getTupleTypeMetadata2_swift_
+getTupleTypeMetadata3_swift_getTypeByMangledNameInContext_swift_
+getTypeByMangledNameInContextInMetadataState_swift_getWitnessTable_swift_
+initClassMetadata2_swift_initEnumMetadataMultiPayload_swift_initStackObject_swift_
+initStaticObject_swift_initStructMetadata_swift_isClassType_swift_
+isEscapingClosureAtFileLocation_swift_isUniquelyReferenced_nonNul1_bridgeObject_swift_
+isUniquelyReferenced_nonNull_native_swift_isaMask_swift_makeBoxUnique_swift_once_swift.
+projectBox_swift_release_swift_release_n_swift_retain_swift_retain_n_swift_slowAlloc_
+swift_slowDealloc_swift_stdlib_isStackAllocationSafe_swift_storeEnumTagMultiPayload_
+swift_storeEnumTagSinglePayloadGeneric_swift_UnexpectedError_swift_UnknownObjectRelease_
+swift_UnknownObjectRelease_n_swift_UnknownObjectRetain_swift_updateClassMetadata2_swift_
+willThrow_sysctlbyname_Unlinkat_unmount_Usleep_uid_copy_uid_is_null_Uuid_parse_Uuid_
+unparse_Uid_unparse_Upper_vm_deallocate_voucher_mach_msg_set_write_xcselect_get.
+developer_dir_path_хрс_array_apply_хрс_array_create_xpc_bool_create_xpc_bool_get_value_
+хрс_copy_entitlement_for_token_xpc_dictionary_create_xpc_dictionary_get_audit_token_хрс_
+dictionary_get_string_xpc_dictionary_get_value_xpc_dictionary_set_mach_send_xpc_event_
+publisher_activate_xpc_event_publisher_create_xpc_event_publisher_fire_xpc_event_
+publisher_fire_with_reply_xpc_event_publisher_set_error_handler_xpc_event_publisher_set_
+handler_xpc_get_type_xpc_set_event_stream_handler_xpc_string_create_xpc_string_get
+string_ptr_xpc_type_get_name_$sytWV_$sBi8_WV__objc_empty_cache_OBJC_METACLASS_$_
+SwiftObject_OBJC_METACLASS_$_NSObject_
+_img4_chip_ap_sha2_384__
+CFConstantStringClassReference_OBJC_CLASS_$_OSLaunchdJob_OBJC_CLASS_$_OSLaunchdDomain_
+OBJC_CLASS_$_RBSProcessIdentity_OBJC_CLASS_$_OS_os_log_OBJC_CLASS_$_NSFileManager_OBJC
+CLASS_$_RBSLaunchContext_OBJC_CLASS_$_RBSLaunchRequest_OBJC_CLASS_$_NSObject_OBJC_CLASS_
+$_NSProcessInfo_OBJC_CLASS_$_NSNumber_OBJC_CLASS_$_OS_dispatch_queue_OBJC_CLASS_$_OS_
+dispatch_source_OBJC_CLASS_$_NSXPCInterface__OBJC_CLASS_$_DMManager_OBJC_CLASS_$-
+AOPWithExternalForm
+PropertyDataExternalForm
+InfoTrackingNumberAndScope
+TypeValueAndScope
+CredentialsByPassphrase
+CredentialsByPurposeAndScope
+moveplacePassphraseCredentialsWithScop
+ForOperationAclConstraintPolicy
+WithPreflightContext
+CredentialCreateDeleteGetSetPropertyDataPropertyTypeKernelControlRequirementGetSetEnviro
+nmentVariableAclAuthMethodEnvironmentVariablegetGlobalContext
+AddCredential
+CredentialGetPropertyRemoveCredentialsBTypeVerifyPolicy
+parseAclAndCopyConstraintCharacteristics
+moveCredentialplacePassphraseCredentialrequirement
+AclConstraintPolicyAddCredentialSizeCredentialSizeGetContextPropertySizeProcessAclSize
+VerifyopmoveCredentialSizeplacePassphraseCredentialSizequirementSize
+AclConstraintSizePolicySizerAddCredentialWithScopeRemoveCredentialsByTypeAndScopeWithExt
+ernalFormDeleteGetLoadFromImageRemoveCredentialsByValueAndScopeSetDatabUnloadToImageVeri
+fyDataInfo
+publishTrustedAccessories
+VerifyAcConstraintAndCopyRequirement
+Context÷ SetBiometryAvailability
+builtinBiometry
+EnvironmentVariable Block
+LoadState
+SaveState
+ACMBuildCommand
+DeserializeGetSizeSerializeContextCredentialGetProperty_DeleteContext
+RemoveCredentialByType_Storage
+DeserializeGetSizeSerializeDeserializeGetSizeSerializepetAclAuthMethod
+GlobalContextCredentialGetProperty_
+DeserializeGetSizeSerializeAnyCmd_DeserializeCommonFieldsGetData_SetData
