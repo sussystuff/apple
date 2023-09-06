@@ -1,0 +1,803 @@
+{"duration_ms":"271913","share_with_app_devs":0,"roots_installed":0,"bug_type":"142","os_version":"iPhone OS 16.5.1 (20F75)","slice_uuid":"E81FD7FD-034F-3195-A4F5-3C692536E5AA","is_first_party":0,"incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXEB","timestamp":"2023-07-30 15:09:16.00 +1000","app_name":"backboardd","name":"backboardd"}
+Date/Time:        2023-07-30 15:04:44.184 +1000
+End time:         2023-07-30 15:09:16.097 +1000
+OS Version:       iPhone OS 16.5.1 (Build 20F75)
+Architecture:     arm64
+Report Version:   40
+Incident Identifier: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXEB
+
+Data Source:      Microstackshots
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1a8cfc000, slide 0x28cfc000
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX19 slid base address 0x1e5e2c000, slide 0x65e2c000
+
+Command:          backboardd
+Path:             /usr/libexec/backboardd
+Resource Coalition ID: 73
+Architecture:     arm64
+Parent:           UNKNOWN [1]
+PID:              62
+
+Event:            wakeups
+Action taken:     none
+Wakeups:          45001 wakeups over the last 272 seconds (165 wakeups per second average), exceeding limit of 150 wakeups per second over 300 seconds
+Wakeups limit:    45000
+Limit duration:   300s
+Wakeups caused:   45001
+Wakeups duration: 272s
+Duration:         271.91s
+Duration Sampled: 218.86s
+Steps:            106
+
+Hardware model:   iPad7,3
+Active cpus:      3
+HW page size:     16384
+VM page size:     16384
+
+Advisory levels:  Battery -> 2, User -> 3, ThermalPressure -> 0, Combined -> 2
+Free disk space:  21.23 GB/59.60 GB, low space threshold 150 MB
+Vnodes Available: 72.59% (14519/20000, 10000 allocated, 10000 soft limit)
+
+Preferred User Language: en-AU
+Country Code:     AU
+Keyboards:        en_AU QWERTY, emoji Emoji
+OS Cryptex File Extents: 27015
+
+Heaviest stack for the target process:
+  5  ??? (libsystem_pthread.dylib + 5920) [0x1f908c720]
+  4  ??? (libsystem_pthread.dylib + 7120) [0x1f908cbd0]
+  4  ??? (libdispatch.dylib + 85448) [0x1b67b7dc8]
+  3  ??? (libdispatch.dylib + 44400) [0x1b67add70]
+  2  ??? (libdispatch.dylib + 41320) [0x1b67ad168]
+  2  ??? (libdispatch.dylib + 100268) [0x1b67bb7ac]
+  2  ??? (libdispatch.dylib + 26428) [0x1b67a973c]
+  2  ??? (libdispatch.dylib + 411520) [0x1b6807780]
+  2  ??? (libdispatch.dylib + 70668) [0x1b67b440c]
+  2  ??? (CoreBrightness + 31432) [0x1d7bc5ac8]
+  2  ??? (CoreBrightness + 27604) [0x1d7bc4bd4]
+  2  ??? (CoreBrightness + 20836) [0x1d7bc3164]
+  1  ??? (CoreBrightness + 125624) [0x1d7bdcab8]
+  1  ??? (CoreFoundation + 515196) [0x1afad9c7c]
+
+
+Powerstats for:   backboardd [62]
+UUID:             E81FD7FD-034F-3195-A4F5-3C692536E5AA
+Path:             /usr/libexec/backboardd
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1a8cfc000, slide 0x28cfc000
+Resource Coalition ID: 73
+Architecture:     arm64
+Parent:           UNKNOWN [1]
+UID:              501
+Sudden Term:      Tracked
+Footprint:        34.52 MB
+Pageins:          6 pages
+Start time:       2023-07-30 15:05:48.260 +1000
+End time:         2023-07-30 15:09:04.355 +1000
+Num samples:      10 (9%)
+Primary state:    5 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Unspecified, Requested Thread QoS Unspecified, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 10 samples Active
+Power Source:     10 samples on Battery, 0 samples on AC
+  5   ??? (libsystem_pthread.dylib + 5920) [0x1f908c720]
+    4   ??? (libsystem_pthread.dylib + 7120) [0x1f908cbd0]
+      4   ??? (libdispatch.dylib + 85448) [0x1b67b7dc8]
+        3   ??? (libdispatch.dylib + 44400) [0x1b67add70]
+          2   ??? (libdispatch.dylib + 41320) [0x1b67ad168]
+            2   ??? (libdispatch.dylib + 100268) [0x1b67bb7ac]
+              2   ??? (libdispatch.dylib + 26428) [0x1b67a973c]
+                2   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                  2   ??? (libdispatch.dylib + 70668) [0x1b67b440c]
+                    2   ??? (CoreBrightness + 31432) [0x1d7bc5ac8]
+                      2   ??? (CoreBrightness + 27604) [0x1d7bc4bd4]
+                        2   ??? (CoreBrightness + 20836) [0x1d7bc3164]
+                          1   ??? (CoreBrightness + 125624) [0x1d7bdcab8]
+                            1   ??? (CoreFoundation + 515196) [0x1afad9c7c]
+                              1   <User mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+                          1   ??? (CoreBrightness + 125240) [0x1d7bdc938]
+                            1   ??? (CoreFoundation + 505564) [0x1afad76dc]
+                              1   <User mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+          1   ??? (libdispatch.dylib + 41624) [0x1b67ad298]
+            1   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+              1   ??? (libdispatch.dylib + 407464) [0x1b68067a8]
+                1   ??? (CoreBrightness + 94788) [0x1d7bd5244]
+                  1   ??? (CoreBrightness + 33672) [0x1d7bc6388]
+                    1   ??? (CoreBrightness + 87912) [0x1d7bd3768]
+                      1   ??? (CoreBrightness + 37564) [0x1d7bc72bc]
+                        1   ??? (CoreBrightness + 23036) [0x1d7bc39fc]
+                          1   ??? (IOKit + 45088) [0x1b71be020]
+                            1   ??? (IOKit + 30212) [0x1b71ba604]
+                              1   ??? (IOKit + 32580) [0x1b71baf44]
+                                1   ??? (libsystem_kernel.dylib + 5348) [0x1e9cbf4e4]
+                                  1   ??? (libsystem_kernel.dylib + 77176) [0x1e9cd0d78]
+                                    1   ??? (libsystem_kernel.dylib + 4080) [0x1e9cbeff0]
+                                      1   <User mode, Effective Thread QoS Default, Requested Thread QoS Default>
+        1   ??? (libdispatch.dylib + 44448) [0x1b67adda0]
+          1   ??? (libdispatch.dylib + 41320) [0x1b67ad168]
+            1   ??? (libdispatch.dylib + 118392) [0x1b67bfe78]
+              1   ??? (libdispatch.dylib + 41320) [0x1b67ad168]
+                1   ??? (libdispatch.dylib + 108404) [0x1b67bd774]
+                  1   ??? (libdispatch.dylib + 123432) [0x1b67c1228]
+                    1   ??? (libdispatch.dylib + 26124) [0x1b67a960c]
+                      1   ??? (libdispatch.dylib + 116020) [0x1b67bf534]
+                        1   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                          1   ??? (libdispatch.dylib + 407464) [0x1b68067a8]
+                            1   ??? (CoreBrightness + 482060) [0x1d7c33b0c]
+                              1   ??? (libobjc.A.dylib + 23892) [0x1a8db1d54]
+                                1   ??? (libsystem_kernel.dylib + 6800) [0x1e9cbfa90]
+                                  1   <Effective Thread QoS Utility, Requested Thread QoS Utility>
+    1   ??? (libsystem_pthread.dylib + 7176) [0x1f908cc08]
+      1   ??? (libdispatch.dylib + 83336) [0x1b67b7588]
+        1   ??? (libdispatch.dylib + 139532) [0x1b67c510c]
+          1   ??? (libdispatch.dylib + 106284) [0x1b67bcf2c]
+            1   ??? (libdispatch.dylib + 62600) [0x1b67b2488]
+              1   ??? (libdispatch.dylib + 19060) [0x1b67a7a74]
+                1   ??? (libsystem_kernel.dylib + 3912) [0x1e9cbef48]
+  4   ??? (libsystem_pthread.dylib + 5932) [0x1f908c72c]
+    4   ??? (libsystem_pthread.dylib + 12524) [0x1f908e0ec]
+      4   ??? (QuartzCore + 2651360) [0x1b11824e0]
+        4   ??? (QuartzCore + 2612676) [0x1b1178dc4]
+          4   ??? (CoreFoundation + 756824) [0x1afb14c58]
+            4   ??? (CoreFoundation + 499104) [0x1afad5da0]
+              2   ??? (CoreFoundation + 481220) [0x1afad17c4]
+                2   ??? (CoreFoundation + 597044) [0x1afaedc34]
+                  2   ??? (CoreFoundation + 589856) [0x1afaec020]
+                    2   ??? (CoreFoundation + 478820) [0x1afad0e64]
+                      2   ??? (QuartzCore + 226380) [0x1b0f3244c]
+                        1   ??? (QuartzCore + 839920) [0x1b0fc80f0]
+                          1   ??? (QuartzCore + 232072) [0x1b0f33a88]
+                            1   ??? (QuartzCore + 717356) [0x1b0faa22c]
+                              1   <User mode>
+                        1   ??? (QuartzCore + 223820) [0x1b0f31a4c]
+                          1   ??? (QuartzCore + 2560996) [0x1b116c3e4]
+                            1   ??? (QuartzCore + 663020) [0x1b0f9cdec]
+                              1   ??? (QuartzCore + 242232) [0x1b0f36238]
+                                1   ??? (QuartzCore + 2851240) [0x1b11b31a8]
+                                  1   ??? (IOMobileFramebuffer + 5776) [0x1d7e04690]
+                                    1   ??? (IOKit + 8452) [0x1b71b5104]
+                                      1   ??? (IOKit + 14668) [0x1b71b694c]
+                                        1   ??? (libsystem_kernel.dylib + 4080) [0x1e9cbeff0]
+              2   ??? (CoreFoundation + 480096) [0x1afad1360]
+                2   ??? (CoreFoundation + 475592) [0x1afad01c8]
+                  2   ??? (libsystem_kernel.dylib + 5348) [0x1e9cbf4e4]
+                    2   ??? (libsystem_kernel.dylib + 77176) [0x1e9cd0d78]
+                      2   ??? (libsystem_kernel.dylib + 4080) [0x1e9cbeff0]
+  1   ??? (libsystem_pthread.dylib + 5912) [0x1f908c718]
+
+  Binary Images:
+           0x100624000 -                ???  backboardd              <E81FD7FD-034F-3195-A4F5-3C692536E5AA>  /usr/libexec/backboardd
+           0x1a8dac000 -        0x1a8de5e9f  libobjc.A.dylib         <3038F24A-31A3-395B-9CE6-CE7B8657A6CF>  /usr/lib/libobjc.A.dylib
+           0x1afa5c000 -        0x1afe2afff  CoreFoundation          <14B73572-A1BC-3C77-A58A-A64A28663D46>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1b0efb000 -        0x1b1247fff  QuartzCore              <4F347205-6F99-3597-A753-F13669E2BEF7>  /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+           0x1b67a3000 -        0x1b6826fff  libdispatch.dylib       <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x1b71b3000 -        0x1b7267fff  IOKit                   <0B47F2B3-6314-31E3-B229-353FA3FABCCB>  /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+           0x1d7bbe000 -        0x1d7d68fff  CoreBrightness          <E51FB0E4-4383-3BB5-A5E7-ADB4C7192D18>  /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+           0x1d7e03000 -        0x1d7e0ffff  IOMobileFramebuffer     <C369925B-A017-35E9-9A8D-4600EC956636>  /System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+           0x1e9cbe000 -        0x1e9cf3fe7  libsystem_kernel.dylib  <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x1f908b000 -        0x1f909bfff  libsystem_pthread.dylib <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   STExtractionService (STExtractionService)
+UUID:             BB57584E-7648-339A-A94C-CBC7C76045EA
+Path:             /System/Library/PrivateFrameworks/StreamingExtractor.framework/XPCServices/STExtractionService.xpc/STExtractionService
+Identifier:       com.apple.STExtractionService
+Version:          1.0 (1)
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1a8cfc000, slide 0x28cfc000
+Resource Coalition ID: 273
+Architecture:     arm64
+Start time:       2023-07-30 15:05:36.608 +1000
+End time:         2023-07-30 15:08:37.897 +1000
+Num samples:      22 (21%)
+Primary state:    20 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Utility, Requested Thread QoS Utility, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 22 samples Active
+Power Source:     22 samples on Battery, 0 samples on AC
+  22  ??? (libsystem_pthread.dylib + 5920) [0x1f908c720]
+    22  ??? (libsystem_pthread.dylib + 7120) [0x1f908cbd0]
+      22  ??? (libdispatch.dylib + 85448) [0x1b67b7dc8]
+        22  ??? (libdispatch.dylib + 44400) [0x1b67add70]
+          22  ??? (libdispatch.dylib + 41624) [0x1b67ad298]
+            22  ??? (libdispatch.dylib + 411520) [0x1b6807780]
+              22  ??? (libdispatch.dylib + 407464) [0x1b68067a8]
+                22  ??? (STExtractionService + 16620) [0x1007500ec]
+                  22  ??? (<E7840187-8367-3685-B613-AE07D6BE437B> + 15668) [0x10080bd34]
+                    22  ??? (Foundation + 302252) [0x1a9eaecac]
+                      22  ??? (<E7840187-8367-3685-B613-AE07D6BE437B> + 16468) [0x10080c054]
+                        22  ??? (libAppleArchive.dylib + 37712) [0x1fdfe1350]
+                          22  ??? (libAppleArchive.dylib + 290432) [0x1fe01ee80]
+                            22  ??? (libAppleArchive.dylib + 28988) [0x1fdfdf13c]
+                              18  ??? (libAppleArchive.dylib + 179464) [0x1fe003d08]
+                                11  ??? (libAppleArchive.dylib + 30512) [0x1fdfdf730]
+                                  11  ??? (libAppleArchive.dylib + 225184) [0x1fe00efa0]
+                                    11  ??? (libAppleArchive.dylib + 229104) [0x1fe00fef0]
+                                      9   ??? (libAppleArchive.dylib + 312580) [0x1fe024504]
+                                        9   ??? (libAppleArchive.dylib + 192484) [0x1fe006fe4]
+                                          8   ??? (libAppleArchive.dylib + 188528) [0x1fe006070]
+                                            8   ??? (libcompression.dylib + 5196) [0x1f942144c]
+                                              8   ??? (libcompression.dylib + 194364) [0x1f944f73c]
+                                                8   ??? (libcompression.dylib + 186496) [0x1f944d880]
+                                                  7   ??? (libcompression.dylib + 190272) [0x1f944e740]
+                                                  1   ??? (libcompression.dylib + 190168) [0x1f944e6d8]
+                                          1   ??? (libAppleArchive.dylib + 188372) [0x1fe005fd4]
+                                            1   ??? (libsystem_kernel.dylib + 11912) [0x1e9cc0e88]
+                                              1   <Kernel mode>
+                                      2   ??? (libAppleArchive.dylib + 311832) [0x1fe024218]
+                                        2   ??? (libAppleArchive.dylib + 307108) [0x1fe022fa4]
+                                          1   ??? (libAppleArchive.dylib + 303496) [0x1fe022188]
+                                            1   ??? (libcommonCrypto.dylib + 12824) [0x1f8fb4218]
+                                              1   ??? (libcorecrypto.dylib + 19292) [0x1f9003b5c]
+                                          1   ??? (libsystem_kernel.dylib + 7512) [0x1e9cbfd58]
+                                7   ??? (libAppleArchive.dylib + 29552) [0x1fdfdf370]
+                                  6   ??? (libAppleArchive.dylib + 226060) [0x1fe00f30c]
+                                    6   ??? (libAppleArchive.dylib + 101696) [0x1fdff0d40]
+                                      5   ??? (libAppleArchive.dylib + 444980) [0x1fe044a34]
+                                        5   ??? (libcompression.dylib + 5196) [0x1f942144c]
+                                          5   ??? (libcompression.dylib + 194364) [0x1f944f73c]
+                                            5   ??? (libcompression.dylib + 186496) [0x1f944d880]
+                                              5   ??? (libcompression.dylib + 190272) [0x1f944e740]
+                                      1   ??? (libAppleArchive.dylib + 444876) [0x1fe0449cc]
+                                        1   ??? (libsystem_kernel.dylib + 11912) [0x1e9cc0e88]
+                                          1   <Kernel mode>
+                                  1   ??? (libAppleArchive.dylib + 226912) [0x1fe00f660]
+                                    1   ??? (libAppleArchive.dylib + 230304) [0x1fe0103a0]
+                                      1   ??? (libAppleArchive.dylib + 430120) [0x1fe041028]
+                                        1   ??? (libAppleArchive.dylib + 101152) [0x1fdff0b20]
+                                          1   ??? (libAppleArchive.dylib + 430120) [0x1fe041028]
+                                            1   ??? (libAppleArchive.dylib + 444296) [0x1fe044788]
+                                              1   ??? (libAppleArchive.dylib + 440772) [0x1fe0439c4]
+                                                1   ??? (libcompression.dylib + 6812) [0x1f9421a9c]
+                                                  1   ??? (libcompression.dylib + 194304) [0x1f944f700]
+                                                    1   ??? (libcompression.dylib + 138444) [0x1f9441ccc]
+                              4   ??? (libAppleArchive.dylib + 179380) [0x1fe003cb4]
+                                4   ??? (libAppleArchive.dylib + 68744) [0x1fdfe8c88]
+                                  4   ??? (liblzma.5.dylib + 41788) [0x22943d33c]
+                                    4   ??? (liblzma.5.dylib + 43136) [0x22943d880]
+                                      4   ??? (liblzma.5.dylib + 15992) [0x229436e78]
+                                        4   ??? (liblzma.5.dylib + 16496) [0x229437070]
+                                          4   ??? (liblzma.5.dylib + 17860) [0x2294375c4]
+                                            1   ??? (liblzma.5.dylib + 12096) [0x229435f40]
+                                            1   ??? (liblzma.5.dylib + 10660) [0x2294359a4]
+                                            1   ??? (liblzma.5.dylib + 5324) [0x2294344cc]
+                                            1   ??? (liblzma.5.dylib + 5132) [0x22943440c]
+
+  Binary Images:
+           0x10074c000 -                ???  com.apple.STExtractionService 1.0 (1) <BB57584E-7648-339A-A94C-CBC7C76045EA>  /System/Library/PrivateFrameworks/StreamingExtractor.framework/XPCServices/STExtractionService.xpc/STExtractionService
+           0x100808000 -                ???  ???                                   <E7840187-8367-3685-B613-AE07D6BE437B>
+           0x1a9e65000 -        0x1aa6acfff  Foundation                            <5DAF670F-4591-3F5C-A89C-92A238763FD1>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1b67a3000 -        0x1b6826fff  libdispatch.dylib                     <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x1e9cbe000 -        0x1e9cf3fe7  libsystem_kernel.dylib                <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x1f8fb1000 -        0x1f8fbdfff  libcommonCrypto.dylib                 <0D0124D9-16FE-3308-9B4F-5FA88004AAE0>  /usr/lib/system/libcommonCrypto.dylib
+           0x1f8fff000 -        0x1f9086fe7  libcorecrypto.dylib                   <F5664B7C-3409-3AD7-A36D-F2986E42A0E0>  /usr/lib/system/libcorecrypto.dylib
+           0x1f908b000 -        0x1f909bfff  libsystem_pthread.dylib               <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+           0x1f9420000 -        0x1f94ebfe7  libcompression.dylib                  <10AAA600-FEE6-3132-BF0F-491B0538712E>  /usr/lib/libcompression.dylib
+           0x1fdfd8000 -        0x1fe05fff7  libAppleArchive.dylib                 <DEC28D6B-1C35-30C8-86B5-EB96E0740EE9>  /usr/lib/libAppleArchive.dylib
+           0x229433000 -        0x22944bff3  liblzma.5.dylib                       <B79C5734-FAE9-3C86-A65E-E89F90A1012C>  /usr/lib/liblzma.5.dylib
+
+
+Powerstats for:   mobileassetd
+UUID:             4301AB0D-DE32-3541-8F28-AC2BF226735C
+Path:             /usr/libexec/mobileassetd
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1a8cfc000, slide 0x28cfc000
+Resource Coalition ID: 145
+Architecture:     arm64
+Start time:       2023-07-30 15:06:19.201 +1000
+End time:         2023-07-30 15:09:13.398 +1000
+Num samples:      21 (20%)
+Primary state:    11 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Utility, Requested Thread QoS Utility, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 21 samples Active
+Power Source:     21 samples on Battery, 0 samples on AC
+  20  ??? (libsystem_pthread.dylib + 5920) [0x1f908c720]
+    12  ??? (libsystem_pthread.dylib + 7120) [0x1f908cbd0]
+      12  ??? (libdispatch.dylib + 85448) [0x1b67b7dc8]
+        11  ??? (libdispatch.dylib + 44448) [0x1b67adda0]
+          11  ??? (libdispatch.dylib + 41624) [0x1b67ad298]
+            11  ??? (libdispatch.dylib + 411520) [0x1b6807780]
+              11  ??? (libdispatch.dylib + 407464) [0x1b68067a8]
+                9   ??? (SoftwareUpdateCoreSupport + 122060) [0x1d48fcccc]
+                  9   ??? (SoftwareUpdateCoreSupport + 124636) [0x1d48fd6dc]
+                    9   ??? (SoftwareUpdateCoreSupport + 125804) [0x1d48fdb6c]
+                      5   ??? (libmobileassetd.dylib + 360652) [0x1ec6700cc]
+                        5   ??? (libmobileassetd.dylib + 386928) [0x1ec676770]
+                          5   ??? (libmobileassetd.dylib + 427900) [0x1ec68077c]
+                            5   ??? (libmobileassetd.dylib + 431104) [0x1ec681400]
+                              5   ??? (libmobileassetd.dylib + 433020) [0x1ec681b7c]
+                                5   ??? (libmobileassetd.dylib + 434100) [0x1ec681fb4]
+                                  5   ??? (libmobileassetd.dylib + 464560) [0x1ec6896b0]
+                                    3   ??? (libmobileassetd.dylib + 530868) [0x1ec6999b4]
+                                      3   ??? (SoftwareUpdateCoreSupport + 188012) [0x1d490ce6c]
+                                        3   ??? (SoftwareUpdateCoreSupport + 188504) [0x1d490d058]
+                                          3   ??? (Foundation + 381408) [0x1a9ec21e0]
+                                            3   ??? (Foundation + 384556) [0x1a9ec2e2c]
+                                              3   ??? (Foundation + 292120) [0x1a9eac518]
+                                                3   ??? (Foundation + 293108) [0x1a9eac8f4]
+                                                  3   ??? (Foundation + 293492) [0x1a9eaca74]
+                                                    3   ??? (Foundation + 125960) [0x1a9e83c08]
+                                                      3   ??? (Foundation + 284088) [0x1a9eaa5b8]
+                                                        3   ??? (libmobileassetd.dylib + 572544) [0x1ec6a3c80]
+                                                          3   ??? (Foundation + 293108) [0x1a9eac8f4]
+                                                            3   ??? (Foundation + 293492) [0x1a9eaca74]
+                                                              3   ??? (Foundation + 125960) [0x1a9e83c08]
+                                                                3   ??? (Foundation + 284088) [0x1a9eaa5b8]
+                                                                  1   ??? (CoreFoundation + 143972) [0x1afa7f264]
+                                                                    1   ??? (CoreFoundation + 52224) [0x1afa68c00]
+                                                                      1   ??? (CoreFoundation + 507700) [0x1afad7f34]
+                                                                        1   ??? (CoreFoundation + 483204) [0x1afad1f84]
+                                                                          1   <User mode>
+                                                                  1   ??? (Foundation + 126920) [0x1a9e83fc8]
+                                                                    1   ??? (Foundation + 131400) [0x1a9e85148]
+                                                                      1   ??? (Foundation + 282220) [0x1a9ea9e6c]
+                                                                        1   ??? (Foundation + 285440) [0x1a9eaab00]
+                                                                          1   ??? (libobjc.A.dylib + 6152) [0x1a8dad808]
+                                                                            1   <User mode>
+                                                                  1   ??? (Foundation + 126896) [0x1a9e83fb0]
+                                                                    1   ??? (Foundation + 131400) [0x1a9e85148]
+                                                                      1   ??? (Foundation + 283284) [0x1a9eaa294]
+                                                                        1   ??? (Foundation + 286676) [0x1a9eaafd4]
+                                                                          1   ??? (CoreFoundation + 483728) [0x1afad2190]
+                                                                            1   ??? (CoreFoundation + 286976) [0x1afaa2100]
+                                                                              1   ??? (CoreFoundation + 510508) [0x1afad8a2c]
+                                                                                1   <User mode>
+                                    2   ??? (libmobileassetd.dylib + 530820) [0x1ec699984]
+                                      2   ??? (libmobileassetd.dylib + 218096) [0x1ec64d3f0]
+                                        2   ??? (libmobileassetd.dylib + 220940) [0x1ec64df0c]
+                                          2   ??? (SoftwareUpdateCoreSupport + 8180) [0x1d48e0ff4]
+                                            2   ??? (libsystem_kernel.dylib + 5772) [0x1e9cbf68c]
+                      2   ??? (libmobileassetd.dylib + 647736) [0x1ec6b6238]
+                        2   ??? (libmobileassetd.dylib + 658084) [0x1ec6b8aa4]
+                          2   ??? (libmobileassetd.dylib + 702268) [0x1ec6c373c]
+                            2   ??? (libmobileassetd.dylib + 702412) [0x1ec6c37cc]
+                              1   ??? (libmobileassetd.dylib + 698748) [0x1ec6c297c]
+                                1   ??? (libmobileassetd.dylib + 656732) [0x1ec6b855c]
+                                  1   ??? (libmobileassetd.dylib + 656300) [0x1ec6b83ac]
+                                    1   ??? (Foundation + 102900) [0x1a9e7e1f4]
+                                      1   ??? (CoreFoundation + 504240) [0x1afad71b0]
+                                        1   ??? (CoreFoundation + 517596) [0x1afada5dc]
+                                          1   ??? (CoreFoundation + 315812) [0x1afaa91a4]
+                                            1   ??? (CoreFoundation + 506816) [0x1afad7bc0]
+                                              1   <User mode>
+                              1   ??? (libmobileassetd.dylib + 698632) [0x1ec6c2908]
+                                1   ??? (libmobileassetd.dylib + 489184) [0x1ec68f6e0]
+                                  1   ??? (libdispatch.dylib + 71728) [0x1b67b4830]
+                                    1   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                                      1   ??? (libmobileassetd.dylib + 489524) [0x1ec68f834]
+                                        1   ??? (libmobileassetd.dylib + 530868) [0x1ec6999b4]
+                                          1   ??? (SoftwareUpdateCoreSupport + 188012) [0x1d490ce6c]
+                                            1   ??? (SoftwareUpdateCoreSupport + 188504) [0x1d490d058]
+                                              1   ??? (Foundation + 381408) [0x1a9ec21e0]
+                                                1   ??? (Foundation + 384556) [0x1a9ec2e2c]
+                                                  1   ??? (Foundation + 292120) [0x1a9eac518]
+                                                    1   ??? (Foundation + 293108) [0x1a9eac8f4]
+                                                      1   ??? (Foundation + 293492) [0x1a9eaca74]
+                                                        1   ??? (Foundation + 125960) [0x1a9e83c08]
+                                                          1   ??? (Foundation + 284088) [0x1a9eaa5b8]
+                                                            1   ??? (libmobileassetd.dylib + 572544) [0x1ec6a3c80]
+                                                              1   ??? (Foundation + 293108) [0x1a9eac8f4]
+                                                                1   ??? (Foundation + 293492) [0x1a9eaca74]
+                                                                  1   ??? (Foundation + 125960) [0x1a9e83c08]
+                                                                    1   ??? (Foundation + 284088) [0x1a9eaa5b8]
+                                                                      1   ??? (Foundation + 126896) [0x1a9e83fb0]
+                                                                        1   ??? (Foundation + 131400) [0x1a9e85148]
+                                                                          1   ??? (Foundation + 284088) [0x1a9eaa5b8]
+                                                                            1   ??? (Foundation + 126920) [0x1a9e83fc8]
+                                                                              1   ??? (Foundation + 131400) [0x1a9e85148]
+                                                                                1   ??? (Foundation + 282392) [0x1a9ea9f18]
+                                                                                  1   ??? (CoreFoundation + 635080) [0x1afaf70c8]
+                                                                                    1   ??? (CoreFoundation + 81168) [0x1afa6fd10]
+                                                                                      1   ??? (CoreFoundation + 1118084) [0x1afb6cf84]
+                                                                                        1   ??? (CoreFoundation + 625816) [0x1afaf4c98]
+                                                                                          1   ??? (CoreFoundation + 133844) [0x1afa7cad4]
+                                                                                            1   ??? (CoreFoundation + 531428) [0x1afaddbe4]
+                                                                                              1   <User mode>
+                      1   ??? (libmobileassetd.dylib + 648616) [0x1ec6b65a8]
+                        1   ??? (libmobileassetd.dylib + 673224) [0x1ec6bc5c8]
+                          1   ??? (libmobileassetd.dylib + 699324) [0x1ec6c2bbc]
+                            1   ??? (libmobileassetd.dylib + 491832) [0x1ec690138]
+                              1   ??? (libmobileassetd.dylib + 269164) [0x1ec659b6c]
+                                1   ??? (libmobileassetd.dylib + 858748) [0x1ec6e9a7c]
+                                  1   ??? (libmobileassetd.dylib + 855364) [0x1ec6e8d44]
+                                    1   ??? (Foundation + 103004) [0x1a9e7e25c]
+                                      1   ??? (CoreFoundation + 504240) [0x1afad71b0]
+                                        1   ??? (CoreFoundation + 517596) [0x1afada5dc]
+                                          1   ??? (CoreFoundation + 311596) [0x1afaa812c]
+                                            1   <User mode>
+                      1   ??? (libmobileassetd.dylib + 647856) [0x1ec6b62b0]
+                        1   ??? (libmobileassetd.dylib + 667416) [0x1ec6baf18]
+                          1   ??? (libmobileassetd.dylib + 700404) [0x1ec6c2ff4]
+                            1   ??? (libmobileassetd.dylib + 488272) [0x1ec68f350]
+                              1   ??? (libdispatch.dylib + 71432) [0x1b67b4708]
+                                1   ??? (libdispatch.dylib + 72700) [0x1b67b4bfc]
+                                  1   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                                    1   ??? (libmobileassetd.dylib + 488696) [0x1ec68f4f8]
+                                      1   ??? (libmobileassetd.dylib + 493784) [0x1ec6908d8]
+                                        1   ??? (SoftwareUpdateCoreSupport + 194168) [0x1d490e678]
+                                          1   ??? (SoftwareUpdateCoreSupport + 192100) [0x1d490de64]
+                                            1   ??? (SoftwareUpdateCoreSupport + 10988) [0x1d48e1aec]
+                                              1   ??? (Foundation + 419676) [0x1a9ecb75c]
+                                                1   ??? (libsystem_kernel.dylib + 17108) [0x1e9cc22d4]
+                1   ??? (libmobileassetd.dylib + 778672) [0x1ec6d61b0]
+                  1   ??? (libmobileassetd.dylib + 773900) [0x1ec6d4f0c]
+                    1   ??? (libmobileassetd.dylib + 774480) [0x1ec6d5150]
+                      1   ??? (libmobileassetd.dylib + 770876) [0x1ec6d433c]
+                        1   ??? (libmobileassetd.dylib + 765808) [0x1ec6d2f70]
+                          1   ??? (libdispatch.dylib + 71728) [0x1b67b4830]
+                            1   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                              1   ??? (libmobileassetd.dylib + 765952) [0x1ec6d3000]
+                                1   ??? (Foundation + 95768) [0x1a9e7c618]
+                                  1   ??? (Foundation + 96388) [0x1a9e7c884]
+                                    1   ??? (CoreFoundation + 645320) [0x1afaf98c8]
+                                      1   ??? (CoreFoundation + 640060) [0x1afaf843c]
+                                        1   ??? (CoreFoundation + 174524) [0x1afa869bc]
+                                          1   ??? (CoreFoundation + 1224000) [0x1afb86d40]
+                                            1   ??? (CoreFoundation + 1225368) [0x1afb87298]
+                                              1   ??? (CoreFoundation + 1224732) [0x1afb8701c]
+                                                1   ??? (CoreFoundation + 1225368) [0x1afb87298]
+                                                  1   ??? (CoreFoundation + 324228) [0x1afaab284]
+                                                    1   ??? (CoreFoundation + 814336) [0x1afb22d00]
+                                                      1   ??? (CoreFoundation + 73132) [0x1afa6ddac]
+                                                        1   ??? (CoreFoundation + 552496) [0x1afae2e30]
+                                                          1   ??? (CoreFoundation + 658304) [0x1afafcb80]
+                                                            1   ??? (libsystem_platform.dylib + 5056) [0x1f8ff53c0]
+                                                              1   <User mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+                1   ??? (libmobileassetd.dylib + 340780) [0x1ec66b32c]
+                  1   ??? (libmobileassetd.dylib + 312404) [0x1ec664454]
+                    1   ??? (libmobileassetd.dylib + 851400) [0x1ec6e7dc8]
+                      1   ??? (libmobileassetd.dylib + 74852) [0x1ec62a464]
+                        1   ??? (CoreFoundation + 169804) [0x1afa8574c]
+                          1   ??? (CoreFoundation + 170044) [0x1afa8583c]
+                            1   ??? (CoreFoundation + 462812) [0x1afaccfdc]
+                              1   ??? (CoreFoundation + 517324) [0x1afada4cc]
+                                1   ??? (CoreFoundation + 768232) [0x1afb178e8]
+                                  1   ??? (libsystem_info.dylib + 5492) [0x1bd333574]
+                                    1   ??? (libsystem_info.dylib + 10952) [0x1bd334ac8]
+                                      1   ??? (libsystem_c.dylib + 59004) [0x1b68b667c]
+                                        1   ??? (libsystem_kernel.dylib + 10096) [0x1e9cc0770]
+        1   ??? (libdispatch.dylib + 48916) [0x1b67aef14]
+          1   ??? (libdispatch.dylib + 44448) [0x1b67adda0]
+            1   ??? (libdispatch.dylib + 41624) [0x1b67ad298]
+              1   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                1   ??? (libdispatch.dylib + 407464) [0x1b68067a8]
+                  1   ??? (CFNetwork + 101396) [0x1b0a43c14]
+                    1   ??? (CFNetwork + 1560032) [0x1b0ba7de0]
+                      1   ??? (CFNetwork + 960972) [0x1b0b159cc]
+                        1   ??? (Network + 9057844) [0x1b06ce634]
+                          1   ??? (libsystem_trace.dylib + 21396) [0x1c55dc394]
+                            1   ??? (libsystem_platform.dylib + 3520) [0x1f8ff4dc0]
+                              1   <User mode, Effective Thread QoS Default, Requested Thread QoS Default>
+    8   ??? (libsystem_pthread.dylib + 7060) [0x1f908cb94]
+      8   ??? (libdispatch.dylib + 82604) [0x1b67b72ac]
+        8   ??? (libdispatch.dylib + 80560) [0x1b67b6ab0]
+          8   ??? (libdispatch.dylib + 24160) [0x1b67a8e60]
+            8   ??? (libdispatch.dylib + 26428) [0x1b67a973c]
+              8   ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                8   ??? (libdispatch.dylib + 70668) [0x1b67b440c]
+                  8   ??? (Foundation + 252508) [0x1a9ea2a5c]
+                    8   ??? (Foundation + 231868) [0x1a9e9d9bc]
+                      8   ??? (Foundation + 232560) [0x1a9e9dc70]
+                        8   ??? (Foundation + 474032) [0x1a9ed8bb0]
+                          8   ??? (Foundation + 474140) [0x1a9ed8c1c]
+                            8   ??? (Foundation + 642888) [0x1a9f01f48]
+                              7   ??? (CFNetwork + 483316) [0x1b0aa0ff4]
+                                7   ??? (libmobileassetd.dylib + 270292) [0x1ec659fd4]
+                                  7   ??? (libmobileassetd.dylib + 732868) [0x1ec6caec4]
+                                    6   ??? (libmobileassetd.dylib + 732428) [0x1ec6cad0c]
+                                      6   ??? (libmobileassetd.dylib + 732284) [0x1ec6cac7c]
+                                        6   ??? (Foundation + 526876) [0x1a9ee5a1c]
+                                          6   ??? (Foundation + 232560) [0x1a9e9dc70]
+                                            6   ??? (Foundation + 474032) [0x1a9ed8bb0]
+                                              5   ??? (Foundation + 477632) [0x1a9ed99c0]
+                                                4   ??? (Foundation + 478752) [0x1a9ed9e20]
+                                                  1   ??? (libcopyfile.dylib + 6480) [0x1f8fa9950]
+                                                    1   ??? (libcopyfile.dylib + 14616) [0x1f8fab918]
+                                                      1   ??? (libsystem_kernel.dylib + 14148) [0x1e9cc1744]
+                                                  1   ??? (libcopyfile.dylib + 4952) [0x1f8fa9358]
+                                                    1   ??? (libsystem_c.dylib + 212404) [0x1b68dbdb4]
+                                                      1   ??? (libsystem_kernel.dylib + 41336) [0x1e9cc8178]
+                                                        1   <User mode>
+                                                  1   ??? (libsystem_kernel.dylib + 12272) [0x1e9cc0ff0]
+                                                  1   ??? (libsystem_kernel.dylib + 5692) [0x1e9cbf63c]
+                                                1   ??? (Foundation + 478708) [0x1a9ed9df4]
+                                                  1   ??? (libsystem_kernel.dylib + 12272) [0x1e9cc0ff0]
+                                              1   ??? (Foundation + 477580) [0x1a9ed998c]
+                                                1   ??? (libsystem_c.dylib + 80168) [0x1b68bb928]
+                                                  1   ??? (libsystem_c.dylib + 83500) [0x1b68bc62c]
+                                                    1   ??? (libsystem_kernel.dylib + 11316) [0x1e9cc0c34]
+                                    1   ??? (libmobileassetd.dylib + 732440) [0x1ec6cad18]
+                                      1   ??? (libmobileassetd.dylib + 731932) [0x1ec6cab1c]
+                                        1   ??? (Foundation + 239080) [0x1a9e9f5e8]
+                                          1   ??? (Foundation + 232560) [0x1a9e9dc70]
+                                            1   ??? (Foundation + 474032) [0x1a9ed8bb0]
+                                              1   ??? (Foundation + 474668) [0x1a9ed8e2c]
+                                                1   ??? (libremovefile.dylib + 6852) [0x220275ac4]
+                                                  1   ??? (libremovefile.dylib + 6204) [0x22027583c]
+                                                    1   ??? (libsystem_c.dylib + 80168) [0x1b68bb928]
+                                                      1   ??? (libsystem_c.dylib + 83500) [0x1b68bc62c]
+                                                        1   ??? (libsystem_kernel.dylib + 11316) [0x1e9cc0c34]
+                              1   ??? (CFNetwork + 110796) [0x1b0a460cc]
+                                1   ??? (libmobileassetd.dylib + 269916) [0x1ec659e5c]
+                                  1   ??? (libmobileassetd.dylib + 328248) [0x1ec668238]
+                                    1   ??? (libmobileassetd.dylib + 347068) [0x1ec66cbbc]
+                                      1   ??? (libmobileassetd.dylib + 345864) [0x1ec66c708]
+                                        1   ??? (libmobileassetd.dylib + 904756) [0x1ec6f4e34]
+                                          1   ??? (libmobileassetd.dylib + 904168) [0x1ec6f4be8]
+                                            1   ??? (libsystem_c.dylib + 80168) [0x1b68bb928]
+                                              1   ??? (libsystem_c.dylib + 83500) [0x1b68bc62c]
+                                                1   ??? (libsystem_kernel.dylib + 11316) [0x1e9cc0c34]
+  1   ??? (libsystem_pthread.dylib + 5912) [0x1f908c718]
+    1   <Effective Thread QoS Default, Requested Thread QoS Default>
+
+  Binary Images:
+           0x100de8000 -                ???  mobileassetd              <4301AB0D-DE32-3541-8F28-AC2BF226735C>  /usr/libexec/mobileassetd
+           0x1a8dac000 -        0x1a8de5e9f  libobjc.A.dylib           <3038F24A-31A3-395B-9CE6-CE7B8657A6CF>  /usr/lib/libobjc.A.dylib
+           0x1a9e65000 -        0x1aa6acfff  Foundation                <5DAF670F-4591-3F5C-A89C-92A238763FD1>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1afa5c000 -        0x1afe2afff  CoreFoundation            <14B73572-A1BC-3C77-A58A-A64A28663D46>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1afe2b000 -        0x1b0a2afff  Network                   <5E17B247-F613-3B85-8561-EF2B8E3B6DD5>  /System/Library/Frameworks/Network.framework/Network
+           0x1b0a2b000 -        0x1b0dc6fff  CFNetwork                 <8823A19D-0B32-3676-B0CD-4AAAF3FADBFF>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1b67a3000 -        0x1b6826fff  libdispatch.dylib         <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x1b68a8000 -        0x1b6921fff  libsystem_c.dylib         <B9465F40-DBF0-341F-8C1B-BD6ABE2ECEFC>  /usr/lib/system/libsystem_c.dylib
+           0x1bd332000 -        0x1bd357fff  libsystem_info.dylib      <EC39AFFB-A7AF-3E14-AA20-DC0908DF897E>  /usr/lib/system/libsystem_info.dylib
+           0x1c55d7000 -        0x1c55f0fff  libsystem_trace.dylib     <224D1C6A-FF3C-3E34-9430-750B41708721>  /usr/lib/system/libsystem_trace.dylib
+           0x1d48df000 -        0x1d4932fff  SoftwareUpdateCoreSupport <EF48515F-2BA1-3DAE-AF94-91F3A3175D0B>  /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport
+           0x1e9cbe000 -        0x1e9cf3fe7  libsystem_kernel.dylib    <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x1ec618000 -        0x1ec773fff  libmobileassetd.dylib     <838D6F14-17DF-3C2D-9C69-0B2632B51378>  /usr/lib/libmobileassetd.dylib
+           0x1f8fa8000 -        0x1f8fb0ff3  libcopyfile.dylib         <500048B6-86B8-3023-8485-03AEB2DAC547>  /usr/lib/system/libcopyfile.dylib
+           0x1f8ff4000 -        0x1f8ffefe3  libsystem_platform.dylib  <0E98A328-F054-3D6B-B106-1961373F52EC>  /usr/lib/system/libsystem_platform.dylib
+           0x1f908b000 -        0x1f909bfff  libsystem_pthread.dylib   <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+           0x220274000 -        0x220276ffb  libremovefile.dylib       <11E4EF5F-84F5-3C12-B991-E57435D8E1BA>  /usr/lib/system/libremovefile.dylib
+
+
+Powerstats for:   com.apple.MobileSoftwareUpdate.UpdateBrainService (com.apple.MobileSoftwareUpdate.UpdateBrainService)
+UUID:             379FCB8B-85E5-3061-858B-D56C5E2FB632
+Path:             /private/var/db/com.apple.xpc.roleaccountd.staging/exec/com.apple.MobileSoftwareUpdate.UpdateBrainService.16777220.1072258.xpc/com.apple.MobileSoftwareUpdate.UpdateBrainService
+Identifier:       com.apple.MobileSoftwareUpdate.UpdateBrainService
+Version:          1.0 (1)
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1a8cfc000, slide 0x28cfc000
+Resource Coalition ID: 61
+Architecture:     arm64
+Start time:       2023-07-30 15:09:05.360 +1000
+End time:         2023-07-30 15:09:15.407 +1000
+Num samples:      11 (10%)
+Primary state:    11 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Utility, Requested Thread QoS Utility, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 11 samples Active
+Power Source:     11 samples on Battery, 0 samples on AC
+  11  ??? (libsystem_pthread.dylib + 5920) [0x1f908c720]
+    11  ??? (libsystem_pthread.dylib + 7060) [0x1f908cb94]
+      11  ??? (libdispatch.dylib + 82604) [0x1b67b72ac]
+        11  ??? (libdispatch.dylib + 80860) [0x1b67b6bdc]
+          11  ??? (libdispatch.dylib + 411520) [0x1b6807780]
+            11  ??? (libdispatch.dylib + 70668) [0x1b67b440c]
+              11  ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 172856) [0x104a82338]
+                11  ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 207668) [0x104a8ab34]
+                  11  ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 175700) [0x104a82e54]
+                    11  ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 163800) [0x104a7ffd8]
+                      11  ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 86044) [0x104a6d01c]
+                        8   ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 87372) [0x104a6d54c]
+                          7   ??? (Foundation + 254200) [0x1a9ea30f8]
+                            5   ??? (CoreFoundation + 740676) [0x1afb10d44]
+                              3   ??? (CoreFoundation + 488220) [0x1afad331c]
+                                3   ??? (CoreFoundation + 566448) [0x1afae64b0]
+                                  2   ??? (CoreFoundation + 286976) [0x1afaa2100]
+                                    1   ??? (CoreFoundation + 10248) [0x1afa5e808]
+                                    1   ??? (CoreFoundation + 9944) [0x1afa5e6d8]
+                                  1   ??? (CoreFoundation + 509388) [0x1afad85cc]
+                              1   ??? (CoreFoundation + 488232) [0x1afad3328]
+                                1   ??? (CoreFoundation + 482992) [0x1afad1eb0]
+                              1   ??? (CoreFoundation + 488204) [0x1afad330c]
+                                1   ??? (libobjc.A.dylib + 17144) [0x1a8db02f8]
+                            1   ??? (CoreFoundation + 740748) [0x1afb10d8c]
+                              1   ??? (libsystem_pthread.dylib + 42392) [0x1f9095598]
+                            1   ??? (CoreFoundation + 740660) [0x1afb10d34]
+                              1   ??? (libsystem_pthread.dylib + 42628) [0x1f9095684]
+                          1   ??? (Foundation + 254168) [0x1a9ea30d8]
+                            1   ??? (CoreFoundation + 8324) [0x1afa5e084]
+                              1   ??? (CoreFoundation + 510432) [0x1afad89e0]
+                        1   ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 87408) [0x104a6d570]
+                          1   ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 27572) [0x104a5ebb4]
+                            1   ??? (libsystem_kernel.dylib + 4804) [0x1e9cbf2c4]
+                        1   ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 87352) [0x104a6d538]
+                          1   ??? (CoreFoundation + 615092) [0x1afaf22b4]
+                            1   ??? (libsystem_c.dylib + 6660) [0x1b68a9a04]
+                              1   ??? (libsystem_kernel.dylib + 4804) [0x1e9cbf2c4]
+                        1   ??? (<7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0> + 87328) [0x104a6d520]
+                          1   ??? (Foundation + 430060) [0x1a9ecdfec]
+                            1   ??? (libsystem_platform.dylib + 24628) [0x1f8ffa034]
+
+  Binary Images:
+           0x1049fc000 -                ???  com.apple.MobileSoftwareUpdate.UpdateBrainService 1.0 (1) <379FCB8B-85E5-3061-858B-D56C5E2FB632>  /private/var/db/com.apple.xpc.roleaccountd.staging/exec/com.apple.MobileSoftwareUpdate.UpdateBrainService.16777220.1072258.xpc/com.apple.MobileSoftwareUpdate.UpdateBrainService
+           0x104a58000 -                ???  ???                                                       <7AB60B0F-E9D3-3BDF-9AF6-0185A2CD1AA0>
+           0x1a8dac000 -        0x1a8de5e9f  libobjc.A.dylib                                           <3038F24A-31A3-395B-9CE6-CE7B8657A6CF>  /usr/lib/libobjc.A.dylib
+           0x1a9e65000 -        0x1aa6acfff  Foundation                                                <5DAF670F-4591-3F5C-A89C-92A238763FD1>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1afa5c000 -        0x1afe2afff  CoreFoundation                                            <14B73572-A1BC-3C77-A58A-A64A28663D46>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1b67a3000 -        0x1b6826fff  libdispatch.dylib                                         <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x1b68a8000 -        0x1b6921fff  libsystem_c.dylib                                         <B9465F40-DBF0-341F-8C1B-BD6ABE2ECEFC>  /usr/lib/system/libsystem_c.dylib
+           0x1e9cbe000 -        0x1e9cf3fe7  libsystem_kernel.dylib                                    <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x1f8ff4000 -        0x1f8ffefe3  libsystem_platform.dylib                                  <0E98A328-F054-3D6B-B106-1961373F52EC>  /usr/lib/system/libsystem_platform.dylib
+           0x1f908b000 -        0x1f909bfff  libsystem_pthread.dylib                                   <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   com.apple.DriverKit-AppleBCMWLAN (com.apple.DriverKit-AppleBCMWLAN)
+UUID:             9F235951-E2CE-3975-AA5D-BDBEB6E814EE
+Path:             /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+Identifier:       com.apple.DriverKit-AppleBCMWLAN
+Version:          1.0 (1)
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX19 slid base address 0x1e5e2c000, slide 0x65e2c000
+Resource Coalition ID: 139
+Architecture:     arm64
+Start time:       2023-07-30 15:07:19.638 +1000
+End time:         2023-07-30 15:08:29.178 +1000
+Num samples:      8 (8%)
+Primary state:    5 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Unspecified, Requested Thread QoS Unspecified, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 8 samples Active
+Power Source:     8 samples on Battery, 0 samples on AC
+  4  ??? (libsystem_pthread.dylib + 42984) [0x1e63767e8]
+    4  ??? (libsystem_pthread.dylib + 5992) [0x1e636d768]
+      4  ??? (DriverKit + 43452) [0x1e5e5e9bc]
+        4  ??? (DriverKit + 41016) [0x1e5e5e038]
+          3  ??? (libdispatch.dylib + 73500) [0x1e6229f1c]
+            3  ??? (DriverKit + 41120) [0x1e5e5e0a0]
+              3  ??? (DriverKit + 64552) [0x1e5e63c28]
+                3  ??? (DriverKit + 151308) [0x1e5e78f0c]
+                  3  ??? (DriverKit + 31276) [0x1e5e5ba2c]
+                    3  ??? (com.apple.DriverKit-AppleBCMWLAN + 2030600) [0x104b87c08]
+                      3  ??? (com.apple.DriverKit-AppleBCMWLAN + 2031832) [0x104b880d8]
+                        3  ??? (DriverKit + 154916) [0x1e5e79d24]
+                          3  ??? (com.apple.DriverKit-AppleBCMWLAN + 1539388) [0x104b0fd3c]
+                            3  ??? (IO80211DriverKit + 1377528) [0x1e60b04f8]
+                              3  ??? (DriverKit + 40856) [0x1e5e5df98]
+                                3  ??? (IO80211DriverKit + 1377596) [0x1e60b053c]
+                                  3  ??? (com.apple.DriverKit-AppleBCMWLAN + 1577684) [0x104b192d4]
+                                    3  ??? (com.apple.DriverKit-AppleBCMWLAN + 1577312) [0x104b19160]
+                                      2  ??? (IO80211DriverKit + 1376700) [0x1e60b01bc]
+                                        2  ??? (com.apple.DriverKit-AppleBCMWLAN + 760476) [0x104a51a9c]
+                                          2  ??? (com.apple.DriverKit-AppleBCMWLAN + 759768) [0x104a517d8]
+                                            1  ??? (com.apple.DriverKit-AppleBCMWLAN + 399132) [0x1049f971c]
+                                              1  ??? (NetworkingDriverKit + 30396) [0x1e5ef76bc]
+                                                1  ??? (NetworkingDriverKit + 30700) [0x1e5ef77ec]
+                                                  1  ??? (NetworkingDriverKit + 29456) [0x1e5ef7310]
+                                                    1  ??? (DriverKit + 47300) [0x1e5e5f8c4]
+                                                      1  ??? (NetworkingDriverKit + 4452) [0x1e5ef1164]
+                                            1  ??? (com.apple.DriverKit-AppleBCMWLAN + 398988) [0x1049f968c]
+                                              1  ??? (NetworkingDriverKit + 29828) [0x1e5ef7484]
+                                                1  ??? (NetworkingDriverKit + 29980) [0x1e5ef751c]
+                                                  1  ??? (NetworkingDriverKit + 28980) [0x1e5ef7134]
+                                                    1  ??? (NetworkingDriverKit + 28408) [0x1e5ef6ef8]
+                                                      1  ??? (DriverKit + 146944) [0x1e5e77e00]
+                                                        1  ??? (DriverKit + 85808) [0x1e5e68f30]
+                                      1  ??? (IO80211DriverKit + 1376684) [0x1e60b01ac]
+          1  ??? (libdispatch.dylib + 72232) [0x1e6229a28]
+            1  ??? (libdispatch.dylib + 73500) [0x1e6229f1c]
+              1  ??? (DriverKit + 41120) [0x1e5e5e0a0]
+                1  ??? (DriverKit + 64552) [0x1e5e63c28]
+                  1  ??? (DriverKit + 151308) [0x1e5e78f0c]
+                    1  ??? (DriverKit + 31276) [0x1e5e5ba2c]
+                      1  ??? (com.apple.DriverKit-AppleBCMWLAN + 2030600) [0x104b87c08]
+                        1  ??? (com.apple.DriverKit-AppleBCMWLAN + 2031832) [0x104b880d8]
+                          1  ??? (DriverKit + 154916) [0x1e5e79d24]
+                            1  ??? (com.apple.DriverKit-AppleBCMWLAN + 1539388) [0x104b0fd3c]
+                              1  ??? (IO80211DriverKit + 1377528) [0x1e60b04f8]
+                                1  ??? (DriverKit + 40856) [0x1e5e5df98]
+                                  1  ??? (IO80211DriverKit + 1377596) [0x1e60b053c]
+                                    1  ??? (com.apple.DriverKit-AppleBCMWLAN + 1577684) [0x104b192d4]
+                                      1  ??? (com.apple.DriverKit-AppleBCMWLAN + 1577312) [0x104b19160]
+                                        1  ??? (IO80211DriverKit + 1376700) [0x1e60b01bc]
+                                          1  ??? (com.apple.DriverKit-AppleBCMWLAN + 760476) [0x104a51a9c]
+                                            1  ??? (com.apple.DriverKit-AppleBCMWLAN + 759768) [0x104a517d8]
+                                              1  ??? (com.apple.DriverKit-AppleBCMWLAN + 398988) [0x1049f968c]
+                                                1  ??? (NetworkingDriverKit + 29828) [0x1e5ef7484]
+                                                  1  ??? (NetworkingDriverKit + 29928) [0x1e5ef74e8]
+                                                    1  ??? (com.apple.DriverKit-AppleBCMWLAN + 421660) [0x1049fef1c]
+                                                      1  ??? (IO80211DriverKit + 996536) [0x1e60534b8]
+                                                        1  ??? (libsystem_kernel.dylib + 17420) [0x1e62d440c]
+  3  ??? (libsystem_pthread.dylib + 42972) [0x1e63767dc]
+    1  ??? (libsystem_pthread.dylib + 13248) [0x1e636f3c0]
+      1  ??? (libdispatch.dylib + 84324) [0x1e622c964]
+        1  ??? (libdispatch.dylib + 133220) [0x1e6238864]
+          1  <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+    1  ??? (libsystem_pthread.dylib + 13192) [0x1e636f388]
+      1  ??? (libdispatch.dylib + 86244) [0x1e622d0e4]
+        1  ??? (libdispatch.dylib + 49776) [0x1e6224270]
+          1  ??? (libdispatch.dylib + 45308) [0x1e62230fc]
+            1  ??? (libdispatch.dylib + 42180) [0x1e62224c4]
+              1  ??? (libdispatch.dylib + 119324) [0x1e623521c]
+                1  ??? (libdispatch.dylib + 42180) [0x1e62224c4]
+                  1  ??? (libdispatch.dylib + 116292) [0x1e6234644]
+                    1  ??? (DriverKit + 40216) [0x1e5e5dd18]
+                      1  ??? (DriverKit + 64340) [0x1e5e63b54]
+                        1  ??? (DriverKit + 34356) [0x1e5e5c634]
+                          1  ??? (DriverKit + 31436) [0x1e5e5bacc]
+                            1  ??? (DriverKit + 32448) [0x1e5e5bec0]
+                              1  ??? (com.apple.DriverKit-AppleBCMWLAN + 2027968) [0x104b871c0]
+                                1  ??? (IO80211DriverKit + 1385484) [0x1e60b240c]
+                                  1  ??? (IO80211DriverKit + 1385020) [0x1e60b223c]
+                                    1  ??? (NetworkingDriverKit + 90100) [0x1e5f05ff4]
+                                      1  ??? (NetworkingDriverKit + 54812) [0x1e5efd61c]
+                                        1  ??? (DriverKit + 148432) [0x1e5e783d0]
+                                          1  ??? (NetworkingDriverKit + 22688) [0x1e5ef58a0]
+                                            1  ??? (NetworkingDriverKit + 30800) [0x1e5ef7850]
+                                              1  ??? (IO80211DriverKit + 1377812) [0x1e60b0614]
+                                                1  ??? (DriverKit + 42384) [0x1e5e5e590]
+                                                  1  ??? (DriverKit + 40856) [0x1e5e5df98]
+                                                    1  ??? (DriverKit + 42452) [0x1e5e5e5d4]
+                                                      1  ??? (com.apple.DriverKit-AppleBCMWLAN + 440116) [0x104a03734]
+                                                        1  ??? (IO80211DriverKit + 991068) [0x1e6051f5c]
+                                                          1  ??? (IO80211DriverKit + 1327940) [0x1e60a4344]
+                                                            1  ??? (DriverKit + 127260) [0x1e5e7311c]
+                                                              1  ??? (libsystem_kernel.dylib + 17376) [0x1e62d43e0]
+    1  ??? (libsystem_pthread.dylib + 13132) [0x1e636f34c]
+      1  ??? (libdispatch.dylib + 83400) [0x1e622c5c8]
+        1  ??? (libdispatch.dylib + 81360) [0x1e622bdd0]
+          1  ??? (libdispatch.dylib + 25020) [0x1e621e1bc]
+            1  ??? (libdispatch.dylib + 26984) [0x1e621e968]
+              1  ??? (libdispatch.dylib + 45308) [0x1e62230fc]
+                1  ??? (libdispatch.dylib + 42180) [0x1e62224c4]
+                  1  ??? (libdispatch.dylib + 100648) [0x1e6230928]
+                    1  <Effective Thread QoS Default, Requested Thread QoS Default>
+  1  ??? (libsystem_pthread.dylib + 42964) [0x1e63767d4]
+    1  <Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+
+  Binary Images:
+           0x104998000 -                ???  com.apple.DriverKit-AppleBCMWLAN 1.0 (1) <9F235951-E2CE-3975-AA5D-BDBEB6E814EE>  /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+           0x1e5e54000 -        0x1e5e8fffb  DriverKit                                <0B9DB800-6EA4-33CD-B26D-884A7DAEC254>  /System/DriverKit/System/Library/Frameworks/DriverKit.framework/DriverKit
+           0x1e5ef0000 -        0x1e5f0bff3  NetworkingDriverKit                      <9DF02730-7CD4-3B48-9992-3DA27DCE8EAA>  /System/DriverKit/System/Library/Frameworks/NetworkingDriverKit.framework/NetworkingDriverKit
+           0x1e5f60000 -        0x1e6123fff  IO80211DriverKit                         <BA6210D6-538F-3013-A2B7-4B24EB123150>  /System/DriverKit/System/Library/PrivateFrameworks/IO80211DriverKit.framework/IO80211DriverKit
+           0x1e6218000 -        0x1e6257ff3  libdispatch.dylib                        <9037EC2F-5030-37CF-B249-06D682C02EE8>  /System/DriverKit/usr/lib/system/libdispatch.dylib
+           0x1e62d0000 -        0x1e6307fe7  libsystem_kernel.dylib                   <7CC2EF81-2842-3770-BD86-F166A9A1C50F>  /System/DriverKit/usr/lib/system/libsystem_kernel.dylib
+           0x1e636c000 -        0x1e6377fff  libsystem_pthread.dylib                  <D6286D9C-D9AE-3E4B-BA8A-5D05186737D1>  /System/DriverKit/usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   nsurlsessiond
+UUID:             C0074CF8-6BC2-33AA-8AE0-31020B709738
+Path:             /usr/libexec/nsurlsessiond
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1a8cfc000, slide 0x28cfc000
+Resource Coalition ID: 273
+Architecture:     arm64
+Start time:       2023-07-30 15:06:19.827 +1000
+End time:         2023-07-30 15:08:25.169 +1000
+Num samples:      6 (6%)
+Primary state:    5 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Default, Requested Thread QoS Default, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 6 samples Active
+Power Source:     6 samples on Battery, 0 samples on AC
+  4  ??? (libsystem_pthread.dylib + 5920) [0x1f908c720]
+    4  ??? (libsystem_pthread.dylib + 7120) [0x1f908cbd0]
+      4  ??? (libdispatch.dylib + 85448) [0x1b67b7dc8]
+        4  ??? (libdispatch.dylib + 48916) [0x1b67aef14]
+          3  ??? (libdispatch.dylib + 100268) [0x1b67bb7ac]
+            3  ??? (libdispatch.dylib + 26428) [0x1b67a973c]
+              3  ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                3  ??? (Network + 10038988) [0x1b07bdecc]
+                  3  ??? (Network + 10042032) [0x1b07beab0]
+                    2  ??? (Network + 10050856) [0x1b07c0d28]
+                      2  ??? (libusrtcp.dylib + 63292) [0x1fdd8773c]
+                        2  ??? (libusrtcp.dylib + 136264) [0x1fdd99448]
+                          2  ??? (libboringssl.dylib + 58760) [0x1d797b588]
+                            1  ??? (libboringssl.dylib + 54668) [0x1d797a58c]
+                              1  ??? (libsystem_kernel.dylib + 4804) [0x1e9cbf2c4]
+                            1  ??? (Network + 2565844) [0x1b009d6d4]
+                    1  ??? (Network + 10049944) [0x1b07c0998]
+                      1  ??? (libusrtcp.dylib + 61652) [0x1fdd870d4]
+                        1  ??? (libusrtcp.dylib + 336292) [0x1fddca1a4]
+                          1  ??? (libusrtcp.dylib + 204276) [0x1fdda9df4]
+                            1  ??? (libusrtcp.dylib + 235732) [0x1fddb18d4]
+                              1  ??? (libusrtcp.dylib + 38312) [0x1fdd815a8]
+                                1  ??? (libusrtcp.dylib + 17920) [0x1fdd7c600]
+                                  1  ??? (libobjc.A.dylib + 14504) [0x1a8daf8a8]
+          1  ??? (libdispatch.dylib + 44448) [0x1b67adda0]
+            1  ??? (libdispatch.dylib + 41624) [0x1b67ad298]
+              1  ??? (libdispatch.dylib + 411520) [0x1b6807780]
+                1  ??? (libdispatch.dylib + 70668) [0x1b67b440c]
+                  1  ??? (CFNetwork + 988392) [0x1b0b1c4e8]
+                    1  ??? (CFNetwork + 1623380) [0x1b0bb7554]
+                      1  ??? (libobjc.A.dylib + 17840) [0x1a8db05b0]
+                        1  ??? (libobjc.A.dylib + 4520) [0x1a8dad1a8]
+                          1  ??? (CoreFoundation + 446088) [0x1afac8e88]
+                            1  ??? (libsystem_platform.dylib + 24668) [0x1f8ffa05c]
+  2  ??? (libsystem_pthread.dylib + 5912) [0x1f908c718]
+    1  <Kernel mode>
+
+  Binary Images:
+           0x100ffc000 -                ???  nsurlsessiond            <C0074CF8-6BC2-33AA-8AE0-31020B709738>  /usr/libexec/nsurlsessiond
+           0x1a8dac000 -        0x1a8de5e9f  libobjc.A.dylib          <3038F24A-31A3-395B-9CE6-CE7B8657A6CF>  /usr/lib/libobjc.A.dylib
+           0x1afa5c000 -        0x1afe2afff  CoreFoundation           <14B73572-A1BC-3C77-A58A-A64A28663D46>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1afe2b000 -        0x1b0a2afff  Network                  <5E17B247-F613-3B85-8561-EF2B8E3B6DD5>  /System/Library/Frameworks/Network.framework/Network
+           0x1b0a2b000 -        0x1b0dc6fff  CFNetwork                <8823A19D-0B32-3676-B0CD-4AAAF3FADBFF>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1b67a3000 -        0x1b6826fff  libdispatch.dylib        <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x1d796d000 -        0x1d7a28ff2  libboringssl.dylib       <7D486613-7281-334B-A126-B1DDF713338C>  /usr/lib/libboringssl.dylib
+           0x1e9cbe000 -        0x1e9cf3fe7  libsystem_kernel.dylib   <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x1f8ff4000 -        0x1f8ffefe3  libsystem_platform.dylib <0E98A328-F054-3D6B-B106-1961373F52EC>  /usr/lib/system/libsystem_platform.dylib
+           0x1f908b000 -        0x1f909bfff  libsystem_pthread.dylib  <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+           0x1fdd78000 -        0x1fdde1ffa  libusrtcp.dylib          <88300753-DEE7-3EDE-BFFE-BC78999C7C5A>  /usr/lib/libusrtcp.dylib
