@@ -1,0 +1,586 @@
+com.apple.corespeechd
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string></string>
+	<key>com.apple.airplay.carplayavvc</key>
+	<true/>
+	<key>com.apple.assistant.analytics</key>
+	<true/>
+	<key>com.apple.assistant.client</key>
+	<true/>
+	<key>com.apple.assistant.dictation.prerecorded</key>
+	<true/>
+	<key>com.apple.assistant.multiuser.service</key>
+	<true/>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.avfoundation.allow-system-wide-context</key>
+	<true/>
+	<key>com.apple.avfoundation.allows-access-to-device-list</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.callkit</key>
+	<array>
+		<string>private-controller-api</string>
+	</array>
+	<key>com.apple.coreaudio.CanRecordPastData</key>
+	<true/>
+	<key>com.apple.coreaudio.CanRecordWithoutSessionActivation</key>
+	<true/>
+	<key>com.apple.coreaudio.i-am-siri</key>
+	<true/>
+	<key>com.apple.coreaudio.register-internal-aus</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.corespeech.cat.xpc</key>
+	<true/>
+	<key>com.apple.hid.system.user-access-fast-path</key>
+	<true/>
+	<key>com.apple.homepodaccessorysettings.client</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.profile-list-read</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.private.DistributedEvaluation.RecordAccess-com.apple.fides.asr</key>
+	<true/>
+	<key>com.apple.private.DistributedEvaluation.RecordAccess-com.apple.fides.borealis</key>
+	<true/>
+	<key>com.apple.private.DistributedEvaluation.RecordAccess-com.apple.fides.phs</key>
+	<true/>
+	<key>com.apple.private.ShazamKit</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrUaap</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrAssistant</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrHammer</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriDictationAssets</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAttentionAssets</string>
+		<string>com.apple.MobileAsset.AdBlockerAssets</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssets</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsIPad</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsWatch</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsMarsh</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsTV</string>
+		<string>com.apple.MobileAsset.SpeechEndpointAssets</string>
+		<string>com.apple.MobileAsset.SpeechEndpointAssetsWatch</string>
+		<string>com.apple.MobileAsset.SpeechEndpointAssetsTV</string>
+		<string>com.apple.MobileAsset.RaiseToSpeakAssets</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsMac</string>
+		<string>com.apple.MobileAsset.SpeakerRecognitionAssets</string>
+		<string>com.apple.MobileAsset.EmbeddedSpeech</string>
+		<string>com.apple.MobileAsset.VoiceTriggerHSAssets</string>
+		<string>com.apple.MobileAsset.VoiceTriggerHSAssetsIPad</string>
+		<string>com.apple.MobileAsset.VoiceTriggerHSAssetsWatch</string>
+	</array>
+	<key>com.apple.private.assets.bypass-asset-types-check</key>
+	<true/>
+	<key>com.apple.private.attentionawareness</key>
+	<true/>
+	<key>com.apple.private.attentionawareness.samplewhileabsent</key>
+	<true/>
+	<key>com.apple.private.attribution.implicitly-assumed-identity</key>
+	<dict>
+		<key>type</key>
+		<string>path</string>
+		<key>value</key>
+		<string>/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd</string>
+	</dict>
+	<key>com.apple.private.audio.dark-wake-audio</key>
+	<true/>
+	<key>com.apple.private.audio.hal.aop-audio.user-access</key>
+	<true/>
+	<key>com.apple.private.audio.notification-wake-audio</key>
+	<true/>
+	<key>com.apple.private.audio.suppress-mic-indicator</key>
+	<true/>
+	<key>com.apple.private.avfoundation.capture.nonstandard-client.allow</key>
+	<true/>
+	<key>com.apple.private.avfoundation.capture.nonstandard-client.allowed-media-types</key>
+	<dict>
+		<key>AVMediaTypeMetadataObject</key>
+		<array>
+			<string>AVMetadataObjectTypeTrackedFaces</string>
+		</array>
+	</dict>
+	<key>com.apple.private.biome.client-identifier</key>
+	<string>com.apple.corespeechd</string>
+	<key>com.apple.private.biome.read-only</key>
+	<string>Dictation.UserEdit</string>
+	<key>com.apple.private.biome.read-write</key>
+	<string>Siri.VoiceTriggerStatistics</string>
+	<key>com.apple.private.bmk.allow</key>
+	<true/>
+	<key>com.apple.private.coreaudio.viewInterruptorName.allow</key>
+	<true/>
+	<key>com.apple.private.corespeech.xpc.remote</key>
+	<true/>
+	<key>com.apple.private.corespeechd.activation</key>
+	<true/>
+	<key>com.apple.private.healthkit</key>
+	<true/>
+	<key>com.apple.private.healthkit.medicaliddata</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-monitor</key>
+	<true/>
+	<key>com.apple.private.homehubd</key>
+	<array>
+		<string>endpoint-read</string>
+	</array>
+	<key>com.apple.private.homekit.siri-audio-connection</key>
+	<true/>
+	<key>com.apple.private.iokit.darkwake-control</key>
+	<true/>
+	<key>com.apple.private.mediaexperience.allowrecordingduringcall</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.announcemessage</key>
+	<true/>
+	<key>com.apple.private.mobiletimerd</key>
+	<true/>
+	<key>com.apple.private.siri.activation</key>
+	<true/>
+	<key>com.apple.private.siri.invoke</key>
+	<true/>
+	<key>com.apple.private.speech-model-training</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMicrophone</string>
+		<string>kTCCServiceCamera</string>
+	</array>
+	<key>com.apple.private.tcc.manager.access.read</key>
+	<array>
+		<string>kTCCServiceAll</string>
+	</array>
+	<key>com.apple.proactive.eventtracker</key>
+	<true/>
+	<key>com.apple.rootless.storage.CoreSpeech</key>
+	<true/>
+	<key>com.apple.runningboard.assertions.appshack</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/MobileAsset/</string>
+		<string>/Library/Audio/Tunings/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/Caches/com.apple.corespeech.cat.xpc/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/VoiceTrigger/</string>
+		<string>/Library/Logs/CrashReporter/Assistant/</string>
+		<string>/Library/Logs/CrashReporter/VoiceTrigger/</string>
+		<string>/Library/Logs/CrashReporter/ssr/</string>
+		<string>/Library/Logs/CrashReporter/CoreSpeech/</string>
+		<string>/Library/Logs/CrashReporter/RTS/</string>
+		<string>/Library/Caches/VoiceTrigger/</string>
+		<string>/Library/Caches/com.apple.corespeechd/</string>
+		<string>/Documents/Logs/CoreSpeech/</string>
+		<string>/Library/Assistant/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleSPUHIDDriverUserClient</string>
+		<string>IOHIDEventServiceFastPathUserClient</string>
+		<string>AGXDeviceUserClient</string>
+		<string>IOSurfaceRootUserClient</string>
+		<string>AGXSharedUserClient</string>
+		<string>AGXCommandQueue</string>
+		<string>AGXDevice</string>
+		<string>H11ANEInDirectPathClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.telephonyutilities.callservicesdaemon.conversationprovidermanager</string>
+		<string>com.apple.telephonyutilities.callservicesdaemon.callprovidermanager</string>
+		<string>com.apple.telephonyutilities.callservicesdaemon.callcapabilities</string>
+		<string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string>
+		<string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string>
+		<string>com.apple.sirittsd</string>
+		<string>com.apple.carousel.backlightxpc</string>
+		<string>com.apple.usernotifications.usernotificationservice</string>
+		<string>com.apple.frontboard.systemappservices</string>
+		<string>com.apple.mobileasset.autoasset</string>
+		<string>com.apple.assistant.settings</string>
+		<string>com.apple.MobileTimer.timerserver</string>
+		<string>com.apple.MobileTimer.alarmserver</string>
+		<string>com.apple.audio.voicetrigger.xpc</string>
+		<string>com.apple.audio.AudioComponentRegistrar</string>
+		<string>com.apple.voicetrigger.voicetriggerservice</string>
+		<string>com.apple.audio.AudioQueueServer</string>
+		<string>com.apple.server.bluetooth</string>
+		<string>com.apple.SystemConfiguration.NetworkInformation</string>
+		<string>com.apple.mediaremoted.xpc</string>
+		<string>com.apple.coremedia.carplayavvc.xpc</string>
+		<string>com.apple.iohideventsystem</string>
+		<string>com.apple.siri.activation</string>
+		<string>com.apple.siri.activation.horseman</string>
+		<string>com.apple.siri.activation.blackbird</string>
+		<string>com.apple.assistant.analytics</string>
+		<string>com.apple.audio.SystemSoundServer-iOS</string>
+		<string>com.apple.BTLEAudioController.xpc</string>
+		<string>com.apple.healthd.server</string>
+		<string>com.apple.SystemConfiguration.configd</string>
+		<string>com.apple.managedconfiguration.profiled</string>
+		<string>com.apple.locationd.registration</string>
+		<string>com.apple.backlightd</string>
+		<string>com.apple.carousel.wakegesturemonitor</string>
+		<string>com.apple.homekit.audio.xpc</string>
+		<string>com.apple.SBUserNotification</string>
+		<string>com.apple.nsurlsessiond.NSURLSessionProxyService</string>
+		<string>com.apple.nsurlstorage-cache</string>
+		<string>com.apple.commcenter.xpc</string>
+		<string>com.apple.mediasafetynet.exceptions</string>
+		<string>com.apple.symptom_diagnostics</string>
+		<string>com.apple.corespeech.mockremoteplugin.xpc</string>
+		<string>com.apple.systemstatus.activityattribution</string>
+		<string>com.apple.assistant.multiuser.service</string>
+		<string>com.apple.callkit.callcontrollerhost</string>
+		<string>com.apple.siri.morphunassetsupdaterd</string>
+		<string>com.apple.homehubd.manage</string>
+		<string>com.apple.AttentionAwareness</string>
+		<string>com.apple.corespeech.speechmodeltraining.xpc</string>
+		<string>com.apple.siri.analytics.assistant</string>
+		<string>com.apple.remoted</string>
+		<string>com.apple.PairingManager</string>
+		<string>com.apple.biome.access.system</string>
+		<string>com.apple.biome.access.user</string>
+		<string>com.apple.homepodaccessorysettings.server</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant</string>
+		<string>com.apple.nano</string>
+		<string>com.apple.raisetospeak</string>
+		<string>com.apple.assistant.backedup</string>
+		<string>com.apple.assistant.support</string>
+		<string>com.apple.CoreMotion</string>
+		<string>com.apple.airplay</string>
+		<string>com.apple.mediaremote</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.niservices</string>
+		<string>com.apple.voicetrigger</string>
+		<string>com.apple.voicetrigger.notbackedup</string>
+		<string>com.apple.avfoundation.avvc</string>
+		<string>com.apple.audio.virtualaudio</string>
+		<string>com.apple.speakerrecognition</string>
+		<string>com.apple.coreaudio</string>
+		<string>com.apple.coremedia</string>
+		<string>com.apple.raisetospeak</string>
+	</array>
+	<key>com.apple.security.exception.sysctl.read-only</key>
+	<array>
+		<string>net.routetable.0.0.3.0</string>
+	</array>
+	<key>com.apple.security.ts.ane-client</key>
+	<true/>
+	<key>com.apple.security.ts.mobile-keybag-access</key>
+	<true/>
+	<key>com.apple.security.ts.opengl-or-metal</key>
+	<true/>
+	<key>com.apple.security.ts.play-audio</key>
+	<true/>
+	<key>com.apple.security.ts.play-media</key>
+	<true/>
+	<key>com.apple.security.ts.power-assertions</key>
+	<true/>
+	<key>com.apple.security.ts.read-any-bundle</key>
+	<true/>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string></string>
+	<key>com.apple.sensorkit.writer.allow</key>
+	<array>
+		<string>com.apple.SensorKit.speechMetrics.siri</string>
+		<string>com.apple.SensorKit.speechEmotion.siri</string>
+		<string>com.apple.SensorKit.soundDetection.siri</string>
+	</array>
+	<key>com.apple.siri.activation</key>
+	<true/>
+	<key>com.apple.siri.embeddedspeech</key>
+	<true/>
+	<key>com.apple.siri.external_request</key>
+	<true/>
+	<key>com.apple.systemstatus.activityattribution</key>
+	<true/>
+	<key>com.apple.systemstatus.publisher.domains</key>
+	<array>
+		<string>media</string>
+	</array>
+	<key>com.apple.telephonyutilities.callservicesd</key>
+	<array>
+		<string>access-calls</string>
+		<string>access-call-providers</string>
+	</array>
+	<key>com.apple.trial.client</key>
+	<array>
+		<string>200</string>
+		<string>322</string>
+		<string>404</string>
+		<string>372</string>
+		<string>401</string>
+		<string>751</string>
+		<string>756</string>
+		<string>757</string>
+	</array>
+	<key>com.apple.voicetrigger.voicetriggerservice</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.corespeech</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>
+
+platform-application
+application-identifier
+com.apple.siri.activation
+com.apple.assistant.client
+com.apple.bluetooth.system
+com.apple.coreduetd.context
+com.apple.private.ShazamKit
+com.apple.private.bmk.allow
+com.apple.private.healthkit
+com.apple.security.ts.tmpdir
+com.apple.assistant.settings
+com.apple.corespeech.cat.xpc
+com.apple.airplay.carplay
+com.apple.assistant.analytics
+com.apple.coreaudio.i-am-siri
+com.apple.private.siri.invoke
+com.apple.siri.embeddedspeech
+com.apple.private.mobiletimerd
+com.apple.siri.external_request
+com.apple.proactive.eventtracker
+com.apple.security.ts.ane-client
+com.apple.security.ts.play-audio
+com.apple.security.ts.play-media
+com.apple.private.siri.activation
+seatbelt-profiles
+temporary-sandbox
+com.apple.private.attentionawareness
+com.apple.assistant.multiuser.service
+com.apple.coreaudio.CanRecordPastData
+com.apple.rootless.storage.CoreSpeech
+com.apple.security.ts.opengl-or-metal
+com.apple.security.ts.read-any-bundle
+com.apple.security.ts.power-assertions
+com.apple.private.audio.dark-wake-audio
+com.apple.private.corespeech.xpc.remote
+com.apple.private.speech-model-training
+com.apple.callkit
+private-controller-api
+com.apple.private.homehub
+endpoint-read
+com.apple.private.corespeechd.activation
+com.apple.private.iokit.darkwake-control
+com.apple.assistant.dictation.prerecorded
+com.apple.coreaudio.register-internal-aus
+com.apple.homepodaccessorysettings.client
+com.apple.nano.nanoregistry.generalaccess
+com.apple.private.healthkit.medicaliddata
+com.apple.hid.system.user-access-fast-path
+com.apple.private.hid.client.event-monitor
+com.apple.runningboard.assertions.appshack
+com.apple.security.ts.mobile-keybag-access
+com.apple.systemstatus.activityattribution
+com.apple.voicetrigger.voicetriggerservice
+keychain-access-groups
+com.apple.corespeech
+com.apple.systemstatus.publisher.domains
+media
+com.apple.private.audio.suppress-mic-indicator
+com.apple.private.audio.notification-wake-audio
+com.apple.private.homekit.siri-audio-connection
+com.apple.avfoundation.allow-system-wide-context
+com.apple.private.assets.bypass-asset-types-check
+com.apple.private.audio.hal.aop-audio.user-access
+com.apple.private.biome.read-only
+Dictation.UserEdit
+com.apple.avfoundation.allows-access-to-device-list
+com.apple.coreaudio.CanRecordWithoutSessionActivation
+com.apple.private.coreaudio.viewInterruptorName.allow
+com.apple.private.attentionawareness.samplewhileabsent
+com.apple.private.tcc.manager.access.read
+kTCCServiceAll
+com.apple.managedconfiguration.profiled.profile-list-read
+com.apple.private.mediaexperience.allowrecordingduringcall
+com.apple.private.mediasafetynet.exception.announcemessage
+com.apple.private.biome.read-write
+Siri.VoiceTriggerStatistics
+com.apple.trial.client
+(200
+322
+404
+372
+401
+751
+756
+757)
+com.apple.private.biome.client-identifier
+com.apple.corespeechd
+com.apple.private.avfoundation.capture.nonstandard-client.allow
+com.apple.private.tcc.allow
+kTCCServiceMicrophone
+kTCCServiceCamera
+com.apple.security.exception.sysctl.read-only
+net.routetable.0.0.3.0
+com.apple.private.DistributedEvaluation.RecordAccess-
+com.apple.fides.asr
+com.apple.private.DistributedEvaluation.RecordAccess-
+com.apple.fides.phs
+com.apple.private.DistributedEvaluation.RecordAccess-
+com.apple.fides.borealis
+com.apple.telephonyutilities.callservicesd
+access-calls
+access-call-providers
+com.apple.security.exception.files.absolute-path.read-only
+/private/var/MobileAsset/
+/Library/Audio/Tunings/
+com.apple.security.exception.files.home-relative-path.read-only
+/Library/Caches/com.apple.corespeech.cat.xpc/
+com.apple.private.avfoundation.capture.nonstandard-client.allowed-media-types
+AVMediaTypeMetadataObject
+AVMetadataObjectTypeTrackedFaces
+com.apple.private.attribution.implicitly-assumed-identity
+type
+path
+value
+/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd 
+com.apple.sensorkit.writer.allow
+com.apple.SensorKit.speechMetrics.siri
+com.apple.SensorKit.speechEmotion.siri
+com.apple.SensorKit.soundDetection.siri
+com.apple.security.exception.iokit-user-client-class
+AppleSPUHIDDriverUserClient
+IOHIDEventServiceFastPathUserClient
+AGXDeviceUserClient
+IOSurfaceRootUserClient
+AGXSharedUserClient
+AGXCommandQueue
+AGXDevice
+H11ANEInDirectPathClient
+com.apple.security.exception.shared-preference.read-only
+com.apple.assistant
+com.apple.nano
+com.apple.raisetospeak
+com.apple.assistant.backedup
+com.apple.assistant.support
+com.apple.CoreMotion
+com.apple.airplay
+com.apple.mediaremote
+com.apple.security.exception.shared-preference.read-write
+com.apple.niservices
+com.apple.voicetrigger
+com.apple.voicetrigger.notbackedup
+com.apple.avfoundation.avvc
+com.apple.audio.virtualaudio
+com.apple.speakerrecognition
+com.apple.coreaudio
+com.apple.coremedia
+com.apple.raisetospeak
+com.apple.security.exception.files.home-relative-path.read-write
+/Library/VoiceTrigger/
+/Library/Logs/CrashReporter/Assistant/
+/Library/Logs/CrashReporter/VoiceTrigger/
+/Library/Logs/CrashReporter/ssr/
+/Library/Logs/CrashReporter/CoreSpeech/
+/Library/Logs/CrashReporter/RTS/
+/Library/Caches/VoiceTrigger/
+/Library/Caches/com.apple.corespeechd/
+/Documents/Logs/CoreSpeech/
+/Library/Assistant/
+com.apple.private.assets.accessible-asset-types
+com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrUaap
+com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrAssistant
+com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrHammer
+com.apple.MobileAsset.Trial.Siri.SiriDictationAssets
+com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAttentionAssets
+com.apple.MobileAsset.AdBlockerAssets
+com.apple.MobileAsset.VoiceTriggerAssets
+com.apple.MobileAsset.VoiceTriggerAssetsIPad
+com.apple.MobileAsset.VoiceTriggerAssetsWatch
+com.apple.MobileAsset.VoiceTriggerAssetsMarsh
+com.apple.MobileAsset.VoiceTriggerAssetsTV
+com.apple.MobileAsset.SpeechEndpointAssets
+com.apple.MobileAsset.SpeechEndpointAssetsWatch
+com.apple.MobileAsset.SpeechEndpointAssetsTV
+com.apple.MobileAsset.RaiseToSpeakAssets
+com.apple.MobileAsset.VoiceTriggerAssetsMac
+com.apple.MobileAsset.SpeakerRecognitionAssets
+com.apple.MobileAsset.EmbeddedSpeech
+com.apple.MobileAsset.VoiceTriggerHSAssets
+com.apple.MobileAsset.VoiceTriggerHSAssetsIPad
+com.apple.MobileAsset.VoiceTriggerHSAssetsWatch
+com.apple.security.exception.mach-lookup.global-name
+com.apple.telephonyutilities.callservicesdaemon.conversationprovidermanager
+com.apple.telephonyutilities.callservicesdaemon.callprovidermanager
+com.apple.telephonyutilities.callservicesdaemon.callcapabilities
+com.apple.telephonyutilities.callservicesdaemon.callstatecontroller
+com.apple.telephonyutilities.callservicesdaemon.conversationmanager
+com.apple.sirittsd
+com.apple.carousel.backlightxpc
+com.apple.usernotifications.usernotificationservice
+com.apple.frontboard.systemappservices
+com.apple.mobileasset.autoasset
+com.apple.assistant.settings
+com.apple.MobileTimer.timerserver
+com.apple.MobileTimer.alarmserver
+com.apple.audio.voicetrigger.xpc
+com.apple.audio.AudioComponentRegistrar
+com.apple.voicetrigger.voicetriggerservice
+com.apple.audio.AudioQueueServer
+com.apple.server.bluetooth
+com.apple.SystemConfiguration.NetworkInformation
+com.apple.mediaremoted.xpc
+com.apple.coremedia.carplayavvc.xpc
+com.apple.iohideventsystem
+com.apple.siri.activation
+com.apple.siri.activation.horseman
+com.apple.siri.activation.blackbird
+com.apple.assistant.analytics
+com.apple.audio.SystemSoundServer-iOS
+com.apple.BTLEAudioController.xpc
+com.apple.healthd.server
+com.apple.SystemConfiguration.configd
+com.apple.managedconfiguration.profiled
+com.apple.locationd.registration
+com.apple.backlightd
+com.apple.carousel.wakegesturemonitor
+com.apple.homekit.audio.xpc
+com.apple.SBUserNotification
+com.apple.nsurlsessiond.NSURLSessionProxyService
+com.apple.nsurlstorage-cache
+com.apple.commcenter.xpc
+com.apple.mediasafetynet.exceptions
+com.apple.symptom_diagnostics
+com.apple.corespeech.mockremoteplugin.xpc
+com.apple.systemstatus.activityattribution
+com.apple.assistant.multiuser.service
+com.apple.callkit.callcontrollerhost
+com.apple.siri.morphunassetsupdaterd
+com.apple.homehubd.manage
+com.apple.AttentionAwareness
+com.apple.corespeech.speechmodeltraining.xpc
+com.apple.siri.analytics.assistant
+com.apple.remoted
+com.apple.PairingManager
+com.apple.biome.access.system
+com.apple.biome.access.user
+com.apple.homepodaccessorysettings.server
