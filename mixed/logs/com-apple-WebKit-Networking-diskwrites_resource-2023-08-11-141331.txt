@@ -1,0 +1,414 @@
+{"app_name":"com.apple.WebKit.Networking","timestamp":"2023-08-11 14:13:31.00 +1000","app_version":"8615","slice_uuid":"E1675909-D44F-316D-89CB-CC92DD0E7C2A","build_version":"8615.3.12.10.2","bundleID":"com.apple.WebKit.Networking","duration_ms":"52385235","share_with_app_devs":0,"is_first_party":0,"bug_type":"145","os_version":"iPhone OS 16.6 (20G75)","roots_installed":0,"incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX4D","name":"com.apple.WebKit.Networking"}
+Date/Time:        2023-08-10 23:40:23.568 +1000
+End time:         2023-08-11 14:13:28.803 +1000
+OS Version:       iPhone OS 16.6 (Build 20G75)
+Architecture:     arm64e
+Report Version:   40
+Incident Identifier: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX4D
+
+Data Source:      Microstackshots
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX3A slid base address 0x182780000, slide 0x2780000
+
+Command:          com.apple.WebKit.Networking
+Path:             /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.Networking.xpc/com.apple.WebKit.Networking
+Identifier:       com.apple.WebKit.Networking
+Version:          8615 (8615.3.12.10.2)
+Resource Coalition ID: 445
+Architecture:     arm64
+PID:              511
+
+Event:            disk writes
+Action taken:     none
+Writes:           1073.75 MB of file backed memory dirtied over 52385 seconds (20.50 KB per second average), exceeding limit of 12.43 KB per second over 86400 seconds
+Writes limit:     1073.74 MB
+Limit duration:   86400s
+Writes caused:    1073.75 MB
+Writes duration:  52385s
+Duration:         52385.24s
+Duration Sampled: 36163.60s
+Steps:            8 (10.49 MB/step)
+
+Hardware model:   iPad12,1
+Active cpus:      6
+HW page size:     16384
+VM page size:     16384
+
+OS Cryptex File Extents: 1267
+
+Heaviest stack for the target process:
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+  1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+  1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+  1  ??? (libdispatch.dylib + 49316) [0x190bfc0a4]
+  1  ??? (libdispatch.dylib + 46388) [0x190bfb534]
+  1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+  1  ??? (JavaScriptCore + 721888) [0x19cf143e0]
+  1  ??? (WebKit + 2848224) [0x19c5bf5e0]
+  1  ??? (WebKit + 2911920) [0x19c5ceeb0]
+  1  ??? (WebCore + 31432256) [0x19b89fe40]
+  1  ??? (WebCore + 31418100) [0x19b89c6f4]
+  1  ??? (libsqlite3.dylib + 177588) [0x1ae6b75b4]
+  1  ??? (libsqlite3.dylib + 223668) [0x1ae6c29b4]
+  1  ??? (libsqlite3.dylib + 84376) [0x1ae6a0998]
+  1  ??? (libsqlite3.dylib + 246252) [0x1ae6c81ec]
+  1  ??? (libsqlite3.dylib + 247580) [0x1ae6c871c]
+  1  ??? (libsqlite3.dylib + 309336) [0x1ae6d7858]
+  1  ??? (libsqlite3.dylib + 615460) [0x1ae722424]
+  1  ??? (libsqlite3.dylib + 310124) [0x1ae6d7b6c]
+  1  ??? (libsystem_kernel.dylib + 10624) [0x1c7de4980]
+
+
+Powerstats for:   com.apple.WebKit.Networking [511]
+UUID:             E1675909-D44F-316D-89CB-CC92DD0E7C2A
+Path:             /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.Networking.xpc/com.apple.WebKit.Networking
+Identifier:       com.apple.WebKit.Networking
+Version:          8615 (8615.3.12.10.2)
+Resource Coalition ID: 445
+Architecture:     arm64
+Footprint:        64.88 MB
+Start time:       2023-08-11 14:13:21.973 +1000
+End time:         2023-08-11 14:13:21.973 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Utility, Requested Thread QoS Utility, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 1 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+      1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+        1  ??? (libdispatch.dylib + 49316) [0x190bfc0a4]
+          1  ??? (libdispatch.dylib + 46388) [0x190bfb534]
+            1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+              1  ??? (JavaScriptCore + 721888) [0x19cf143e0]
+                1  ??? (WebKit + 2848224) [0x19c5bf5e0]
+                  1  ??? (WebKit + 2911920) [0x19c5ceeb0]
+                    1  ??? (WebCore + 31432256) [0x19b89fe40]
+                      1  ??? (WebCore + 31418100) [0x19b89c6f4]
+                        1  ??? (libsqlite3.dylib + 177588) [0x1ae6b75b4]
+                          1  ??? (libsqlite3.dylib + 223668) [0x1ae6c29b4]
+                            1  ??? (libsqlite3.dylib + 84376) [0x1ae6a0998]
+                              1  ??? (libsqlite3.dylib + 246252) [0x1ae6c81ec]
+                                1  ??? (libsqlite3.dylib + 247580) [0x1ae6c871c]
+                                  1  ??? (libsqlite3.dylib + 309336) [0x1ae6d7858]
+                                    1  ??? (libsqlite3.dylib + 615460) [0x1ae722424]
+                                      1  ??? (libsqlite3.dylib + 310124) [0x1ae6d7b6c]
+                                        1  ??? (libsystem_kernel.dylib + 10624) [0x1c7de4980]
+
+  Binary Images:
+           0x100f18000 -                ???  com.apple.WebKit.Networking 8615 (8615.3.12.10.2) <E1675909-D44F-316D-89CB-CC92DD0E7C2A>  /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.Networking.xpc/com.apple.WebKit.Networking
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib                                 <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x199aa6000 -        0x19c267fdf  WebCore                                           <68F62772-437B-31E1-9C6D-C62357D9E257>  /System/Library/PrivateFrameworks/WebCore.framework/WebCore
+           0x19c308000 -        0x19ce63fff  WebKit                                            <0A07C3A5-3B5D-3DA8-B846-9EC23CC911FE>  /System/Library/Frameworks/WebKit.framework/WebKit
+           0x19ce64000 -        0x19e57cfff  JavaScriptCore                                    <9840B0EF-5A92-3BCF-97FC-F8F58AA14D39>  /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+           0x1ae68c000 -        0x1ae7f7ff3  libsqlite3.dylib                                  <167064E4-8F09-34E8-BD7B-DCB59717915A>  /usr/lib/libsqlite3.dylib
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib                            <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib                           <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   aggregated
+UUID:             84394759-9EEA-3726-ACCD-E6486C9978D1
+Path:             /System/Library/PrivateFrameworks/AggregateDictionary.framework/Support/aggregated
+Resource Coalition ID: 105
+Architecture:     arm64
+Start time:       2023-08-11 14:13:06.204 +1000
+End time:         2023-08-11 14:13:06.204 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Background, Override Thread QoS Unspecified
+User Activity:    1 samples Idle, 0 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+      1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+        1  ??? (libdispatch.dylib + 49368) [0x190bfc0d8]
+          1  ??? (libdispatch.dylib + 46388) [0x190bfb534]
+            1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+              1  ??? (libdispatch.dylib + 8992) [0x190bf2320]
+                1  ??? (IOKit + 90084) [0x1915c8fe4]
+                  1  ??? (PowerlogLiteOperators + 368868) [0x1c64e60e4]
+                    1  ??? (PowerlogLiteOperators + 1648920) [0x1c661e918]
+                      1  ??? (PowerlogCore + 36832) [0x1b5e44fe0]
+                        1  ??? (PowerlogCore + 114996) [0x1b5e58134]
+                          1  ??? (PowerlogCore + 109504) [0x1b5e56bc0]
+                            1  ??? (PowerlogCore + 177176) [0x1b5e67418]
+                              1  ??? (PowerlogCore + 43508) [0x1b5e469f4]
+                                1  ??? (PowerlogCore + 57468) [0x1b5e4a07c]
+                                  1  ??? (PowerlogCore + 111908) [0x1b5e57524]
+                                    1  ??? (PowerlogCore + 17948) [0x1b5e4061c]
+                                      1  ??? (PowerlogCore + 509624) [0x1b5eb86b8]
+                                        1  ??? (libdispatch.dylib + 78888) [0x190c03428]
+                                          1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+                                            1  ??? (PowerlogCore + 91692) [0x1b5e5262c]
+                                              1  ??? (PowerlogCore + 14728) [0x1b5e3f988]
+                                                1  ??? (libsqlite3.dylib + 177588) [0x1ae6b75b4]
+                                                  1  ??? (libsqlite3.dylib + 223668) [0x1ae6c29b4]
+                                                    1  ??? (libsqlite3.dylib + 84376) [0x1ae6a0998]
+                                                      1  ??? (libsqlite3.dylib + 246252) [0x1ae6c81ec]
+                                                        1  ??? (libsqlite3.dylib + 247580) [0x1ae6c871c]
+                                                          1  ??? (libsqlite3.dylib + 309336) [0x1ae6d7858]
+                                                            1  ??? (libsqlite3.dylib + 615460) [0x1ae722424]
+                                                              1  ??? (libsqlite3.dylib + 310124) [0x1ae6d7b6c]
+                                                                1  ??? (libsystem_kernel.dylib + 10624) [0x1c7de4980]
+
+  Binary Images:
+           0x10420c000 -                ???  aggregated              <84394759-9EEA-3726-ACCD-E6486C9978D1>  /System/Library/PrivateFrameworks/AggregateDictionary.framework/Support/aggregated
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib       <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x1915b3000 -        0x19166ffff  IOKit                   <406E5A95-6FDD-3955-B2A9-2E8B0B2FAC0B>  /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+           0x1ae68c000 -        0x1ae7f7ff3  libsqlite3.dylib        <167064E4-8F09-34E8-BD7B-DCB59717915A>  /usr/lib/libsqlite3.dylib
+           0x1b5e3c000 -        0x1b5f67fff  PowerlogCore            <59841065-F5F1-3507-8458-E81B10108C20>  /System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore
+           0x1c648c000 -        0x1c69a4fff  PowerlogLiteOperators   <D719DF0D-C611-31D5-923A-B30BEC1BD030>  /System/Library/PrivateFrameworks/PowerlogLiteOperators.framework/PowerlogLiteOperators
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib  <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   cfprefsd
+UUID:             DE0F9DC5-D631-3A0A-8653-2042CD2EE5D5
+Path:             /usr/sbin/cfprefsd
+Resource Coalition ID: 135
+Architecture:     arm64
+Start time:       2023-08-11 11:15:19.875 +1000
+End time:         2023-08-11 11:15:19.875 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Default, Override Thread QoS Unspecified
+User Activity:    1 samples Idle, 0 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+      1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+        1  ??? (libdispatch.dylib + 49316) [0x190bfc0a4]
+          1  ??? (libdispatch.dylib + 46092) [0x190bfb40c]
+            1  ??? (libdispatch.dylib + 108808) [0x190c0a908]
+              1  ??? (libdispatch.dylib + 29488) [0x190bf7330]
+                1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+                  1  ??? (CoreFoundation + 762768) [0x1897e1390]
+                    1  ??? (CoreFoundation + 503376) [0x1897a1e50]
+                      1  ??? (CoreFoundation + 542912) [0x1897ab8c0]
+                        1  ??? (CoreFoundation + 292744) [0x18976e788]
+                          1  ??? (CoreFoundation + 671004) [0x1897cad1c]
+                            1  ??? (CoreFoundation + 799752) [0x1897ea408]
+                              1  ??? (libsystem_kernel.dylib + 9848) [0x1c7de4678]
+
+  Binary Images:
+           0x1045dc000 -                ???  cfprefsd                <DE0F9DC5-D631-3A0A-8653-2042CD2EE5D5>  /usr/sbin/cfprefsd
+           0x189727000 -        0x189b0efff  CoreFoundation          <A900B459-0127-379E-9CBA-0EAB9C5D559F>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib       <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib  <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   chronod
+UUID:             1C649EBC-C5CF-3854-B8CE-4A4837BAAB05
+Path:             /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod
+Resource Coalition ID: 197
+Architecture:     arm64
+Start time:       2023-08-11 07:18:56.766 +1000
+End time:         2023-08-11 07:18:56.766 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified
+User Activity:    1 samples Idle, 0 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+      1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+        1  ??? (libdispatch.dylib + 49316) [0x190bfc0a4]
+          1  ??? (libdispatch.dylib + 46388) [0x190bfb534]
+            1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+              1  ??? (libdispatch.dylib + 8992) [0x190bf2320]
+                1  ??? (libswiftDispatch.dylib + 4052) [0x191e11fd4]
+                  1  ??? (Combine + 84760) [0x191e3db18]
+                    1  ??? (Combine + 91484) [0x191e3f55c]
+                      1  ??? (Combine + 43616) [0x191e33a60]
+                        1  ??? (Combine + 44868) [0x191e33f44]
+                          1  ??? (WidgetKit + 48696) [0x196a51e38]
+                            1  ??? (WidgetKit + 899200) [0x196b21880]
+                              1  ??? (WidgetKit + 900188) [0x196b21c5c]
+                                1  ??? (WidgetKit + 858464) [0x196b17960]
+                                  1  ??? (ChronoKit + 47944) [0x1ccd40b48]
+                                    1  ??? (ChronoKit + 47720) [0x1ccd40a68]
+                                      1  ??? (ChronoKit + 39332) [0x1ccd3e9a4]
+                                        1  ??? (ChronoKit + 387552) [0x1ccd939e0]
+                                          1  ??? (ChronoKit + 379040) [0x1ccd918a0]
+                                            1  ??? (ChronoKit + 51132) [0x1ccd417bc]
+                                              1  ??? (ChronoKit + 112084) [0x1ccd505d4]
+                                                1  ??? (Foundation + 253988) [0x183a9b024]
+                                                  1  ??? (Foundation + 246968) [0x183a994b8]
+                                                    1  ??? (Foundation + 503696) [0x183ad7f90]
+                                                      1  ??? (Foundation + 504400) [0x183ad8250]
+                                                        1  ??? (libremovefile.dylib + 6432) [0x201570920]
+                                                          1  ??? (libremovefile.dylib + 5240) [0x201570478]
+                                                            1  ??? (libsystem_kernel.dylib + 19440) [0x1c7de6bf0]
+
+  Binary Images:
+           0x104a94000 -                ???  chronod                 <1C649EBC-C5CF-3854-B8CE-4A4837BAAB05>  /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod
+           0x183a5d000 -        0x18433afff  Foundation              <1715DE5D-0893-3AF0-B0C0-550BB14F91EC>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib       <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x191e11000 -        0x191e28fff  libswiftDispatch.dylib  <E0BB294E-B630-379B-AAC8-D5C0A83A55E6>  /usr/lib/swift/libswiftDispatch.dylib
+           0x191e29000 -        0x191f73ff7  Combine                 <BB2D4CFD-7CCC-36CD-97CE-AE77D0D610FA>  /System/Library/Frameworks/Combine.framework/Combine
+           0x196a46000 -        0x196b96fff  WidgetKit               <C0A3F44A-44D3-323C-9CE9-4541BC316DDE>  /System/Library/Frameworks/WidgetKit.framework/WidgetKit
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib  <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1ccd35000 -        0x1ccef0fff  ChronoKit               <B77C4036-513D-3B42-B840-BA1591AC3C18>  /System/Library/PrivateFrameworks/ChronoKit.framework/ChronoKit
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+           0x20156f000 -        0x201571fff  libremovefile.dylib     <AA09D34F-52C9-3478-A0E1-9FFF72DCD930>  /usr/lib/system/libremovefile.dylib
+
+
+Powerstats for:   dmd
+UUID:             BEF3300D-788A-3F02-A382-6F164CE7CE4D
+Path:             /usr/libexec/dmd
+Resource Coalition ID: 181
+Architecture:     arm64
+Start time:       2023-08-11 14:13:13.618 +1000
+End time:         2023-08-11 14:13:13.618 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Default, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 1 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+      1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+        1  ??? (libdispatch.dylib + 49316) [0x190bfc0a4]
+          1  ??? (libdispatch.dylib + 46388) [0x190bfb534]
+            1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+              1  ??? (CoreData + 527212) [0x190e7cb6c]
+                1  ??? (CoreData + 2248752) [0x191021030]
+                  1  ??? (dmd + 153876) [0x104ae1914]
+                    1  ??? (dmd + 240856) [0x104af6cd8]
+                      1  ??? (dmd + 242072) [0x104af7198]
+                        1  ??? (dmd + 251860) [0x104af97d4]
+                          1  ??? (dmd + 245108) [0x104af7d74]
+                            1  ??? (Foundation + 445868) [0x183ac9dac]
+                              1  ??? (Foundation + 321652) [0x183aab874]
+                                1  ??? (Foundation + 668848) [0x183b004b0]
+                                  1  ??? (libsystem_kernel.dylib + 9848) [0x1c7de4678]
+
+  Binary Images:
+           0x104abc000 -                ???  dmd                     <BEF3300D-788A-3F02-A382-6F164CE7CE4D>  /usr/libexec/dmd
+           0x183a5d000 -        0x18433afff  Foundation              <1715DE5D-0893-3AF0-B0C0-550BB14F91EC>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib       <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x190dfc000 -        0x191161fff  CoreData                <74B49D9C-EFF1-3207-BFBE-28B5E95E8956>  /System/Library/Frameworks/CoreData.framework/CoreData
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib  <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   fseventsd
+UUID:             3EB50F31-FC19-3583-A855-E634D25298F6
+Path:             /usr/libexec/fseventsd
+Resource Coalition ID: 129
+Architecture:     arm64
+Start time:       2023-08-11 14:13:11.876 +1000
+End time:         2023-08-11 14:13:11.876 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Default, Requested Thread QoS Default, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 1 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2952) [0x1e8ae2b88]
+    1  ??? (libsystem_pthread.dylib + 5816) [0x1e8ae36b8]
+      1  ??? (fseventsd + 58592) [0x100e4e4e0]
+        1  ??? (fseventsd + 53728) [0x100e4d1e0]
+          1  ??? (fseventsd + 38968) [0x100e49838]
+            1  ??? (fseventsd + 50956) [0x100e4c70c]
+              1  ??? (fseventsd + 51372) [0x100e4c8ac]
+                1  ??? (libz.1.dylib + 26920) [0x20eec2928]
+                  1  ??? (libsystem_kernel.dylib + 9848) [0x1c7de4678]
+
+  Binary Images:
+           0x100e40000 -                ???  fseventsd               <3EB50F31-FC19-3583-A855-E634D25298F6>  /usr/libexec/fseventsd
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib  <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+           0x20eebc000 -        0x20eecdff7  libz.1.dylib            <5C731638-521A-3002-9D55-15EE35048600>  /usr/lib/libz.1.dylib
+
+
+Powerstats for:   IMDPersistenceAgent
+UUID:             A60CC302-97E2-3283-8979-C5AEDCAD7042
+Path:             /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/IMDPersistenceAgent
+Identifier:       com.apple.imdpersistence.IMDPersistenceAgent
+Version:          10.0 (1000)
+Resource Coalition ID: 249
+Architecture:     arm64
+Start time:       2023-08-11 04:10:38.373 +1000
+End time:         2023-08-11 04:10:38.373 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Default, Requested Thread QoS Background, Override Thread QoS Unspecified
+User Activity:    1 samples Idle, 0 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3548) [0x1e8ae2ddc]
+      1  ??? (libdispatch.dylib + 93404) [0x190c06cdc]
+        1  ??? (libdispatch.dylib + 49316) [0x190bfc0a4]
+          1  ??? (libdispatch.dylib + 46092) [0x190bfb40c]
+            1  ??? (libdispatch.dylib + 136248) [0x190c11438]
+              1  ??? (libdispatch.dylib + 46092) [0x190bfb40c]
+                1  ??? (libdispatch.dylib + 132844) [0x190c106ec]
+                  1  ??? (libdispatch.dylib + 16236) [0x190bf3f6c]
+                    1  ??? (libxpc.dylib + 73504) [0x1e8b36f20]
+                      1  ??? (libxpc.dylib + 72432) [0x1e8b36af0]
+                        1  ??? (IMDPersistenceAgent + 13188) [0x1005c3384]
+                          1  ??? (IMDPersistence + 33736) [0x1ad8b53c8]
+                            1  ??? (IMDPersistence + 21812) [0x1ad8b2534]
+                              1  ??? (IMDPersistence + 833568) [0x1ad978820]
+                                1  ??? (CoreSDB + 16872) [0x1ee65f1e8]
+                                  1  ??? (libdispatch.dylib + 78888) [0x190c03428]
+                                    1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+                                      1  ??? (CoreSDB + 13752) [0x1ee65e5b8]
+                                        1  ??? (IMDPersistence + 833776) [0x1ad9788f0]
+                                          1  ??? (IMDPersistence + 38348) [0x1ad8b65cc]
+                                            1  ??? (IMDPersistence + 538792) [0x1ad9308a8]
+                                              1  ??? (IMDPersistence + 38900) [0x1ad8b67f4]
+                                                1  ??? (IMDPersistence + 538556) [0x1ad9307bc]
+                                                  1  ??? (IMDPersistence + 37056) [0x1ad8b60c0]
+                                                    1  ??? (libsqlite3.dylib + 33928) [0x1ae694488]
+                                                      1  ??? (libsqlite3.dylib + 177588) [0x1ae6b75b4]
+                                                        1  ??? (libsqlite3.dylib + 183868) [0x1ae6b8e3c]
+                                                          1  ??? (libsqlite3.dylib + 665436) [0x1ae72e75c]
+                                                            1  ??? (libsqlite3.dylib + 696052) [0x1ae735ef4]
+                                                              1  ??? (libsqlite3.dylib + 459708) [0x1ae6fc3bc]
+                                                                1  ??? (libsqlite3.dylib + 309336) [0x1ae6d7858]
+                                                                  1  ??? (libsqlite3.dylib + 615460) [0x1ae722424]
+                                                                    1  ??? (libsqlite3.dylib + 310124) [0x1ae6d7b6c]
+                                                                      1  ??? (libsystem_kernel.dylib + 10624) [0x1c7de4980]
+
+  Binary Images:
+           0x1005c0000 -                ???  com.apple.imdpersistence.IMDPersistenceAgent 10.0 (1000) <A60CC302-97E2-3283-8979-C5AEDCAD7042>  /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/IMDPersistenceAgent
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib                                        <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x1ad8ad000 -        0x1ada4afff  IMDPersistence                                           <734C19F3-B97B-3BC2-B77C-5F9306EBC647>  /System/Library/PrivateFrameworks/IMDPersistence.framework/IMDPersistence
+           0x1ae68c000 -        0x1ae7f7ff3  libsqlite3.dylib                                         <167064E4-8F09-34E8-BD7B-DCB59717915A>  /usr/lib/libsqlite3.dylib
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib                                   <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib                                  <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
+           0x1e8b25000 -        0x1e8b66fff  libxpc.dylib                                             <A0D322A3-D772-3260-9690-71F28737C43C>  /usr/lib/system/libxpc.dylib
+           0x1ee65b000 -        0x1ee671fff  CoreSDB                                                  <648FEFD5-093D-313F-B070-2D0A8B476D98>  /System/Library/PrivateFrameworks/CoreSDB.framework/CoreSDB
+
+
+Powerstats for:   searchd
+UUID:             EEB60340-3119-3AE9-9A8C-A58DF5558D10
+Path:             /System/Library/PrivateFrameworks/Search.framework/searchd
+Resource Coalition ID: 342
+Architecture:     arm64
+Start time:       2023-08-11 14:13:16.474 +1000
+End time:         2023-08-11 14:13:16.474 +1000
+Num samples:      1 (12%)
+Primary state:    1 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Background, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 1 samples Active
+Power Source:     1 samples on Battery, 0 samples on AC
+  1  ??? (libsystem_pthread.dylib + 2940) [0x1e8ae2b7c]
+    1  ??? (libsystem_pthread.dylib + 3488) [0x1e8ae2da0]
+      1  ??? (libdispatch.dylib + 90456) [0x190c06158]
+        1  ??? (libdispatch.dylib + 88388) [0x190c05944]
+          1  ??? (libdispatch.dylib + 27032) [0x190bf6998]
+            1  ??? (libdispatch.dylib + 29192) [0x190bf7208]
+              1  ??? (libdispatch.dylib + 49368) [0x190bfc0d8]
+                1  ??? (libdispatch.dylib + 46092) [0x190bfb40c]
+                  1  ??? (libdispatch.dylib + 49368) [0x190bfc0d8]
+                    1  ??? (libdispatch.dylib + 46388) [0x190bfb534]
+                      1  ??? (libdispatch.dylib + 16044) [0x190bf3eac]
+                        1  ??? (libdispatch.dylib + 77764) [0x190c02fc4]
+                          1  ??? (MobileSpotlightIndex + 111800) [0x1b75974b8]
+                            1  ??? (MobileSpotlightIndex + 113360) [0x1b7597ad0]
+                              1  ??? (MobileSpotlightIndex + 201312) [0x1b75ad260]
+                                1  ??? (MobileSpotlightIndex + 205744) [0x1b75ae3b0]
+                                  1  ??? (MobileSpotlightIndex + 415060) [0x1b75e1554]
+                                    1  ??? (MobileSpotlightIndex + 152864) [0x1b75a1520]
+                                      1  ??? (libsystem_kernel.dylib + 11524) [0x1c7de4d04]
+
+  Binary Images:
+           0x104530000 -                ???  searchd                 <EEB60340-3119-3AE9-9A8C-A58DF5558D10>  /System/Library/PrivateFrameworks/Search.framework/searchd
+           0x190bf0000 -        0x190c36fff  libdispatch.dylib       <5D16936B-4E4C-3276-BA7A-69C9BC760ABA>  /usr/lib/system/libdispatch.dylib
+           0x1b757c000 -        0x1b78aefff  MobileSpotlightIndex    <A2C12485-09F9-3C79-9B5D-E08B24FA4A06>  /System/Library/PrivateFrameworks/MobileSpotlightIndex.framework/MobileSpotlightIndex
+           0x1c7de2000 -        0x1c7e19fe7  libsystem_kernel.dylib  <681B06A0-7F6B-3FA3-A2CE-063DC1DA7B1B>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e8ae2000 -        0x1e8aedff3  libsystem_pthread.dylib <AA302F5A-FFE5-327A-A003-3B288B935DE1>  /usr/lib/system/libsystem_pthread.dylib
