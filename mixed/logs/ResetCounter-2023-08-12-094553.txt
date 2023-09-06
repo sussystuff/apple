@@ -1,0 +1,11 @@
+{"os_version":"iPhone OS 16.6 (20G75)","bug_type":"115","timestamp":"2023-08-12 09:45:53.00 +1000","name":"Reset count","roots_installed":0,"incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX66"}
+Incident Identifier: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX66
+CrashReporter Key:   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Date: 2023-08-12 09:45:53.49 +1000
+Reset count: 0
+Boot failure count: 1
+Boot faults: rst btn_rst,btn_seq_reset
+Boot stage: 0x30
+Boot app: 2681261667
+socId: 8030
+socRevision: 11
