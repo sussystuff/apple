@@ -1,0 +1,16 @@
+{"bug_type":"120","timestamp":"2023-07-29 16:22:09.00 +1000","os_version":"iPhone OS 16.5.1 (20F770750d)","roots_installed":0,"incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX5C"}
+{"bug_type":"120","os_version":"iPhone OS 16.5.1 (20F75)"}
+Incident Identifier: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX67
+CrashReporter Key:   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Date:                2023-07-29 16:22:09.287 +1000
+OS Version:          iPhone OS 16.5.1 (20F75)
+
+Screen Brightness: 0.000000
+Hardware Model: J181AP
+Awake Time: 21:14:26 (76466)
+Standby Time: 126:32:08 (455528)
+Partial Charge: 0
+Capacity: 1
+Voltage: 3639 mV
+Voltage Droop Time: 0
+Voltage Droop Transitions: 0
