@@ -1,0 +1,70 @@
+0x0                  6518   0    mobileactivationd: (libMobileGestalt.dylib) No persisted cache on this platform.
+0x0                  6518   0    mobileactivationd: (libMobileGestalt.dylib) Property avd[ads-present] found <private>
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Internal Build: false
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Hardware Model: J274AP
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Should Hactivate: false
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] FPGA: false
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Dev-fused Undemoted: false
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Prod-fused Demoted: false
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Activation State: Activated
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] ____________________________________________________________________
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_oic: entry
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: SEP command 38 (v7) returned 0
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_oic: exit: success (0)
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: entry
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: SEP command 15 (v7) returned 0
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: exit: success (0)
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: entry
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: SEP command 15 (v7) returned 0
+0x0                  6518   30   mobileactivationd: (libbootpolicy.dylib) [com.apple.BootPolicy:Library] BootPolicy: bootpolicy_get_blessed_remote_policy_nonce_digest: exit: success (0)
+0x0                  6518   7    mobileactivationd: [com.apple.mobileactivationd:daemon] Activation State: Activated
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_register: com.apple.mobileactivationd.UCRT.OOB, criteria: check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_register: com.apple.mobileactivationd.UCRT.OOB (0x******770), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.UCRT.OOB (0x******770), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_register: com.apple.mobileactivationd.DCRT.OOB, criteria: check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_register: com.apple.mobileactivationd.DCRT.OOB (0x******980), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.DCRT.OOB (0x******980), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_register: com.apple.mobileactivationd.splunklogging, criteria: check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_register: com.apple.mobileactivationd.splunklogging (0x******bf0), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging (0x******bf0), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_register: com.apple.mobileactivationd.splunklogging.daily, criteria: check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_register: com.apple.mobileactivationd.splunklogging.daily (0x******e70), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging.daily (0x******e70), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_register: com.apple.mobileactivationd.splunklogging.rollidentifier, criteria: check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_register: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria, lower half: com.apple.mobileactivationd.UCRT.OOB (0x******770), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_criteria: com.apple.mobileactivationd.UCRT.OOB (0x******770), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria, lower half: com.apple.mobileactivationd.splunklogging (0x******bf0), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria, lower half: com.apple.mobileactivationd.DCRT.OOB (0x******980), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria, lower half: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria, lower half: com.apple.mobileactivationd.splunklogging.daily (0x******e70), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.UCRT.OOB (0x******770), setting state now to 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.UCRT.OOB (0x******770), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__: com.apple.mobileactivationd.UCRT.OOB (0x******770), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging (0x******bf0), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging (0x******bf0), setting state now to 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.splunklogging (0x******bf0), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__: com.apple.mobileactivationd.splunklogging (0x******bf0), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_criteria: com.apple.mobileactivationd.DCRT.OOB (0x******980), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.DCRT.OOB (0x******980), setting state now to 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.DCRT.OOB (0x******980), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__: com.apple.mobileactivationd.DCRT.OOB (0x******980), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), setting state now to 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging.daily (0x******e70), check-in
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__ returned from handler: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.splunklogging.rollidentifier (0x******0f0), 1
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] xpc_activity_set_criteria: com.apple.mobileactivationd.splunklogging.daily (0x******e70), setting state now to 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.splunklogging.daily (0x******e70), 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__: com.apple.mobileactivationd.splunklogging.daily (0x******e70), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__ returned from handler: com.apple.mobileactivationd.splunklogging.daily (0x******e70), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.splunklogging.daily (0x******e70), 1
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__ returned from handler: com.apple.mobileactivationd.UCRT.OOB (0x******770), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.UCRT.OOB (0x******770), 1
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__ returned from handler: com.apple.mobileactivationd.DCRT.OOB (0x******980), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.DCRT.OOB (0x******980), 1
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] __XPC_ACTIVITY_CALLING_HANDLER__ returned from handler: com.apple.mobileactivationd.splunklogging (0x******bf0), current state 0, pending state 0
+0x0                  6518   0    mobileactivationd: (libxpc.dylib) [com.apple.xpc.activity:Client] _xpc_activity_set_state: com.apple.mobileactivationd.splunklogging (0x******bf0), 1
