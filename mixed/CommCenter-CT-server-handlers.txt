@@ -1,0 +1,469 @@
+//#The Mac is doing something to my iPhone which I eventually took the SIM out of. #//
+
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc] #I Setting up CT server handlers: 21 to run
+0xea6      Info        0x0                  394    0    CommCenter: (WirelessDiagnostics) [com.apple.awd.framework:server] client:#I Sending component configuration to component: 0x22
+0xea6      Info        0x0                  394    0    CommCenter: (WirelessDiagnostics) [com.apple.awd.framework:server] client:#I In switch branch for pii/location message msg. cid=0x22 collectPII is 0, collectLocation is 0, shim is 1
+0xea6      Default     0x0                  394    0    CommCenter: (WirelessDiagnostics) [com.apple.awd.framework:trigger] client.trigger:#N CCFG for cid 0x22 has # of profiles: 0
+0xe73      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:misc] CommCenter Init: RadioModule created
+0xe73      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:misc] CommCenter Init: starting services
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CTLogServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping GsmRadioPersonality
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CCRestServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CCXpcServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CTXPCServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CCDaemon
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping PersonalWallet
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping DiagnosticsService
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping BasebandModeManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping SystemObserver
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping PersonalityShop
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping EmergencyNumbersController
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CTLocationBasedCountryDetermination
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping WiFiManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping EmergencyCallManager
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:em.mgr] #I Bootstrapping
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CTXPCSubscriptionManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CarrierEntitlements
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping AutoBugCaptureReporter
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping LocalizationHandler
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping KeychainObserver
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Bootstrapping
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping NoBBAudioRoutingController
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CallController
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Bootstrapping CTXPCServer XPC service
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping TTYSettingsManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping CSIAppInfo
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping SystemDeterminationManager
+0xfcb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:rest] #N Starting XPC listener
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping NoBBRadioModule
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping PhoneServices
+0xfcb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #I Bootstrapping
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping DarwinPDPConfig
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I DarwinPDPConfig: bootstrap 1...
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping DATA.ServiceController
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I notifyServiceBootstrap: DataServiceController: bootstrap 1...
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Bootstrapping StopTelephony
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.sub.mgr] #I Bootstrapping
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:main] #I Daemon bootstrapped. All REST properties bound
+0xfcd      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ent.mgr] #I CarrierEntitlementsImpl init
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.Controller] #I Bootstrapping EmergencyNumbersController
+0xfcb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:rm] #I Bootstrapping
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I Bootstrapping
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:CSIAppInfo.CSIAppInfo] #I bootstrapping
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I bootstrap
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I DarwinPDPConfig: bootstrap 2...
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I Bootstrap
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I dnsNotificationHandler: registered successfully
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I WiFiLocation already evaluated before. Nothing to do
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I Bootstrapping
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #I Default Bundle did not change, bailing out
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:tty.settings] #I Bootstrapping
+0xfcd      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call] #I Bootstrapping
+0xfcb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:push] #I Starting connection to apsd environment:production
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I creating PDP Managers
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.sub.mgr] #I Personalities updated with 0 elems
+0xfd0      Activity    0x17d9               394    0    CommCenter: (CoreFoundation) Loading Preferences From User CFPrefsD
+0xfd1      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:main] #N CommCenter features initialized to 0
+0xfd4      Default     0x0                  394    0    CommCenter: (libSystemDetermination.dylib) [com.apple.CommCenter:5wi.sd] #I Bootstrapping...
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:pwr] #I PowerObserver bootstrap
+0xfcb      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] Initializing APSConnection <private>: env=production port=com.apple.aps.CommCenter darkWakeEnabled=YES queue=<private>
+0xfd4      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #I Bootstrapping EventHandler...
+0xfd1      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I handleVinylInfoChanged: property updated
+0xfd1      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ustore] #I <private>
+0xfd1      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfd1      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I DarwinPDPManager: bootstrap ...
+0xfd4      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.awd] #I Bootstrapping...
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I On WiFi: false On Cellular: false
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Active contexts are changing from (null) to <private>
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:tty.settings] #I Registering for AXTTYPreferredTransportMethodChangedNotification
+0xfd4      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:em.mgr] #I Exited EEM as kCTCallEmergencyCallNone
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #E ServingNetwork: No serving network info is set
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Sent notification to 0 (of 0) clients: <private>
+0xfd1      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I Internet availability is changing from kUnknown to kUnavailable
+0xfce      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:5wi.evt] #I RegisteredNetworkInfo updated [kRatUnknown, kDataModeUnknown, kUnknown]
+0xe73      Activity    0x17da               394    0    CommCenter: (Security) SecKeychainAddCallback
+0xe73      Activity    0x17db               394    0    CommCenter: (Security) SecKeychainCopyLogin
+0xfce      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:5wi.sd] #I RegisteredNetworkInfo [kRatUnknown, kDataModeUnknown, kUnknown]
+0xfce      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:5wi.evt] #I RegisteredNetworkInfo updated [kRatUnknown, kDataModeUnknown, kUnknown]
+0xfce      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:5wi.sd] #I RegisteredNetworkInfo [kRatUnknown, kDataModeUnknown, kUnknown]
+0xfbb      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Registering configuration <private>
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #I VolteAndVoWiFiProvState: Pass: 0
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #I VolteAndVoWiFiProvState: Pass: 1
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #E MCC/MNC: No info is set
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #I ECBM: not active (kUnknown, false, kCTCallEmergencyCallNone) -> not active (kUnknown, false, kCTCallEmergencyCallNone)
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #I Got EmergencyCallInProgress update: false
+0xfce      Default     0x0                  394    0    CommCenter: (libSystemDetermination.dylib) [com.apple.CommCenter:5wi.sd] #I Emergency call in progress: false
+0xfd7      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Call host has no calls
+0xfd7      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.<=>] #I Local store has 1 records
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.<=>] #I   <private>
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.<=>] #I Using iCloud-KVS for Thumper sync
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.ids] #I [i] Created a sync for service com.apple.private.alloy.thumper.keys
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ustore] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I VinylSimInfo not available
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I Multi-SIM: false
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I recalculateCapabilities
+0xfcd      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.CmdDriver.IMS] #I Bootstraping IMSCallCommandDriver
+0xfcd      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:call.CmdDriver.IMS] IMSCallCommandDriver::getIMSCallModelForPersonalityID: Model not found for PID <invalid>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I firing notification:
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I <private>
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc] #I CT server handlers installed: 96 handlers, 135 reply handlers
+0xeaa      Default     0x1466               394    0    CommCenter: [com.apple.CommCenter:xpc] #I New CTServerConnection from pid 376 (conn=0x******820)
+0xeaa      Default     0x1466               394    0    CommCenter: [com.apple.CommCenter:xpc] #I  -- connection has entitlements: <private>
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.tracker] #I Tracker gathering stats = 0 (logged=0, queriable=0)
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.event] #I   --------------> kCTEventCallCapabilitiesChanged (80) sent to 0 (of 1) clients.
+0xfcb      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] <private> setting delegate <private> {asyncSetDelegate: NO}
+0xfd4      Default     0x0                  394    0    CommCenter: (ApplePushService) <private>: Initializing system user with uid <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I Created PDP manager
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I DarwinPDPManager: bootstrap ...
+0xeaa      Default     0x1466               394    0    CommCenter: [com.apple.CommCenter:xpc.client] #I <private> request: <private>.
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #N ----> handleCallStatusChanged. Num of pending transaction are 0
+0xeaa      Default     0x1466               394    0    CommCenter: [com.apple.CommCenter:xpc.client] #I <private> request: <private>.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I Created PDP manager
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I created 2/2 PDP Managers
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I operator(): DataServiceController: bootstrap 2...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bootstrapping...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bootstrapping: command driver done.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I DataServiceController bootstrapping: BBDriver done.
+0xeaa      Default     0x1466               394    0    CommCenter: [com.apple.CommCenter:xpc] #I CTServerConnection from pid 376[<private>] is named '<private>'.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I handleWifiAvailable_sync: available = false <private>
+0xeaa      Default     0x1466               394    0    CommCenter: [com.apple.CommCenter:xpc] #I   ==== client 376 (<private>) registered for event kCTEventCallCapabilitiesChanged(80) (now total 1)
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I Pending Transactions: <private>
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I No active calls going on. Returning.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I handleWifiAvailable_sync: fWifiInterfaceName changes from <private> to <private>
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I Emergency labeled numbers (disambiguation numbers) are: <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I bootstrapTechDriver: sessionActive: true
+0xfcc      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] UUID for call is nil. Not sending frequency data update.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I bootstrapTechDriver: bootstrapped
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I DataServiceController bootstrapping: TechDriver done.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bootstrapping: drivers done.
+0xfbb      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Provider <private> was notified that configuration was set to <private>
+0xfbc      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Registering configuration <private>
+0xfbc      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Provider <private> was notified that configuration was set to <private>
+0xfd2      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Registering configuration <private>
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I Updating sender identities: <private>
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I Multi-SIM: false
+0xfce      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I Multi-SIM: false
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I LastKnownHomePlmn empty, dropping
+0xfd2      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Provider <private> was notified that configuration was set to <private>
+0xfd2      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Registering configuration <private>
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I Updating sender identities: <private>
+0xfcc      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Provider <private> was notified that configuration was set to <private>
+0xfcc      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Registering configuration <private>
+0xfd4      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] <private> creating an xpc connection {syncXPC: YES}
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bootstrapping: REST done.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bootstrapping: boost done.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.PDP:0:] #N registerDataDriver: data driver is empty for: kDataContextBB
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.PDP:0:] #I registerDataDriver: Registering driver kOne for context type: kDataContextTech
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.PDP:1:] #N registerDataDriver: data driver is empty for: kDataContextBB
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.PDP:1:] #I registerDataDriver: Registering driver kOne for context type: kDataContextTech
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I load_APNFallbackKernelEventMonitor: load() called
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I load_APNFallbackKernelEventMonitor: kernel event monitor started
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bootstrapped
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I operator(): DataServiceController: bootstrapped !
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sim-apn.1] #I Bootstrapping...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I handleSimsChanged_sync: empty sim info.
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I added observer: '<private>'
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I handleWiFiPreferredRoaming_sync: VoWiFi provisioning state change reported
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I updateCurrentImsPrefOnAllConnections: 3
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I handleImsInfoReadyChanged_sync: IMSInfo: <invalid>: old: <empty>, new: <empty>
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CTLogServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting GsmRadioPersonality
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CCRestServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CCXpcServer
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I handleAirplaneModeChange_sync: airplane mode false->false, radio off false->false
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.tech.drv.1] #I airplaneModeChange: airplane mode false
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CTXPCServer
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CCDaemon
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.WTLM] #I handleWirelessTechnologyChanged_sync: WirelessTechnologyListManager: Technology change complete
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting PersonalWallet
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting DiagnosticsService
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting BasebandModeManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting SystemObserver
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting PersonalityShop
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting EmergencyNumbersController
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ipcu] #I refresh
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ipcu] #I reactOnRefresh
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ipcu] #I NAI mode: no NAI selector, assuming false
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CTLocationBasedCountryDetermination
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting WiFiManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting EmergencyCallManager
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:em.mgr] #I Starting
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CTXPCSubscriptionManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CarrierEntitlements
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting AutoBugCaptureReporter
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I refresh: refresh for subscriber:'<private>' (same)
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting LocalizationHandler
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting KeychainObserver
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting NoBBAudioRoutingController
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CallController
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call] #I Starting
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting TTYSettingsManager
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting CSIAppInfo
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting SystemDeterminationManager
+0xfcf      Activity    0x17dc               394    0    CommCenter: (CoreFoundation) Loading Preferences From User CFPrefsD
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting NoBBRadioModule
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting PhoneServices
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting DarwinPDPConfig
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I DarwinPDPConfig: start 1 ...
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting DATA.ServiceController
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I notifyServiceStart: DataServiceController: start 1...
+0xea6      Default     0x0                  394    0    CommCenter: (libCommCenterBase.dylib) [com.apple.CommCenter:svcmgr] #I Starting StopTelephony
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Starting
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Starting CTXPCServer XPC service
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:main] #N Daemon started. Starting Rest Services
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ent.mgr] #I CarrierEntitlementsImpl started
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.sub.mgr] #I Subscription info initialized, size: 0
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ps.mgr] #I Starting
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ustore] #I <private>
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I Adding emergency numbers '<private>' from kDefault
+0xea6      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] Em num list not found for this slot!
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I categoryNumber: 0, smsTextSupported: false emergencyVoiceSupported: true, isListedAsEmergency: false isTestNum: false.
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I adding a new emergency list at index 7
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I categoryNumber: 0, smsTextSupported: false emergencyVoiceSupported: true, isListedAsEmergency: false isTestNum: false.
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I categoryNumber: 0, smsTextSupported: false emergencyVoiceSupported: true, isListedAsEmergency: false isTestNum: false.
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.iCloud] #I categoryNumber: 0, smsTextSupported: false emergencyVoiceSupported: true, isListedAsEmergency: false isTestNum: false.
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.em.Controller] #I Sending numbers update for <private>: <private>
+0xfbb      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:acct] #I ACAccountStoreDelegate init
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I started
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I Bootstrap complete, re-pushing labels
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter: me] #I personalities has 0 initial event(s)
+0xea6      Default     0x0                  394    0    CommCenter: (libSystemDetermination.dylib) [com.apple.CommCenter:5wi.sd] #I Starting...
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:5wi.evt] #I Starting EventHandler...
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call] #I Changing fThumperCallHandoffPossible from none to false
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #I Default bundle location:
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #E Language list provided is invalid
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #I Language preferences have changed, new list of preferred languages: (null)
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #I Reloading all localization tables
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:local] #I Current language on the device: , canonical:
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I apply: 0 APN(s) ==>>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I apply: <<== APN(s)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I apply: AttachAPN: (null)
+0xfbb      Activity    0x17dd               394    0    CommCenter: (Security) SecKeychainCopyDomainDefault
+0xfcc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:em.mgr] #I Emergency manager state change to: <private>
+0xfcf      Activity    0x17de               394    0    CommCenter: (CoreFoundation) Loading Preferences From User CFPrefsD
+0xfcc      Activity    0x17df               394    0    CommCenter: (CoreLocation) CL: CLInternalGetAuthorizationStatus
+0xfcc      Default     0x17df               394    0    CommCenter: (CoreLocation) [com.apple.locationd.Core:Client] {"msg":"CLInternalGetAuthorizationStatus", "event":"activity"}
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.event] #I   --------------> kCTEventPullCallIsPossible (145) sent to 0 (of 1) clients.
+0xfd2      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I Starting
+0xfd2      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:pwr] #I PowerObserver start
+0xfd2      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I Polling for the states of screen, locks, reachability status, ringer state, battery saver mode & thermal pressure level
+0xfbc      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:rm.bb] #I [ XX ] Baseband mode set to: kNoBaseband (was kTransitioning)
+0xfbc      Info        0x0                  394    0    CommCenter: (WirelessDiagnostics) metric:#I Creating a metric container for metric id: 0x**105
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call] #I Radio not On. Ignoring Network attach state change
+0xea6      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:call] No emergency call active!
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call] #I ## No emergency calls pending, ignoring CS attach state changed.
+0xfcd      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:xpc.sub.mgr] #I Labels updated with 0 elems
+0xea6      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] #I Thumper call handoff capability changed to false for kOne PID:<invalid>.
+0xea6      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:call.provider] No handoffId found for kOne
+0xea6      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Provider <private> was notified that configuration was set to <private>
+0xea6      Default     0x0                  394    0    CommCenter: (CallKit) [com.apple.calls.callkit:Default] Registering configuration <private>
+0xeaa      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] CTXPCServer XPC service is ready
+0xfd2      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I Sending the springboard startup event forcefully (true) or state has changed (false)
+0xfd4      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] <private> Bad response from apsd: <private>
+0xfd4      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] Daemon connection did not succeed. Is apsd running?
+0xfd4      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] <private>: Will attempt reconnect in 0.100000 seconds
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I fCellularDataSetting=true, fCellularDataSettingInitialized=false
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I fCellularDataSettingInternal=true, fCellularDataSettingInternalInitialized=false
+0xfcb      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] <private> Delivering queued delegate calls: 0
+0xfcb      Default     0x0                  394    0    CommCenter: (ApplePushService) [com.apple.apsd:connection] <private> _setEnableStatusNotifications NO sendToDaemon YES
+0xfd2      Info        0x0                  394    0    CommCenter: (WirelessDiagnostics) metric:#I Creating a metric container for metric id: 0x***001
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Provisioning.1] #I switchFallbackPolicy: start
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Provisioning.1] #I switchFallbackPolicy: start
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I handleSimsChanged_sync: sim state changed: empty sim info.
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I (change states) NEConfigurationStarted: false ==>> false
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I No change in CDMA Aux Info readiness
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I tethering: PHS clients: 0 ==>> 0
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #E tethering: data driver is empty for BB PHS update
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I Emergency Mode changed: not active (kIdle, kCTCallEmergencyCallNone) -> not active (kIdle, kCTCallEmergencyCallNone)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I tethering: on entitlements update
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #N tethering: No Personality yet
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: context=kOne, conn=kDataConnectionWirelessModemTraffic
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: carrierEnabled=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: userAuthenticated=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: misPdpMaxHosts=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: asserted=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: activationFailure=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: connectionAvailabilityStatus=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: connectionStatus=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: context=kOne, conn=kDataConnectionLLWirelessModemTraffic
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: carrierEnabled=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: userAuthenticated=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: misPdpMaxHosts=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: asserted=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: activationFailure=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: connectionAvailabilityStatus=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I updated: tethering status: connectionStatus=null
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I tethering: supreme update
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I tethering: top update
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I DarwinPDPConfig: start 2 ...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I refresh: refresh for subscriber:'<private>' (same)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I apply: 0 APN(s) ==>>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I apply: <<== APN(s)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ui-apn.1] #I apply: AttachAPN: (null)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:cb-apn.1] #I refresh: reading APNs from: <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:cb-apn.1] #I refresh: No Fallback APNS in <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:cb-apn.1] #I refresh: No APNS in <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:cb-apn.1] #I refresh: 0 APN(s) in CB ==>>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:cb-apn.1] #I refresh: <<== APN(s)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I Default wireless technology is <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I reconfigure_sync: tech: <private>, forced: false
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I No Tethering APN present, not adding low-latency tethering
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I reconfigure_sync: skipped - no changes detected, new compatible technologies: <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I DarwinPDPManager: starting ...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I No MTU value set in carrier plist, using default value!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I MTU from Carrier Bundle is 0 exceeds min./max. limit, using default value of 1450!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I computed MTU[kDataProtocolFamilyIPv4]: 1450
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I No MTU value set in carrier plist, using default value!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I MTU from Carrier Bundle is 0 exceeds min./max. limit, using default value of 1450!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I computed MTU[kDataProtocolFamilyIPv6]: 1450
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I computeMTU_sync: MTU = 1450
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I Disconnect Callback for Dynamic Store registered successfully!
+0xfd2      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:sysobs] #I CommCenter starts since device boot: 1
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Sent notification to 0 (of 0) clients: <private>
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Sent notification to 0 (of 0) clients: <private>
+0xfd0      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:ct.server] Sent notification to 0 (of 0) clients: <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I serviceID: if dict: : {
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I 	Setup:/Network/Service/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX66A/Interface = <private>;
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I 	Setup:/Network/Service/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXD32/Interface = <private>;
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I 	Setup:/Network/Service/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXFD5/Interface = <private>;
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I }; <<== serviceID: if dict:
+0xfcf      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] Failed to get service ID for rank
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I Finished starting PDP manager
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #E Failed to get serviceID for IPV4
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I offline->error (change states) (kDataProtocolFamilyIPv4)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #E Failed to get serviceID for IPV6
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:0:] #I offline->error (change states) (kDataProtocolFamilyIPv6)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I DarwinPDPManager: starting ...
+0xdb6      Info        0x1d60               118    0    opendirectoryd: [com.apple.opendirectoryd:session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 434, PROC: xpcproxy RPC: getpwuid, Module: SystemCache, rpc_version: 2, uid: 501
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I No MTU value set in carrier plist, using default value!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I MTU from Carrier Bundle is 0 exceeds min./max. limit, using default value of 1450!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I computed MTU[kDataProtocolFamilyIPv4]: 1450
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I No MTU value set in carrier plist, using default value!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I MTU from Carrier Bundle is 0 exceeds min./max. limit, using default value of 1450!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I computed MTU[kDataProtocolFamilyIPv6]: 1450
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I computeMTU_sync: MTU = 1450
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I Disconnect Callback for Dynamic Store registered successfully!
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I serviceID: if dict: : {
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I 	Setup:/Network/Service/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX66A/Interface = <private>;
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I 	Setup:/Network/Service/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXD32/Interface = <private>;
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I 	Setup:/Network/Service/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXFD5/Interface = <private>;
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I }; <<== serviceID: if dict:
+0xfcf      Error       0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] Failed to get service ID for rank
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I Finished starting PDP manager
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #E Failed to get serviceID for IPV4
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I offline->error (change states) (kDataProtocolFamilyIPv4)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #E Failed to get serviceID for IPV6
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.pkt:1:] #I offline->error (change states) (kDataProtocolFamilyIPv6)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.dw-apn] #I DarwinPDPConfig: started !
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I operator(): DataServiceController: start 2...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I startDataServiceController_sync:
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I no TrafficSplitting definitions
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I updateAgentState: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA fAvailable false->true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I NWAgent: fAgent.change updated as network provider: 1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I NWAgent: fAgent.change updated user activated: 1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I updatePersistentAgentAvailability: fAgent.change NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA networkProvider false->true userActivated false->true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I updateAgentState: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA has to be registered; Already registered but interface changed [<private>]->[<private>]
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I setInterfaceName: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA: interface changed from <private> to <private>
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_interface_create_with_name Failed to find interface index for pdp_ip0
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] -[NWInterface initWithInterfaceName:] nw_interface_create_with_name(pdp_ip0) failed
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_interface_create_with_name Failed to find interface index for pdp_ip0
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] -[NWInterface initWithInterfaceName:] nw_interface_create_with_name(pdp_ip0) failed
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I updateAgentState: Adding NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA to interface [<private>]
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] networkd_privileged_set_agent_on_interface_internal received failure result code [6: Device not configured]
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_network_agent_add_to_interface_internal networkd_privileged_set_agent_on_interface_internal(pdp_ip0 add) failed
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I updateAgentState: Failed to add NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA to network Interface [<private>]
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I handleFailure: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8FA, Failure detected, trying to recover
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I NWAgent: fAgent.change deinit
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I removed agent UUID <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I initAgent: NWAgent: useSavedParams=1, networkProvider=1, userActivated=1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I set agent UUID <private>
+0xfcf      Default     0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_network_agent_open_control_socket Requesting netagent socket from helper
+0xfcf      Default     0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_network_agent_open_control_socket Received netagent socket 6 from helper
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I initAgent: Registered NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX632
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I initAgent: Adding NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX632 to interface [<private>]
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] networkd_privileged_set_agent_on_interface_internal received failure result code [6: Device not configured]
+0xfcf      Error       0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_network_agent_add_to_interface_internal networkd_privileged_set_agent_on_interface_internal(pdp_ip0 add) failed
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I initAgent: Failed to add NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX632 to network Interface [<private>] on initAgent
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I force updating policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I setPolicy: NWAgent: reset=true, reason=agent state update: forced from connection
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.nwpolicySession] #I initializing common CCNEPolicySession...
+
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.nwpolicySession] #I common CCNEPolicySession initialized
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Creating inactive Internet policy for NWAgent <private> (active false forDefaultSimSlot true saveDataMode false)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Created inactive Internet policy for NWAgent <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Adding non-active Internet policy for NWAgent <private>: id=1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Applied policy kInternet for NWAgent <private>: result=true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I (restore) fCellularDataIsEnabled changed: true ==>> true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bindPDPManagers_sync: bindPDPManagers_sync started...
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I bindPDPManagers_sync: bindPDPManagers_sync completed
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.Internet.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX632, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I removed policy for NWAgent <private>: 1, result is true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Applied policy kEmpty for NWAgent <private>: result=true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Creating inactive Internet policy for NWAgent <private> (active false forDefaultSimSlot true saveDataMode false)
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Created inactive Internet policy for NWAgent <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Adding non-active Internet policy for NWAgent <private>: id=2
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.Internet.1] #I Applied policy kInternet for NWAgent <private>: result=true
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.VVM.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.VVM.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXF45, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.VVM.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.MMS.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.MMS.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX847, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.MMS.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.PushEmail.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.PushEmail.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX974, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.PushEmail.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.WirelessModemTraffic.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.WirelessModemTraffic.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX8CA, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.WirelessModemTraffic.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.WirelessModemAuthentication.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.WirelessModemAuthentication.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX25B, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.WirelessModemAuthentication.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.Provisioning.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.agent.provisioning] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXF97, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.agent.provisioning] #I NWAgent: created fallback agent: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX79C
+0xfcf      Default     0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_network_agent_open_control_socket Requesting netagent socket from helper
+0xfcf      Default     0x0                  394    0    CommCenter: (Network) [com.apple.network:] nw_network_agent_open_control_socket Received netagent socket 8 from helper
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.agent.provisioning] #I NWAgent: registered fallback agent
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.agent.provisioning] #I NWAgent: registered fallback policy uuid XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXF97, session <private>
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.agent.provisioning] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.AppleWirelessDiagnostics.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.AppleWirelessDiagnostics.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXDC1, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.AppleWirelessDiagnostics.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.DataTest.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.DataTest.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX5BE, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.DataTest.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.OTAActivation.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.OTAActivation.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXC38, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.OTAActivation.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.3GFaceTimeTraffic.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.3GFaceTimeTraffic.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX669, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.3GFaceTimeTraffic.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.3GFaceTimeAuthentication.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.3GFaceTimeAuthentication.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXA6D, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.3GFaceTimeAuthentication.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.OMADM.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.OMADM.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX260, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.OMADM.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.OTAInternet.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.OTAInternet.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX75D, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.OTAInternet.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.ZeroRated.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.ZeroRated.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX9F8, Initializing network policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.ZeroRated.1] #I setPolicy: NWAgent: reset=false, reason=init policy
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.ServiceController] #I initializing network policy for DATA.Connection.EntitlementTraffic.1
+0xfcf      Default     0x0                  394    0    CommCenter: [com.apple.CommCenter:DATA.Connection.EntitlementTraffic.1] #I initPolicy: NWAgent XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX1F9, Initializing network policy
