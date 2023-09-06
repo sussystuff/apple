@@ -1,0 +1,1183 @@
+Thread     Type        Activity             PID    TTL  
+0x0        Timesync    0x0                  0      0    === system boot: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXC0
+0x0        Timesync    0x0                  0      0    === log class: in-memory begins
+0x0        Default     0x0                  0      0    kernel: kprintf initialized
+0x0        Default     0x0                  0      0    kernel: initialize_screen: b=9E3A14000, w=00000280, h=00000470, r=00000A00, d=00000000
+0x0        Default     0x0                  0      0    kernel: pe_arm_init_interrupts: args: <private>
+0x0        Default     0x0                  0      0    kernel: pe_arm_map_interrupt_controller: soc_phys:  0x200000000
+0x0        Default     0x0                  0      0    kernel: pe_arm_map_interrupt_controller: found interrupt-controller
+0x0        Default     0x0                  0      0    kernel: pe_arm_map_interrupt_controller: gPicBase: 0x<private>
+0x0        Default     0x0                  0      0    kernel: pe_arm_map_interrupt_controller: found timer
+0x0        Default     0x0                  0      0    kernel: pe_arm_map_interrupt_controller: gTimerBase: 0x<private>
+0x0        Default     0x0                  0      0    kernel: Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:41 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T8103
+0x0        Default     0x0                  0      0    kernel: pmap_startup() init/release time: 8011 microsec
+0x0        Default     0x0                  0      0    kernel: pmap_startup() delayed init/release of 0 pages
+0x0        Default     0x0                  0      0    kernel: vm_page_bootstrap: 480235 free pages, 10829 wired pages, (up to 0 of which are delayed free)
+0x0        Default     0x0                  0      0    kernel: VM boostrap: 97 maps, 204 entries and 512 holes available
+0x0        Default     0x0                  0      0    kernel: Maximum number of VM swap files: 100
+0x0        Default     0x0                  0      0    kernel: "vm_compressor_mode" is 4
+0x0        Default     0x0                  0      0    kernel: VM bootstrap done: 84 maps, 165 entries and 501 holes left
+0x0        Default     0x0                  0      0    kernel: IOKit IOMD setownership ENABLED
+0x0        Default     0x0                  0      0    kernel: ATM subsystem is initialized
+0x0        Default     0x0                  0      0    kernel: Firehose configured: 16 chunks, 8 io pages
+0x0        Default     0x0                  0      0    kernel: Long logs support configured: size: 16384
+0x0        Default     0x0                  0      0    kernel: OSLog stream configured: stream: 8192 bytes, cache: 2112 bytes
+0x0        Default     0x0                  0      0    kernel: Log queues configured: slot count: 64, per-slot size: 32768, total size: 2097152
+0x0        Default     0x0                  0      0    kernel: Telemetry: Sampling all tasks once per 1 second
+0x0        Default     0x0                  0      0    kernel: Scheduler: Default of edge
+0x0        Default     0x0                  0      0    kernel: Setting scheduler priority decay band limit 18
+0x0        Default     0x0                  0      0    kernel: standard timeslicing quantum is 10000 us
+0x0        Default     0x0                  0      0    kernel: standard background quantum is 2500 us
+0x0        Default     0x0                  0      0    kernel: mig_table_max_displ = 54 mach_kobj_count = 375
+0x0        Default     0x0                  0      0    kernel: BANK subsystem is initialized
+0x0        Default     0x0                  0      0    kernel: IPC_PTHREAD_PRIORITY subsystem is initialized
+0x65       Default     0x0                  0      0    kernel: Registered coredump handler for kernel
+0x65       Default     0x0                  0      0    kernel: Serial requested, consistent debug disabled or debug boot arg not present, configuring debugging over serial
+0x65       Default     0x0                  0      0    kernel: Initializing serial KDP
+0x65       Default     0x0                  0      0    kernel: iBoot version: iBoot-8422.100.650
+0x65       Default     0x0                  0      0    kernel: (corecrypto) corecrypto_kext_start (tracing disabled)
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:152: [FIPSPOST][Module-ID] Apple corecrypto Module v13.0 [Apple silicon, Kernel, Software, SL1]
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:160: PASSED: (0 ms) - fipspost_post_hmac
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:164: PASSED: (0 ms) - fipspost_post_integrity
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:168: PASSED: (0 ms) - fipspost_post_indicator
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:169: PASSED: (0 ms) - fipspost_post_aes_ecb
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:170: PASSED: (0 ms) - fipspost_post_aes_cbc
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:171: PASSED: (3 ms) - fipspost_post_rsa_sig
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:172: PASSED: (6 ms) - fipspost_post_ecdsa
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:173: PASSED: (0 ms) - fipspost_post_ecdh
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:174: PASSED: (0 ms) - fipspost_post_aes_ccm
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:175: PASSED: (0 ms) - fipspost_post_aes_cmac
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:176: PASSED: (0 ms) - fipspost_post_hkdf
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:177: PASSED: (7 ms) - fipspost_post_pbkdf
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:178: PASSED: (0 ms) - fipspost_post_drbg_hmac
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:180: PASSED: (0 ms) - fipspost_post_kdf_ctr
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:181: PASSED: (0 ms) - fipspost_post_aes_gcm
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:182: PASSED: (0 ms) - fipspost_post_aes_xts
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:183: PASSED: (0 ms) - fipspost_post_tdes_ecb
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:184: PASSED: (0 ms) - fipspost_post_drbg_ctr
+0x65       Default     0x0                  0      0    kernel: (corecrypto) FIPSPOST_KEXT [XXXXXXXXX] fipspost_post:206: all tests PASSED (18 ms)
+0x65       Default     0x0                  0      0    kernel: (corecrypto) corecrypto_kext_start completed sucessfully
+0x65       Default     0x0                  0      0    kernel: Matching service count = 0
+0x65       Default     0x0                  0      0    kernel: Matching service count = 0
+0x65       Default     0x0                  0      0    kernel: Matching service count = 0
+0x65       Default     0x0                  0      0    kernel: Matching service count = 0
+0x65       Default     0x0                  0      0    kernel: Matching service count = 0
+0x65       Default     0x0                  0      0    kernel: Matching service count = 0
+0x65       Default     0x0                  0      0    kernel: ulock_initialize>thread_max=10240, ull_hash_buckets=4096
+0x65       Default     0x0                  0      0    kernel: (AppleImage4) Darwin Image4 Validator Version 5.0.0: Tue Mar 14 21:38:32 PDT 2023; root:AppleImage4-202.100.37~640/AppleImage4/RELEASE_ARM64E
+0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for AppleImage4
+0x65       Default     0x0                  0      0    kernel: Security policy loaded: AppleImage4 sysctl hook (AppleImage4)
+0x65       Default     0x0                  0      0    kernel: (AppleImage4) AppleImage4:
+0x65       Default     0x0                  0      0    kernel: (AppleImage4) failed to read nvram property: oblit-inprogress: 2
+0x65       Default     0x0                  0      0    kernel: (AppleImage4) 
+0x65       Default     0x0                  0      0    kernel: explicit BNCH-shadow-set not required for the PPL
+0x65       Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) AMFI: UDID enforcement enabled
+0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for AMFI
+0x65       Default     0x0                  0      0    kernel: Security policy loaded: Apple Mobile File Integrity (AMFI)
+0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for Sandbox
+0x65       Default     0x0                  0      0    kernel: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for Quarantine
+0x65       Default     0x0                  0      0    kernel: Security policy loaded: Quarantine policy (Quarantine)
+0x65       Info        0x0                  0      0    kernel: (AppleSystemPolicy) Initializing vnode cache
+0x65       Default     0x0                  0      0    kernel: initialized XNU provisioning profile data
+0x65       Default     0x0                  0      0    kernel: initialized PPL provisioning profile data
+0x65       Default     0x0                  0      0    kernel: attempting to load 2 external trust cache modules
+0x65       Default     0x0                  0      0    kernel: loaded external trust cache module: 0
+0x65       Default     0x0                  0      0    kernel: loaded external trust cache module: 1
+0x65       Default     0x0                  0      0    kernel: completed loading external trust cache modules
+0x65       Default     0x0                  0      0    kernel: CTRR (MMU) Begin: 0x803****00 End: 0x807****ff, setting lockdown
+0x65       Default     0x0                  0      0    kernel: (InvalidateHmac) Beginning SIO HMAC invalidation...
+0x65       Default     0x0                  0      0    kernel: (InvalidateHmac) SIO HMAC invalidation config = 0
+0x65       Default     0x0                  0      0    kernel: (InvalidateHmac) Finished SIO HMAC invalidation.
+0x78       Default     0x0                  0      0    kernel: PMRD: PMTraceWorker 0x***********7d5
+0x78       Default     0x0                  0      0    kernel: PMRD: changePowerStateWithTagToPriv(ON_STATE, 10001)
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x***********145 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x***********f85 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (OFF_STATE->ON_STATE, f, 0x2) tag 0x20064
+0x7a       Default     0x0                  0      0    kernel: PMRD: sysPowerDownHandler message kIOMessageSystemCapabilityChange
+0x7a       Default     0x0                  0      0    kernel: PMRD: sysPowerDownHandler cap f -> f (flags 1)
+0x7a       Default     0x0                  0      0    kernel: PMRD: sysPowerDownHandler message kIOMessageSystemCapabilityChange
+0x7a       Default     0x0                  0      0    kernel: PMRD: sysPowerDownHandler cap f -> f (flags 2)
+0x7a       Default     0x0                  0      0    kernel: PMRD: tellChangeUp OFF_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: OFF_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: Force re-evaluating aggressiveness
+0x7a       Default     0x0                  0      0    kernel: PMRD: changePowerStateWithTagToPriv(ON_STATE, 30002)
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x10001
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x40064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x50064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: changePowerStateWithTagToPriv(ON_STATE, 60008)
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x30002
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x60008
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x79       Default     0x0                  0      0    kernel: (IOGraphicsFamily) IOG flags 0x3 (0x51)
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: init: inited KE[1] (ready=NO, AVP=NO) -> true.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: probe: probed KE[1] (ready=NO) -> true (score=0).
+0x79       Default     0x0                  0      0    kernel: AppleIPAppender::probe(IOResources)
+0x79       Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x79       Default     0x0                  0      0    kernel: (BroadcomBluetoothHostControllerUSBTransport) 
+**** [BroadcomBluetoothHostControllerUSBTransport][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (BroadcomBluetoothHostControllerUSBTransport) **** [BroadcomBluetoothHostControllerUSBTransport][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (CSRBluetoothHostControllerUSBTransport) 
+**** [CSRBluetoothHostControllerUSBTransport][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (CSRBluetoothHostControllerUSBTransport) **** [CSRBluetoothHostControllerUSBTransport][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerPCIeTransport) 
+**** [IOBluetoothHostControllerPCIeTransport][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerPCIeTransport) **** [IOBluetoothHostControllerPCIeTransport][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerTransport) 
+**** [IOBluetoothHostControllerTransport][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerTransport) **** [IOBluetoothHostControllerTransport][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUARTTransport) 
+**** [IOBluetoothHostControllerUARTTransport][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUARTTransport) **** [IOBluetoothHostControllerUARTTransport][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUSBTransport) 
+**** [IOBluetoothHostControllerUSBTransport][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUSBTransport) **** [IOBluetoothHostControllerUSBTransport][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothSerialManager) 
+**** [IOBluetoothSerialManager][init] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothSerialManager) **** [IOBluetoothSerialManager][init] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManagerLoader::probe TimeSyncTime not ready yet
+0x79       Default     0x0                  0      0    kernel: (FairPlayIOKit) Warning: arc4random not implemented
+0x79       Default     0x0                  0      0    kernel: (FairPlayIOKit) Warning: arc4random not implemented
+0x79       Default     0x0                  0      0    kernel: (FairPlayIOKit) Warning: arc4random not implemented
+0x79       Default     0x0                  0      0    kernel: (AppleM2ScalerCSC) logIosaActivity: log activity queue is null
+0x79       Default     0x0                  0      0    kernel: (AppleM2ScalerCSC) logIosaActivity: log activity queue is null
+0x79       Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMBootPerf: Warning: profile->magic (0x*****244) != 'BTRC'
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: start: starting KE[1] (ready=NO) -> true.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: initImpl: called, KE[1].
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMFirstResponderKernelService: init: called, .
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM-S: init: called, starting PersistentStore service.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM-A: init: called, starting TRM Analytics service.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM-C: init: called, starting AccessoryCache service.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: acc-cache size = 48 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: acc-cache expiration = 2592000 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACM: TRMAccCache_SetupEmpty: called, cacheSize=48 expiration=2592000.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: init: called, starting TRM service.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: policy supported in BaseSystem = 0 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: config profile = XXXXXXXXXX (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _getDefaultConfigProfile: config profile: 2 (boot-arg=2 edt-prop=2).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: policy mode timeout = 604800 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: grace period (bounded) timeout = 259200 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: unlocked period timeout = 86400 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: enabled by default = 1 (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMKernelService: initValueFromBootArgAliasesUInt32: enabled by device type = XXXXXXXXXX (default).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _loadEnabledByDeviceType: enabled by device type: NO (boot-arg=NO edt-prop=NO).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _loadDisabledByExternalBoot: disabled by ExternalBoot: NO.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _loadDisabledByOSEnvironment: disabled by OSEnvironment: NO.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _mapAndPublishTRM: set TRM_PolicyTimeout = 604800.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _mapAndPublishTRM: set TRM_PolicyReason = Unrestricted(0).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _mapAndPublishTRM: set TRM_UnlockedPeriodTimeout = 86400.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: _mapAndPublishTRM: sending kIOMessageServicePropertyChange(#changes=3) while LOCKED(1), TRM: 604800/U(0) XXXXXXXX95/-(255) M=255/XXXXXXXX95/XXXXXXXX95 ---(255)/---(255) L=255 BS=255 R=255 UP=86400/255, CUR: U(0) -(255).
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: initImpl: KE[1] INITED.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: initImpl: returning, KE[1] -> true.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: startImpl: called, KE[1].
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACMTRM: start: security.mac.acm.root_pivot_occurred sysctl registered.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: startImpl: initializing power management.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: startImpl: will join SEPManager's PM tree in getSEPEndpoint().
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: startImpl: registering notifications.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: startImpl: KE[1] STARTED.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: startImpl: returning, KE[1] -> true.
+0x79       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: start: started KE[1] (ready=YES) -> true.
+0x79       Default     0x0                  0      0    kernel: (AppleDiskImages2) [0 (ctx)] virtual bool AppleDiskImagesController::start(IOService *)::141: kext version: 198.100.13
+0x79       Default     0x0                  0      0    kernel: AppleIPAppender::start(IOResources) <1>
+0x79       Default     0x0                  0      0    kernel: (AppleSEPKeyStore) AppleSEPKeyStore:330:0: starting (BUILT: Mar 14 2023 21:25:36) (normal variant)
+0x79       Default     0x0                  0      0    kernel: (AppleSEPKeyStore) AppleSEPKeyStore:533:0: _sep_enabled = 1
+0x79       Default     0x0                  0      0    kernel: (AppleSSE) AppleSSE::start called
+0x79       Default     0x0                  0      0    kernel: (AppleSSE) AppleSSE::start returning, result = 1
+0x79       Default     0x0                  0      0    kernel: (BroadcomBluetoothHostControllerUSBTransport) 
+**** [BroadcomBluetoothHostControllerUSBTransport][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (BroadcomBluetoothHostControllerUSBTransport) **** [BroadcomBluetoothHostControllerUSBTransport][start] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (CSRBluetoothHostControllerUSBTransport) 
+**** [CSRBluetoothHostControllerUSBTransport][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (CSRBluetoothHostControllerUSBTransport) **** [CSRBluetoothHostControllerUSBTransport][start] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (CoreAnalyticsFamily) virtual bool CoreAnalyticsHub::start(IOService *)::139:CoreAnalyticsHub start
+0x79       Default     0x0                  0      0    kernel: (CoreAnalyticsFamily) virtual bool CoreAnalyticsHub::start(IOService *)::139:CoreAnalyticsHub start
+0x79       Default     0x0                  0      0    kernel: (CoreAnalyticsFamily) virtual bool CoreAnalyticsHub::start(IOService *)::218:CoreAnalyticsHub start completed
+0x79       Default     0x0                  0      0    kernel: (CoreAnalyticsFamily) virtual bool CoreAnalyticsHub::start(IOService *)::218:CoreAnalyticsHub start completed
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothFamily) **** [IOBluetoothFamily][start] -- completed successfully for HIDShim
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerPCIeTransport) 
+**** [IOBluetoothHostControllerPCIeTransport][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerPCIeTransport) **** [IOBluetoothHostControllerPCIeTransport][start] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerTransport) 
+**** [IOBluetoothHostControllerTransport][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerTransport) **** [IOBluetoothHostControllerTransport][start] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUARTTransport) 
+**** [IOBluetoothHostControllerUARTTransport][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUARTTransport) **** [IOBluetoothHostControllerUARTTransport][start] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUSBTransport) 
+**** [IOBluetoothHostControllerUSBTransport][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothHostControllerUSBTransport) **** [IOBluetoothHostControllerUSBTransport][start] -- exiting -- success ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothSerialManager) 
+**** [IOBluetoothSerialManager][start] -- entering ****
+0x79       Default     0x0                  0      0    kernel: (IOBluetoothSerialManager) **** [IOBluetoothSerialManager][start] -- exiting -- success ****
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x70064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x80064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x90064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0xa0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0xb0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x***********c85 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0xc0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x79       Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x79       Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManagerLoader::probe TimeSyncTime not ready yet
+0x65       Default     0x0                  0      0    kernel: Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California. All rights reserved.
+0x65       Default     0x0                  0      0    kernel: MAC Framework successfully initialized
+0x8c       Default     0x0                  0      0    kernel: (AppleT8101) AppleT810xIO::start: chip-revision: B1
+0x8c       Default     0x0                  0      0    kernel: (AppleT8101) AppleT810xIO::start: this: <private>, ACCE virt addr: <private>, phys addr: 0x******000
+0x8c       Default     0x0                  0      0    kernel: (AppleT8101) AppleT810xIO::start: this: <private>, ACCP virt addr: <private>, phys addr: 0x******000
+0xbe       Default     0x0                  0      0    kernel: (AppleS5L8940XI2C) AppleS5L8940XI2CController::start: i2c1 this: <private> _i2cBaseAddress: <private>
+0xbf       Default     0x0                  0      0    kernel: (AppleS5L8940XI2C) AppleS5L8940XI2CController::start: i2c2 this: <private> _i2cBaseAddress: <private>
+0xc3       Default     0x0                  0      0    kernel: (AppleOLYHAL) AppleOLYHAL::probe: score = 1000
+0xc3       Default     0x0                  0      0    kernel: (AppleBCMWLANCore) Driver Boot Checkpoint, bus[0x***********2ca] (1/'kBootCheckPointPCIeInit') - 4.917527541
+0xc3       Default     0x0                  0      0    kernel: (AppleBCMWLANCore) Driver Boot Checkpoint, bus[0x***********2ca] (2/'kBootCheckPointPCIeProbe') - 4.917537916
+0xc3       Default     0x0                  0      0    kernel: (AppleBCMWLANCore) AppleBCMWLANBusInterfacePCIe::isIOKitEnvironment() WLAN Active Driver mode IOKit
+0xc3       Default     0x0                  0      0    kernel: (AppleOLYHAL) AppleOLYHAL::start: entry with provider 0x***********e3d
+0xc3       Default     0x0                  0      0    kernel: (corecapture) CCPipe::withOwnerNameCapacity pipeOwner com.apple.driver.AppleOLYHAL pipeName DriverLogs
+0xc3       Default     0x0                  0      0    kernel: (corecapture) CCLogPipe::createReportersAndLegend() Done Creating Legend for owner: com.apple.driver.AppleOLYHAL pipe DriverLogs
+0xc3       Default     0x0                  0      0    kernel: (corecapture) CCLogPipe::initWithOwnerNameCapacity() IOReporters setup for DriverLogs
+0xc6       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:54:40 Mar  6 2023), flags 0xc3008
+0xc6       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:54:40 Mar  6 2023), flags 0xc3008
+0xc6       Default     0x0                  0      0    kernel: (AppleEmbeddedPCIE) AppleEmbeddedPCIE::start this = <private>, _debugFlags = 0x80000001
+0xc8       Default     0x0                  0      0    kernel: (IOThunderboltFamily) 4925098us IOThunderboltFamily (build 20:54:53 Mar  6 2023)
+0xc8       Default     0x0                  0      0    kernel: (IOThunderboltFamily) 4925098us IOThunderboltFamily (build 20:54:53 Mar  6 2023)
+0xc8       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:54:40 Mar  6 2023), flags 0xc3008
+0xc8       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:54:40 Mar  6 2023), flags 0xc3008
+0xc8       Default     0x0                  0      0    kernel: (AppleT8103PCIeC) AppleTunneledPCIE::start(apciec0) this = <private>, _debugFlags = 0x80000001
+0xcb       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4929117us AppleThunderboltGenericHAL::probe
+0xcb       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4929117us AppleThunderboltGenericHAL::probe
+0xcb       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4929135us AppleThunderboltGenericHAL(0)::start
+0xcb       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4929135us AppleThunderboltGenericHAL(0)::start
+0xce       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:54:40 Mar  6 2023), flags 0xc3008
+0xce       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:54:40 Mar  6 2023), flags 0xc3008
+0xce       Default     0x0                  0      0    kernel: (AppleT8103PCIeC) AppleTunneledPCIE::start(apciec1) this = <private>, _debugFlags = 0x80000001
+0xd1       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4934072us AppleThunderboltGenericHAL::probe
+0xd1       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4934072us AppleThunderboltGenericHAL::probe
+0xd1       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4934088us AppleThunderboltGenericHAL(0)::start
+0xd1       Default     0x0                  0      0    kernel: (AppleThunderboltNHI) 4934088us AppleThunderboltGenericHAL(0)::start
+0xd4       Info        0x0                  0      0    kernel: (IODisplayPortFamily) IOAV[1] AppleDisplayCrossbar(display-crossbar0)<0x1******64>::start: ok: 1, UFP endpoints: 1, DFP endpoints: 2
+0xd7       Info        0x0                  0      0    kernel: (AppleDisplayCrossbar) IOAV[5] AppleATCDPINAdapterPort(atc0-dpin0)<0x1******67>::handleStart: _debugEnabledConfiguration=NO _panicOnDeactivateTimeout=NO
+0xd8       Info        0x0                  0      0    kernel: (AppleDisplayCrossbar) IOAV[7] AppleATCDPINAdapterPort(atc0-dpin1)<0x1******68>::handleStart: _debugEnabledConfiguration=NO _panicOnDeactivateTimeout=NO
+0xdb       Info        0x0                  0      0    kernel: (AppleDisplayCrossbar) IOAV[11] AppleATCDPINAdapterPort(atc1-dpin0)<0x1******6b>::handleStart: _debugEnabledConfiguration=NO _panicOnDeactivateTimeout=NO
+0xdc       Info        0x0                  0      0    kernel: (AppleDisplayCrossbar) IOAV[13] AppleATCDPINAdapterPort(atc1-dpin1)<0x1******6c>::handleStart: _debugEnabledConfiguration=NO _panicOnDeactivateTimeout=NO
+0xde       Default     0x0                  0      0    kernel: (AppleInterruptController) AppleInterruptController::start: _aicVersion = 2 _aicBaseAddress = 0x<private> _aicNumExtInts = 0x00000380 _aicNumIPIs = 0x00000010
+0xde       Default     0x0                  0      0    kernel: (AppleInterruptController) AppleInterruptController::start: Num Shared Timestamps == 16
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: this: <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: _dcsChannelEnableMask set to 0xff
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: NP amcc map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE0 amcc cntrl map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE0 amcc debug map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE0 amcc dsid map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE1 amcc cntrl map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE1 amcc debug map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE1 amcc dsid map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE2 amcc cntrl map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE2 amcc debug map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE2 amcc dsid map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE3 amcc cntrl map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE3 amcc debug map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PLANE3 amcc dsid map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: SEP_FUSE_CFG map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: SEP_FUSE_THERMAL map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PMGRCLKGEN_SOC map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: PMGR_SOC map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: DCS map <private> base <private>
+0xe1       Default     0x0                  0      0    kernel: (AppleT8101) AppleT8101PlatformErrorHandler::start: _interruptEnableMask set to 7ff
+0xe3       Default     0x0                  0      0    kernel: (AppleS5L8920XPWM) AppleS5L8920XPWM::start: _pwmBaseAddress: <private>
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) Couldn't find sioaesdisable-offset from DeviceTree to override
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) Couldn't find sioaesdisableuid1-offset from DeviceTree to override
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) Couldn't find sioaesdisablegid0-offset from DeviceTree to override
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) Couldn't find sioaesdisablegid1-offset from DeviceTree to override
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) AppleS8000AES::start: registers at phys:0x0x******000/0x0x******000 virt:0x<private>/0x0x4000 / 0x<private>/0x0x4000
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) AppleS8000AES::start: aes-version: 3
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) AppleS8000AES::start: address-width: 36
+0xe4       Default     0x0                  0      0    kernel: (AppleS8000AES) AppleS8000AES::start: using-acg: no
+0xe5       Default     0x0                  0      0    kernel: (AppleGPIOICController) AppleGPIOICController::start: this: <private>, _gpioicBaseAddress: <private>
+0xe6       Default     0x0                  0      0    kernel: (AppleGPIOICController) AppleGPIOICController::start: this: <private>, _gpioicBaseAddress: <private>
+0xe7       Default     0x0                  0      0    kernel: (AppleGPIOICController) AppleGPIOICController::start: this: <private>, _gpioicBaseAddress: <private>
+0xe8       Default     0x0                  0      0    kernel: (AppleGPIOICController) AppleGPIOICController::start: this: <private>, _gpioicBaseAddress: <private>
+0xeb       Default     0x0                  0      0    kernel: (ApplePMGR) ApplePMGR: Starting AppleT8103PMGR
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************f05 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************885 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************fa5 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0xd0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0xe0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0xf0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0xc3       Default     0x0                  0      0    kernel: (corecapture) Created CCLogPipe (Owner: com.apple.driver.AppleOLYHAL - Name: DriverLogs)
+0xc3       Default     0x0                  0      0    kernel: (corecapture) withOwnerNameCapacity:157 Pipe Owner:com.apple.driver.AppleOLYHAL Name:DriverLogs LogIdentifier:AppleOLYHAL_log
+0xc3       Default     0x0                  0      0    kernel: (corecapture) CCLogStream::createReportSet() fCoreCaptureReporter 0x*************8f8
+0xc3       Default     0x0                  0      0    kernel: (corecapture) CCLogStream::createReportersAndLegend() streamName olyhalStream
+0x65       Default     0x0                  0      0    kernel: using 9643 buffer headers and 6869 cluster IO buffer headers
+0x155      Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) AMFI: developer mode is force enabled on this platform
+0x155      Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) AMFI: finished: 1 1
+0xc3       Default     0x0                  0      0    kernel: (corecapture) Created CCLogStream (Name: olyhalStream)
+0xc3       Default     0x0                  0      0    kernel: (AppleOLYHAL) Creating an object of AppleOLYHALPlatformFunctionEmbeddedAMFM class
+0x156      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x156      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManagerLoader::probe TimeSyncTime not ready yet
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x100064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x110064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************825 0x0
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x120064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x8d       Info        0x0                  0      0    kernel: (IOHIDFamily) AppleM68Buttons:0x1*****28a start
+0xf9       Default     0x0                  0      0    kernel: (AppleSPIMC) spi1 AppleSPIMCController::start:129: using CCLK 200000000
+0xf9       Default     0x0                  0      0    kernel: (AppleSPIMC) AppleSPIMCController::start: spi1: _spiBaseAddress = 0x2******00:<private>, _spiInternalCS = 0, allowHWDelay = 0
+0x13a      Default     0x0                  0      0    kernel: (AppleARMPlatform) virtual bool AppleARMLightEmUp::start(IOService *): starting...
+0x138      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8020MTRTempSensor::start: missing device tree value (alarm0-temp)
+0x138      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8020MTRTempSensor::start: missing device tree value (alarm1-temp)
+0x138      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******94 start
+0x138      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x137      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8020MTRTempSensor::start: missing device tree value (alarm0-temp)
+0x137      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8020MTRTempSensor::start: missing device tree value (alarm1-temp)
+0x137      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******97 start
+0x137      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x136      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x136      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x136      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******9c start
+0x136      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x130064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x140064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0xd7       Info        0x0                  0      0    kernel: (IODisplayPortFamily) IOAV[15] AppleATCDPINAdapterPort(atc0-dpin0)<0x1******67>::getAddressPropertyWithProvider: dp-switch-dfp-domain: not specified; defaulting to 0.
+0xd8       Info        0x0                  0      0    kernel: (IODisplayPortFamily) IOAV[17] AppleATCDPINAdapterPort(atc0-dpin1)<0x1******68>::getAddressPropertyWithProvider: dp-switch-dfp-domain: not specified; defaulting to 0.
+0xdb       Info        0x0                  0      0    kernel: (IODisplayPortFamily) IOAV[19] AppleATCDPINAdapterPort(atc1-dpin0)<0x1******6b>::getAddressPropertyWithProvider: dp-switch-dfp-domain: not specified; defaulting to 0.
+0xdc       Info        0x0                  0      0    kernel: (IODisplayPortFamily) IOAV[21] AppleATCDPINAdapterPort(atc1-dpin1)<0x1******6c>::getAddressPropertyWithProvider: dp-switch-dfp-domain: not specified; defaulting to 0.
+0x134      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x134      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x134      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******a0 start
+0x134      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x150064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x160064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x133      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x133      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x133      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******a4 start
+0x133      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x170064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x180064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0xdd       Default     0x0                  0      0    kernel: (AppleT8101) Invalid DSID group 65535
+0xeb       Default     0x0                  0      0    kernel: (AppleT8103PMGR) ApplePMGR: mcx-fast-pcpu-frequency set to 2184 MHz
+0x173      Default     0x0                  0      0    kernel: (AppleT8103CLPCv3) AppleCLPCv3 start
+0x175      Default     0x0                  0      0    kernel: ApplePassthroughPPM::probe(ppm)
+0x175      Default     0x0                  0      0    kernel: ApplePassthroughPPM::start(ppm) <1>
+0x175      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePassthroughPPM::start (<private>)
+0x175      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPM::start (<private>)
+0x175      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMCPMS::initLocal (<private>)
+0x175      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) Platform supports LPEM: 0
+0x175      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPM::initLocal success
+0x135      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x135      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x135      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******af start
+0x135      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x190064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x1a0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0xe2       Default     0x0                  0      0    kernel: (AppleS8000DWI) AppleS8000DWI::start v1 _dwiBaseAddress: <private>, buck mask = 0x00000000
+0x7e       Default     0x0                  0      0    kernel: (AppleFireStormErrorHandler) AppleARM64ErrorHandler: will not panic on correctible ECC errors
+0x7e       Default     0x0                  0      0    kernel: [0]ml_processor_register>pset_find(cluster_id=0) returned pset 0
+0x7e       Default     0x0                  0      0    kernel: [0]ml_processor_register>cpu_id <private> cluster_id 0 cpu_number 0 is type 1
+0x7e       Default     0x0                  0      0    kernel: cpu_start() cpu: 0
+0x17f      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x17f      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManagerLoader::probe TimeSyncTime not ready yet
+0xfc       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) admac-aop-audio: Built on Mar  6 2023 at 20:51:38.           
+General panic behavior:
+          	debugFacility = 0x80000001
+          	chan debug    = 0x0000ffff
+          	Gen PanicMask = 0x000087fb
+          
+Test features:
+          	PseudoMem     = 0x00000000
+          	PeriphDisable = 0x00000000
+          	DMADisable    = 0x00000000
+          	AXIBurstSize  = 0x00000003
+          	TSC Mode      = 0x00000000
+          
+Jitter:
+          	Tx WA mask    = 0x0000ffff
+          	Rx WA mask    = 0x0000ffff
+          	HiJ panic msk = 0x00000000
+          	HiJ threshold = 0x00000960
+0xfc       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) _getExecutionPlatform: AudioDMAController::admac-aop-audio::483: Running on silicon.
+0x80       Default     0x0                  0      0    kernel: [0]ml_processor_register>pset_find(cluster_id=0) returned pset 0
+0x80       Default     0x0                  0      0    kernel: [0]ml_processor_register>cpu_id <private> cluster_id 0 cpu_number 2 is type 1
+0x80       Default     0x0                  0      0    kernel: cpu_start() cpu: 2
+0x83       Default     0x0                  0      0    kernel: [2]ml_processor_register>pset_find(cluster_id=1) returned pset -1
+0x83       Default     0x0                  0      0    kernel: [    5.076619]: arm_cpu_init(): cpu 2 online
+0x83       Default     0x0                  0      0    kernel: [2]ml_processor_register>pset_create(cluster_id=1) returned pset 1
+0x83       Default     0x0                  0      0    kernel: [2]ml_processor_register>cpu_id <private> cluster_id 1 cpu_number 5 is type 2
+0x83       Default     0x0                  0      0    kernel: cpu_start() cpu: 5
+0x132      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x132      Default     0x0                  0      0    kernel: [    5.078905]:  vm_cache_geometry_colors: 64
+0x132      Default     0x0                  0      0    kernel: [    5.078914]: do_cacheid() - 327680 bytes Unknown cache (I:1****8 D:1****2 (separate)), 12-way assoc, 128 bytes/line
+0x132      Default     0x0                  0      0    kernel: [    5.078925]: arm_cpu_init(): cpu 5 online
+0x132      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x132      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******b6 start
+0x132      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7f       Default     0x0                  0      0    kernel: [2]ml_processor_register>pset_find(cluster_id=0) returned pset 0
+0x7f       Default     0x0                  0      0    kernel: [2]ml_processor_register>cpu_id <private> cluster_id 0 cpu_number 1 is type 1
+0x7f       Default     0x0                  0      0    kernel: cpu_start() cpu: 1
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x1b0064
+0x7a       Default     0x0                  0      0    kernel: [    5.081381]: arm_cpu_init(): cpu 1 online
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x1c0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x131      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x131      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x131      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******ba start
+0x131      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x1d0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x1e0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x82       Default     0x0                  0      0    kernel: [0]ml_processor_register>pset_find(cluster_id=1) returned pset 1
+0x82       Default     0x0                  0      0    kernel: [0]ml_processor_register>cpu_id <private> cluster_id 1 cpu_number 4 is type 2
+0x82       Default     0x0                  0      0    kernel: cpu_start() cpu: 4
+0x85       Default     0x0                  0      0    kernel: [0]ml_processor_register>pset_find(cluster_id=1) returned pset 1
+0x85       Default     0x0                  0      0    kernel: [    5.086548]: arm_cpu_init(): cpu 4 online
+0x85       Default     0x0                  0      0    kernel: [0]ml_processor_register>cpu_id <private> cluster_id 1 cpu_number 7 is type 2
+0x85       Default     0x0                  0      0    kernel: cpu_start() cpu: 7
+0x81       Default     0x0                  0      0    kernel: [1]ml_processor_register>pset_find(cluster_id=0) returned pset 0
+0x81       Default     0x0                  0      0    kernel: [    5.088591]: arm_cpu_init(): cpu 7 online
+0x81       Default     0x0                  0      0    kernel: [1]ml_processor_register>cpu_id <private> cluster_id 0 cpu_number 3 is type 1
+0x81       Default     0x0                  0      0    kernel: cpu_start() cpu: 3
+0x84       Default     0x0                  0      0    kernel: [0]ml_processor_register>pset_find(cluster_id=1) returned pset 1
+0x84       Default     0x0                  0      0    kernel: [    5.090436]: arm_cpu_init(): cpu 3 online
+0x84       Default     0x0                  0      0    kernel: [0]ml_processor_register>cpu_id <private> cluster_id 1 cpu_number 6 is type 2
+0x84       Default     0x0                  0      0    kernel: cpu_start() cpu: 6
+0xcd       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0xcd       Default     0x0                  0      0    kernel: [    5.092181]: arm_cpu_init(): cpu 6 online
+0xd3       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 2, details 0, Thermal Budget 65000
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 2, details 8463505514082629983, Thermal Budget 15000
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 2, details 8317413421380756850, Thermal Budget 65000
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414746706, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414742610, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 0, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 0, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 11, details 0, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 0, details 0, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 9, details 0, Thermal Budget 4294967295
+0x178      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 10, details 0, Thermal Budget 4294967295
+0xed       Default     0x0                  0      0    kernel: (AppleEventLogHandler) AppleEventLogHandler: started
+0x7a       Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************d25 0x0
+0xf4       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x1f0064
+0xf8       Default     0x0                  0      0    kernel: (AppleSerialShim) [dockchannel] Started AppleSerialShim.
+0x7a       Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMCPMS::sleepWakeNotification:from 0x00000000, to 0x0000000f, flags 0x00000000
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x120      Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0xfb       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) admac-sio: Built on Mar  6 2023 at 20:51:38.           
+General panic behavior:
+          	debugFacility = 0x80000001
+          	chan debug    = 0x0000ffff
+          	Gen PanicMask = 0x000087fb
+          
+Test features:
+          	PseudoMem     = 0x00000000
+          	PeriphDisable = 0x00000000
+          	DMADisable    = 0x00000000
+          	AXIBurstSize  = 0x00000003
+          	TSC Mode      = 0x00000000
+          
+Jitter:
+          	Tx WA mask    = 0x0000ffff
+          	Rx WA mask    = 0x0000ffff
+          	HiJ panic msk = 0x00000000
+          	HiJ threshold = 0x00000960
+0xfb       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) _getExecutionPlatform: AudioDMAController::admac-sio::483: Running on silicon.
+0xf7       Default     0x0                  0      0    kernel: (AppleSerialShim) [uart] Started AppleSerialShim.
+0xf6       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x12a      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x12a      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x12a      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******c4 start
+0x12a      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x200064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x210064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x128      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (invokes-sochot)
+0x128      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******c9 start
+0x129      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x129      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x128      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x129      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******cb start
+0x129      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x127      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (invokes-sochot)
+0x127      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******cc start
+0x127      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x1d6      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(GFX): start(<private>) - (Mar  6 2023@20:59:55)
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x220064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x230064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x240064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x250064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x260064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x1d6      Default     0x0                  0      0    kernel: Registered coredump handler for GFX
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x270064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x280064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) AESSNORFlasher:start - aessnf.debug = 0x01, aessnf.reliability = 0x00.
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) SPINORFlasherDriver::
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) virtual bool AppleEmbeddedSimpleSPINORFlasherDriver::start(IOService *): service = IOPlatformDevice found.
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) 
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) SPINORFlasherDriver::
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) virtual bool AppleEmbeddedSimpleSPINORFlasherDriver::start(IOService *): dual-iboot-support = true
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) 
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) SPINORFlasherDriver::
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) virtual bool AppleEmbeddedSimpleSPINORFlasherDriver::start(IOService *): atomic-firmware-update-support = true
+0x1e4      Default     0x0                  0      0    kernel: (AppleEmbeddedSimpleSPINORFlasherDriver) 
+0x495      Default     0x0                  0      0    kernel: (AppleSPMI) AppleGen1SPMIController[nub-spmi]:61: Start
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMI) AppleGen1SPMIController[nub-spmi1]:61: Start
+0x6de      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x6de      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManagerLoader::probe TimeSyncTime not ready yet
+0x7a       Default     0x0                  0      0    kernel: kpc: pm registered pmc_mask=0 custom_config=0
+0x4d0      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMU::start: spmi-simetra _pmuNub: <private> built 20:52:02 Mar  6 2023
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x290064
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2a0064
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6de      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(ACIO0): start(<private>) - (Mar  6 2023@20:59:55)
+0x6de      Default     0x0                  0      0    kernel: Registered coredump handler for ACIO0
+0x4d0      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMU::start: spmi-pmu _pmuNub: <private> built 20:52:02 Mar  6 2023
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMI) AppleGen1SPMIController[aop-spmi1]:61: Start
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2b0064
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2c0064
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(ANS2): start(<private>) - (Mar  6 2023@20:59:55)
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMIPMU) pmu fault log: rst_in,reset_in_rise rst_in,reset_in_fall
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMU::start: Non-primary PMU detected
+0x495      Default     0x0                  0      0    kernel: (AppleS8000AES) AppleS8000AES::start: using DART Mapper: <private>
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMIPMU) pmu fault log: rst_in,reset_in_rise rst_in,reset_in_fall
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMIPMU) SOCD: BASE 0xAB00, COUNT 0x0400
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMIPMU) SOCD: Magic value 49h 4Eh 49h 54h
+0x7a       Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMU::start: Primary PMU detected
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2d0064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2e0064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x4d0      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(ANS2): Resuming...
+0x6de      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPMCPMS::initLocal success
+0x6de      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePPM::start success
+0x6de      Default     0x0                  0      0    kernel: (ApplePassthroughPPM) ApplePassthroughPPM::start success
+0x495      Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMRTC started!#####
+0x495      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMURTC started!******
+0x495      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMURTC::handleStart: AppleDialogSPMIPMU _pmuNub: <private> ** stopped (non-primary PMU detected) **
+0x7a       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOService *AppleANS2NVMeController::probe(IOService *, SInt32 *)::194:Found (ANS2) provider, returning score 100000
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOService *AppleANS2NVMeController::probe(IOService *, SInt32 *)::194:Found (ANS2) provider, returning score 100000
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOService *AppleANS3NVMeController::probe(IOService *, SInt32 *)::82:Found (ANS2) provider and linear-sq, returning score 300000
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOService *AppleANS3NVMeController::probe(IOService *, SInt32 *)::82:Found (ANS2) provider and linear-sq, returning score 300000
+0x4d0      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(ACIO1): start(<private>) - (Mar  6 2023@20:59:55)
+0x4d0      Default     0x0                  0      0    kernel: Registered coredump handler for ACIO1
+0x495      Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMNORNVRAM.cpp:start:48 - bank size=0X10000, bank count=0X10, current bank=0
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool AppleANS2NVMeController::start(IOService *)::416:Found the ANS2Endpoint1
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool AppleANS2NVMeController::start(IOService *)::416:Found the ANS2Endpoint1
+0x7a       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x7a       Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(SIO): start(<private>) - (Mar  6 2023@20:59:55)
+0x4d0      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x4d0      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x12e      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******15 start
+0x4d0      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(SIO): Resuming...
+0x495      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x495      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x12d      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******19 start
+0x495      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2f0064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x300064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO0TX::admac-sio::578: TX:Initialized.
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO1TX::admac-sio::578: TX:Initialized.
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO2TX::admac-sio::578: TX:Initialized.
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO3TX::admac-sio::578: TX:Initialized.
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO4TX::admac-sio::578: TX:Initialized.
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO5TX::admac-sio::578: TX:Initialized.
+0x6de      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO6TX::admac-sio::578: TX:Initialized.
+0x495      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x495      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x130      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******2a start
+0x495      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x495      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO7TX::admac-sio::578: TX:Initialized.
+0x495      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO8TX::admac-sio::578: TX:Initialized.
+0x495      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO9TX::admac-sio::578: TX:Initialized.
+0x6fd      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x6fd      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x12f      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******30 start
+0x6fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x310064
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x320064
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x330064
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x340064
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x4d0      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x4d0      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x12c      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******34 start
+0x4d0      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x4d0      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(PMP): start(<private>) - (Mar  6 2023@20:59:55)
+0x6fd      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) TimeSyncTime is ARM PMGR counter
+0x6fd      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) TimeSyncTime is ARM PMGR counter
+0x4d0      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(SMC): start(<private>) - (Mar  6 2023@20:59:55)
+0x6de      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x350064
+0x6de      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6de      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x360064
+0x6de      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6de      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(SMC): Resuming...
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x370064
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x4d0      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x380064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: (AppleAVE2) XXXXXXX 80 AVE : AppleAVE2Driver compiled on Mar  6 2023 21:00:32 prod
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x390064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x3a0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIOATX::admac-sio::578: TX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIOBTX::admac-sio::578: TX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO0RX::admac-sio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO1RX::admac-sio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO2RX::admac-sio::578: RX:Initialized.
+0x6fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO3RX::admac-sio::578: RX:Initialized.
+0x6fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO4RX::admac-sio::578: RX:Initialized.
+0x6fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO5RX::admac-sio::578: RX:Initialized.
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO6RX::admac-sio::578: RX:Initialized.
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO7RX::admac-sio::578: RX:Initialized.
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO8RX::admac-sio::578: RX:Initialized.
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIO9RX::admac-sio::578: RX:Initialized.
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIOARX::admac-sio::578: RX:Initialized.
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: SIOBRX::admac-sio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x3b0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x3c0064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6fd      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(PMP): Resuming...
+0x72c      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::SetNamespacesStruct()::194:Obtained 3 namespaces from DT
+0x72c      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::SetNamespacesStruct()::194:Obtained 3 namespaces from DT
+0x72c      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool IONVMeController::start(IOService *)::793:IONVMeController::start
+0x72c      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool IONVMeController::start(IOService *)::793:IONVMeController::start
+0x72c      Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x6fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOFilterInterruptEventSource *AppleANS2NVMeController::CreateDeviceInterrupt(IOInterruptEventSource::Action, IOFilterInterruptEventSource::Filter, IOService *)::2806:ANS2 NVMe interrupt index - 0x4
+0x6fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOFilterInterruptEventSource *AppleANS2NVMeController::CreateDeviceInterrupt(IOInterruptEventSource::Action, IOFilterInterruptEventSource::Filter, IOService *)::2806:ANS2 NVMe interrupt index - 0x4
+0x6fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual uint32_t AppleANS2CGNVMeController::GetNVMePPLQueueEntries()::420:NVMePPL Queue Entries=65
+0x6fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual uint32_t AppleANS2CGNVMeController::GetNVMePPLQueueEntries()::420:NVMePPL Queue Entries=65
+0x6fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool AppleANS2CGNVMeController::InitializePCI()::177:Successfully initialized NVMe CoastGuard
+0x6fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool AppleANS2CGNVMeController::InitializePCI()::177:Successfully initialized NVMe CoastGuard
+0x7a       Default     0x0                  0      0    kernel: (ApplePMP) ApplePMP: started
+0x72c      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x72c      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(DCP): start(<private>) - (Mar  6 2023@20:59:55)
+0x6de      Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMRTC started!#####
+0x6de      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMURTC started!******
+0x6de      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMURTC::handleStart: ro=0 nvram=0 helper=0 AppleDialogSPMIPMU _pmuNub: <private> 0xd002:0xd100-0x0000 built 20:52:02 Mar  6 2023
+0x6de      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMURTC tick read!&&&&&&&
+0x6de      Default     0x0                  0      0    kernel: (AppleSPMIPMU) AppleDialogSPMIPMURTC ending!%%%
+0x495      Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMRTC registering service!@@@@@@
+0x72c      Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************85 0x0
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x3d0064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: (AppleS5L8940XI2C) AppleS5L8940XI2CController::start: i2c0 this: <private> _i2cBaseAddress: <private>
+0x72c      Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x495      Default     0x0                  0      0    kernel: Registered coredump handler for DCP
+0x495      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(DCP): Resuming...
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) H11ANEIn::start
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANEPrivilegedVMAccess::init
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0: virtual bool H11ANEIn::start(IOService *) : Platform doesn't have /arm-io/isp or /arm-io/isp0 IORegistryEntry, disable IPC
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0:virtual bool H11ANEIn::start(IOService *) - H11ANE: aneHWBoardType: 0x40
+0x495      Default     0x0                  0      0    kernel: (AppleM2ScalerCSC) virtual bool AppleM2ScalerCSCDriver::start(IOService *): Name=scaler0 Lock=<private> id=0 max_msrs=8 msr_mask=0xff scaler_count=0
+0x495      Default     0x0                  0      0    kernel: (AppleM2ScalerCSC) virtual bool AppleM2ScalerCSCDriver::start(IOService *): MSR Driver Waiting for IOSurfaceRoot
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) virtual bool H11ANEIn::start(IOService *): ANE0 fANERegistersPhys = 0x26*****00
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) H11ANE subtype: 0, fANERegisters = <private>, length: 0x2000000
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE#0 done mapDeviceMemoryWithIndex fPSRegistersPhys = 0x2******00
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0:virtual bool H11ANEIn::start(IOService *): fANEPrepowerUpEnabled = 1
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0:virtual bool H11ANEIn::start(IOService *): fIsANEDynPowerGateHysteresisSupported = 0
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0:virtual bool H11ANEIn::start(IOService *): fANEDynPowerGateHysteresisEnabled = 0
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0:virtual bool H11ANEIn::start(IOService *): fANEDynPowerGateHysteresisTimerPeriodMs = 0 ms
+0x72c      Default     0x0                  0      0    kernel: (AppleH11ANEInterface) ANE0 done mapDeviceMemoryWithIndex fPSRegistersPhys = 0x2******00
+0x7a       Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x495      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(DCP): OSLog endpoint registering to logd(uuid: 00000000-0000-0000-0000-000000000000, role: DCP, range_start: 0, range_end: 255, fw_type: 1)
+0x495      Default     0x0                  0      0    kernel: AppleSPUTimesyncV2::probe(iop-aop-nub)
+0x495      Default     0x0                  0      0    kernel: AppleSPUTimesyncV2::start(iop-aop-nub) <1>
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x3e0064
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(AOP): start(<private>) - (Mar  6 2023@20:59:55)
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x3f0064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManager::init created and initing
+0x72c      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManager::start starting
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x400064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x410064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x420064
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x430064
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6fd      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL2)
+0x6fd      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (sensor-offset-CTL1)
+0x12b      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******ab start
+0x6fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6fd      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) Assert: orderedLookup->getCount() > 0 (value 0x0 0),  file: /AppleInternal/Library/BuildRoots/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxa8/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockManager.cpp, line: 1097
+0x6fd      Default     0x0                  0      0    kernel: (IOTimeSyncFamily)   IOTimeSyncTranslationPMGR(MachAbsoluteTimeSnapshot): Starting snapshot.
+0x7a       Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMRTC service registered!$$$$$
+0x7a       Default     0x0                  0      0    kernel: (AppleARMPlatform) AppleARMRTC publishing service!^^^^^^
+0x6fd      Default     0x0                  0      0    kernel: (AppleSmartIO2) AppleSmartIO (RTBuddy-based)::start (<private>) - (Mar  6 2023@20:55:23)
+0x6fd      Default     0x0                  0      0    kernel: (AppleSEPManager) virtual bool AppleSEPManager::start(IOService *):
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) callPlatformFunction: IODMAController0000009A::admac-sio::1296: Allocated suspend ARMFunction <private>.
+0x72c      Default     0x0                  0      0    kernel: (AppleHPM) AppleHPMBusController::start - being called
+0x72c      Default     0x0                  0      0    kernel: (IOTimeSyncFamily)   IOTimeSyncTranslationPMGR(MachAbsoluteTimeSnapshot): Set lock state to locking.
+0x72c      Default     0x0                  0      0    kernel: (AppleSMC) Starting AppleSMC kext(<private>) - (Mar  6 2023@21:00:30)
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x440064
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: (AppleSMC) AppleSMCEmbedded::setPowerState(): ENTER powerStateOrdinal=1, _activeKeyCommand=17 newState=1
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) AppleExternalPowerProvider::init(inOwner=mca1a, inExternalPowerProvider=IODMAController0000009A) registered external power provider getState=0x1e pwrFlags=0x8000
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) * mca1a::addPowerProvider [powerProvider=IODMAController0000009A]  was added succesfully
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca1a::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x450064
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca1a::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x495      Default     0x0                  0      0    kernel: (AppleFirmwareKit) AFKFirmwareService(AFKFirmwareService:0x1******b5): result=true
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x460064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6b3      Default     0x0                  0      0    kernel: (AppleARMWatchdogTimer) AppleARMWatchdogTimer::start: _wdtBaseAddress: <private> _wdtResetCount=0x*****00 _useSMCEnforcedWatchdog=1
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x470064
+0x495      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedTempSensor) AppleT8015TempSensor::start: missing device tree value (invokes-sochot)
+0x126      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleMobsiTmpSADC:0x1******be start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: (AppleAVD) AppleAVD: start(): boot-arg avd-control: 0xcafecafe - m_dartPanicOverrideIsValid: 0 - m_dartPanicOverride: 0
+0x72c      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x7a       Default     0x0                  0      0    kernel: (AppleAVD) AppleAVD: start(): Kernel parsing enabled
+0x7a       Default     0x0                  0      0    kernel: (AppleAVD) AppleAVD: start(): status: 0 - physical memory size 0x200000000 - m_maxUserClientCount: 32
+0x7a       Default     0x0                  0      0    kernel: (AppleAVD) AppleAVD: start(): tmr.timeout add <private>
+0x6fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) callPlatformFunction: IODMAController0000009A::admac-sio::1296: Allocated suspend ARMFunction <private>.
+0x6b3      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) AppleExternalPowerProvider::init(inOwner=mca3a, inExternalPowerProvider=IODMAController0000009A) registered external power provider getState=0x1e pwrFlags=0x8000
+0x6b3      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) * mca3a::addPowerProvider [powerProvider=IODMAController0000009A]  was added succesfully
+0x6b3      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3a::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x6b3      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3a::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3a::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3a::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x480064
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x490064
+0x6fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) callPlatformFunction: IODMAController0000009A::admac-sio::1296: Allocated suspend ARMFunction <private>.
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) AppleExternalPowerProvider::init(inOwner=mca3b, inExternalPowerProvider=IODMAController0000009A) registered external power provider getState=0x1e pwrFlags=0x8000
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) * mca3b::addPowerProvider [powerProvider=IODMAController0000009A]  was added succesfully
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3b::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3b::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x6b3      Default     0x0                  0      0    kernel: (AppleSEPManager) virtual bool AppleSEPManager::start(IOService *): SEP memory IS coherent
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3b::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x6b3      Default     0x0                  0      0    kernel: (AppleSEPManager) virtual bool AppleSEPManager::start(IOService *): control endpoints created
+0x72c      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca3b::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x6fd      Default     0x0                  0      0    kernel: ktriage_register_subsystem_strings: set subsystem 8 strings
+0x6fd      Default     0x0                  0      0    kernel: mcache: 8 CPU(s), 128 bytes CPU cache line size
+0x6fd      Default     0x0                  0      0    kernel: mbinit: done [128 MB total pool size, (85/42) split]
+0x72c      Default     0x0                  0      0    kernel: (AppleARMIISAudio) AppleARMIISAudioDevice::init(<private>, 3)
+0x72c      Default     0x0                  0      0    kernel: (AppleARMIISAudio) AppleARMIISAudioDevice::init(<private>, 3) success
+0x72c      Error       0x0                  0      0    kernel: (AppleARMIISAudio) Codec Input: Could not find the safety offset seed property.
+0x72c      Default     0x0                  0      0    kernel: (AppleARMIISAudio) Codec Input: Could not find the safety offset seed property.
+0x6fd      Default     0x0                  0      0    kernel: SK: netagent is enabled by default for this platform
+0x6fd      Default     0x0                  0      0    kernel: dlil_init: Waiting for all the create dlil kernel threads to get scheduled at least once.
+0x6fd      Default     0x0                  0      0    kernel: dlil_init: All the created dlil kernel threads have been scheduled at least once. Proceeding.
+0x6fd      Default     0x0                  0      0    kernel: bsd_autoconf: calling kminit
+0x6b3      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x7a       Default     0x0                  0      0    kernel: (AudioDMAController_T8103) callPlatformFunction: IODMAController0000009A::admac-sio::1296: Allocated suspend ARMFunction <private>.
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) AppleExternalPowerProvider::init(inOwner=mca0a, inExternalPowerProvider=IODMAController0000009A) registered external power provider getState=0x1e pwrFlags=0x8000
+0x7a       Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) * mca0a::addPowerProvider [powerProvider=IODMAController0000009A]  was added succesfully
+0x6b3      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca0a::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x6b3      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca0a::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x7a       Default     0x0                  0      0    kernel: (AppleSEPManager) virtual bool AppleSEPManager::start(IOService *): PM init done
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x4a0064
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x4b0064
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: (AppleSEPManager) IOReturn AppleSEPManager::_setPowerState(unsigned long *): power state 0 -> 2
+0x72c      Default     0x0                  0      0    kernel: (AppleSEPManager) static IOService *AppleSEPManager::getReadableNvram(): Waiting for IODTNVRAM
+0x72c      Default     0x0                  0      0    kernel: (AppleSEPManager) static IOService *AppleSEPManager::getReadableNvram(): Got IODTNVRAM OK
+0x72c      Default     0x0                  0      0    kernel: (AppleSEPManager) void AppleSEPManager::_loadFlagData(): Didn't find oblit-inprogress in NVRAM
+0x72c      Default     0x0                  0      0    kernel: (AppleSEPManager) void AppleSEPBooter::_bootAction(void *, void *): SEP status: 1
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x4c0064
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************45 0x0
+0x6b3      Default     0x0                  0      0    kernel: (AppleSEPManager) void AppleSEPBooter::_bootAction(void *, void *): SEP accepted Tz0
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x4d0064
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) static AppleNVMeRequestPoolTagReserve *AppleNVMeRequestPoolTagReserve::Create(AppleNVMeWorkLoop *, uint8_t, uint16_t, uint32_t, bool, NVMeBufferAllocator *, lck_mtx_t *, NVMeCGType_t, IOMapper *)::138:NVMe Request Pool Init (Tag Reservation Case). First phase, RequestCount = 1
+0x72c      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) static AppleNVMeRequestPoolTagReserve *AppleNVMeRequestPoolTagReserve::Create(AppleNVMeWorkLoop *, uint8_t, uint16_t, uint32_t, bool, NVMeBufferAllocator *, lck_mtx_t *, NVMeCGType_t, IOMapper *)::138:NVMe Request Pool Init (Tag Reservation Case). First phase, RequestCount = 1
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn IONVMeController::CreateSubmissionQueue(uint16_t, uint8_t)::3177:SQ index=0 entrysize=64
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn IONVMeController::CreateSubmissionQueue(uint16_t, uint8_t)::3177:SQ index=0 entrysize=64
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn IONVMeController::CreateSubmissionQueue(uint16_t, uint8_t)::3177:SQ index=1 entrysize=64
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn IONVMeController::CreateSubmissionQueue(uint16_t, uint8_t)::3177:SQ index=1 entrysize=64
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual void AppleANS3NVMeController::EnableLinearSQ()::127:Enabling LSQ
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual void AppleANS3NVMeController::EnableLinearSQ()::127:Enabling LSQ
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual void AppleANS2CGNVMeController::SetupAdminQueue()::216:Successfully enabled NVMe CoastGuard
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual void AppleANS2CGNVMeController::SetupAdminQueue()::216:Successfully enabled NVMe CoastGuard
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual void AppleANS2NVMeController::SetModeselRegister(uint32_t)::1214:Setting modesel to 0
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual void AppleANS2NVMeController::SetModeselRegister(uint32_t)::1214:Setting modesel to 0
+0x7a       Default     0x0                  0      0    kernel: (RTBuddy) [ANS2:client1] Restarting rebuild from lba 0
+0x7a       Default     0x0                  0      0    kernel: (RTBuddy) [ANS2:client1]  boot mode normal
+0x7a       Default     0x0                  0      0    kernel: (RTBuddy) [ANS2:client1] Cxt Sync 0 Bands 1 2 FlowAccum 47 pendingBands 0
+0x6fd      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca1a::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x6fd      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca1a::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x7a       Default     0x0                  0      0    kernel: (AppleARMWatchdogTimer) watchdog configured (source: inferred defaults) to monitor userspace, SoC watchdog enabled, panic SoC watchdog enabled, halt on SoC watchdog expiration: no, userspace IOKit monitoring enabled, shutdown monitoring enabled
+0x7a       Default     0x0                  0      0    kernel: (AppleSEPManager) virtual bool AppleSEPManager::start(IOService *): registered
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******ce start
+0x6fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x72c      Default     0x0                  0      0    kernel: (AppleFSCompressionTypeDataless) com.apple.AppleFSCompressionTypeDataless kmod start
+0x6fd      Default     0x0                  0      0    kernel: ifnet_attach: All kernel threads created for interface lo0 have been scheduled at least once. Proceeding.
+0x6fd      Default     0x0                  0      0    kernel: ifnet_attach: Waiting for all kernel threads created for interface gif0 to get scheduled at least once.
+0x6fd      Default     0x0                  0      0    kernel: ifnet_attach: All kernel threads created for interface gif0 have been scheduled at least once. Proceeding.
+0x6fd      Default     0x0                  0      0    kernel: skip attaching fsw to lo0 using legacy TX model
+0x65       Info        0x0                  0      0    kernel: Reinit'd ND information for interface lo0
+0x6b3      Default     0x0                  0      0    kernel: (AppleA7IOP) AppleA7IOPNub: withRegistryEntry, 47: allocated nub <private>
+0x6fd      Default     0x0                  0      0    kernel: ifnet_attach: Waiting for all kernel threads created for interface stf0 to get scheduled at least once.
+0x6fd      Default     0x0                  0      0    kernel: ifnet_attach: All kernel threads created for interface stf0 have been scheduled at least once. Proceeding.
+0x7fd      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca0a::getNumberOfPoweredOffExternalDevices() - ExternalPowerProvider : IODMAController0000009A powered On [1/1]
+0x7fd      Default     0x0                  0      0    kernel: (AppleEmbeddedAudioLibs) mca0a::getNumberOfPoweredOffExternalDevices() [ deviceCount=1, poweredOffDevices=0]
+0x6b3      Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x*************85 0x0
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x4e0064
+0x7fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA0TX::admac-aop-audio::578: TX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA1TX::admac-aop-audio::578: TX:Initialized.
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******d2 start
+0x7fd      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA2TX::admac-aop-audio::578: TX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA3TX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA4TX::admac-aop-audio::578: TX:Initialized.
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******d5 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x4f0064
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x500064
+0x6b3      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x72c      Default     0x0                  0      0    kernel: (AppleFSCompressionTypeZlib) com.apple.AppleFSCompressionTypeZlib kmod start
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA5TX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA6TX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA7TX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA8TX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA9TX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APAATX::admac-aop-audio::578: TX:Initialized.
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******de start
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APABTX::admac-aop-audio::578: TX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APACTX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APADTX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APAETX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APAFTX::admac-aop-audio::578: TX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA0RX::admac-aop-audio::578: RX:Initialized.
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******e5 start
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA1RX::admac-aop-audio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA2RX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA3RX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA4RX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA5RX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA6RX::admac-aop-audio::578: RX:Initialized.
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******ec start
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA7RX::admac-aop-audio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA8RX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APA9RX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APAARX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APABRX::admac-aop-audio::578: RX:Initialized.
+0x6b3      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APACRX::admac-aop-audio::578: RX:Initialized.
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******f3 start
+0x74e      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APADRX::admac-aop-audio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x74e      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APAERX::admac-aop-audio::578: RX:Initialized.
+0x74e      Default     0x0                  0      0    kernel: (AudioDMAController_T8103) setDirectionAndRole: APAFRX::admac-aop-audio::578: RX:Initialized.
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x510064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x520064
+0x7a       Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******04 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn AppleNVMeRequestPoolTagReserve::Rebuild(uint8_t, uint32_t, bool, NVMeCGType_t, IOMapper *)::181:NVMe Request Pool Init (Tag Reservation Case). Second phase, RequestCount = 64
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******18 start
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fd      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn AppleNVMeRequestPoolTagReserve::Rebuild(uint8_t, uint32_t, bool, NVMeCGType_t, IOMapper *)::181:NVMe Request Pool Init (Tag Reservation Case). Second phase, RequestCount = 64
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******19 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******1a start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******1b start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******1c start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******1d start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******1e start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******1f start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******20 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******21 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******22 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******23 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******24 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******25 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******26 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******27 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******28 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******29 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******2a start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******2b start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******2c start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******2d start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******2e start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******2f start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******30 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******31 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******32 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******33 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******34 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******35 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******36 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******37 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******38 start
+0x72c      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******39 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******3a start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x74e      Default     0x0                  0      0    kernel: (AppleSEPManager) void AppleSEPBooter::_bootAction(void *, void *): SEP status: 2
+0x74e      Default     0x0                  0      0    kernel: (AppleSEPManager) void AppleSEPBooter::_bootAction(void *, void *): SEP status: 2
+0x7a       Default     0x0                  0      0    kernel: (AppleSEPManager) IOReturn AppleSEPBooter::bootSEP(AppleSEPFirmware *, bool, AppleSEPSharedMemoryBuffer *, bool): SEP booting
+0x7a       Default     0x0                  0      0    kernel: (AppleSEPManager) IOReturn AppleSEPBooter::bootSEP(AppleSEPFirmware *, bool, AppleSEPSharedMemoryBuffer *, bool): Shmbuf for SEP: { slave addr = 0x600000, size = 0x1c000 }
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******3b start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******3c start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******3d start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******3e start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******3f start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******40 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******41 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******42 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******43 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******44 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******45 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******46 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******47 start
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******48 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******4a start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******4b start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******4c start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******4d start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******4e start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******4f start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn AppleANS2NVMeController::EnableCompletionQueue(uint16_t)::1948:nvme: Setting IOCQ base addr 0x8******00
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn AppleANS2NVMeController::EnableCompletionQueue(uint16_t)::1948:nvme: Setting IOCQ base addr 0x8******00
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn AppleANS2NVMeController::EnableSubmissionQueue(uint16_t)::1918:nvme: Setting IOSQ base addr 0x8******00
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******50 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: (IONVMeFamily) virtual IOReturn AppleANS2NVMeController::EnableSubmissionQueue(uint16_t)::1918:nvme: Setting IOSQ base addr 0x8******00
+0x7fc      Default     0x0                  0      0    kernel: (apfs) apfs_module_start:3042: load: com.apple.filesystems.apfs, v2142.101.3, apfs-2142.101.3, 2023/03/14
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2009:nvme: Vendor ID     : 0x106b
+0x7fc      Default     0x0                  0      0    kernel: ktriage_register_subsystem_strings: set subsystem 7 strings
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2009:nvme: Vendor ID     : 0x106b
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2010:nvme: Model Number  : APPLE SSD AP0256Q
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2010:nvme: Model Number  : APPLE SSD AP0256Q
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2011:nvme: Serial Number : 0************e14
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2011:nvme: Serial Number : 0************e14
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2012:nvme: Firmware Rev  : 874.100.
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2012:nvme: Firmware Rev  : 874.100.
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2080:nvme: S5E A0 Toshiba BiCS 4 tlc 3D 2 plane 256GB
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2080:nvme: S5E A0 Toshiba BiCS 4 tlc 3D 2 plane 256GB
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) NAND
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2100:ECCVersion   : 1
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2100:ECCVersion   : 1
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2104:FTL Rev      : 37.1
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2104:FTL Rev      : 37.1
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2105:DM_Version   : 178
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2105:DM_Version   : 178
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2106:=======================
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2106:=======================
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2113:Found 3 namespaces in current NAND
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::IdentifyNamespaces()::2113:Found 3 namespaces in current NAND
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******52 start
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::DetermineNamespaces()::2538:Identified nsid[1] as nstype[1]
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::DetermineNamespaces()::2538:Identified nsid[1] as nstype[1]
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::DetermineNamespaces()::2538:Identified nsid[2] as nstype[8]
+0x74e      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::DetermineNamespaces()::2538:Identified nsid[2] as nstype[8]
+0x7fc      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::DetermineNamespaces()::2538:Identified nsid[3] as nstype[13]
+0x7fc      Default     0x0                  0      0    kernel: (IONVMeFamily) bool AppleEmbeddedNVMeController::DetermineNamespaces()::2538:Identified nsid[3] as nstype[13]
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******53 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x74e      Default     0x0                  0      0    kernel: (RTBuddy) [ANS2:client1]  setting walltime time 22497719 --> 22525140 and calendar 1680644853
+0x225      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleEmbeddedNVMeTemperatureSensor:0x1******54 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fc      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool AppleEmbeddedNVMeController::AllocateNodes(bool)::1622:allocateAll 1
+0x7fc      Default     0x0                  0      0    kernel: (IONVMeFamily) virtual bool AppleEmbeddedNVMeController::AllocateNodes(bool)::1622:allocateAll 1
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******56 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******57 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******58 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******59 start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******5a start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******5b start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******5c start
+0x74e      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fc      Default     0x0                  0      0    kernel: (IOPCIFamily) [ PCI configuration begin ]
+0x74e      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x530064
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x540064
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******5e start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUTempSensor:0x1******61 start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fc      Default     0x0                  0      0    kernel: (IOPCIFamily) [ PCI configuration end, bridges 4, devices 2 ]
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******65 start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fc      Default     0x0                  0      0    kernel: (AppleEmbeddedPCIE) apcie[0:wlan]::_mapRIDToSID no mapper defined and device <private> (0:0:0) does not support hot-plug
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******69 start
+0x867      Default     0x0                  0      0    kernel: (AppleEmbeddedPCIE) apcie[2:lan-1gb]::_mapRIDToSID no mapper defined and device <private> (0:2:0) does not support hot-plug
+0x867      Default     0x0                  0      0    kernel: (AppleEmbeddedPCIE) apcie[1:pcie-xhci]::_mapRIDToSID no mapper defined and device <private> (0:1:0) does not support hot-plug
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******6a start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******6b start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******6c start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******6d start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******6e start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******6f start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******70 start
+0x867      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7a       Default     0x0                  0      0    kernel: (nfs) nfs_kext_start: successfully loaded NFS kext
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******71 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******72 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******73 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******74 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******75 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******76 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******77 start
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x867      Default     0x0                  0      0    kernel: (AppleHPM) AppleHPMARMI2C::start - Unable to read hpmlog boot-arg
+0x7a       Default     0x0                  0      0    kernel: Couldn't alloc class "AppleKeyStoreTest"
+0x7a       Default     0x0                  0      0    kernel: (AppleSystemPolicy) GK status: enabled
+0x7a       Default     0x0                  0      0    kernel: (AppleSystemPolicy) Per file changetime scans: enabled
+0x7a       Default     0x0                  0      0    kernel: (AppleSystemPolicy) Behavioral subsystem status: enabled
+0x7a       Default     0x0                  0      0    kernel: (AppleFSCompressionTypeDataless) com.apple.AppleFSCompressionTypeDataless load succeeded
+0x7a       Default     0x0                  0      0    kernel: (AppleFSCompressionTypeZlib) com.apple.AppleFSCompressionTypeZlib load succeeded
+0x7a       Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) Setting up notifier for CoreAnalyticsHub
+0x268      Info        0x0                  0      0    kernel: (IOHIDFamily) AppleARMPMUPowerSensor:0x1******91 start
+0x7a       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+0x7fc      Default     0x0                  0      0    kernel: calling mpo_policy_init for ASP
+0x7fc      Default     0x0                  0      0    kernel: calling mpo_policy_initbsd for ASP
+0x7fc      Default     0x0                  0      0    kernel: (AppleSystemPolicy) ASP: NVRAM pointer initialized
+0x7fc      Default     0x0                  0      0    kernel: (AppleSystemPolicy) ASP: No recovery key set
+0x7fc      Default     0x0                  0      0    kernel: Security policy loaded: Apple System Policy (ASP)
+0x7fc      Default     0x0                  0      0    kernel: (AppleSystemPolicy) AppleSystemPolicy has been successfully started
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x550064
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x560064
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x570064
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x867      Default     0x0                  0      0    kernel: PMRD: power event 7 args 0x8*************65 0x0
+0x867      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x580064
+0x72b      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7fc      Default     0x0                  0      0    kernel: (IOHIDPowerSource) (IOHIDPowerSource:0x1******ab): start:1
+0x72b      Default     0x0                  0      0    kernel: (AppleSPU) AppleSPUFirmwareService: found node AOP
+0x72b      Default     0x0                  0      0    kernel: (AppleARMIISAudio) AppleARMIISAudioDevice::init(<private>, 3)
+0x72b      Default     0x0                  0      0    kernel: (AppleARMIISAudio) AppleARMIISAudioDevice::init(<private>, 3) success
+0x72b      Error       0x0                  0      0    kernel: (AppleARMIISAudio) Loopback: Could not find the safety offset seed property.
+0x72b      Default     0x0                  0      0    kernel: (AppleARMIISAudio) Loopback: Could not find the safety offset seed property.
+0x72b      Default     0x0                  0      0    kernel: Couldn't alloc class "AppleSEPARTService"
+0x7fd      Default     0x0                  0      0    kernel: (IOHIDPowerSource) (IOHIDPowerSourceController:0x1******85): start:1
+0x7fd      Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: sepManagerMatchedGated: AppleSEPManager matched.
+0x72b      Default     0x0                  0      0    kernel: (AppleHPM) AppleHPMARMI2C::start - Unable to read hpmlog boot-arg
+0x7fc      Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(DCPEXT): start(<private>) - (Mar  6 2023@20:59:55)
+0x7a       Default     0x0                  0      0    kernel: (AppleHPM) AppleHPM runtime power conservation disabled.
+0x7fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x590064
+0x7fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x5a0064
+0x7fd      Default     0x0                  0      0    kernel: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+0x7fd      Default     0x0                  0      0    kernel: (IOMobileGraphicsFamily-DCP) IOMFB: service matched: AppleDCPExpert
