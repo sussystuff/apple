@@ -1,0 +1,321 @@
+{"app_name":"Client","timestamp":"2023-08-09 22:27:16.00 +1000","app_version":"1.52.1","slice_uuid":"f4c9d253-0544-37b2-b8bd-dc2a0a34d96b","adam_id":"1052879175","build_version":"23.7.11.14","platform":2,"bundleID":"com.brave.ios.browser","share_with_app_devs":0,"is_first_party":0,"bug_type":"309","os_version":"iPhone OS 16.6 (20G75)","roots_installed":0,"name":"Client","incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX6B"}
+{
+  "uptime" : 16000,
+  "procRole" : "Foreground",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "iPad7,3",
+  "coalitionID" : 728,
+  "osVersion" : {
+    "isEmbedded" : true,
+    "train" : "iPhone OS 16.6",
+    "releaseType" : "User",
+    "build" : "20G75"
+  },
+  "captureTime" : "2023-08-09 22:27:13.4865 +1000",
+  "incident" : "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX6B",
+  "pid" : 929,
+  "cpuType" : "ARM-64",
+  "roots_installed" : 0,
+  "bug_type" : "309",
+  "procLaunch" : "2023-08-09 21:21:03.2125 +1000",
+  "procStartAbsTime" : 295480796218,
+  "procExitAbsTime" : 390761055078,
+  "procName" : "Client",
+  "procPath" : "\/private\/var\/containers\/Bundle\/Application\/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX65\/Client.app\/Client",
+  "bundleInfo" : {"CFBundleShortVersionString":"1.52.1","CFBundleVersion":"23.7.11.14","CFBundleIdentifier":"com.brave.ios.browser","DTAppStoreToolsBuild":"14E221"},
+  "storeInfo" : {"storeCohortMetadata":"10|date=1685662200000&sf=143460&pgtp=Search&pgid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXf6&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=card&kind=iosSoftware&lngid=27","itemID":"1052879175","deviceIdentifierForVendor":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXE8","softwareVersionExternalIdentifier":"858347236","thirdParty":true,"applicationVariant":"1:iPad7,3:15"},
+  "parentProc" : "launchd",
+  "parentPid" : 1,
+  "coalitionName" : "com.brave.ios.browser",
+  "crashReporterKey" : "c016bb4b276633712a548b1aebdaf175dd5f7397",
+  "wasUnlockedSinceBoot" : 1,
+  "isLocked" : 0,
+  "codeSigningID" : "com.brave.ios.browser",
+  "codeSigningTeamID" : "KL8N8XSYF4",
+  "codeSigningFlags" : 570450689,
+  "codeSigningValidationCategory" : 4,
+  "codeSigningTrustLevel" : 0,
+  "exception" : {"codes":"0x0000000000000000, 0x0000000000000000","rawCodes":[0,0],"type":"EXC_CRASH","signal":"SIGABRT"},
+  "termination" : {"flags":0,"code":6,"namespace":"SIGNAL","indicator":"Abort trap: 6","byProc":"Client","byPid":929},
+  "asi" : {"libsystem_c.dylib":["abort() called"]},
+  "lastExceptionBacktrace" : [{"imageOffset":38028,"symbol":"__exceptionPreprocess","symbolLocation":160,"imageIndex":11},{"imageOffset":86096,"symbol":"objc_exception_throw","symbolLocation":56,"imageIndex":10},{"imageOffset":964464,"symbol":"__CFDictionaryCreateGeneric","symbolLocation":0,"imageIndex":11},{"imageOffset":157916,"symbol":"CA::Layer::set_bounds(CA::Rect const&, bool)","symbolLocation":200,"imageIndex":24},{"imageOffset":60420,"symbol":"-[CALayer setBounds:]","symbolLocation":128,"imageIndex":24},{"imageOffset":9630044,"symbol":"-[UIView _backing_setBounds:]","symbolLocation":200,"imageIndex":13},{"imageOffset":194868,"symbol":"-[UIView(Geometry) setBounds:]","symbolLocation":380,"imageIndex":13},{"imageOffset":194300,"symbol":"-[UIScrollView setBounds:]","symbolLocation":896,"imageIndex":13},{"imageOffset":324112,"symbol":"-[UIScrollView setContentOffset:]","symbolLocation":708,"imageIndex":13},{"imageOffset":336168,"symbol":"-[UIScrollView _setContentOffset:animated:animationCurve:animationAdjustsForContentOffsetDelta:animation:animationConfigurator:]","symbolLocation":584,"imageIndex":13},{"imageOffset":246324,"symbol":"-[PDFHostViewController _endPDFViewRotationAnimated:withUpdate:]","symbolLocation":332,"imageIndex":25},{"imageOffset":235148,"symbol":"-[PDFHostViewController viewDidLayoutSubviews]","symbolLocation":148,"imageIndex":25},{"imageOffset":18684,"symbol":"-[UIView(CALayerDelegate) layoutSublayersOfLayer:]","symbolLocation":2272,"imageIndex":13},{"imageOffset":39696,"symbol":"CA::Layer::layout_if_needed(CA::Transaction*)","symbolLocation":496,"imageIndex":24},{"imageOffset":115760,"symbol":"CA::Layer::layout_and_display_if_needed(CA::Transaction*)","symbolLocation":144,"imageIndex":24},{"imageOffset":184052,"symbol":"CA::Context::commit_transaction(CA::Transaction*, double, double*)","symbolLocation":456,"imageIndex":24},{"imageOffset":369308,"symbol":"CA::Transaction::commit()","symbolLocation":644,"imageIndex":24},{"imageOffset":163412,"symbol":"CA::Display::DisplayLink::dispatch_items(unsigned long long, unsigned long long, unsigned long long)","symbolLocation":1524,"imageIndex":24},{"imageOffset":226108,"symbol":"display_timer_callback(__CFMachPort*, void*, long, void*)","symbolLocation":368,"imageIndex":24},{"imageOffset":478820,"symbol":"__CFMachPortPerform","symbolLocation":172,"imageIndex":11},{"imageOffset":589856,"symbol":"__CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE1_PERFORM_FUNCTION__","symbolLocation":56,"imageIndex":11},{"imageOffset":597044,"symbol":"__CFRunLoopDoSource1","symbolLocation":512,"imageIndex":11},{"imageOffset":481220,"symbol":"__CFRunLoopRun","symbolLocation":2332,"imageIndex":11},{"imageOffset":499104,"symbol":"CFRunLoopRunSpecific","symbolLocation":584,"imageIndex":11},{"imageOffset":6552,"symbol":"GSEventRunModal","symbolLocation":160,"imageIndex":12},{"imageOffset":3610636,"symbol":"-[UIApplication _run]","symbolLocation":868,"imageIndex":13},{"imageOffset":3609732,"symbol":"UIApplicationMain","symbolLocation":312,"imageIndex":13},{"imageOffset":175580,"symbol":"UIApplicationMain(_:_:_:_:)","symbolLocation":100,"imageIndex":14},{"imageOffset":35332,"symbol":"main","symbolLocation":108,"imageIndex":0},{"imageOffset":82756,"symbol":"start","symbolLocation":1860,"imageIndex":15}],
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":63354,"threadState":{"x":[{"value":0},{"value":0},{"value":0},{"value":0},{"value":8339563775},{"value":6097925392},{"value":110},{"value":18446744073709551126},{"value":8632319232,"symbolLocation":0,"symbol":"_main_thread"},{"value":5585315368951270615},{"value":512},{"value":11},{"value":11},{"value":2095104},{"value":2043},{"value":1},{"value":328},{"value":10759616384},{"value":0},{"value":6},{"value":259},{"value":8632319456,"symbolLocation":224,"symbol":"_main_thread"},{"value":8585298320,"symbolLocation":0,"symbol":"__kCFAllocatorSystemDefault"},{"value":10738484672},{"value":1},{"value":1},{"value":1},{"value":0},{"value":7642929360,"symbolLocation":0,"symbol":"tlv_get_addr"}],"flavor":"ARM_THREAD_STATE64","lr":{"value":8340362744},"cpsr":{"value":1073741824},"fp":{"value":6097925248},"sp":{"value":6097925216},"esr":{"value":1442840704,"description":" Address size fault"},"pc":{"value":8083739032,"matchesCrashFrame":1},"far":{"value":8583231768}},"name":"CrWebMain","queue":"com.apple.main-thread","frames":[{"imageOffset":29080,"symbol":"__pthread_kill","symbolLocation":8,"imageIndex":6},{"imageOffset":54776,"symbol":"pthread_kill","symbolLocation":208,"imageIndex":7},{"imageOffset":115896,"symbol":"abort","symbolLocation":124,"imageIndex":8},{"imageOffset":81748,"symbol":"abort_message","symbolLocation":128,"imageIndex":9},{"imageOffset":19020,"symbol":"demangling_terminate_handler()","symbolLocation":300,"imageIndex":9},{"imageOffset":106516,"symbol":"_objc_terminate()","symbolLocation":124,"imageIndex":10},{"imageOffset":78884,"symbol":"std::__terminate(void (*)())","symbolLocation":12,"imageIndex":9},{"imageOffset":90000,"symbol":"__cxa_rethrow","symbolLocation":144,"imageIndex":9},{"imageOffset":91764,"symbol":"objc_exception_rethrow","symbolLocation":40,"imageIndex":10},{"imageOffset":499300,"symbol":"CFRunLoopRunSpecific","symbolLocation":780,"imageIndex":11},{"imageOffset":6552,"symbol":"GSEventRunModal","symbolLocation":160,"imageIndex":12},{"imageOffset":3610636,"symbol":"-[UIApplication _run]","symbolLocation":868,"imageIndex":13},{"imageOffset":3609732,"symbol":"UIApplicationMain","symbolLocation":312,"imageIndex":13},{"imageOffset":175580,"symbol":"UIApplicationMain(_:_:_:_:)","symbolLocation":100,"imageIndex":14},{"imageOffset":35332,"symbol":"main","symbolLocation":108,"imageIndex":0},{"imageOffset":82756,"symbol":"start","symbolLocation":1860,"imageIndex":15}]},{"id":69932,"frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39340,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1236,"imageIndex":7},{"imageOffset":598680,"symbol":"runtime.pthread_cond_wait_trampoline.abi0","symbolLocation":24,"imageIndex":4},{"imageOffset":593704,"symbol":"runtime.asmcgocall.abi0","symbolLocation":200,"imageIndex":4},{"imageOffset":3596551104,"imageIndex":16}]},{"id":69935,"name":"com.apple.uikit.eventfetch-thread","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":475592,"symbol":"__CFRunLoopServiceMachPort","symbolLocation":156,"imageIndex":11},{"imageOffset":480096,"symbol":"__CFRunLoopRun","symbolLocation":1208,"imageIndex":11},{"imageOffset":499104,"symbol":"CFRunLoopRunSpecific","symbolLocation":584,"imageIndex":11},{"imageOffset":254264,"symbol":"-[NSRunLoop(NSRunLoop) runMode:beforeDate:]","symbolLocation":208,"imageIndex":17},{"imageOffset":254004,"symbol":"-[NSRunLoop(NSRunLoop) runUntilDate:]","symbolLocation":60,"imageIndex":17},{"imageOffset":4799704,"symbol":"-[UIEventFetcher threadMain]","symbolLocation":404,"imageIndex":13},{"imageOffset":351388,"symbol":"__NSThread__start__","symbolLocation":704,"imageIndex":17},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69939,"frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39384,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1280,"imageIndex":7},{"imageOffset":598732,"symbol":"runtime.pthread_cond_timedwait_relative_np_trampoline.abi0","symbolLocation":28,"imageIndex":4},{"imageOffset":593704,"symbol":"runtime.asmcgocall.abi0","symbolLocation":200,"imageIndex":4}]},{"id":69940,"frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39340,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1236,"imageIndex":7},{"imageOffset":598680,"symbol":"runtime.pthread_cond_wait_trampoline.abi0","symbolLocation":24,"imageIndex":4},{"imageOffset":593704,"symbol":"runtime.asmcgocall.abi0","symbolLocation":200,"imageIndex":4},{"imageOffset":3596551104,"imageIndex":16}]},{"id":69941,"frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39340,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1236,"imageIndex":7},{"imageOffset":598680,"symbol":"runtime.pthread_cond_wait_trampoline.abi0","symbolLocation":24,"imageIndex":4},{"imageOffset":593704,"symbol":"runtime.asmcgocall.abi0","symbolLocation":200,"imageIndex":4},{"imageOffset":3596551104,"imageIndex":16}]},{"id":69942,"frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39340,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1236,"imageIndex":7},{"imageOffset":598680,"symbol":"runtime.pthread_cond_wait_trampoline.abi0","symbolLocation":24,"imageIndex":4},{"imageOffset":593704,"symbol":"runtime.asmcgocall.abi0","symbolLocation":200,"imageIndex":4},{"imageOffset":3596551104,"imageIndex":16}]},{"id":69943,"frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39340,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1236,"imageIndex":7},{"imageOffset":598680,"symbol":"runtime.pthread_cond_wait_trampoline.abi0","symbolLocation":24,"imageIndex":4},{"imageOffset":593704,"symbol":"runtime.asmcgocall.abi0","symbolLocation":200,"imageIndex":4},{"imageOffset":3596551104,"imageIndex":16}]},{"id":69944,"frames":[{"imageOffset":7576,"symbol":"read","symbolLocation":8,"imageIndex":6},{"imageOffset":596924,"symbol":"runtime.read_trampoline.abi0","symbolLocation":28,"imageIndex":4}]},{"id":69950,"name":"NetworkConfigWatcher","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":475592,"symbol":"__CFRunLoopServiceMachPort","symbolLocation":156,"imageIndex":11},{"imageOffset":480096,"symbol":"__CFRunLoopRun","symbolLocation":1208,"imageIndex":11},{"imageOffset":499104,"symbol":"CFRunLoopRunSpecific","symbolLocation":584,"imageIndex":11},{"imageOffset":254264,"symbol":"-[NSRunLoop(NSRunLoop) runMode:beforeDate:]","symbolLocation":208,"imageIndex":17},{"imageOffset":15432152,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5613608,"imageIndex":1},{"imageOffset":15427580,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5609036,"imageIndex":1},{"imageOffset":15232028,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5413484,"imageIndex":1},{"imageOffset":15071292,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5252748,"imageIndex":1},{"imageOffset":15317440,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5498896,"imageIndex":1},{"imageOffset":15317720,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5499176,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69951,"name":"ThreadPoolServiceThread","frames":[{"imageOffset":65800,"symbol":"kevent64","symbolLocation":8,"imageIndex":6},{"imageOffset":15460332,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5641788,"imageIndex":1},{"imageOffset":15459792,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5641248,"imageIndex":1},{"imageOffset":15232028,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5413484,"imageIndex":1},{"imageOffset":15071292,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5252748,"imageIndex":1},{"imageOffset":15317440,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5498896,"imageIndex":1},{"imageOffset":15249940,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5431396,"imageIndex":1},{"imageOffset":15317720,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5499176,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69952,"name":"ThreadPoolForegroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303384,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484840,"imageIndex":1},{"imageOffset":15303116,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484572,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69953,"name":"ThreadPoolBackgroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303252,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484708,"imageIndex":1},{"imageOffset":15303164,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484620,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69954,"name":"Web_IOThread","frames":[{"imageOffset":65800,"symbol":"kevent64","symbolLocation":8,"imageIndex":6},{"imageOffset":15460332,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5641788,"imageIndex":1},{"imageOffset":15459792,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5641248,"imageIndex":1},{"imageOffset":15232028,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5413484,"imageIndex":1},{"imageOffset":15071292,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5252748,"imageIndex":1},{"imageOffset":15317440,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5498896,"imageIndex":1},{"imageOffset":6833856,"symbol":"InactiveTabsButtonHeader.__deallocating_deinit","symbolLocation":6391624,"imageIndex":1},{"imageOffset":15317720,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5499176,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69955,"name":"ThreadPoolForegroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303384,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484840,"imageIndex":1},{"imageOffset":15303116,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484572,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69963,"name":"ThreadPoolBackgroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303252,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484708,"imageIndex":1},{"imageOffset":15303164,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484620,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69964,"name":"ThreadPoolSingleThreadSharedForegroundBlocking0","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303428,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484884,"imageIndex":1},{"imageOffset":15303188,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484644,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69965,"name":"ThreadPoolForegroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303384,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484840,"imageIndex":1},{"imageOffset":15303116,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484572,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69966,"name":"ThreadPoolForegroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303384,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484840,"imageIndex":1},{"imageOffset":15303116,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484572,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69967,"name":"ThreadPoolForegroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303384,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484840,"imageIndex":1},{"imageOffset":15303116,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484572,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":69968,"name":"ThreadPoolForegroundWorker","frames":[{"imageOffset":4144,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":6},{"imageOffset":76568,"symbol":"mach_msg2_internal","symbolLocation":76,"imageIndex":6},{"imageOffset":77240,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":6},{"imageOffset":5412,"symbol":"mach_msg","symbolLocation":20,"imageIndex":6},{"imageOffset":15441480,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5622936,"imageIndex":1},{"imageOffset":15158104,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5339560,"imageIndex":1},{"imageOffset":15301540,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5482996,"imageIndex":1},{"imageOffset":15304336,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5485792,"imageIndex":1},{"imageOffset":15303384,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484840,"imageIndex":1},{"imageOffset":15303116,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5484572,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":70052,"name":"CacheThread_BlockFile","frames":[{"imageOffset":65800,"symbol":"kevent64","symbolLocation":8,"imageIndex":6},{"imageOffset":15460332,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5641788,"imageIndex":1},{"imageOffset":15459792,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5641248,"imageIndex":1},{"imageOffset":15232028,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5413484,"imageIndex":1},{"imageOffset":15071292,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5252748,"imageIndex":1},{"imageOffset":15317440,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5498896,"imageIndex":1},{"imageOffset":15317720,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5499176,"imageIndex":1},{"imageOffset":15385700,"symbol":"UmaHistogramMemoryLargeMB","symbolLocation":5567156,"imageIndex":1},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":81220,"name":"JavaScriptCore libpas scavenger","frames":[{"imageOffset":6268,"symbol":"__psynch_cvwait","symbolLocation":8,"imageIndex":6},{"imageOffset":39340,"symbol":"_pthread_cond_wait$VARIANT$mp","symbolLocation":1236,"imageIndex":7},{"imageOffset":1092280,"symbol":"scavenger_thread_main","symbolLocation":1380,"imageIndex":18},{"imageOffset":12524,"symbol":"_pthread_start","symbolLocation":116,"imageIndex":7},{"imageOffset":5932,"symbol":"thread_start","symbolLocation":8,"imageIndex":7}]},{"id":83872,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":84275,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":84276,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":84311,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":84422,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":84424,"queue":"NSManagedObjectContext 0x280162700","frames":[{"imageOffset":50856,"symbol":"aj_mcu_dct","symbolLocation":356,"imageIndex":19},{"imageOffset":50460,"symbol":"aj_encode_buffers_baseline","symbolLocation":52,"imageIndex":19},{"imageOffset":68368,"symbol":"aj_encode_all","symbolLocation":532,"imageIndex":19},{"imageOffset":70388,"symbol":"enc_job","symbolLocation":216,"imageIndex":19},{"imageOffset":69376,"symbol":"aj_encode_all_mt","symbolLocation":780,"imageIndex":19},{"imageOffset":238336,"symbol":"do_encode","symbolLocation":244,"imageIndex":19},{"imageOffset":237800,"symbol":"applejpeg_encode_image_all","symbolLocation":512,"imageIndex":19},{"imageOffset":238600,"symbol":"applejpeg_encode_image_all_with_bitstream_offset","symbolLocation":28,"imageIndex":19},{"imageOffset":558752,"symbol":"_encodeSW","symbolLocation":2448,"imageIndex":20},{"imageOffset":14296,"symbol":"_encodeBuffer","symbolLocation":5216,"imageIndex":20},{"imageOffset":162716,"symbol":"CMPhotoUnifiedJPEGEncoderEncode","symbolLocation":76,"imageIndex":20},{"imageOffset":17496,"symbol":"_encodeImageForIndex","symbolLocation":2136,"imageIndex":20},{"imageOffset":18456,"symbol":"_encodeSource","symbolLocation":388,"imageIndex":20},{"imageOffset":29052,"symbol":"_compressImage","symbolLocation":168,"imageIndex":20},{"imageOffset":1514932,"symbol":"HEIFWritePlugin::writeImageAtIndex(IIOImagePixelDataProvider*, CGImage*, IIODictionary*, IIODictionary*, unsigned int)","symbolLocation":3112,"imageIndex":21},{"imageOffset":1521840,"symbol":"HEIFWritePlugin::writeAll()","symbolLocation":396,"imageIndex":21},{"imageOffset":1451844,"symbol":"IIO_Writer_HEIF::write(void*, void*)","symbolLocation":60,"imageIndex":21},{"imageOffset":204840,"symbol":"IIOImageDestination::finalizeDestination()","symbolLocation":616,"imageIndex":21},{"imageOffset":39912,"symbol":"CGImageDestinationFinalize","symbolLocation":128,"imageIndex":21},{"imageOffset":4147292,"symbol":"_UIImageJPEGRepresentation","symbolLocation":636,"imageIndex":13},{"imageOffset":5990800,"symbol":"closure #1 in static SessionTab.updateScreenshot(tabId:screenshot:)","symbolLocation":84,"imageIndex":0},{"imageOffset":5821876,"symbol":"closure #1 in closure #1 in static DataController.perform(context:save:task:)","symbolLocation":112,"imageIndex":0},{"imageOffset":5817428,"symbol":"thunk for @callee_guaranteed () -> ()","symbolLocation":20,"imageIndex":0},{"imageOffset":5817460,"symbol":"thunk for @escaping @callee_guaranteed () -> ()","symbolLocation":20,"imageIndex":0},{"imageOffset":514584,"symbol":"developerSubmittedBlockToNSManagedObjectContextPerform","symbolLocation":148,"imageIndex":22},{"imageOffset":411520,"symbol":"_dispatch_client_callout","symbolLocation":16,"imageIndex":23},{"imageOffset":71728,"symbol":"_dispatch_lane_barrier_sync_invoke_and_complete","symbolLocation":52,"imageIndex":23},{"imageOffset":513392,"symbol":"-[NSManagedObjectContext performBlockAndWait:]","symbolLocation":252,"imageIndex":22},{"imageOffset":5821616,"symbol":"closure #1 in static DataController.perform(context:save:task:)","symbolLocation":476,"imageIndex":0},{"imageOffset":5778240,"symbol":"thunk for @escaping @callee_guaranteed () -> ()","symbolLocation":28,"imageIndex":0},{"imageOffset":642872,"symbol":"__NSBLOCKOPERATION_IS_CALLING_OUT_TO_A_BLOCK__","symbolLocation":16,"imageIndex":17},{"imageOffset":474124,"symbol":"-[NSBlockOperation main]","symbolLocation":100,"imageIndex":17},{"imageOffset":474016,"symbol":"__NSOPERATION_IS_INVOKING_MAIN__","symbolLocation":12,"imageIndex":17},{"imageOffset":232544,"symbol":"-[NSOperation start]","symbolLocation":684,"imageIndex":17},{"imageOffset":231852,"symbol":"__NSOPERATIONQUEUE_IS_STARTING_AN_OPERATION__","symbolLocation":12,"imageIndex":17},{"imageOffset":252492,"symbol":"__NSOQSchedule_f","symbolLocation":168,"imageIndex":17},{"imageOffset":70668,"symbol":"_dispatch_block_async_invoke2","symbolLocation":104,"imageIndex":23},{"imageOffset":411520,"symbol":"_dispatch_client_callout","symbolLocation":16,"imageIndex":23},{"imageOffset":26428,"symbol":"_dispatch_continuation_pop$VARIANT$mp","symbolLocation":444,"imageIndex":23},{"imageOffset":24160,"symbol":"_dispatch_async_redirect_invoke","symbolLocation":588,"imageIndex":23},{"imageOffset":80560,"symbol":"_dispatch_root_queue_drain","symbolLocation":340,"imageIndex":23},{"imageOffset":82604,"symbol":"_dispatch_worker_thread2","symbolLocation":172,"imageIndex":23},{"imageOffset":7060,"symbol":"_pthread_wqthread","symbolLocation":224,"imageIndex":7},{"imageOffset":5920,"symbol":"start_wqthread","symbolLocation":8,"imageIndex":7}]},{"id":84669,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":85010,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":85073,"frames":[{"imageOffset":5912,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":7}]},{"id":85124,"frames":[{"imageOffset":5924,"symbol":"thread_start","symbolLocation":0,"imageIndex":7}]}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4368957440,
+    "size" : 16678912,
+    "uuid" : "f4c9d253-0544-37b2-b8bd-dc2a0a34d96b",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX65\/Client.app\/Client",
+    "name" : "Client"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4433379328,
+    "size" : 37060608,
+    "uuid" : "4c4c44f0-5555-3144-a16a-b1d6c05832ce",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX65\/Client.app\/Frameworks\/BraveCore.framework\/BraveCore",
+    "name" : "BraveCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4475813888,
+    "size" : 1720320,
+    "uuid" : "4c4c4484-5555-3144-a18f-ed915497db3a",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX65\/Client.app\/Frameworks\/MaterialComponents.framework\/MaterialComponents",
+    "name" : "MaterialComponents"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4478238720,
+    "size" : 262144,
+    "uuid" : "6bb03011-eb4d-304d-924b-35d9a03e9198",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX65\/Client.app\/Frameworks\/GuardianConnect.framework\/GuardianConnect",
+    "name" : "GuardianConnect"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4478746624,
+    "size" : 1458176,
+    "uuid" : "0932e416-1f47-3705-b714-2d7ac1b949a3",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX65\/Client.app\/Frameworks\/GRDWireGuardKit.framework\/GRDWireGuardKit",
+    "name" : "GRDWireGuardKit"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4485496832,
+    "size" : 49152,
+    "uuid" : "8ecf867c-85e1-3099-b829-ba6115663bd1",
+    "path" : "\/private\/preboot\/Cryptexes\/OS\/usr\/lib\/libobjc-trampolines.dylib",
+    "name" : "libobjc-trampolines.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 8083709952,
+    "size" : 221160,
+    "uuid" : "84c68432-5038-366e-b9e6-8fb3b92e87f8",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 8340307968,
+    "size" : 69632,
+    "uuid" : "de6f7fd7-ca45-3635-af32-74bc843f8d29",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7223328768,
+    "size" : 499712,
+    "uuid" : "74513c4a-c548-3c49-894f-743946676f56",
+    "path" : "\/usr\/lib\/system\/libsystem_c.dylib",
+    "name" : "libsystem_c.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 8339468288,
+    "size" : 106496,
+    "uuid" : "02cf879e-3949-3c85-8c7d-1379d2f8e1c7",
+    "path" : "\/usr\/lib\/libc++abi.dylib",
+    "name" : "libc++abi.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6993674240,
+    "size" : 237216,
+    "uuid" : "8103d1f3-7480-3b3f-bade-4e9a294b992e",
+    "path" : "\/usr\/lib\/libobjc.A.dylib",
+    "name" : "libobjc.A.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7107674112,
+    "size" : 3993600,
+    "uuid" : "48524cda-8d0d-3eac-a286-69ae36b87031",
+    "path" : "\/System\/Library\/Frameworks\/CoreFoundation.framework\/CoreFoundation",
+    "name" : "CoreFoundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 8026189824,
+    "size" : 36864,
+    "uuid" : "d9de7b09-da71-3e6a-8927-01e6a393cd35",
+    "path" : "\/System\/Library\/PrivateFrameworks\/GraphicsServices.framework\/GraphicsServices",
+    "name" : "GraphicsServices"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7140810752,
+    "size" : 24203264,
+    "uuid" : "7ca2102b-17dc-3183-b7c0-6fc645514c0e",
+    "path" : "\/System\/Library\/PrivateFrameworks\/UIKitCore.framework\/UIKitCore",
+    "name" : "UIKitCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7244378112,
+    "size" : 425984,
+    "uuid" : "f25d28a3-ee66-3878-92fe-fc1403fad572",
+    "path" : "\/usr\/lib\/swift\/libswiftUIKit.dylib",
+    "name" : "libswiftUIKit.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7602618368,
+    "size" : 510172,
+    "uuid" : "d64b17e5-d3ad-3fea-a25a-579091848ab9",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7011209216,
+    "size" : 8683520,
+    "uuid" : "eeaf46c5-ef9f-3875-b254-11268ebcef2c",
+    "path" : "\/System\/Library\/Frameworks\/Foundation.framework\/Foundation",
+    "name" : "Foundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7414124544,
+    "size" : 21938176,
+    "uuid" : "24d078ef-c559-3f23-9755-5bdcc612c1a3",
+    "path" : "\/System\/Library\/Frameworks\/JavaScriptCore.framework\/JavaScriptCore",
+    "name" : "JavaScriptCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 8374132736,
+    "size" : 286708,
+    "uuid" : "475921f9-e5c3-3150-91bd-3f23e9facd64",
+    "path" : "\/System\/Library\/PrivateFrameworks\/AppleJPEG.framework\/AppleJPEG",
+    "name" : "AppleJPEG"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7627096064,
+    "size" : 815104,
+    "uuid" : "f2764956-aa61-3fba-9757-15464e0428db",
+    "path" : "\/System\/Library\/PrivateFrameworks\/CMPhoto.framework\/CMPhoto",
+    "name" : "CMPhoto"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7188180992,
+    "size" : 4321248,
+    "uuid" : "1d96a5ca-e93f-36d4-b635-8584d88d0211",
+    "path" : "\/System\/Library\/Frameworks\/ImageIO.framework\/ImageIO",
+    "name" : "ImageIO"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7225102336,
+    "size" : 3473408,
+    "uuid" : "7c0f9df8-2a0c-324d-bb9c-0eec0e12d261",
+    "path" : "\/System\/Library\/Frameworks\/CoreData.framework\/CoreData",
+    "name" : "CoreData"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7222259712,
+    "size" : 540672,
+    "uuid" : "e389e46d-7bda-33a1-9cf3-d8e5cc909c38",
+    "path" : "\/usr\/lib\/system\/libdispatch.dylib",
+    "name" : "libdispatch.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7129280512,
+    "size" : 3461120,
+    "uuid" : "11387d58-bcb1-3d0d-b2fc-974316e933b9",
+    "path" : "\/System\/Library\/Frameworks\/QuartzCore.framework\/QuartzCore",
+    "name" : "QuartzCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 8418013184,
+    "size" : 933888,
+    "uuid" : "7babd311-92a2-3fed-98c5-8cf8c74d17ac",
+    "path" : "\/System\/Library\/Frameworks\/PDFKit.framework\/PDFKit",
+    "name" : "PDFKit"
+  }
+],
+  "sharedCache" : {
+  "base" : 6992953344,
+  "size" : 2787868672,
+  "uuid" : "73ceef02-ca81-381c-95c3-73a5a44a0f99"
+},
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "name" : "CrWebMain",
+    "queue" : "com.apple.main-thread"
+  }
+},
+  "logWritingSignature" : "249a4de1403b6a183010dc5393274ca68c24c0ba",
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "5f72dc58705eff005a46b3a9",
+      "factorPackIds" : {
+        "SIRI_VIDEO_APP_SELECTION" : "63d867d28283bf1629655506"
+      },
+      "deploymentId" : 240000015
+    },
+    {
+      "rolloutId" : "6081ed9716bb6d61d81d5014",
+      "factorPackIds" : {
+        "BIFROST_PROD_1" : "64cfa494ad29a465b3bbe9d3"
+      },
+      "deploymentId" : 240002755
+    }
+  ],
+  "experiments" : [
+    {
+      "treatmentId" : "0be9b8bf-93be-4110-aa7e-9005a800b66e",
+      "experimentId" : "642c4560ea3b2418c750f7e4",
+      "deploymentId" : 400000015
+    },
+    {
+      "treatmentId" : "9867b21f-2659-42d0-8da9-491cc72e864d",
+      "experimentId" : "63c067177b814a4e084bbeb1",
+      "deploymentId" : 400000019
+    }
+  ]
+}
+}
