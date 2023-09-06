@@ -1,0 +1,20 @@
+timestamp: 1690296301879
+crashReporterKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+isAnonymous: true
+deviceConfigId: 7422
+investigationId: 0
+model: "iPad12,1"
+softwareBuild: "20G75"
+firmwareVersion: "iBoot-8422.142.2"
+buildtype: "User"
+tz_offset: 36000
+metric_file_type: 1
+metriclogs {
+  triggerTime: 1690296291864
+  triggerId: 524546
+  profileId: 205
+  commCenterReliableNetworkFallbackSwitch {
+    timestamp: 1690296279678
+    state: 1
+  }
+}
