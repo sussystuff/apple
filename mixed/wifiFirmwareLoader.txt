@@ -1,0 +1,136 @@
+wifiFirmwareLoader
+
+com.apple.wifiFirmwareLoader
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN' "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.corecapture.manager-access</key>
+	<true/>
+	<key>com.apple.developer.driverkit.userclient-access</key>
+	<array> 
+		<string>com.apple.DriverKit-AppleBCMWLAN</string>
+	</array>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.private.ZhuGeSupport.CopyValue</key> 
+	<true/>
+	<key>com.apple.wlan.authentication</key> 
+	<true/>
+	<key>com.apple.wlan.userclient</key> 
+	<true/>
+</dict>
+</plist>
+
+sdb.writePlatformConfigPlatformConfig
+wlan.11d.power.constraint.ignored
+wlan.adaptiveroaming.enabled
+wlan.dsa.power.boostwlan.tx
+wlan.autocountry.enabled
+wlan.enhancedlocale.enabled
+wlan.bss.5GHZpreferencewlan.sdb.profile
+wlan.fast_enterprise_nw.enabled
+wlan.voice_enterprise_nw.enabled
+wlan.chip.power.dutycyclewlan.lowlatency.enable
+wlan.wnm.enabled
+wlan.awdl.params
+wlan.dfrtsbcom.oscar.profilestates
+wlan.tethering.enabled
+wlan.mimo_ps.enabled
+wlan.listen.interval
+wlan.vo.blockack
+wlan.llw.tx.ring.size
+wlan.tx.ring.size
+wlan.rx.ring.size
+wlan.tx.submission-queue.size
+wlan.dfsproxy.enabled
+wlan.tx-power-cap-ctrl
+wlan.psbw.enabled
+wlan.gpio-tx-envelope-ind
+wlan.chip.power.dutycycle
+wlan.lowlatency.enable
+wlan.11d.power.constraint.ignored
+wlan.adaptiveroaming.enabled
+wlan.dsa.power.boost
+wlan.txsdb.mode
+wlan.ant-inefficiency-mitigation.enabled
+wlan.enterprise.params
+wlan.lpas-allowed
+wlan.aoac-allowed
+wlan.continuous.cpms.power
+wlan.txchain.mode
+wlan.6GHz.supported
+wlan.bss.6GHz-preference
+wifi-calibration-fdr
+wlan.skywalk.packetpoolsize
+bcom.roam.enterprise
+bcom.wow.magic-packet
+bcom.roam.enabledenhanced
+bcom.btc.paramsb
+bcom.roam.profiles
+bcom.ps.realtimewlan.ocl.enabled
+bcom.ps.defaultwlan.
+enhancedTrgDisc
+bcom.roam.default
+
+Kicking corecaptured to start
+
+
+com.apple.WiFiFirmwareLoaderDriverKitDriverWe are using driverkit driver
+Property read for % returned NULL
+IOUserClassWe are using IOKit driver
+Matched class name '%s', starting ... 
+msf cal file is too big or too small 
+failed to alloc memory for msf cal 
+copy MSF CAL failed
+failed to create MSF Data Ref
+WiFiMSFCalPlatformConfigFileNameno PlatformConfigFileName in ioreg
+PlatformConfigFileName is not CFstring!
+/System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/PlatformConfig/iOS//usr/share/firmware/wifi/config
+full name % size %zu
+Platform config file is too big or too small config full name %s
+fail to create CFStringRef for file w path 
+fail to create fileURL 
+fail to create fileStream 
+fail to open fileStream
+Setting property list errorCode:%d, status:%u
+fail to create property list
+Propery list is not CFDictionary! 
+fail to allocate memory for keys %5ld: %s allow: %d 
+key not in allowList
+wlan.is.fdr.cal% isFdrCal %d
+writePlatformConfigPlatformConfigwlan.autocountry.enabledbcom.roam.e enhancedTrgDiscbcom.roam.defaultwlan.enhancedlocale.enabledwlan.bss. preferencewlan.sdb.profilewlan.fast_enterprise_nw.enabledwlan.voice_ profilestatesbcom.bc.paramsbcom.roam.profileswlan.tethering.enabled packetwlan.listen.intervalwlan.vo.blockackwlan.llw.tx.ring.sizewlan. queue.sizewlan.dfsproxy.enabledwlan.tx-power-cap-ctrlwlan.psbw.enabl indwlan.chip.power.dutycyclewlan.lowlatency.enablewlan.11d.power.con modewlan.ant-inefficiency-mitigation.enabledwlan.enterprise.paramswl allowedwlan.continuous.cpms.powerwlan.txchain.modewlan.6GHz.supporte fdrwlan.skywalk.packetpoolsize redacted % dataClass %s addWiFiCalibrationFDR% successful fdr %s add wcal
+% failed dict get value %s failed fdr wcal
+addWiFiCalibrationFDR%s successful fdr %s add wcal
+% failed dict get value 
+% failed fdr wcal
+wifi-fw-pathFirmwareResolved to Firmware file path: "%s" 
+wifi-signature-pathResolved to signature file path: "%s" 
+ wifi-nvram-pathNVRAMResolved to NVRAM file path: "%s"
+Deprecated feature
+RegulatoryResolved to Regulatory file path: "%s"
+TxCapResolved to TxCap file path: "%s"
+Sandboxing init issue, couldn't find profile in default paths, attempting default compiled profile
+wifiFirmwareLoader sandbox_init: "%s" 
+wifiFirmwareLoader failed to run, check profile
+Sandboxing init issue failed, wifiFirmwareLoader failed to run, check profile
+wifiFirmwareLoader sandbox_init: Success 
+Sandboxing init issue resolved: "Success"
+com.apple.wififirmwareloaderdaemonwififirmwareloader/private/var/log/wifiFirmwareLoader.log
+com.apple.wifiFirmwareLoader/Library/Preferences/
+SystemConfiguration/com.apple.wifiFirmwareLoader.plistLoggingEnabled fF:N:C:S:rR:T:MmP:mfg
+
+
+
+_AMFDRSealingMapCopyLocalDictForClass_CFAbsoluteTimeGetCurrent_CFArrayGetCount_CFArrayGetValueAtIndex_ CFBooleanGetTypeID_CFBooleanGetValue_CFDataCreateWithBytesNoCopy_ CFDataGetTypeID_CFDictionaryGetCount_CFDictionaryGetKeysAndValues_ CFDictionaryGetTypeID_CFDictionaryGetValue_CFDictionarySetValue_CFEqual_CFGetTypeID_CFNumberGetTypeID_CFNumberGetValue_ CFPropertyListCreateWithStream_CFReadStreamClose_CFReadStreamCreateWithFile_CFReadStreamOpen_CFRelease_CFRunLoopAddSource_CFRUnLoopAddTimer_CFRunLoopGetCurrent_CFRunLoopPerformBlock_CFRunLoopRemoveSource_CFRunLoopRemoveTimer_CFRunLoopRunInMode_CFRunLoopStop_CFRunLoopTimerCreate_CFStringAppend_CFStringCompare_CFStringCreateFromExternalRepresentation_CFStringCreateMutableCopy_CFStringCreateWithCString_CFStringCreateWithFormat_CFStringGetCStringPtr_CFStringGetIntValue_CFStringGetTypeID_CFURLCreateWithFileSystemPath_CoreCaptureControlCreate_CoreCaptureControlStart_IOConnectCallMethod_IOConnectCallScalarMethod_IOConnectMapMemory_IOIteratorNext_IONotificationPortCreate_IONotificationPortDestroy_IONotificationPortGetRunLoopSource_IOObjectCopyClass_IOObjectRelease_IORegistryEntryCreateCFProperty_IORegistryEntrySetCFProperty_IOServiceAddMatchingNotification_IOServiceClose_IOServiceNameMatching_IOServiceOpen_SCPreferencesCreate_SCPreferencesGetValue_CFRuntimeCreateInstance_CFRuntimeRegisterClass__NSConcreteStackBlock___bzero___error___stack _chk_fall___stack_chk_guard___stderrp___stdoutp_ ___strlcat_chK___strlepy_chk__os_log_default__os_log_error_impl__os_log_impl_close_dprintf_exit_fprintf_free_fwrite_getopt_KCFALlocatorDefault_KCFAllocatorNull_KCFBooleanTrue_kCFRunLoopDefaultMode_ kIOMainPortDefault_localtime_lstat$INODE64_mach_continuous_time_mach_task_self__mach_timebase_info_malloc_memcpy_open_optarg_os_log_ create_os_log_type_enabled_os_transaction_create_pthread_create_ pthread_once_puts_read_realpath$DARWIN_EXTSN_sandbox_free_error_ sandbox_init_signal_strcasestr_strcmp_strerror_strftime_strncmp_time vsnprintf_xpc_ set_event_ stream_handler_NSConcreteGlobalBlock
+CFConstantStringClassReference _mh_execute_header
+
+ACDEFGHIJKLMNOPORSTUVWXYZ[\]^_'bcdefghijklmnopqrstuv__mh_execute_ header_AMFDRSealingMapCopyLocalDictForClass_CFAbsoluteTimeGetCurrent_CFArrayGetCount_CFArrayGetValueAtIndex_CFBooleanGetTypeID_CFBooleanGetValue_CFDataCreateWithBytesNoCopy_CFDataGetTypeID_CFDictionaryGetCount_CFDictionaryGetKeysAndValues_CFDictionaryGetTypeID_CFDictionaryGetValue_CFDictionarySetValue_CFEqual_CFGetTypeID_CFNumberGetTypeID_CFNumberGetValue_CFPropertyListCreateWithStream_CFReadStreamClose_CFReadStreamCreateWithFile_CFReadStreamOpen_CFRelease_CFRUnLoopAddSource_CFRunLoopAddTimer_CFRunLoopGetCurrent_CFRunLoopPerformBlock_CFRunLoopRemoveSource_CFRunLoopRemoveTimer_ CFRunLoopRunInMode_CFRunLoopStop_CFRUnLoopTimerCreate_CFStringAppend_CFStringCompare_CFStringCreateFromExternalRepresentation_
+CFStringCreateMutableCopy_CFStringCreateWithCString_CFStringCreateWithFormat_CFStringGetCStringPtr_CFStringGetIntValue_CFStringGetTypeID_CFURLCreateWithFileSystemPath_CoreCaptureControlCreate_CoreCaptureControlStart_IOConnectCallMethod_IOConnectCallScalarMethod_IOConnectMapMemory_IOIteratorNext_IONotificationPortCreate_IONotificationPortDestroy_IONotificationPortGetRUnLoopSource_IOObjectCopyClass_IOObjectRelease_IORegistryEntryCreateCFProperty_IORegistryEntrySetCFProperty_IOServiceAddMatchingNotification_IOServiceClose_
+IOServiceNameMatching_IOServiceOpen_SCPreferencesCreate_SCPreferencesGetValue_CFRuntimeCreateInstance_CFRuntimeRegisterClass__NSConcreteGlobalBlock__NSConcreteStackBlock__CFConstantStringClassReference___bzero_ _error___stack_chk_fail___stack_chk_guard___stderrp___stdoutp__ _strlcat_chk_ _strlcpy_chk__OS_log_default__os_log_error_impl_ _os_log_impl_close_dprintf_exit_fprintf_free_fwrite_getop_kCFAllocatorDefault_kCFAllocatorNull_KCFBooleanTrue_KCFRunLoopDefaultMode_kIOMainPortDefault_localtime_stat$INODE64_mach_continuous_time_mach_task_self__mach_timebase_info_malloc_memcpy_objc_msgSend_open_optarg_os_log_create_os_log_type_enabled_os_transaction_create_pthread_create_pthread_once_puts_read_realpath$DARWIN_EXTSN_sandbox_free_error_sandbox_init_signal_strcasestr_stremp_strerror_strftime_strncmp_time_vsnprintf_xpc_set_event_stream_handler
+
+WiFiUserClientGetMemoryDescriptorForTvse return % for type %
+RequestedFilesFileExtensionsRequestedFilesOverrideWiFiUserClientWiFiUserClient@%p%s:path['%'],resolved['%']
+
+
