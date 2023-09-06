@@ -1,0 +1,317 @@
+x86_64SURamDisk.dmg
+https://www.virustotal.com/gui/file/8e586b2c3ed70323c555b1bd416ac95998bf587e13e9bf0ac744fc75e16f2271
+
+===
+
+com.apple.TextEdit
+https://www.virustotal.com/gui/file/e6887e290dc4350946c2771e6fc829c601cddc0c6a8914e7be6b34bdfc6f1572
+===
+
+AirPort Utility
+https://www.virustotal.com/gui/file/732233cf682813f4c361b917567903e4943f21bd34f3908cf9d8185a82511077
+732233cf682813f4c361b917567903e4943f21bd34f3908cf9d8185a82511077
+macho
+checks-hostname
+multi-arch
+64bits
+known-distributor
+arm
+legit
+cve-2019-12259: https://www.theregister.com/2019/07/29/wind_river_patches_vxworks/
+cve-2019-12265: https://www.theregister.com/2019/07/29/wind_river_patches_vxworks/
+https://support.apple.com/en-us/HT209599
+
+===
+
+apple-vm80
+https://www.virustotal.com/gui/file/df419933addf445ac3389012543d913a61ae5291d51d4ee3623d1d08c989d3b1
+
+===
+
+BlackBox.pm
+https://www.virustotal.com/gui/file/71298ae5430d91496c51823bf5051e734d205a0f31ecebc5d4f0964b7bdd00b0
+
+===
+
+boxes.ctb
+https://www.virustotal.com/gui/file/ab017858e9585b6ec9547755dcdc69a23286af5e2e3903ffb9d85dc56cee8303
+
+===
+
+Chrome: com.knollsoft.Hookshot
+https://www.virustotal.com/gui/file/fe043903c972a99eae82b9c8bad7b1e1833d99f61f28459f5ca16dbb9b1cb70a
+Contacted URLs:
+http://ocsp.pki.goog/gts1c3/ME8wTTBLMEkwRzAHBgUrDgMCGgQUxy55it3/YTSzuu1HQri7xsAkB2MEFIp0f6+Fze6VzT2c0OJGFPNxNR0nAhAeKJKPUxON1wpz028gxY7X
+http://ocsp.pki.goog/gtsr1/MEwwSjBIMEYwRDAHBgUrDgMCGgQUMJHC1g+C6hie2xOwdV2bBG5n8FAEFOSvKyZxGitIJ4UvUmYs7/CJE3E+Ag0CA7xTWWs0xxj1AVBm
+
+===
+
+RemoteConfiguration.plist
+https://www.virustotal.com/gui/file/6a17c684bc209562e101f2935f4ea6f076f6a2168cc83b0ba1caaa1fbccb8899
+
+===
+
+Google Chrome
+https://www.virustotal.com/gui/file/4fd1b92e77c7c8cec1a506c731ed46de9d7a8d70582f98bf16504ab97be2c893/details
+
+===
+
+.com.google.Chrome.UpdaterPrivilegedHelper.xBoTIj
+https://www.virustotal.com/gui/file/21ca19685816995cebf352bfb8c95bfc14a9440017ecb4b5fcf3e9f124352f40
+Names
+.com.google.Chrome.UpdaterPrivilegedHelper.xBoTIj (and a million others)
+Entry Point:
+0xd0d0 
+...
+fake_pds.bias_toEJ25Jan2019
+https://github.com/irfu/Lapdog_GIT/blob/master/fake_pds.bias_toEJ25Jan2019 (ASW update & fake manual bias command fix)
+About
+Matlab program for generating Rosetta RPCLAP calibrated-level & derived-level data from pds-generated data
+...
+
+Required Architecture	x86_64
+Sub-architecture	X86_64_ALL
+Shared Libraries
+/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+/System/Library/Frameworks/Security.framework/Versions/A/Security
+/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration 
+/usr/lib/libSystem.B.dylib 
+/usr/lib/libbsm.0.dylib
+/usr/lib/libobjc.A.dylib
+/usr/lib/libpmenergy.dylib
+/usr/lib/libpmsample.dylib
+/usr/lib/libresolv.9.dylib
+
+Required Architecture	ARM64
+Sub-architecture	ARM64_ALL
+Shared Libraries
+/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+/System/Library/Frameworks/CoreText.framework/Versions/A/Core Text
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+/System/Library/Frameworks/Security.framework/Versions/A/Security
+/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement 
+/usr/lib/libobjc.A.dylib
+
+Files Opened
+/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist
+/Library/Preferences/com.apple.ViewBridge.plist
+/System/Library/CoreServices/SystemAppearance.bundle
+/System/Library/CoreServices/SystemAppearance.bundle/Contents
+/System/Library/Core Services/SystemAppearance.bundle/Contents/Info.plist
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Aqua.car
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Base.Iproi
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/English.Iproi
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/FauxVibrantLight.car
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/SystemAppearance.car
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/VibrantLight.car
+/System/Library/Core Services/SystemAppearance.bundle/Contents/Resources/en.lproj
+/System/Library/CoreServices/SystemVersion.bundle
+/System/Library/CoreServices/SystemVersion.bundle//Base.Iproj
+/System/Library/CoreServices/SystemVersion.bundle//English.lproj
+/System/Library/CoreServices/SystemVersion.bundle/English.lproj
+/System/Library/CoreServices/SystemVersion.bundle/English.lproj/SystemVersion.strings
+/System/Library/CoreServices/SystemVersion.plist
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/LaunchServices
+/System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current
+/System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/LaunchServices
+/System/Library/Sandbox/Profiles/com.apple.corefoundation.sb
+/System/Library/Sandbox/Profiles/com.apple.coreparsec.silhouette.sb
+/System/Library/Sandbox/Profiles/com.apple.diskimagesiod.sb
+/System/Library/Sandbox/Profiles/com.apple.proactived.sb
+/System/Library/Sandbox/Profiles/system.sb
+/Users/maria/.CFUserTextEncoding
+/Users/maria/Desktop
+/Users/maria/Desktop/.BC.T_DOp5MQ
+/Users/maria/Desktop/.BC.T_DOp5MQ/namedfork/rsrc
+/Users/maria/Desktop//Base.lproj
+/Users/maria/Desktop//en.lproj
+/Users/maria/Desktop/Desktop
+/Users/maria/Desktop/Info.plist
+/Users/maria/Desktop/MacOS
+/Users/maria/Desktop/MacOS/Desktop
+/Users/maria/Library/Caches/com.apple.parsecd/silhouette_config
+/Users/maria/Library/Caches/com.apple.parsecd/silhouette_data
+/Users/maria/Library/Caches/com.apple.parsecd/silhouette_topic_mapping
+/Users/maria/Library/Caches/com.apple.parsecd/silhouette_whitelisted_topics
+/Users/maria/Library/DuetExpertCenter/ClientModelCaches
+Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync0208.LWLdcx
+/Users/user1/Library/Saved Application State/com.apple.wifi. WiFiAgent.savedState/data.data
+/Users/user1/Library/Saved Application State/com.apple.wifi.WiFiAgent.savedState/windows.plist
+/dev/autofs_nowait
+/dev/io8log 
+/dev/io8logtemp
+/etc/group
+/etc/master.passwd 
+/private/etc/group
+/private/etc/master.passwd
+/private/etc/passwd 
+/private/var/db/timezone/tz/2022g.1.O/zoneinfo/America/Los_Angeles 
+/private/var/db/timezone/tz/2022g.1.O/zoneinfo/posixrules 
+/private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/C
+/tmp/tmpzjxcfk9y 
+/usr/libexec
+/usr/libexec/Info.plist
+/usr/libexec/diskimagesiod
+/usr/libexec/proactived
+/usr/libexec/silhouette
+/usr/share/icu/icudt70l.dat 
+/var/db/diskimagesiod/.CFUserTextEncoding 
+/var/db/timezone/icutz/icutz44l.dat 
+/var/db/timezone/zoneinfo/posixrules
+/var/root/Library/Autosave Information/com.google.Chrome.UpdaterPrivilegedHelper.plist
+Files Written
+/Users/maria/Library/Caches/com.apple.parsecd/silhouette_data
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync0208.LWLdcx
+Files Copied
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync0208.LWLdcx
+Files Dropped
+/Users/maria/Library/Caches/com.apple.parsecd/silhouette_data
+Process and service actions
+Shell Commands
+/Users/maria/Desktop/.BC.T_DOp5MQ
+Processes Tree
+
+===
+
+ucc_2.0.4.2_aarch64.dmg
+https://www.virustotal.com/gui/file/280f36ce91b4a7b6f13ec28d089af2407ecb598c4f9737d4ffc034a458a493e8
+
+
+Main Executable
+/UTM Coordinate Converter.app/Contents/MacOS/UTM Coordinate Converter
+//# Link: https://www.ewert-technologies.ca/home/products/utm-coordinate-converter-home.html #
+
+File System Property List
+CFBundleldentifier: ca.ewert.coordinateConverter
+CFBundle Version: 2.0.4
+CFBundleShortVersionString: 2.0.4
+CFBundleSignature: ????
+CFBundleInfoDictionaryVersion: 6.0
+CFBundlelconFile: UTM Coordinate Converter.icns
+NSHumanReadableCopyright: 2023 Ewert Technologies
+CFBundleAllowMixedLocalizations: True
+NSMicrophoneUsageDescription: The application UTM Coordinate Converter is requesting access to the microphone.
+CFBundleDevelopmentRegion: English
+CFBundleExecutable: UTM Coordinate Converter
+CFBundleName: UTM Coordinate Converter
+LSMinimumSystemVersion: 10.11
+LSApplicationCategory Type: public.app-category.utilities
+CFBundlePackageType: APPL
+NSHighResolutionCapable: true
+
+XML Property List Entries
+ID:0
+XML Propertv List Context
+{\ tf1\\ansi\\ansicpg1252\\cocoartf2639 \\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fswiss\\fcharset0 Helvetica;} {\\colortbl;\ ed255\\green255\\blue255;\ ed0\\green0\\blue0;} {\\*\\expandedcol
+Copyright (c) 2023, Ewert Technologies All rights reserved.  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are m
+English Agree Disagree Print Save  IMPORTANT - Read this License Agreement carefully before clicking on the "Agree" button. By clicking on the "Agree" button, you agree to be bound by the terms of the
+
+
+BLKX Table
+Driver Descriptor Map (DDM : 0)
+Apple (Apple_partition_map : 1)
+disk image (Apple_HFS : 2)
+
+Structural Properties
+DMG Version 4
+Data Fork Length 84800366
+XML Length 17089
+XML Offset 84800366
+PLST Keys resource-fork
+
+Bundle Info
+Warnings
+A Contains one or more Mac OS X executables.
+Contents Metadata
+Contained Files 1
+Uncompressed Size 512 B
+
+https://www.virustotal.com/gui/file/280f36ce91b4a7b6f13ec28d089af2407ecb598c4f9737d4ffc034a458a493e8/relations
+
+
+
+
+
+
+
+===
+
+Downloader
+https://www.virustotal.com/gui/file/a6185cc3963ce5818258c19a81b595dafccc8dbc5e45fe359f3f028a1a98c6ef
+Contacted URLs
+http://ocsp.comodoca.com/ME8wTTBLMEkwRzAHBgUrDgMCGgQUU7VPbhaoFRh4ScF2clgjV5lUeZ4EFKARCiM+lvEH7OKvKe+CpX/QMKS0AhByZhh1OtbJIsVsneHzhHiw
+Files Written
+/System/Volumes/Data/.fseventsd/000000000000543d
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS/a/p/APAdPolicy
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS/s/f/8dfcfb291b4fa378b52703e1231526a83622635d949af670104173eeb061d49c
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS/s/f/90dc1245bdb12a01e805745e9b74905788d07042b27a7cfc9fbe50b0b6fc893d
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS///014334c67a8888340bbdd1987b5034a8316b9cc02da2b48a132dfa5a33eecc30
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS/s/s/919b71d74399ab0469d7620b970f3c234d52eb3e623f3d4da66d82a4da8cd3a4
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS/s/s/a5458ac6fa58fa8120a03eaa02adeb0e81a1a9fce4902a86bb963583d01ad380
+/Users/maria/Library/ApplicationSupport/com.apple.ap.promotedcontentd/EFS/s/s/b15ac38f4f8c7e347584be549156714436f40014ddc57623cede759a8bb96325
+/Users/user1/Library/Caches/com.apple.parsecd/session.452.0D805371-AEC8-49D3-8659-57FC2C4D6932.open
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.tipsd/CFNetworkDownload_gdAdRm.tmp
+Files Deleted
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.tipsd/CFNetworkDownload_gdAdRm.tmp
+Files Copied
+/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/com.apple.parsecd/TemporaryItems/NSIRD_parsecd_8CJmF|/session.452.0D805371-AEC8-49D3-8659-57FC2C4D6932.open
+Files Dropped
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.tipsd/CFNetworkDownload_gdAdRm.tmp
+
+Processes Tree
+665 - /Users/maria/Desktop/Downloader
+712 - /us/libexec/promotedcontentd
+719 - /us/libexec/tipsd
+720 - /usr/libexec/appleaccountd
+
+
+https://www.virustotal.com/gui/file/
+
+===
+
+
+https://www.virustotal.com/gui/file
+
+===
+
+
+https://www.virustotal.com/gui/file/
+
+===
+
+
+https://www.virustotal.com/gui/file/
+
+===
+
+
+https://www.virustotal.com/gui/file/
+
+===
+
+
+https://www.virustotal.com/gui/file/
+
+===
+
+
+https://www.virustotal.com/gui/file/
+
+===
