@@ -1,0 +1,234 @@
+{"duration_ms":"634570","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 16.5.1 (20F75)","slice_uuid":"C9273B69-8DF5-3EE1-A2C0-8E923219F0DC","is_first_party":0,"incident_id":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXF0","timestamp":"2023-07-30 14:37:49.00 +1000","app_name":"containermanagerd","name":"containermanagerd"}
+Date/Time:        2023-07-30 14:27:05.255 +1000
+End time:         2023-07-30 14:37:39.825 +1000
+OS Version:       iPhone OS 16.5.1 (Build 20F75)
+Architecture:     arm64
+Report Version:   40
+Incident Identifier: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXF0
+
+Data Source:      Microstackshots
+Shared Cache:     XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX70 slid base address 0x1d8b64000, slide 0x58b64000
+
+Command:          containermanagerd
+Path:             /usr/libexec/containermanagerd
+Resource Coalition ID: 87
+Architecture:     arm64
+Parent:           launchd [1]
+PID:              69
+
+Event:            disk writes
+Action taken:     none
+Writes:           1073.75 MB of file backed memory dirtied over 635 seconds (1692.09 KB per second average), exceeding limit of 12.43 KB per second over 86400 seconds
+Writes limit:     1073.74 MB
+Limit duration:   86400s
+Writes caused:    1073.75 MB
+Writes duration:  635s
+Duration:         634.57s
+Duration Sampled: 634.14s
+Steps:            169 (10.49 MB/step)
+
+Hardware model:   iPad7,3
+Active cpus:      3
+HW page size:     16384
+VM page size:     16384
+
+Advisory levels:  Battery -> 2, User -> 3, ThermalPressure -> 0, Combined -> 2
+Free disk space:  13.30 GB/59.60 GB, low space threshold 150 MB
+Vnodes Available: 64.56% (12912/20000, 10000 allocated, 10000 soft limit)
+
+Preferred User Language: en-AU
+Country Code:     AU
+Keyboards:        en_AU QWERTY, emoji Emoji
+OS Cryptex File Extents: 27015
+
+Heaviest stack for the target process:
+  90  ??? (libsystem_pthread.dylib + 5920) [0x228ef4720]
+  90  ??? (libsystem_pthread.dylib + 7120) [0x228ef4bd0]
+  90  ??? (libdispatch.dylib + 85448) [0x1e661fdc8]
+  89  ??? (libdispatch.dylib + 48916) [0x1e6616f14]
+  89  ??? (libdispatch.dylib + 114696) [0x1e6627008]
+  89  ??? (libdispatch.dylib + 411520) [0x1e666f780]
+  89  ??? (libdispatch.dylib + 407464) [0x1e666e7a8]
+  89  ??? (ContainerManagerCommon + 471152) [0x21c1db070]
+  89  ??? (ContainerManagerCommon + 289508) [0x21c1aeae4]
+  89  ??? (ContainerManagerCommon + 288136) [0x21c1ae588]
+  89  ??? (ContainerManagerCommon + 287112) [0x21c1ae188]
+  89  ??? (ContainerManagerCommon + 146576) [0x21c18bc90]
+  89  ??? (libremovefile.dylib + 6852) [0x2500ddac4]
+  88  ??? (libremovefile.dylib + 5672) [0x2500dd628]
+  88  ??? (libsystem_kernel.dylib + 19272) [0x219b2ab48]
+
+
+Powerstats for:   containermanagerd [69]
+UUID:             C9273B69-8DF5-3EE1-A2C0-8E923219F0DC
+Path:             /usr/libexec/containermanagerd
+Resource Coalition ID: 87
+Architecture:     arm64
+Parent:           launchd [1]
+UID:              0
+Sudden Term:      Tracked (allows idle exit)
+Footprint:        3168 KB -> 3456 KB (+288 KB)
+Pageins:          2 pages
+Start time:       2023-07-30 14:27:05.555 +1000
+End time:         2023-07-30 14:37:39.691 +1000
+Num samples:      90 (53%)
+Primary state:    90 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 90 samples Active
+Power Source:     90 samples on Battery, 0 samples on AC
+  90  ??? (libsystem_pthread.dylib + 5920) [0x228ef4720]
+    90  ??? (libsystem_pthread.dylib + 7120) [0x228ef4bd0]
+      90  ??? (libdispatch.dylib + 85448) [0x1e661fdc8]
+        89  ??? (libdispatch.dylib + 48916) [0x1e6616f14]
+          89  ??? (libdispatch.dylib + 114696) [0x1e6627008]
+            89  ??? (libdispatch.dylib + 411520) [0x1e666f780]
+              89  ??? (libdispatch.dylib + 407464) [0x1e666e7a8]
+                89  ??? (ContainerManagerCommon + 471152) [0x21c1db070]
+                  89  ??? (ContainerManagerCommon + 289508) [0x21c1aeae4]
+                    89  ??? (ContainerManagerCommon + 288136) [0x21c1ae588]
+                      89  ??? (ContainerManagerCommon + 287112) [0x21c1ae188]
+                        89  ??? (ContainerManagerCommon + 146576) [0x21c18bc90]
+                          89  ??? (libremovefile.dylib + 6852) [0x2500ddac4]
+                            88  ??? (libremovefile.dylib + 5672) [0x2500dd628]
+                              88  ??? (libsystem_kernel.dylib + 19272) [0x219b2ab48]
+                            1   ??? (libremovefile.dylib + 6320) [0x2500dd8b0]
+                              1   ??? (libsystem_kernel.dylib + 26108) [0x219b2c5fc]
+        1   ??? (libdispatch.dylib + 49220) [0x1e6617044]
+          1   ??? (libdispatch.dylib + 411520) [0x1e666f780]
+            1   ??? (libdispatch.dylib + 407464) [0x1e666e7a8]
+              1   ??? (ContainerManagerCommon + 642220) [0x21c204cac]
+                1   ??? (ContainerManagerCommon + 289508) [0x21c1aeae4]
+                  1   ??? (ContainerManagerCommon + 288136) [0x21c1ae588]
+                    1   ??? (ContainerManagerCommon + 287112) [0x21c1ae188]
+                      1   ??? (ContainerManagerCommon + 146576) [0x21c18bc90]
+                        1   ??? (libremovefile.dylib + 6852) [0x2500ddac4]
+                          1   ??? (libremovefile.dylib + 5672) [0x2500dd628]
+                            1   ??? (libsystem_kernel.dylib + 19272) [0x219b2ab48]
+
+  Binary Images:
+           0x1025c8000 -                ???  containermanagerd       <C9273B69-8DF5-3EE1-A2C0-8E923219F0DC>  /usr/libexec/containermanagerd
+           0x1e660b000 -        0x1e668efff  libdispatch.dylib       <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x219b26000 -        0x219b5bfe7  libsystem_kernel.dylib  <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x21c168000 -        0x21c259fff  ContainerManagerCommon  <DAC515E8-D543-332E-A552-A89FFBE12639>  /System/Library/PrivateFrameworks/ContainerManagerCommon.framework/ContainerManagerCommon
+           0x228ef3000 -        0x228f03fff  libsystem_pthread.dylib <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+           0x2500dc000 -        0x2500deffb  libremovefile.dylib     <11E4EF5F-84F5-3C12-B991-E57435D8E1BA>  /usr/lib/system/libremovefile.dylib
+
+
+Powerstats for:   fitcored
+UUID:             DD790EDD-8D80-343D-8AC0-3D404F9F2746
+Path:             /System/Library/PrivateFrameworks/SeymourServices.framework/fitcored
+Resource Coalition ID: 375
+Architecture:     arm64
+Start time:       2023-07-30 14:27:19.317 +1000
+End time:         2023-07-30 14:37:10.579 +1000
+Num samples:      35 (21%)
+Primary state:    31 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Default, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 35 samples Active
+Power Source:     35 samples on Battery, 0 samples on AC
+  35  ??? (libsystem_pthread.dylib + 5920) [0x228ef4720]
+    35  ??? (libsystem_pthread.dylib + 7120) [0x228ef4bd0]
+      35  ??? (libdispatch.dylib + 85448) [0x1e661fdc8]
+        34  ??? (libdispatch.dylib + 48916) [0x1e6616f14]
+          34  ??? (libdispatch.dylib + 44448) [0x1e6615da0]
+            34  ??? (libdispatch.dylib + 41624) [0x1e6615298]
+              34  ??? (libdispatch.dylib + 411520) [0x1e666f780]
+                34  ??? (libdispatch.dylib + 407464) [0x1e666e7a8]
+                  34  ??? (CFNetwork + 101396) [0x1e08abc14]
+                    34  ??? (CFNetwork + 138508) [0x1e08b4d0c]
+                      34  ??? (CFNetwork + 32232) [0x1e089ade8]
+                        34  ??? (CFNetwork + 260140) [0x1e08d282c]
+                          34  ??? (CFNetwork + 119188) [0x1e08b0194]
+                            34  ??? (CFNetwork + 148012) [0x1e08b722c]
+                              34  ??? (CFNetwork + 158004) [0x1e08b9934]
+                                34  ??? (CFNetwork + 142408) [0x1e08b5c48]
+                                  34  ??? (CFNetwork + 248532) [0x1e08cfad4]
+                                    34  ??? (CFNetwork + 296620) [0x1e08db6ac]
+                                      34  ??? (CFNetwork + 294732) [0x1e08daf4c]
+                                        34  ??? (CFNetwork + 878360) [0x1e0969718]
+                                          34  ??? (libdispatch.dylib + 71728) [0x1e661c830]
+                                            34  ??? (libdispatch.dylib + 411520) [0x1e666f780]
+                                              34  ??? (CFNetwork + 888532) [0x1e096bed4]
+                                                34  ??? (CFNetwork + 881608) [0x1e096a3c8]
+                                                  34  ??? (CFNetwork + 882192) [0x1e096a610]
+                                                    34  ??? (libsqlite3.dylib + 35080) [0x2022a9908]
+                                                      34  ??? (libsqlite3.dylib + 36240) [0x2022a9d90]
+                                                        34  ??? (libsqlite3.dylib + 36956) [0x2022aa05c]
+                                                          34  ??? (libsqlite3.dylib + 39332) [0x2022aa9a4]
+                                                            34  ??? (libsqlite3.dylib + 49348) [0x2022ad0c4]
+                                                              34  ??? (libsqlite3.dylib + 52980) [0x2022adef4]
+                                                                34  ??? (libsqlite3.dylib + 688560) [0x2023491b0]
+                                                                  34  ??? (libsqlite3.dylib + 69212) [0x2022b1e5c]
+                                                                    34  ??? (libsqlite3.dylib + 69912) [0x2022b2118]
+                                                                      34  ??? (libsqlite3.dylib + 87116) [0x2022b644c]
+                                                                        34  ??? (libsqlite3.dylib + 88624) [0x2022b6a30]
+                                                                          34  ??? (libsqlite3.dylib + 93376) [0x2022b7cc0]
+                                                                            20  ??? (libsqlite3.dylib + 97248) [0x2022b8be0]
+                                                                              20  ??? (libsqlite3.dylib + 610204) [0x202335f9c]
+                                                                                20  ??? (libsystem_kernel.dylib + 11024) [0x219b28b10]
+                                                                                  1   <Effective Thread QoS Default>
+                                                                            7   ??? (libsqlite3.dylib + 97576) [0x2022b8d28]
+                                                                              1   <Effective Thread QoS Default>
+                                                                            7   ??? (libsqlite3.dylib + 97520) [0x2022b8cf0]
+                                                                              2   <Effective Thread QoS Default>
+        1   ??? (libdispatch.dylib + 44448) [0x1e6615da0]
+          1   ??? (libdispatch.dylib + 41624) [0x1e6615298]
+            1   ??? (libdispatch.dylib + 411520) [0x1e666f780]
+              1   ??? (libdispatch.dylib + 70668) [0x1e661c40c]
+                1   ??? (CFNetwork + 122840) [0x1e08b0fd8]
+                  1   ??? (CFNetwork + 45252) [0x1e089e0c4]
+                    1   ??? (CFNetwork + 166568) [0x1e08bbaa8]
+                      1   ??? (CFNetwork + 374580) [0x1e08ee734]
+                        1   ??? (CFNetwork + 203384) [0x1e08c4a78]
+                          1   ??? (CFNetwork + 383296) [0x1e08f0940]
+                            1   ??? (CFNetwork + 179872) [0x1e08beea0]
+                              1   ??? (libsystem_kernel.dylib + 38760) [0x219b2f768]
+
+  Binary Images:
+           0x1000a4000 -                ???  fitcored                <DD790EDD-8D80-343D-8AC0-3D404F9F2746>  /System/Library/PrivateFrameworks/SeymourServices.framework/fitcored
+           0x1e0893000 -        0x1e0c2efff  CFNetwork               <8823A19D-0B32-3676-B0CD-4AAAF3FADBFF>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1e660b000 -        0x1e668efff  libdispatch.dylib       <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x2022a1000 -        0x202405fff  libsqlite3.dylib        <92BDB73E-9262-35B5-BDD4-6D08717A1434>  /usr/lib/libsqlite3.dylib
+           0x219b26000 -        0x219b5bfe7  libsystem_kernel.dylib  <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x228ef3000 -        0x228f03fff  libsystem_pthread.dylib <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   Preferences (Settings)
+UUID:             F8225C86-9AF9-363D-A4A5-8EDC871A3FD8
+Path:             /Applications/Preferences.app/Preferences
+Identifier:       com.apple.Preferences
+Version:          1 (1173.3.15)
+Is First Party:   Yes
+Beta Identifier:  9DB0B539-542A-449C-B488-12B8832EE43E
+Resource Coalition ID: 796
+Architecture:     arm64
+Start time:       2023-07-30 14:30:40.521 +1000
+End time:         2023-07-30 14:31:36.508 +1000
+Num samples:      10 (6%)
+Primary state:    10 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Background, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 10 samples Active
+Power Source:     10 samples on Battery, 0 samples on AC
+  10  ??? (libsystem_pthread.dylib + 5920) [0x228ef4720]
+    10  ??? (libsystem_pthread.dylib + 7120) [0x228ef4bd0]
+      10  ??? (libdispatch.dylib + 85448) [0x1e661fdc8]
+        10  ??? (libdispatch.dylib + 44400) [0x1e6615d70]
+          10  ??? (libdispatch.dylib + 41624) [0x1e6615298]
+            10  ??? (libdispatch.dylib + 411520) [0x1e666f780]
+              10  ??? (libdispatch.dylib + 407464) [0x1e666e7a8]
+                10  ??? (ChatKit + 4770536) [0x1e9c81ae8]
+                  10  ??? (ChatKit + 4426128) [0x1e9c2d990]
+                    10  ??? (ChatKit + 348484) [0x1e984a144]
+                      10  ??? (ChatKit + 3664116) [0x1e9b738f4]
+                        10  ??? (ChatKit + 3664680) [0x1e9b73b28]
+                          10  ??? (Foundation + 302252) [0x1d9d16cac]
+                            10  ??? (ChatKit + 3665224) [0x1e9b73d48]
+                              10  ??? (CoreFoundation + 484676) [0x1df93a544]
+                                10  ??? (CoreFoundation + 971560) [0x1df9b1328]
+                                  10  ??? (libsystem_kernel.dylib + 10320) [0x219b28850]
+
+  Binary Images:
+           0x102de4000 -                ???  com.apple.Preferences 1 (1173.3.15) <F8225C86-9AF9-363D-A4A5-8EDC871A3FD8>  /Applications/Preferences.app/Preferences
+           0x1d9ccd000 -        0x1da514fff  Foundation                          <5DAF670F-4591-3F5C-A89C-92A238763FD1>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1df8c4000 -        0x1dfc92fff  CoreFoundation                      <14B73572-A1BC-3C77-A58A-A64A28663D46>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1e660b000 -        0x1e668efff  libdispatch.dylib                   <A893D1C3-FCC0-3FBA-8AED-CBDC8C4C37CE>  /usr/lib/system/libdispatch.dylib
+           0x1e97f5000 -        0x1e9f3bfff  ChatKit                             <6E30F341-4E67-32EB-8716-539644F8E012>  /System/Library/PrivateFrameworks/ChatKit.framework/ChatKit
+           0x219b26000 -        0x219b5bfe7  libsystem_kernel.dylib              <9392BF58-5C0C-3085-BC7F-837E7B3C81F7>  /usr/lib/system/libsystem_kernel.dylib
+           0x228ef3000 -        0x228f03fff  libsystem_pthread.dylib             <781FB09B-B7A9-35E5-AD1A-E4C794B5147B>  /usr/lib/system/libsystem_pthread.dylib
