@@ -1,0 +1,377 @@
+CloudPhotoLibrary cloudphotod
+
+com.apple.cloudphotod
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict> 
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.application-identifier</key>
+	<string>AAPLPHOTOS.com.apple.cloudphotod</string>
+	<key>com.apple.authkit.client.private</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.developer.aps-environment</key>
+	<string>serverPreferred</string>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>Production</string>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.mobile.keybagd.UserManager.sync</key>
+	<true/>
+	<key>com.apple.private.aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.private.cloudkit.displaysSystemAcceptPrompt</key>
+	<true/>
+	<key>com.apple.private.cloudkit.masquerade</key>
+	<true/>
+	<key>com.apple.private.cloudkit.onDeviceStreaming</key>
+	<true/>
+	<key>com.apple.private.cloudkit.setEnvironment</key>
+	<true/>
+	<key>com.apple.private.cloudkit.spi</key>
+	<true/>
+	<key>com.apple.private.cloudkit.systemService</key>
+	<true/>
+	<key>com.apple.private.cloudphotod.cloudkit</key>
+	<true/>
+	<key>com.apple.private.cloudphotod.generic</key>
+	<true/>
+	<key>com.apple.private.dark-wake-network-reachability</key>
+	<true/>
+	<key>com.apple.private.dark-wake-push</key>
+	<true/>
+	<key>com.apple.private.push-to-wake</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceLiverpool</string>
+		<string>kTCCServiceSystemPolicyAllFiles</string>
+		<string>kTCCServiceSystemPolicyRemovableVolumes</string>
+	</array>
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.ind.cloudfeatures</string>
+	</array>
+</dict>
+</plist>
+
+Goldilocks CloudPhotosGoldilocksAPIR
+Goldilocks_CloudPhotosGoldilocksAPIAsyncC4
+Goldilocks_CloudPhotosGoldilocksAPIAsyncClientP3
+Goldilocks_CloudPhotosGoldilocksAPIAsyncOperationC2
+Goldilocks_CloudPhotosGoldilocksAPIAsyncOperationClientP
+Goldilocks_ExitStageR
+Goldilocks_ExitSourceR
+Goldilocks_ExitTypeR
+Goldilocks_RecordRetentionPolicyR
+Goldilocks_DuplicateTypeR
+Goldilocks_InitiateExitRequestQ
+Goldilocks_InitiateExitResponseQ
+Goldilocks_ParticipantExitResultQ
+Goldilocks_CheckDuplicatesRequestQ
+Goldilocks_CheckDuplicatesResponseQP
+Goldilocks_DuplicateState
+Goldilocks_FoundDuplicateQ
+Goldilocks_ZoneIDQ
+Goldilocks_ExitMoveBatchRequestQ
+Goldilocks_ExitMoveBatchResponseQ
+Goldilocks_ExitBatchFeedbackItemQ
+Goldilocks_ExitMoveBatchErrorFeedbackRequestQ
+Goldilocks_ExitMoveBatchErrorFeedbackResponseQ
+Goldilocks_SilentMoverRampingRequestQL
+Goldilocks_SilentMoverRampingResponseQ
+Goldilocks_OperationControlQ
+Goldilocks_ErrorInfoQ
+Goldilocks_ExitStatusFeedbackResponseQ
+Goldilocks_ExitStatusFeedbackRequestQ
+CPLResourceType
+CPLCKResourceDownloadType
+CPLCKSharedLibraryExitStage
+CPLCKSharedLibraryExitStatus
+CPLCKResourceDownloadOperationCloudKitImplementationP
+CPLCKUtilitiesOperationCloudKitImplementationP
+CPLCKPhotosSharedLibraryExitResponseP
+CPLCKPhotosSharedLibraryExitMoveBatchFeedbackItemP
+CPLCKPhotosSharedLibraryOperationP
+Utility_PhotosUtilityAPIR
+Utility_PhotosUtilityAPIAsyncC
+Utility_PhotosUtilityAPIAsyncClientP
+Utility_PhotosUtilityAPIAsyncOperationC
+Utility_PhotosUtilityAPIAsyncOperationClient
+Utility_DeleteAllZonesRequestQ
+Utility_DeleteAllZonesResponseQ
+Utility_DeleteZoneRequestQHc
+Utility-DeleteZoneResponseQ
+Utility_ErrorInfoQ
+ResultErrorCodeR
+DatabaseFailureQ
+BatchErrorCodeR
+BatchErrorQ
+OneOf_OptionalUnshareOperationPercentageR
+ResultErrorCodeR
+DatabaseFailureQ
+ResultErrorQ
+ClientStatusRCheckDuplicatesOperationP
+ExitMoveBatchOperationP
+SilentMoverRampingServiceOperationP
+ExitMoveErrorFeedbackOperationP
+ExitStatusFeedbackOperationP
+PhotosUtilitydeleteZone
+exitMoveBatch
+InitiateExitOperationP
+Rpcproto_ErrorInfoQ
+ClientQ
+CodeR
+WServerQD
+LoggingDetailQ
+URLResourceKeyNNSURLResourceKeySt
+StorageClassP
+A
+B
+C
+D
+E
+
+NSNumber_OBJC_CLASS_$_NSUserDefaults_OBJC_CLASS_$_NSXPCListener_OBJC_CLASS_$_NSURL_OBJC_CLASS_$_ CPLErrors_OBJC_CLASS_$_CPLEngineTransport_OBJC_CLASS_$_CPLEngineScheduler_OBJC_CLASS_$_NSSet_ OBJC_CLASS_$_CPLResetTracker_OBJC_CLASS_$_CPLDropDerivativesRecipe_OBJC_CLASS_$_NSRUnLoop_OBJC_
+CLASS_$_NSFileManager_OBJC_CLASS_$_NSMutableSet_OBJC_CLASS_$_CPLResource_OBJC_CLASS_$-CloudPhotoServices_OBJC_CLASS_$_NSNotificationCenter_OBJC_CLASS_$_CPLFileWatcher_OBJC_CLASS_$_ PFCameraViewfinderSessionWatcher_OBJC_CLASS_$_CPLProxyLibraryManager_OBJC_CLASS_$_ CPLLibraryManager_OBJC_CLASS_$_NSNUll_OBJC_CLASS_$_CPLPullChangeSession_OBJC_CLASS_$_ NSByteCountFormatter_OBJC_CLASS_$_CPLPushChangeSession_OBJC_CLASS_$_NSHashTable_OBJC_CLASS_$_ CPLEngineForceProcessingStagedScopesTask_OBJC_CLASS_$_NSUUID_OBJC_CLASS_$_NSMutableIndexSet_OBJC
+_CLASS_$_CPLEngineScopeFlagsUpdate_OBJC_CLASS_$_PQLFormatInjection_OBJC_CLASS_$_
+NSKeyedUnarchiver_OBJC_CLASS_$_NSKeyedArchiver_OBJC_CLASS_$_NSPropertyListSerialization_OBJC_
+CLASS_$_CPLLibraryState_OBJC_CLASS_$_CPLStagingScopeChange_OBJC_CLASS_$_NSIndexSet_OBJC_CLASS_$_ PQLNameInjection_OBJC_CLASS_$_CPLEngineSyncManager_OBJC_CLASS_$_NSProgress_OBJC_CLASS_$_ CPLPushPullGatekeeper__OBJC_CLASS_$_CPLChangeSessionUpdate_OBJC_CLASS_$_CPLDerivativesFilter_OBJC
+_CLASS_$_NSCharacterSet_OBJC_CLASS_$_UTType_OBJC_CLASS_$_CPLResourceTypeSet_OBJC_CLASS_$_
+CPLTransaction_OBJC_CLASS_$_NSMutableData_OBJC_CLASS_$_NSObject_OBJC_CLASS_$_NSError_OBJC_CLASS_
+_CPLScopedIdentifier_OBJC_CLASS_$_CPLResourceIdentity_OBJC_CLASS_$.
+CPLResourceTransferTaskOptions_OBJC_CLASS_$_NSURLComponents__OBJC_CLASS_$_NSURLQueryItem_OBJC_
+CLASS_$_CPLEngineStore_OBJC_CLASS_$_CPLEngineScopeStorage_OBJC_CLASS_$_
+CPLEngineScopeCleanupTasks_OBJC_CLASS_$_CPLEngineStorage_OBJC_CLASS_$_CPLEngineChangePipe_OBJC_
+CLASS_$_CPLEngineRevertRecords_OBJC_CLASS_$_CPLEnginePushRepository_OBJC_CLASS_$.
+CPLEngineIDMapping_OBJC_CLASS_$_CPLEngineCloudCache_OBJC_CLASS_$_CPLEngineResourceStorage_OBJC_
+CLASS_$_CPLEngineOutgoingResources_OBJC_CLASS_$_CPLEngineFileStorage_OBJC_CLASS_$_ CPLEngineTransientRepository_OBJC_CLASS_$_CPLEngineResourceDownloadQueue_OBJC_CLASS_$_ CPLEngineRemappedRecords_OBJC_CLASS_$_CPLEngineQuarantinedRecords_OBJC_CLASS_$_ CPLEngineStatusCenter_OBJC_CLASS_$_CPLEnginePendingRecordChecks_OBJC_CLASS_$_ CPLEngineIgnoredRecords_OBJC_CLASS_$_CPLIgnoredRecord_OBJC_CLASS_$_CPLRecordPushContext_OBJC_ CLASS_$_CPLArchiver_OBJC_CLASS_$_PQLRawInjection_OBJC_CLASS_$_CPLExtractedBatch_OBJC_CLASS_$_
+CPLChangeBatch_OBJC_CLASS_$_CPLMapEnumerator_
+_OBJC_CLASS_$_NSCountedSet_OBJC_CLASS_$-
+CPLInMemoryResourceDownloadTask_OBJC_CLASS_$_CPLForceSyncTask_OBJC_CLASS_$_
+CPLEngineForceSyncTask_OBJC_CLASS_$_CPLScopeStatusCounts_OBJC_CLASS_$_CPLRecordTargetMapping_ OBJC_CLASS_$_CPLTransportScopeMapping_OBJC_CLASS_$_NSNumberFormatter_OBJC_CLASS_$_NSLocale_OBJC_
+CLASS_$_CPLDiffTracker_OBJC_CLASS_$_CPLPullSessionScopesAcknowledgement_OBJC_CLASS_$_ CPLPullSessionRevertRecords_OBJC_CLASS_$_CPLPullSessionUpdate_OBJC_CLASS_$_NSProcessInfo_OBJC_ CLASS_$_CPLPushSessionTracker_OBJC_CLASS_$_CPLPushSessionUpdate_OBJC_CLASS_$_CPLPushChangeTasks_
+OBJC_CLASS_$_CKFetchRecordZonesOperation_OBJC_CLASS_$_CPLRecordTarget_OBJC_CLASS_$_ CAssetReference_OBJC_CLASS_$_CKMovePhotosOperation_OBJC_CLASS_$_CKMovePhotosChange_OBJC_CLASS_$
+_CKQuery_OBJC_CLASS_$_NSPredicate_OBJC_CLASS_$_CKQueryOperation_OBJC_CLASS_$_
+CKUserIdentityLookupInfo_OBJC_CLASS_$_CKFetchShareParticipantsOperation_OBJC_CLASS_$_CKShare_ OBJC_CLASS_$_CKAcceptSharesOperation_OBJC_CLASS_$_CKContainerOptions_OBJC_CLASS_$_CKContainerID_ OBJC_CLASS_$_CKContainer_OBJC_CLASS_$_CKOperationConfiguration_OBJC_CLASS_$_CKDatabaseOperation_
+OBJC_CLASS_$_
+_CPLNetworkIndicator_OBJC_CLASS_$_NSMapTable_OBJC_CLASS_$_CPLRampingRequestResource_
+OBJC_CLASS_$_CKCodeOperation_OBJC_CLASS_$_CPLSimpleRecordTargetMapping_OBJC_CLASS_$-CAssetTransferOptions_OBJC_CLASS_$_
+-_ CDClientContext_OBJC_CLASS_$_CPLEngineSystemMonitor_OBJC_
+CLASS_$_
+_COContextUaLKeyPath_OBJC_CLASS_$_
+_CDContextualPredicate_OBJC_CLASS_$_-
+CDContextualChangeRegistration_OBJC_CLASS_$_CPLSharedRecordMerger_OBJC_CLASS_$_ CPLFeatureVersionHistory_OBJC_CLASS_$_CPLAccountFlags_OBJC_CLASS_
+-$_CKFetchShareMetadataOperation
+_OBJC_CLASS_$_CKRecordZone_OBJC_CLASS_$_NSOperationQueue_OBJC_CLASS_$_CSFFeatureManager_OBJC_
+CLASS_$_CKQueryCursor_OBJC_CLASS_$_CPLEngineResourceDownloadTask_OBJC_CLASS_$
+
+NSConcreteGlobalBlock_CFConstantStringClassReference_OBJC_CLASS_$_NSConstantIntegerNumber_OBJC_CLASS_$_NSConstantArray _OBJC_CLASS_$_NSConstantFloatNumber_OBJC_CLASS_$_NSConstantDoubleNumber_OBJC_CLASS_$_ NSConstantDictionary_OBJC_CLASS_$_CKNotification_OBJC_CLASS_$_CPLEngineLibrary_OBJC_CLASS_$_ CPLEngineScope_OBJC_CLASS_$_PQLResultSet_OBJC_CLASS_$_NSData_OBJC_CLASS_$_PQLConnection_OBJC_ CLASS_$_CPLPlatform_OBJC_CLASS_$_CPLRecordStatus_OBJC_CLASS_$_CLServerFeedbackRequest_OBJC_ CLASS_$_CPLServerFeedbackResponse_OBJC_CLASS_$_CPLScopeChange_OBJC_CLASS_$_CKOperation_OBJC_ CLASS_$_CPLShareParticipant_OBJC_CLASS_$_CPLShare_OBJC_CLASS_$_CPLMomentShareScopeChange_OBJC_
+CLASS_$_CPLLibraryScopeChange_OBJC_CLASS_$_CPLLibraryShareScopeChange_OBJC_CLASS_$_ CKOperationGroup_OBJC_CLASS_$_CPLRampingRequest_OBJC_CLASS_$_CPLRampingResponse_OBJC_CLASS_$_ CKRecord_OBJC_CLASS_$_CKRecordID_OBJC_CLASS_$_CKRecordZoneID_OBJC_CLASS_$_CKAsset_OBJC_CLASS_$.
+CPLRecordChange_OBJC_CLASS_$_NSDictionary_OBJc_CLASS_$_CLLocation_OBJC_CLASS_$_
+CPLPlaceAnnotation_OBJC_CLASS_$_CLPlaceholderRecord_OBJC_CLASS_$_CPLLibraryInfo_OBJC_CLASS_$_ CKReference_OBJC_CLASS_$_NSException_OBJC_CLASS_$_CPLPersonChange_OBJC_CLASS_$_CPLMasterChange_ OBJC_CLASS_$_CPLAssetChange_OBJC_CLASS_$_CPLALbumChange_OBJC_CLASS_$_CPLFaceCropChange_OBJC_
+CLASS_$_CPLContainerRelationChange_OBJC_CLASS_$_CPLMemoryChange_OBJC_CLASS_$_CPLSuggestionChange __OBJC_CLASS_$_CLSyncSession_OBJC_CLASS_$_NSString_OBJC_CLASS_$_NAssertionHandler_OBJC_CLASS_$_ APSConnection_OBJC_CLASS_$_NSArray_OBJC_CLASS_$_NSDate_OBJC_CLASS_$_NSMutableArray_OBJC_CLASS_$_ NSMutableString_OBJC_CLASS_$_CLDateFormatter_OBJC_CLASS_$_NSMutableDictionary_OBJC_CLASS_ NSNumber_OBJC_CLASS_$_NSUserDefaults_OBJC_CLASS_$_NSXPCListener_OBJC_CLASS_$_NSURL_OBJC_CLASS_$_ CPLErrors_OBJC_CLASS_$_CPLEngineTransport_OBJC_CLASS_$_CPLEngineScheduler_OBJC_CLASS_$_NSSet_ OBJC_CLASS_$_CPLResetTracker_OBJC_CLASS_$_CPLDropDerivativesRecipe_OBJC_CLASS_$_NSRUnLoop_OBJC_
+CLASS_$_NSFileManager_OBJC_CLASS_$_NSMutableSet_OBJC_CLASS_$_CPLResource_OBJC_CLASS_$_ CloudPhotoServices_OBJC_CLASS_$_NSNotificationCenter_OBJC_CLASS_$_CPLFileWatcher_OBJC_CLASS_$_ PFCameraViewfinderSessionWatcher_OBJC_CLASS_$_CPLProxyLibraryManager_OBJC_CLASS_$_ CPLLibraryManager_OBJC_CLASS_$_NSNUll_OBJC_CLASS_$_CPLPullChangeSession_OBJC_CLASS_$_ NSByteCountFormatter_OBJC_CLASS_$_CLPushChangeSession_OBJC_CLASS_$_NSHashTable_OBJC_CLASS_$_ CPLEngineForceProcessingStagedScopesTask_OBJC_CLASS_$_NSUUID_OBJC_CLASS_$_NSMutableIndexSet_OBJC
+_CLASS_$_CPLEngineScopeFlagsUpdate_OBJC_CLASS_$_PQLFormatInjection_OBJC_CLASS_$_
+NSKeyedUnarchiver_OBJC_CLASS_$_NSKeyedArchiver_OBJC_CLASS_$_NSPropertyListSerialization_OBJC_
+CLASS_$_CPLLibraryState_OBJC_CLASS_$_CPLStagingScopeChange_OBJC_CLASS_$_NSIndexSet_OBJC_CLASS_$_ PQLNameInjection_OBJC_CLASS_$_CPLEngineSyncManager_OBJC_CLASS_$_NSProgress_OBJC_CLASS_$_ CPLPushPullGatekeeper_OBJC_CLASS_$_CLChangeSessionUpdate_OBJC_CLASS_$_CPLDerivativesFilter_OBJC
+_CLASS_$_NSCharacterSet_OBJC_CLASS_$_UTType_OBJC_CLASS_$_CPLResourceTypeSet_OBJC_CLASS_$.
+CPLTransaction_OBJC_CLASS_$_NSMutableData_OBJC_CLASS_$_Nsobject_OBJC_CLASS_$_NSError_OBJC_CLASS_
+$_CPLScopedIdentifier_OBJC_CLASS_$_CPLResourceIdentity_OBJC_CLASS_$_
+CPLResourceTransferTaskOptions_OBJC_CLASS_$_NSURLComponents__OBJC_CLASS_$_NSURLQueryItem_OBJC_
+CLASS_$_CPLEngineStore_OBJC_CLASS_$_CPLEngineScopeStorage_OBJC_CLASS_$_
+CPLEngineScopeCleanupTasks_OBJC_CLASS_$_CPLEngineStorage_OBJC_CLASS_$_CPLEngineChangePipe_OBJC_
+CLASS_$_CPLEngineRevertRecords_OBJC_CLASS_$_CPLEnginePushRepository_OBJC_CLASS_$.
+CPLEngineIDMapping_OBJC_CLASS_$_CPLEngineCloudCache_OBJC_CLASS_$_CPLEngineResourceStorage_OBJC_
+CLASS_$_CPLEngineOutgoingResources_OBJC_CLASS_$_CPLEngineFileStorage_OBJC_CLASS_$.
+CPLEngineTransientRepository_OBJC_CLASS_$_CPLEngineResourceDownloadQueue_OBJC_CLASS_$_ CPLEngineRemappedRecords_OBJC_CLASS_$_CPLEngineQuarantinedRecords_OBJC_CLASS_$_ CPLEngineStatusCenter_OBJC_CLASS_$_CPLEnginePendingRecordChecks_OBJC_CLASS_$_ CPLEngineIgnoredRecords_OBJC_CLASS_$_CPLIgnoredRecord_OBJC_CLASS_$_CPLRecordPushContext_OBJC_ CLASS_$_CPLArchiver_OBJC_CLASS_$_PQLRawInjection_OBJC_CLASS_$_CPLExtractedBatch_OBJC_CLASS_$_
+
+ResourceAnalyzeRequestResourceAnalyzeResponseResourceDownloadRequestResourceDownloadResponseResourceStreamRequestResourceStreamResponseVideoHEVCProfileTierLevelInformationUploadResourcesRequestUploadResourcesResponseUntranscodableItemUntranscodableRequestUntranscodableResponseAHM
+
+InternalSwiftProtobufVisitorR traversevisitor
+ZoneNameFromStagingZoneName
+LibraryZoneIdentificationAuZoneIdentification
+BackCopyHelperStepFaultInjection
+com.apple.icloud-container.com.apple.photos.cloud
+
+CPLFakeICloudPath com.apple.cpl.local-transport/usr/local/lib/libEnginePlistImplementation.dylib
+
+CPLCloudKitScope with no zonezo<%@ %@ (%@)>SharedSyncTestSharedSyncExit
+
+Simulatedover-quotaerrorforphase%@
+
+Streaming fake derivatives is not supported
+
+Deletes: %@Simulating over quota for phase: %@
+
+com.apple.cpl.schedulercom.apple.cpl.scheduler.sequenceNumbercom.apple.cpl.test.haschanges
+
+Missing share type for %@%@-%@TestSyncPrimarySync-0000-ZSPrimarySync-0000-LICPLLibraryInfodisabledTimedeleteTimeCPLZoneStateCPLSimulatePrimarySyncExitCMMcmm-sharecmm-rootCMMRootcmmlibrary-infoshared_libraryParticipantExitStatesExitConfigUnexpectedclassfor%@:
+%@SharedSyncExitConfigCPLScopeUserSettings
+
+A library share %@ already exists for this userv24@?O@"CKRecordZoneID"8@"NSError'160x[0-9a-fA-F]*unknown exceptionCPLSimulateRejectionCPLSimulateOverQuotaCPLForceRejectClassesCPLForceRejectIdentifiersC
+
+PLSimulateOverQuotaPhaseuploadsharedUploadshareunshareCPLRejectOnUploadErrorrecordisrejectedbecause of upload error (%@)
+Some records are rejected for testing purpose
+CPLRejectAllUploadsrecord is rejected for testing purpose
+CPLSimulateBusStateSimulating busy state (%@)
+Missing required shared zonerecord class is rejected for testing purpose
+
+@"NSObject<OS_xpc_object>"16CPLFakeDynamicDerivatives^KCGImageSourceKeepOriginalProfile^%@^% @^%@^%@public.jpeg-[_CPLFakeDerivativeMapper _dimensionsFromBaseResource:]CPLCloudKitFakeDynamicDerivatives.m
+
+primarysyncremappingCPLOverridePrimarySyncZoneID/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitTransport.m
+
+Missingoverrideidentification class%@-Overriddencom.apple.cpl.allow-fake-derivatives
+
+Unexpected current user ID (%@)%@ is an invalid transport group for %@com.apple.cpl.cloudkit.task.progress%@ should not have any outstanding operations while waiting for an activityCPLFailCloudKitTransportTaskClassFailing %@ for testing purpose%@ called while %@ is running
+
+EnginePlistTransportEnginePlistLibrary com.apple.cloudphotod.daemonv24
+
+"CPLEngineWrapper"8^B16com.apple.cloudphotod
+
+@"NSString"@"CPLForceSyncTask" /AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Daemon/CPLDaemonLibraryManager.m
+
+@"CPLEngineWrapper"com.apple.cloudphotodcom.apple.cpl.cloudphotoddidlaunchcom.apple.notifyd.matchingcom.apple.datamigrator.migrationDidFinish
+@"NSObject<OS_xpc_object>" com.apple.cloudphotod.maintenancelibrarymanagementpreferences
+com.apple.private.cloudphotod.accessanonymous%@[%@]com.apple.cloudphotod.daemon.connectionlibraryIdentifierlaunched %@%% (%@) for sync bubble forcing client push
+
+Can't get related scoped identifier from %@CPLrewindForSparseRecordsIntervalMigration-101386451engine.store.pql.migration.101386451/ AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteStorage.m
+
+Synchronization state needs to be wiped and rebuilt /AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteOutgoingResources.m
+
+CPLMasterCPLAssetengine.transport.cloudkit.translateengine.transport.cloudkit.encrypt
+
+gatekeepercheckCPLCloudKitUseGateKeeperCPLCloudKitGateKeeperTranscodeTypemmcstranscodeengine.transport.cloudkit.taskKilobytesMegabytes10s of Megabytes100s of MegabytesGigabytes10s of Gigabytes100s of Gigabytes 
+
+Parameters:error:registeredWrapperWithLibraryIdentifier:error:enumerateWrappersWithBlock:
+enumerateOpenedWrappersWithBlock:isWrapperOpened:_forceBackupWithActivity:forceClientPush:
+
+variableGroupWithVariablesAndGroups:_defaultValuesObjectinjectionForValues: injectionForDefaultValuesvaluesInSet:startingAtIndex:valuesInSet:injectionForUpdates: injectionForDefaultValuesUpdatevariablesnamesInjectiondefinitionInjection_sqlForValues_ sqlForUpdates_variables_namesInjection_definitionInjectionT@"NSArray",R,N,V_variablesT@"
+
+Force updating status of Walrus. Reason: %@
+Forcing walrus to %@
+Could not determine walrus status
+Walrus is enabled
+Walrus is disabled
+Walrus has been enabledengine.transport.cloudkit
+
+com.apple.cpl.cloudkit.duetdataenergysignificantWorklowDataModelowPowerMode(%@)(noreasons)YESNOYES%@/app/photos/budgetOverride/app/photos/isBlocked/app/photos/significantWork
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/Base/CPLBaseSyncManager.m
+
+/AppleInternal/Library/BuildRootsd9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLStoreMigrationAssistant_101386451.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteStore.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteScopeStorage.m
+
+/AppleInternal/Library/BuildRootsd9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Daemon/CPLCloudKitPushNotificationCenter.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteCloudCache.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteUtilites.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteResourceDownloadQueue.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-662073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/ cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteChangePipe.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequelitePendingRecordChecks.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteClientCacheMigrator.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequelitePushRepository.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/ cloudphotolibrary/Implementations/PrequeliteStore/CPLPrequeliteTodoVar.m
+
+/AppleInternal/Library/BuildRoots/ d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/ workspaces/cloudphotolibrary/Implementations/Resources/CPLBucketFileStorage.m
+
+/AppleInternal/ Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectLibraryManager.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectLibraryManager.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectPullChangeSession.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectChangeSession.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectPullChangeSession.m
+
+/AppleInternal/Library/BuildRootsd9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectChangeSession.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/ workspaces/cloudphotolibrary/Implementations/DirectClientToEngine/CPLDirectPushChangeSession.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/ workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitFetchTransportScopeTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/ com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCKBatchUploadPlanner.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitTransportTask+CKRecordCopy.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCKRecordBuilder.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCKFeedbackOperation.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitTransportTaskGate.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitQueryTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitCreateScopeTask.m
+
+/AppleInternal/Library/BuildRootsd9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitAcceptSharedScopeTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/ cloudphotolibrary/Implementations/CloudKit/CPLCLoudKitDownloadBatchTask.m
+
+/AppleInternal/ Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/ Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitCoordinator.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/ cloudphotolibrary/Implementations/CloudKit/CPLCloudKitOperationsTracker.m
+
+/AppleInternal/Library/BuildRoots/ d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.×bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitScope.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitTransportTask.m
+
+/AppleInternal/Library/BuildRoots/ d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitScope.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitTransportTask.m
+
+/AppleInternal/Library/BuildRoots/ d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitReshareRecordsTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCKRecordPropertyMapping.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CKRecord+CPL_base.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitSimpleRecordFetchTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitFixUpSparseRecordTask.m
+
+/AppleInternal/Library/ BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitResourcesDownloadTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/ com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitCleanupLibraryTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/com.apple.bs/Sources/ Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitZoneIdentification.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitUploadBatchTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCKRecordTranslator.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CKRecord+CPLFaceCrop
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CKRecord+CPLAsset
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitErrors.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8cf-66a073ae27ee/Library/Caches/com.apple.xbs/Sources/Photos_Swift/workspaces/ cloudphotolibrary/Implementations/CloudKit/CPLCloudKitOperationCounter.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitCleanupStagedScopeTask.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073a27ee/Library/Caches/ com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitMetric.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/cloudphotolibrary/Implementations/CloudKit/CPLCloudKitRescheduler.m
+
+/AppleInternal/Library/BuildRoots/d9366bcd-8c40-11ed-b8c-66a073ae27ee/Library/Caches/com.apple.bs/Sources/Photos_Swift/workspaces/ cloudphotolibrary/Implementations/CloudKit/CPLCloudKitExitSharedLibraryTask.m
