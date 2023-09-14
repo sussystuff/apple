@@ -1,0 +1,77 @@
+com.apple.triald.system
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-// Apple //DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.triald.system</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.triald.system</string>
+	<key>com.apple.private.security.storage.triald</key>
+	<true/>
+</dict>
+</plist>
+
+
+/usr/lib/dyld
+
+/System/Library/PrivateFrameworks/TrialServer.framework/Versions/A/TrialServer
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+@(#) PROGRAM:triald_system PROJECT: trial-347.4.1
+@TRISandboxErrorDomainv24@?0q8@"NSString"16HOMEfailed to get passwd entry for uid %ufailed to resolve user's home directory: %{darwin.errno}dfailed to initialize temporary directory: %{darwin.errno}dfailed to resolve temporary directory: %{darwin.errno}dfailed to initialize cache directory: %{darwin.errno} dfailed to resolve cache directory: %{darwin.errno}dTMPDIRDARWIN_CACHE_DIRFailed to enter sandbox: %scom.apple.triald.systemSandbox error: %@$HOME not set, falling back to using getpwuidFailed to enter sandbox: %{public}sError entering sandbox: %@triald_system startedUnable to set private sandbox for com.apple.triald.system, errno: %ddictionaryWithObjects: forKeys: count: initWith Domain: code: userInfo:stringWithFormat:
+
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE plist PUBLIC "-// Apple //DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>20A241133</string>
+	<key>CFBundle AllowMixed Localizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>triald_system</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.triald.system</string>
+	<key>CFBundle InfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion </key>
+	<string>347.4.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>14A6270d</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>13.2</string>
+	<key>DTSDKBuild</key>
+	<string>22D36</string>
+	<key>DTSDKName</key>
+	<string>macosx13.2.internal</string>
+	<key>DTXcode </key>
+	<string>1400</string>
+	<key>DTXcodeBuild</key>
+	<string>14A6270d</string>
+	<key>LSMinimumSystem Version</key>
+	<string>13.2</string>
+</dict>
+</plist>
+
+NSLocalizedDescriptionKey_NSTemporaryDirectory_TRIDSystemServerRun_TRILogCategory_Archiving_TRILogCategory_Server__NSConcreteStackBlock____chkstk_darwin___bzero___error___stack_chk_fail___stack_chk_guard__os_log_debug_impl__os_log_default__os_log_error_impl__os_log_fault_impl__os_log_impl__set_user_dir_suffix_confstr_getenv_getpwuid_getuid_objc_alloc_objc_autorelease_objc_autoreleasePoolPop_objc_autoreleasePoolPush_objc_msgSend_objc_release_objc_retain_objc_ retainAutoreleasedReturnValue_objc_retainBlock_objc_unsafeClaimAutoreleasedReturnValue_os_log_type_enabled_realpath$DARWIN_EXTSN_sandbox_init_with_parameters__CFConstantStringClassReference_OBJC_CLASS_$_NSError_OBJC_CLASS_$_NSDictionary_OBJC_CLASS_$_NSString___mh_execute_header
+
+__mh_execute_header_NSLocalizedDescriptionKey_NSTemporaryDirectory_OBJC_CLASS_$_NSDictionary_OBJC_CLASS_$_NSError_OBJC_CLASS_$_NSString_TRIDSystemServerRun__chkstk_darwin___bzero___error___stack_chk_fail___stack_TRILogCategory_Archiving_TRILogCategory_Server_NSConcreteStackBlock___CFConstantStringClassReference_chk_guard_os_log_debug_impl_os_log_default_os_log_error_impl_os_log_fault_impl_os_log_impl_set_user_dir_suffix_confstr_getenv_getpwuid_getuid_objc_alloc_objc_autorelease_objc_autoreleasePoolPop_objc_autoreleasePoolPush_objc_msgSend_objc_release_objc_retain_objc_retainAutoreleased ReturnValue_objc_retainBlock_objc_unsafeClaimAutoreleasedReturnValue_os_log_type_enabled_realpath$DARWIN_EXTSN_sandbox_init_with_parameters
