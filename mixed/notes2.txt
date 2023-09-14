@@ -1,0 +1,706 @@
+Search: "trm" state multistate
+Re: (ACMTRM-S/ACMTRM-A) 10-04-23 loadTRMStateFromMultiState fetching: policy, config, analytics
+Result:
+https://www.researchgate.net/publication/361271242_Multistate_capture-recapture_models_for_irregularly_sampled_data, estimation and state decoding, inferential approach in simulation experiments
+
+hidden Markov model (HMM), state, inference, discrete-time models, Arnason-Schwarz (AS) model, multi-state, transitions, temporal aggregation
+
+MULTI–STATE CAPTURE–RECAPTURE MODELS FOR IRREGULARLYSAMPLED DATA
+
+Multi-state capture-recapture data comprise individual-speciﬁc sighting histories together with information on individuals’ states related, for exam-ple, to breeding status, infection level, or geographical location. Such data areoften analysed using the Arnason-Schwarz model, where transitions betweenstates are modelled using a discrete-time Markov chain, making the modelmost easily applicable to regular time series. When time intervals between capture occasions are not of equal length, more complex time-dependent con-structions may be required, increasing the number of parameters to estimate,decreasing interpretability, and potentially leading to reduced precision. Herewe develop a multi-state model based on a state process operating in continu-ous time, which can be regarded as an analogue of the discrete-time Arnason-Schwarz model for irregularly sampled data. Statistical inference is carriedout by regarding the capture-recapture data as realisations from a continuous-time hidden Markov model, which allows the associated efﬁcient algorithmsto be used for maximum likelihood estimation and state decoding. To illus-trate the feasibility of the modelling framework, we use a long-term survey ofbottlenose dolphins where capture occasions are not regularly spaced throughtime. 
+
+Introduction. Capture-recapture studies use repeated surveys of a population of in-terest to infer properties of the underlying ecological system. On several survey occasions,all individuals observed are (re-)captured, identiﬁed based on individual marks, and sub-sequently released back into the population. In the simplest case, the resulting individual-speciﬁc capture histories provide information on the presence or absence of the individualat each occasion. In some studies, additional information on the discrete state of the indi-vidual at the time of the capture event is also recorded. This information may correspond to geographical locations (e.g. migration between different areas; Schwarz, Schweigert, andArnason, 1993; Brownie et al., 1993; Worthington et al., 2019), reproductive status (e.g.breeding vs. not breeding; Pradel and Lebreton, 1999; McCrea et al., 2010), or health sta-tus (e.g. infected vs. not infected; Faustino et al., 2004; Conn and Cooch, 2009). In thoseinstances, multi-state capture-recapture models are often used to explore individuals’ transitions between these different states. The Arnason-Schwarz (AS) model — a generalisation ofthe Cormack-Jolly-Seber (CJS) model from the single- to the multi-state case — is the classicmodelling framework for analysing corresponding multi-state capture-recapture data (Arna-son, 1973; Schwarz et al., 1993; Brownie et al., 1993; King and Brooks, 2003a). 
+
+Within the standard AS model, the state process is assumed to follow a discrete-time ﬁrst-order Markovchain, although King and Langrock (2016) extend this to the semi-Markov case for live statetransitions.Due to the discrete-time formulation of the AS model, the model in its basic form is bestsuited to capture occasions that follow a regular sampling protocol (e.g. with monthly oryearly capture occasions but allowing for missed capture occasions at some of these times).Speciﬁcally, inference within discrete-time models, for example with respect to how the statesevolve over time, is to be seen relative to the ﬁxed interval length between capture occasions.For example, when inferring survival rates from encounter histories with yearly capture oc-casions, the corresponding estimates relate to the probability of individuals surviving oneyear. Therefore, discrete-time model formulations are typically inadequate when time inter-vals between capture occasions are irregular (i.e. not equidistant in time). In some cases,the corresponding continuous process can be transferred into a discrete process by temporal aggregation. However, if no natural discrete-time resolution exists, this would introducesubjectivity regarding the choice of the discrete-time modelling resolution and a loss of infor-mation (Borchers et al., 2014). Moreover, applying discrete-time models to capture-recapturedata with irregular sampling occasions has been shown to lead to biased estimates (Yip andWang, 2002; Barbour, Ponciano, and Lorenzen, 2013). 
+
+Continuous-time model formulationsare conceptually superior for addressing irregularly spaced encounter histories, but are math-ematically more challenging than their discrete-time counterparts.For closed populations, i.e. populations unaltered by births, deaths, and migration,continuous-time models have been developed and extended for decades (see, e.g., Becker,1984; Chao and Lee, 1993; Yip, Huggins, and Lin, 1996; Hwang and Chao, 2002; Schoﬁeld,Barker, and Gelling, 2018). There has been recent renewed interest in such continuous-timemodels due to technological advances in data collection within capture-recapture studies. Inparticular, arrays of motion-sensor cameras or acoustic sensors that record individuals in con-tinuous time, rather than at pre-determined (static) capture occasions, have led to the devel-opment of continuous-time capture-recapture models for spatially explicit capture-recapturestudies (Borchers et al., 2014; Distiller and Borchers, 2015; Kolev et al., 2021). In contrast,for open populations, only very few contributions in the literature consider continuous-timemodelling approaches. Recently, Fouchet et al. (2016) developed a continuous-time modelfor the estimation of survival rates based on capture-recapture data. Their model, whichcomprises only two states, namely the animal being alive or dead, is the continuous-timeanalogue of the CJS model. To our knowledge, Choquet et al. (2017) and Choquet (2018)were the ﬁrst to use a more general multi-state continuous-time modelling framework. Intheir analyses, opportunistic data, collected via citizen science without any sampling design,are modelled using a Markov-modulated Poisson process, which assumes that observationoccasions are drawn from a Poisson process. The approach is illustrated for opportunisticcapture-recapture data on the Alpine ibex (Capra ibex), where individuals could be observedat any time throughout the study period.In this contribution, we propose an AS (i.e. multi-state) model involving a state processoperating in continuous time, thus naturally addressing any irregular sampling. The key dif-ference between our contribution and those of Choquet et al. (2017) and Choquet (2018)lies in the data considered: while those previous contributions focused on opportunistic data,which only report capture events (i.e. the event “not recaptured” does not exist), we focus ontraditional capture-recapture data, which for every survey occasion report whether the animalwas recaptured or not. Instead of considering the times of the capture occasions as realisa-tions of a Poisson process, we treat them as ﬁxed (but irregularly spaced in time). We regardthe capture-recapture setting as a special case of a (partially) hidden Markov model (HMM)in continuous time, where an individual’s capture history corresponds to the observed state-dependent process and the individual’s (true) state corresponds to the (partially observed) state process (cf. Pradel, 2005; Gimenez et al., 2012; King and McCrea, 2014; King andLangrock, 2016). 
+
+Continuous-time HMMs have been used in other applications before, mostnotably in medical statistics (see, e.g., Jackson et al., 2003; Conn and Cooch, 2009; Amoroset al., 2019; Williams et al., 2020). The continuous-time HMM framework allows us to ex-ploit the efﬁcient HMM-based forward algorithm for parameter estimation, as well as thewider standard HMM machinery, for example for decoding the underlying states. We notethat not only the transition rates between states are of interest, but also potential covariateeffects on these transitions. We demonstrate how transition rates can be modelled as a func-tion of covariates, which may be individual-speciﬁc, time-varying, or both. For situationswith time-varying covariates, the likelihood is analytically intractable, but can be approxi-mated using piecewise constant functions, as suggested for example by Lebovic (2011) andLangrock, Borchers, and Skaug (2013).In Section 2, we ﬁrst provide the general formulation of a multi-state capture-recapturemodel for irregularly spaced capture occasions. Subsequently, in Section 3, we present acase study on the movement patterns of bottlenose dolphins along the Scottish east coast,and investigate properties of the proposed inferential approach in simulation experiments inSection 4. A ﬁnal discussion of our modelling approach developed is given in Section 5
+
+
+
+===
+Search environment pv00
+Re: 23-04-01 appstoreagent: (AppleMediaServices) AMSURLProtocolHandler [152DE035] StatusCode: 200; <private>; Environment: PV00
+Result: https://gist.github.com/ksingh7/290c5807ce7ab1dd37f4f5d5781f6a6c
+Deploying CRC >
+OpenShift Data Foundation on CRC >
+Deploy ODF on CRC >
+EOF >
+<--
+seq 20 30 | xargs -n1 -P0 -I {} oc patch pv/pv00{} -p '{"metadata":{"annotations":{"volume.beta.kubernetes.io/storage-class": "localfile"}}}' >/dev/null
+
+echo "Finished up preparing the local storage"
+
+cat <<EOF | oc create -f - >/dev/null
+apiVersion: ocs.openshift.io/v1
+kind: StorageCluster
+metadata:
+  name: ocs-storagecluster
+  namespace: openshift-storage
+spec:
+  manageNodes: false
+  monPVCTemplate:
+    spec:
+      accessModes:
+      - ReadWriteOnce
+      resources:
+        requests:
+          storage: 1
+      storageClassName: localfile
+      volumeMode: Filesystem
+  storageDeviceSets:
+  - count: 1
+    dataPVCTemplate:
+      spec:
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 1
+        storageClassName: localblock
+        volumeMode: Block
+    name: ocs-deviceset
+    placement: {}
+    portable: false
+    replica: 1
+    resources: {}
+EOF
+
+echo "ODF is installing now, please be patient"
+
+oc patch OCSInitialization ocsinit -n openshift-storage --type json --patch '[{ "op": "replace", "path": "/spec/enableCephTools", "value": true }]'
+sleep 3
+oc wait --for=condition=Ready --timeout=10m pod -l app=rook-ceph-tools
+export POD=$(oc get po -l app=rook-ceph-tools -o name)
+echo "ODF is installed now"
+-->
+
+=== 
+Search: "multiplex" macos
+Re:
+Result:
+https://cran.r-project.org/web/packages/multiplex/index.html
+multiplex: Algebraic Tools for the Analysis of Multiple Social Networks
+
+Algebraic procedures for analyses of multiple social networks are delivered with this package as described in Ostoic (2020) <doi:10.18637/jss.v092.i11>. 
+https://doi.org/10.18637%2Fjss.v092.i11
+'multiplex' makes possible, among other things, to create and manipulate multiplex, multimode, and multilevel network data with different formats. Effective ways are available to treat multiple networks with routines that combine algebraic systems like the partially ordered semigroup with decomposition procedures or semiring structures with the relational bundles occurring in different types of multivariate networks. 'multiplex' provides also an algebraic approach for affiliation networks through Galois derivations between families of the pairs of subsets in the two domains of the network with visualization options.
+
+URL:	https://github.com/mplex/multiplex/
+Abstract
+- Algebraic procedures for the analysis of multiple social networks are delivered with this package as described in Ostoic (2020) <DOI:10.18637/jss.v092.i11>.
+- "multiplex" makes possible, among other things, to create and manipulate multiplex, multimode, and multilevel network data with different formats.
+- Effective ways are available to treat multiple networks with routines that combine algebraic systems like the partially ordered semigroup with decomposition procedures or semiring structures with the relational bundles occurring in different types of multivariate networks.
+- "multiplex" provides also an algebraic approach for affiliation networks through Galois derivations between families of the pairs of subsets in the two domains of the network with visualization options.
+
+https://doi.org/10.18637%2Fjss.v092.i11
+Journal of Statistical Software
+
+Abstract
+multiplex is a computer program that provides algebraic tools for the analysis of multiple network structures within the R environment. Apart from the possibility to create and manipulate multivariate data representing multiplex, signed, and two-mode networks, this package offers a collection of functions that deal with algebraic systems - such as the partially ordered semigroup, and balance or cluster semirings - their decomposition, and the enumeration of bundle patterns occurring at different levels of the network. Moreover, through Galois derivations between families of the pairs of subsets in different domains it is possible to analyze affiliation networks with an algebraic approach. Visualization of multigraphs, different forms of bipartite graphs, inclusion lattices, Cayley graphs is supported as well with related packages.
+
+Social networks are sets of collective relations between different actors and the discipline that studies these types of systems is called “social network analysis” (Wasserman and Faust 1994). Multiple – hereafter multiplex – networks are special types of social systems where actors are connected at several levels such as people who have simultaneously business collaboration relations and informal friendship ties, or organizations that cooperate and compete at the same time, etc. Such arrangements are inherently complex due to the “relationships between relations,” which represents a higher level of abstraction in the social structure, and we need distinctive methods to preserve the multiplicity of these ties in the analysis.
+
+2.1. Link generalizations
+Besides the "social structure," which is a system of relations between the actors in the network, a significant characteristic of multiplex networks is that there is also the structure produced by the relations among the relationships themselves. This kind of arrangement constitutes the network "relational structure" (Pattison 1993) and represents the intertwining of the different types of ties occurring in the system. Because of the complexity inherent in this type of arrangement, the analysis and substantial interpretation of the network relational structure and the social system in particular often constitute a great challenge.
+
+Certainly, one approach to deal with such complexity is to reduce the network structure, and there are diverse techniques within the field of blockmodeling that produce classes of structurally related actors. However, most of the blockmodeling methods are based on the actors embeddedness in the network, which is typically grounded on a single type of relationship (see
+
+Lorrain and White 1971; Doreian, Batagelj, and Ferligoj 2004, for significant examples). For multiplex networks, there is a significant loss of structural information in case the condensed system fails to reflect the multiplicity of the ties. Hence, it is desirable to produce a simpler and single structure that integrates the different types of relations, and at the same time provides valuable insights of the whole system for its substantial interpretation.
+Integrating relations in multiplex networks implies a form of generalization of the links between pairs of actors in the system, and we recognize the multiplicity of the ties in the social structure either at the different levels in the relationship or by considering chains of several kinds of relations that influence the structuring process of the social system. The former is re garded as a "wide" extension of the pairwise link, whereas the latter generalization constitutes a "long" extension of the link.
+
+The wide extension of the ties is expressed in different classes of configurations that occur at the dyadic level in the network structure and we call them "bundles". Such categories include the well-known patterns for single networks like the null, asymmetric, and reciprocal dyads (Holland and Leinhardt 1976), but also other arrangements that have the multiplexity property, which generalize these kinds of dyadic relations. The entrainment and the exchange of ties in directed networks are fundamental patterns where at least two types of tie are involved and, although there are bundle configurations where these patterns are mixed as well, these two configurations represent entirely different realities with consequences in the structural analyzes of social phenomena in multiplex network structures.
+
+With respect to the long extension of the link, this form of generalization corresponds to the interrelations among the ties that produce chains and paths of relations. In this sense, simple ties such as social interactions, flow of information, co-occurrence, etc. constitute primitive relations in the system whereas the concatenation of these create compound rela-tions. "Strings" is a generic name for both primitives and compounds, and string relations are known metaphorically as "words" composed by primitives or letters from an alphabet.
+
+Even though it is likely to have an infinite number of string relations, most of them will connect precisely the same individuals and as a result, there are a limited number of isomorphic strings in the closed system that stands for the network relational structure.
+
+Figure 2: Bundle classes occurring in Incubator C.
+definition of the asymmetric and the reciprocal dyads in this case implies that the remaining levels in the relationship (if any) are null.
+To perform the bundle census or the enumeration of the bundle patterns occurring in multiplex networks, multiplex has function bundle. census, and we apply it to object netC that records the social relations in component net of incC.
+
+TOTAL
+BUNDLES NULL ASYMM RECIP T.ENTR T. EXCH MIXED FULL
+
+Likewise, functions bundles and summaryBundles provide a more detailed information of the bundle patterns that exist in the network. The output from the code below produces a picture given in Figure 2 where the dimnames attribute of each array in netC (i.e., C, F, and K) serves to denote the type of tie involved in the bundle with an arc on the top indicating the direction of the tie between the actors.
+
+R> summaryBundles (bundles (netC), latex = TRUE, file = "./bundles.tex")
+Relational systems of bundle classes
+The information provided by the different bundle classes allows us to evaluate the characteristic structure of the multiplex network, which is the basis for distinguishing particular "systems" inside the network for the developing of specific theories. For this, the bonds argument in function rel.sys allows us to disentangle bundle patterns or classes of them that are "bonds". For instance, we identify just the tie exchange bundle occurring in netC (cf.
+Figure 1), which is recorded in component Ties of the output.
+
+Function strings provides the representative string relations in S - i.e., primitives and words if they exist - as a "Strings" class object. The output is given by taking the first element in a lexicographic order of a set of strings of those linking the same network members. For instance, the st component provides the labeling of the representative strings, ord indicates the order of S.
+R> strings (nCc)
+Sord
+[17 17
+$st
+[17 "C"
+[97 "FFC"
+[177 "FFFCFF"
+"FU
+"'FEE"
+"K"
+"FCFF"
+" CF"
+"FFCF"
+"FCU
+"'FEFC"
+"FEM
+"FFFF"
+"CFF"
+"FCF"
+"FFCFF" "FFFCF"
+attr (,"class")
+[1] "Strings"
+Once we know the unique elements of the semigroup a natural question arise, namely which are the strings that are equated to these representative relations? By activating the equat argument in this function, we apply the Axiom of Quality to the algebraic structure and produce the set of equations with the representative strings of the network relational structure.
+
+For this, k serves to establish the length of the compounds involved in the equations, and the attribute names of each vector in the list of component equat provides the representative string labels. In this case, only K is equated with all compounds until length 3.
+R> strings (nCc, equat = TRUE, k = 3) $equat
+
+SK
+[17 "K" "СС" "KK" "CK" "KC" "FK" "KF" "ССС" "KKC" "CKK" "CCF" "KKF"
+[13] "FCC" "FKK" "CCK" "FFK" "KKK" "KCC" "KFF" "KCK" "CFC" "KFK" "CKC" "FKF"
+[25] "CFK" "CKF" "FCK" "FKC" "KCF" "KFC"
+
+2.5. Positional analysis and role structure
+Even with a small network, the partially ordered semigroup of the social system is likely to become large and complex. Thus, rather than focusing on relational structures based on strings among the individual actors, one way to gain better insight into the relational interlock of a relative large real-world social network is first to construct the network positional system instead for. "Structurally equivalent" actors in the network who are meant to occupy the same "position" in the system make such arrangement, and in this way, we are able to reduce dramatically the size of the social system without losing its essential structure, which is a crucial feature for further analyzes and for the substantial interpretation of the network relational interlock. Since the actors in an alike position play a similar role in the social system, the relational structure of a positional system is called the role structure of the network.
+
+A key aspect in network reduction is the definition of structurally equivalence among the actors. There are several meanings of structurally correspondence in social network analysis and it is outside the scope of this paper to look at the different definitions. Still, it is important to mention that most of the equivalence notions are designed for simple networks with a "global" perspective, and some definitions are stricter criteria than others are (see e.g., Lorrain and White 1971; Doreian et al. 2004, for widespread equivalence types). For multiplex networks, however, we need to take into account the multiplicity of the ties in the reduction of the network, and this can be achieved by means of a "local" perspective in the equivalence definition, i.e., the point of view of individual actors.
+
+One correspondence type with a local perspective suitable for multiplex networks is local role equivalence (Winship and Mandel 1983), which is based on the role relations of the individual actors in the network and their respective role sets. This information is stored in a three-dimensional array called Relation-Box, which is a device where the generators and compound relations of the network are bounded together. Because social actors are typically unaware of the long chains of relations surrounding them, the researcher can define a "truncated" version of the Relation-Box with composite ties until a certain length k.
+
+Compositional equivalence
+Breiger and Pattison (1986) developed a correspondence type based on the local role equivalence since the establishment of roles and positions in the network is made with the perspectives of the individual actors, but considering also the relational features common to all network members. Specific standpoints are partial algebras operationalized in the form of "person hierarchies," which are then "cumulated" into a single poset structure where the partition of the network takes place. Due the compound relations provide substantial information for the establishment of the positional system, we refer to this correspondence type as Compositional equivalence, also known as "ego algebra" (Wasserman and Faust 1994).
+
+Function rbox produces the Relation-Box of a given network as a "Rel. Box" class object, which is a three-dimensional array resembling the word tables that is given by the strings function but without applying the Axiom of Quality to the string relations. This means that none of the primitives nor the compounds are not equated with each other. Each actor according to their paths of relations perceives a hierarchy among the network members, and this is obtained with the hierar function if the "person" option selected in the type argument. For instance, in the case of the first actor of network Cc the two options below are equivalent for producing this particular person hierarchy.
+
+R> hierar (rbox (nCc), 1, type = "person")
+R> hierar (rbox (nCc), "339", type = "person")
+
+A significant aspect in the definition of compositionally equivalent actors is, however, the accumulation of the network partial algebras, which are represented in the horizontal slices in the Relation-Box, and which are called "relation planes". The rows in the relational planes record the collection of string relations for a distinguished individual actor, whereas the columns represent the actors' "role relations" that correspond to the ties of a particular kind to the rest of the actors in the system. The aggregation of person hierarchies is expressed by a poset structure known as the cumulated person hierarchy or CPH from the set of inclusion relations among relational planes after applying the transitive closure. Since CPH is a poset then the structure is reflexive, transitive, and antisymmetric.
+
+Function ph serves to construct the cumulated person hierarchy, and relies on a "Rel.Box" object class as well. The following example shows the aggregation of the partial algebras in nCc based on the default length of ties in rbox, and the output for k = 3 shows that only two of the actors are comparable.
+
+A substantial interpretation of these algebraic constraints states that if F represents an informal friendship role relation, and k perceived competition then are given within a formal collaboration network; that is, F < C and k ≤ C. These role relations occur inside a structure where the friends' collaborators network, FC (and collaborators' collaborators, CC) that encompasses the arrangement of collaborators' friends, CF.
+
+However, since the structure is not a lineal order the "friends of my friends" ties, FF occur within the formal-informal pattern "friends of my collaborators,
+" CF (and "friends' friends of my collaborators," (FF), but not necessarily within the "collaborators of my competitors," KC and the other compounds equated to this pattern. A similar reading is applied to the rest of the strings in the hierarchy of role structure and the analysis of such role interlock for this particular network is made in a systematic way.
+
+It is important to mention that since we included the transposition of the primitive ties, all these relations should be reflected in this arrangement as well. However, despite tie transpositions are not involved in the poset diagram just depicted, each of the inclusions involving C, F, and k is respected in the hierarchy of the role relations with transposes.
+
+The role interlock of Incubator C has a set of univocal containments enclosing the generators and the equations of the shortest compounds, where the remaining four strings in the role structure are contained just in the two upper elements where the pair FK < FF contains CK, and the pair KF < KC contains just the minimal element.
+K < (CK = FK) < F < C < CF < (CC = FC).
+
+2.7. Decomposition
+The last step in the analysis is to perform a decomposition of the semigroup of role relations, most of times by means of a "subdirect" representation. The decomposition process produces an "aggregated" role structure where string relations are clustered whenever they conform the rules of the "substitution property" (Hartmanis and Stearns 1966).
+
+In the case of abstract semigroups, decomp and cngr perform the decomposition of semigroup structures, and below we generate the clustering of strings by means of congruence relations.
+
+R> decomp (netCS, cngr (netCS, uniq = TRUE), type = "cc") $clu
+
+3. Signed networks
+A signed network is a special type of multiplex structure having particular types of relations among the actors with a different sign or valence. Signs of ties in signed networks are typically either "positive" or "negative" such as like and dislike, or collaboration and competition ties between companies or even nations; however, although the prototypical signed structures only have these two contrasting valences, real life social networks can have relationships in which both signs occur simultaneously. Hence, besides positive and negative ties, an "ambivalent" relation constitutes another kind of sign, whereas the "absence" of a tie between two actors is regarded as a valence as well.
+
+There is a pair of functions in multiplex designed to represent systems with different valences.
+For example, the first and second matrices of object Cc from the previous section are by default considered as positive and negative ties in a given system by the signed function that produces a "Signed" class object. Because there is an entrainment of ties in this configuration, letters n a and o represent negative, ambivalent, and absent types of relations, respectively.
+
+3.1. Structural balance and Semirings
+Classical procedures designed for the analysis of signed networks try to find equilibrium - or lack of it - in network structures that are the product of the combination of ties with different signs. For instance, Simmel (1950) noticed that a conflict can be a mechanism of integration among social actors, and Heider (2013, (Ist edn. 1958) developed further on this idea with the Structural Balance theory, which sustains that imbalanced structures have an inherent tension and are prone to change, whereas balanced networks are more steady over time.
+
+Roughly speaking, a strictly balanced system has two mutually exclusive groups of elements in which all within-ties are positive and all between-ties are negative. These rules of polar-ization, known as the Structure Theorem (Cartwright and Harary 1956), can be extended to more than two groups where a structurally balanced system has clusters of elements with positive within-ties and negative between-relations (cf. Davis 1967). This means that a signed network - besides being balanced or imbalanced - can be clusterable as well, which is a sort of structurally balanced structure as long these conditions apply.
+
+The operationalization of the Structural Balance theory in signed networks is made with an algebraic approach, and in this case, the rules of another algebraic system known as semiring serve to evaluate the network in terms of structural balance. A semiring is the combination of an abstract semigroup with identity under multiplication and a commutative monoid under addition, and in formal terms, this structure is a quintuple:
+(Q, 7, ., 0, 1 )
+
+where Q is a non-empty set associated to the addition '+' and multiplication ' operations together with a pair of special elements, 0 and 1, which are the neutral elements under addition and multiplication, respectively, and 0 acts as an absorbing element under multiplication as well. Besides, multiplication distributes over addition, which means that for X,y,› € Q;
+X• (y +2) = (x • y) + (x - z) and (x + y) . 2 = (x-2) + (y • 2).
+
+Semirings are then going to be used for assessing whether a signed network is structurally balanced or not, and the evaluation is performed according to the two operations involved in this type of structure (cf. Harary, Norman, and Cartwright 1965). Basically, a chain of relations - whether directed or not- with an even number of positive edges is considered imbalanced; otherwise the chain is regarded as structurally balanced.
+
+The semiring function of multiplex assesses signed structures in terms of either a "balance" or a "cluster" type semiring structure (See Batagelj 1994; Doreian, Batagelj, and Ferligoj 2004, for details). With the base function formals we pay special attention to a number of the arguments of this function for a better understanding how it proceeds:
+
+Because the actors in netC2 bear labels, the construction of the signed structure is made by locating the members inside the first component of the network, and assigning such information into the vector sel below. The creation of the signed structure is made by applying the signed function to this particular array of selected elements that represents the large component of the network. The signed network is then recorded as a "Signed" class object in netCsg that accounts just for the involved actors in the large component with the collaboration and competition ties.
+
+4. Affiliation networks
+Social systems in which the "domain" and "co-domain" do not coincide constitute affiliation networks, which are also known as two-mode or bipartite networks, and this definition contrasts with the usual simple networks that are one-mode and in which there is just one set of relations on a single domain of nodes or social actors. Bipartite graphs are naturally the representation form of bipartite or affiliation networks where the distinctive of the graph is that nodes are differentiated in two modes.
+
+Affiliation networks are then systems of relations between two sets of entities that are naturally represented in R through data frames where intuitively rows and columns stand for the actors and their affiliations or attributes, respectively. For instance, object G20 below records the memberships of the G20 countries according to Wikipedia (2017) as a data. frame data object, where the supranational organizations are the column names. Later are specified the actors that are countries given in ISO 3166-1 alpha-3 codes in the row names.
+
+4.1. Formal concept analysis
+An algebraic approach for the analysis of affiliation networks is found in formal concept analysis (Ganter and Wille 1996). In terms of this analytical framework, the domain and co-domain of an affiliation network, respectively, are characterized as a set of objects G and a set of attributes M. A formal "context" is obtained with an incidence relation I C G × M between these sets, which is the triple represented by the cross table of the data frame. The formal "concept" of a formal context is a pair of sets of objects A and attributes B that is maximally contained on each other. That is, columns in the cross table representing the attribute set that help to cover the most entries in I, and where A and B are said to be the
+"extent" and "intent" of the formal concept respectively.
+
+A Galois derivation between the power sets of sets G and M is derived for any subsets A C G and B § M by the set of attributes common to all the objects in the intent, A', and the set of objects possessing the attributes in the extent, B':
+
+5. Discussion
+multiplex is one of the first attempts to provide algebraic procedures for the analysis of complex network structures within the R environment, and this is despite the methodologies have been developed for some years ago. Algebraic analysis is characterized by its deterministic reasoning, and this constitutes a significant difference with the statistical approach. One advantage of statistics over algebra is that it can handle large amounts of information, whereas the benefit from an algebraic analysis of networks is that we have the certainty that the resulted structure is taken place somewhere in the system, and it is not merely a likelihood as with statistical inference.
+
+Algebraic systems such as semigroups and semirings are aimed to relative small to medium size network structures, which constitutes a significant limitation in some cases. This also applies to Compositional equivalence since there is the risk that the accumulation of perceived hierarchies in the network ends up having no structure as the universal matrix, and instead of individuals, semigroups for instance are typically applied to role structures made of categories of actors. For larger networks, such categories may be produced with a model-fitting approach where a number of classes of hierarchical exponential-family random graph models for social networks constitute an alternative to the descriptive and are able to handle multiplex networks. A crucial step to obtain the logic of interlock in the network and algebraic constraints governing the relations among relations (such as set of equations, hierarchy of string relations, and role tables) is, however, the decomposition of the semigroup structure. multiplex can handle both abstract and partially ordered semigroups for decomposition.
+
+With respect to algebraic approaches for signed structures, there is also a concern with the network size. Working with categories of actors is, again, a possibility for large networks, but this still is today a relative unexplored area for a potential research. One aspect worth to mention is that one can see balance and cluster semirings as fuzzy structures where the positive, negative, and ambivalent valences constitute the values in the fuzzy set, which can even be continuous in case the reduction of the valence structure produces in the image matrix relations with mixed signs among factions of differentiated actors.
+
+Visualizing poset structures is especially convenient for deducing containments among elements in the partial ordering, and this applies both to partially ordered semigroups and to concept lattices of a given formal context. It is a very difficult task - if not impossible - just by looking at the array representing hierarchies of either string relations of multiplex net-works, or of Galois derivations of formal concepts corresponding to affiliation networks. For large partially ordered structures, it may be necessary to apply the algebraic notions of order filters and order ideals to produce particular sets of inclusions, and this makes possible to elaborate substantial interpretations of the hierarchy of concepts in a systematic way, as the set of equations and role tables do for the relational interlock of multiplex network structures.
+
+If possible, stochastic and algebraic analyzes should complement to each other in algebraic statistics, and the condensation of large network structures is likely to be made in statistical terms, leaving the algebra to make the more subtle examination of the reduced structure. In this sense, the integration of statistical and algebraic approaches constitutes a promising line of research within the structural analysis, and R provides an adequate setting to study and test novel structural methods and theoretical models with real world applications.
+
+=== com.apple.parsecd
+Location-Based Suggestions for Siri. At least thats how the service is described in "/System/Library/PrivateFrameworks/CoreParsec.framework/Versions/Current/Resources/Info.plist"
+...
+The Little Snitch Research Assistant says that parsecd is "Used for Suggestions in Spotlight, Messages, Lookup and Safari and usually connects to api.smoot.apple.com."
+
+=== 997
+
+ICCID
+Edit
+Each SIM is internationally identified by its integrated circuit card identifier (ICCID). Nowadays ICCID numbers are also used to identify eSIM profiles, not only physical SIM cards. ICCIDs are stored in the SIM cards and are also engraved or printed on the SIM card body during a process called personalisation.
+
+The ICCID is defined by the ITU-T recommendation E.118 as the primary account number.[18] Its layout is based on ISO/IEC 7812. According to E.118, the number can be up to 19 digits long, including a single check digit calculated using the Luhn algorithm. However, the GSM Phase 1[19] defined the ICCID length as an opaque data field, 10 octets (20 digits) in length, whose structure is specific to a mobile network operator.
+
+The number is composed of the following subparts:
+
+1. Issuer identification number (IIN)
+
+Maximum of seven digits:
+
+Major industry identifier (MII), 2 fixed digits, 89 for telecommunication purposes.
+Country code, 2 or 3 digits, as defined by ITU-T recommendation E.164.
+NANP countries, apart from Canada, use 01, i.e. prepending a zero to their common calling code +1
+Canada uses 302
+Russia uses 701, i.e. appending 01 to its calling code +7
+Kazakhstan uses 997, even though it shares the calling code +7 with Russia
+Issuer identifier, 1–4 digits.
+Often identical to the mobile network code (MNC).[20]
+
+2. Individual account identification
+Individual account identification number. Its length is variable, but every number under one IIN has the same length.
+Often identical to the mobile subscription identification number (MSIN).[5]
+Check digit
+
+Single digit calculated from the other digits using the Luhn algorithm.
+With the GSM Phase 1 specification using 10 octets into which ICCID is stored as packed BCD, the data field has room for 20 digits with hexadecimal digit "F" being used as filler when necessary.
+
+In practice, this means that on GSM SIM cards there are 20-digit (19+1) and 19-digit (18+1) ICCIDs in use, depending upon the issuer. However, a single issuer always uses the same size for its ICCIDs.
+
+As required by E.118, the ITU-T updates a list of all current internationally assigned IIN codes in its Operational Bulletins which are published twice a month (the last as of January 2019 was No. 1163 from 1 January 2019).[21] ITU-T also publishes complete lists: as of August 2023, the list issued on 1 December 2018 was current, having all issuer identifier numbers before 1 December 2018.[22]
+
+3. International mobile subscriber identity (IMSI)
+
+SIM cards are identified on their individual operator networks by a unique international mobile subscriber identity (IMSI). Mobile network operators connect mobile phone calls and communicate with their market SIM cards using their IMSIs. The format is:
+
+The first three digits represent the mobile country code (MCC).
+The next two or three digits represent the mobile network code (MNC). Three-digit MNC codes are allowed by E.212 but are mainly used in the United States and Canada. One MCC can have both 2 digit and 3 digit MNCs, an example is 350 007.
+The next digits represent the mobile subscriber identification number (MSIN). Normally there are 10 digits, but can be fewer in the case of a 3-digit MNC or if national regulations indicate that the total length of the IMSI should be less than 15 digits.
+Digits are different from country to country.
+Authentication key (Ki)
+
+The Ki is a 128-bit value used in authenticating the SIMs on a GSM mobile network (for USIM network, the Ki is still needed but other parameters are also needed). Each SIM holds a unique Ki assigned to it by the operator during the personalisation process. The Ki is also stored in a database (termed authentication center or AuC) on the carrier's network.
+
+The SIM card is designed to prevent someone from getting the Ki by using the smart-card interface. Instead, the SIM card provides a function, Run GSM Algorithm, that the phone uses to pass data to the SIM card to be signed with the Ki. This, by design, makes using the SIM card mandatory unless the Ki can be extracted from the SIM card, or the carrier is willing to reveal the Ki. In practice, the GSM cryptographic algorithm for computing a signed response (SRES_1/SRES_2: see steps 3 and 4, below) from the Ki has certain vulnerabilities[17] that can allow the extraction of the Ki from a SIM card and the making of a duplicate SIM card.
+
+Authentication process:
+
+When the mobile equipment starts up, it obtains the international mobile subscriber identity (IMSI) from the SIM card, and passes this to the mobile operator, requesting access and authentication. The mobile equipment may have to pass a PIN to the SIM card before the SIM card reveals this information.
+The operator network searches its database for the incoming IMSI and its associated Ki.
+The operator network then generates a random number (RAND, which is a nonce) and signs it with the Ki associated with the IMSI (and stored on the SIM card), computing another number, that is split into the Signed Response 1 (SRES_1, 32 bits) and the encryption key Kc (64 bits).
+The operator network then sends the RAND to the mobile equipment, which passes it to the SIM card. The SIM card signs it with its Ki, producing Signed Response 2 (SRES_2) and Kc, which it gives to the mobile equipment. The mobile equipment passes SRES_2 on to the operator network.
+The operator network then compares its computed SRES_1 with the computed SRES_2 that the mobile equipment returned. If the two numbers match, the SIM is authenticated and the mobile equipment is granted access to the operator's network. Kc is used to encrypt all further communications between the mobile equipment and the operator.
+Location area identity
+Edit
+The SIM stores network state information, which is received from the location area identity (LAI). Operator networks are divided into location areas, each having a unique LAI number. When the device changes locations, it stores the new LAI to the SIM and sends it back to the operator network with its new location. If the device is power cycled, it takes data off the SIM, and searches for the prior LAI.
+
+=== 
+Search: com.apple.lom.xpc.remote
+https://support.apple.com/en-au/guide/deployment/dep580cf25bc/web
+Remote management
+
+
+=== 2019
+See Heap-20230613T203016.txt
+
+=== GM
+SEARCH: "gm" macos
+Re: TPSNeedsResetOnMajorGM (tipsd PL)
+Result:
+the GM candidate is not the same as the the final release - it's only a candidate for GM (Golden Master), which itself can still get tweaked before final release.
+
+=== Feb2020
+Search: "AggregateDictionary.framework"
+Re: aggregated.diskwrites_resource log
+Results: https://www.zimperium.com/blog/dr-jekyll-and-mr-hide-how-covert-malware-made-it-into-apples-app-store/
+
+
+https://github.com/utmapp/UTM
+UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/
+
+
+===
+https://github.com/USSLab/DolphinAttack
+What is DolphinAttack?
+
+Speech recognition systems such as Siri or Google Now have become an increasingly popular human-computer interaction method, and have turned various systems into voice controllable systems. Prior work on attacking VCS shows that the hidden voice commands that are incomprehensible to people can control the systems. Hidden voice commands, though ‘hidden’, are nonetheless audible. In this work, we design a completely inaudible attack, DolphinAttack, that modulates voice commands on ultrasonic carriers (e.g., frequency > 20 kHz) to achieve inaudibility. By leveraging the nonlinearity of the microphone circuits, the modulated low frequency audio commands can be successfully demodulated, recovered, and more importantly interpreted by the speech recognition systems. We validate DolphinAttack on popular speech recognition systems, including Siri, Google Now, Samsung S Voice, Huawei, HiVoice, Cortana and Alexa. By injecting a sequence of inaudible voice commands, we show a few proof-of-concept attacks, which include activating Siri to initiate a FaceTime call on iPhone, activating Google Now to switch the phone to the airplane mode, and even manipulating the navigation system in an Audi automobile. We propose hardware and software defense solutions. We validate that it is feasible to detect DolphinAttack by classifying the audios using supported vector machine (SVM), and suggest to re-design voice controllable systems to be resilient to inaudible voice command attacks.
+
+
+===
+re: “kcgssession" on startup
+https://github.com/johndbritton/teleport
+https://github.com/johndbritton/teleport/issues/46
+Teleport
+A Virtual KVM for macOS
+Use one keyboard and pointing device to control multiple Macs.
+Key Features
+
+Client - Control the keyboard and pointing device of another Mac.
+Server - Allow another Mac to control the system's keyboard and pointing device.
+Pasteboard Synchronization - Copy and paste across Macs.
+
+===
+Seach: LWPlugin
+Re: login startup
+Result: May 2021 https://forum.lwks.com/threads/macos-10-11-6-may-2021-lwks-crashes-while-opening.240892/
+LightWorks Video Editing Software
+LwResoucesBase.dylib 0x00000001078cd062 
+LwPluginManager::init(LightweightString const&, LightweightString const&, PluginCategory, Lw::ptr) + 930
+17 
+LwResoucesBase.dylib 0x00000001078cc0e4 LwDeviceDriverManager::init(LightweightString const&, Lw::ptr) + 86
+===
+Search: dologinhook
+re: login
+Result: https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CustomLogin.html
+Login and Logout Scripts
+Important: There are numerous reasons to avoid using login and logout scripts:
+Login and logout scripts are a deprecated technology. In most cases, you should use launchd jobs instead, as described inCreating Launch Daemons and Agents.
+Login and logout scripts are run as root, which presents a security risk.
+Only one of each script can be installed at a time. They are intended for system administrators; application developers should not use them in released software.
+
+===
+https://github.com/redhat-imaging/imagefactory
+About
+imagefactory builds images for a variety of operating system/cloud combinations.
+http:/imgfac.org
+
+Image Factory enables appliance creation and deployment to multiple virtualization and Cloud providers.
+
+##Features##
+
+Build guest images for a growing list of operating system and cloud combinations.
+Current guest OS support: Fedora 7-19, RHEL 5.x and 6.x
+Current cloud support: Red Hat Enterprise Virtualization, VMware vSphere, Amazon EC2, Rackspace, OpenStack, and more...
+Image Factory supports "build and upload" or snapshotting of existing images.
+RESTful API makes integrating Image Factory into existing workflows simple.
+##Using Image Factory## Building an image begins with a template describing what to build. See an example of such a template below. See the schema documentation for TDL for more detail on creating a template. Note that a template is not tied to a specific cloud.
+
+<template>
+    <name>f21</name>
+    <os>
+        <name>Fedora</name>
+        <version>21</version>
+        <arch>x86_64</arch>
+        <install type='iso'>
+            <iso>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Cloud/x86_64/os/</iso>
+        </install>
+        <rootpw>p@55word!</rootpw>
+    </os>
+</template>
+Ensure to change the element to your desired root password.
+
+Next, use the imagefactory command and specify the template to use and for which clouds to build an image. The above template example was saved to a file name f12_64.tdl.
+
+$ sudo imagefactory --template f12_64.tdl --target ec2
+Once the image has been built, use the imagefactory command again, this time to push the image into the cloud.
+
+$ sudo imagefactory --provider ec2-us-west-1 --credentials ec2_credentials.xml
+That's it! You can now launch an instance of this image using the cloud provider's management console.
+
+##Installing Image Factory## Installing Image Factory is quick and easy. See the imagefactory rpm installation instructions for more detail.
+
+Dev Setup
+If you are wanting to use Imagefactory in a dev environment, then you can run from source. Run the 'imagefactory_dev_setup.sh' script found in the scripts directory. This will setup a dev environment which allows you to run from source. Once this is complete run ./imagefactoryd --foreground to start the server.
+
+Documentation
+More documentation on how to configure, use, and develop for imagefactory can be found on the Image Factory website.
+
+
+=== spaceman
+https://www.bleepingcomputer.com/forums/t/783706/resetting-admin-password-with-single-user-boot/
+https://eclecticlight.co/2023/03/24/how-does-an-apple-silicon-mac-mount-a-thunderbolt-disk/
+https://discussions.apple.com/thread/252493623
+
+
+=== GPIO (AppleGPIOICController) 23-04-05
+Search GPIO IC 
+Re: AppleGPIOICController::start: this:
+Result: https://hardware.slashdot.org/story/14/12/13/0120243/ask-slashdot-best-software-to-revive-pocketpcs-with-windows-mobile-5-6
+   please please DO NOT underestimate how much work it takes to do reverse-engineering. these handhelds are actually far more complex pieces of kit, in engineering and in software terms, than any laptop or desktop PC you've ever encountered. the HTC Universal had SEVEN audio output paths for example, and over four audio input paths. there were over 110 GPIO pins on its Intel PXA ARM processor, but these were nowhere near enough, so they had to use an external GPIO IC (we called it ASIC3). but... they actually ran out of GPIO pins on that *as well*, so they ended up utilising the 16 pins of GPIO on the Ericsson 3G GSM modem (only contactable over USB!) in order to control some of the functions such as camera light.
+   so in many ways you are actually better off designing (and paying to have made) your own device. that is not a joke, in the slightest bit. it will take you less time and will cost you less in lost earnings from having to work full-time on the reverse-engineering. and before you splutter in disbelief, there are people who have done exactly that: Dr Schaeller did the GTA04 fairly recently (fits into a Neo FreeRunner case), and in that way he at least got to pick a) a modern-ish processor b) the best components that were available c) he got CONTROL OVER THE DEVICE DRIVERs, and he didn't have to _guess_ what the GPIO maps and memory maps are.
+   I did some reversing on the msm windows phones. Took us 3 months to reverse the shared memory for radio interface and GPIO for the keyboards. Ahh the good old days. I say gather the CE devices all up, dice and slice them and make art pieces out of them. Make build some semi functional cool robot sculptures. Looks nicer than in landfill and would certainly be a better use of time
+
+=== bTRC
+https://lists.apple.com/archives/colorsync-users/2019/Aug/msg00004.html
+
+=== 
+https://github.com/darwin-on-arm/xnu/blob/master/iokit/Drivers/KernelBuiltIn/ARM/AppleARMPlatform/AppleARMCPU.h
+
+===
+https://hex-rays.com/products/ida/news/7_2/the_mac_rundown/
+
+=== WSL Windows Subsystem for Linux?
+
+https://learn.microsoft.com/en-au/windows/wsl/about
+https://github.com/microsoft/WSL
+
+===
+
+
+How does return -1 differ from return 0 in Python?
+In Python, return -1 and return 0 have different meanings and implications.
+A function returning -1 usually indicates an error or exceptional condition, while a function returning 0 typically denotes successful execution or a standard output.
+
+
+
+Q: What does return 0, return 1, exit(0) do in the above program? exit(0) will exit total program and control comes out of loop but what happens in case of return 0, return 1, return -1.
+
+A: 
+return from main() is equivalent to exit
+the program terminates immediately execution with exit status set as the value passed to return or exit
+return in an inner function (not main) will terminate immediately the execution of the specific function returning the given result to the calling function.
+exit from anywhere on your code will terminate program execution immediately.
+
+A:
+But, after execution you don't have a way to find out if your code worked as expected. You can use the return code of the program (In *nix environments , using $?) which gives you the code (as set by exit or return) . Since you set these codes yourself you understand at which point the code reached before terminating.
+You can write return 123 where 123 indicates success in the post execution checks.
+Usually, in *nix environments 0 is taken as success and non-zero codes as failures.
+
+A:
+To indicate execution status.
+status 0 means the program succeeded.
+status different from 0 means the program exited due to error or anomaly.
+return n; from your main entry function will terminate your process and report to the parent process (the one that executed your process) the result of your process. 0 means SUCCESS. Other codes usually indicates a failure and its meaning.
+
+=@=
+
+Search: SIO
+Re: Key in BuildManifest
+
+Result: https://github.com/libimobiledevice/idevicerestore/issues/326
+Int: iBEC
+<--
+Variant: Customer Erase Install (IPSW)
+This restore will erase your device data.
+################################ [ WARNING ] #################################
+# You are about to perform an *ERASE* restore. ALL DATA on the target device #
+# will be IRREVERSIBLY DESTROYED. If you want to update your device without  #
+# erasing the user data, hit CTRL+C now and restart without -e or --erase    #
+# command line switch.                                                       #
+# If you want to continue with the ERASE, please type YES and press ENTER.   #
+##############################################################################
+> YES
+Checking IPSW for required components...
+All required components found in IPSW
+Using cached filesystem from '/home/im4ch3t3/Downloads/iPhone11,8,iPhone12,1_13.4.1_17E262_Restore/038-03660-158.dmg'
+Found ECID 3757688942002222
+Getting ApNonce in recovery mode... 6a 28 71 6c 9c e5 88 68 9f fd 73 34 8d 84 5d 41 24 d5 64 9f c2 8b 4a 32 d6 55 6d de fa 53 2f 1f 
+Trying to fetch new SHSH blob
+Getting SepNonce in recovery mode... 8c 6e 81 5a 98 72 cc f9 6b 72 3a 4a e2 1e 34 ee fa dc 46 8f 
+Request URL set to https://gs.apple.com/TSS/controller?action=2
+Sending TSS request attempt 1... response successfully received
+Received SHSH blobs
+Extracting iBEC.n104.RELEASE.im4p...
+Personalizing IMG4 component iBEC...
+Sending iBEC (1192123 bytes)...
+Recovery Mode Environment:
+iBoot build-version=iBoot-5540.102.4
+iBoot build-style=RELEASE
+Sending RestoreLogo...
+Extracting applelogo@1792~iphone.im4p...
+Personalizing IMG4 component RestoreLogo...
+Sending RestoreLogo (20164 bytes)...
+Extracting h12_ane_fw_metis.im4p...
+Personalizing IMG4 component ANE...
+Sending ANE (12347740 bytes)...
+Extracting aopfw-iphone12baop.im4p...
+Personalizing IMG4 component AOP...
+Sending AOP (1663404 bytes)...
+Extracting AppleAVE2FW.im4p...
+Personalizing IMG4 component AVE...
+Sending AVE (1113324 bytes)...
+Extracting armfw_g12p.im4p...
+Personalizing IMG4 component GFX...
+Sending GFX (3470444 bytes)...
+Extracting adc-zelus-n104.im4p...
+Personalizing IMG4 component ISP...
+Sending ISP (9742284 bytes)...
+Extracting t8030pmp.im4p...
+Personalizing IMG4 component PMP...
+Sending PMP (340396 bytes)...
+Extracting 048-65173-372.dmg.trustcache...
+Personalizing IMG4 component RestoreTrustCache...
+Sending RestoreTrustCache (13085 bytes)...
+</snippet>
+-->
+
+=@=
+
+Search: "im4p"
+Re: In BuildManifest. K: SIO K: Path S: Firmware/SmartIOFirmware_ASCv4.im4p K: Personalize. T.
+
+Result: https://fileinfo.com/extension/im4p
+Info:
+.IM4P File Extension / IMG4 Payload File
+An IM4P file is an IMG4 payload file used by iPad and iPhone mobile devices. It stores a payload for an IMG4 file, which is the actual content of the file such as the firmware key and iv.
+The IMG4 format replaced the IMG3 file format. It is used on iOS devices running a 64-bit processor and the Apple Watch. The format is designed to contain IM4P files used by iOS' secure boot chain as well as signatures of the files. IMG4 files can be found in the /​usr/​standalone/​firmware/​ directory of the iOS file system.
+
+NOTE: The IM4P file format was introduced with the release of iOS 7.0.1
+
+Result: https://github.com/tihmstar/img4tool
+A tool for manipulating IMG4, IM4M and IM4P files
+
+=@=
+TS: 18082023.11.45AM
+Search: duet activity scheduler class c
+Re: 2023-04-05 47:38.853720 dasd: DuetActivityScedulerClassC - Operation not permitted.
+
+Result: https://techzone.vmware.com/troubleshooting-macos-management-workspace-one-operational-tutorial#using-the-macos-troubleshooting-cheat-sheet
+Troubleshooting macOS Management: Workspace ONE Operational Tutorial
+
+KW: Workspace ONE EUM and VMWare Horizon. VMWare Log streaming process "mdmclient" subsystem " ", tunnel, unified logging, filevault, securetoken, bootstrap token, rotation. 
+/Applications/VMware\ Carbon\ Black\ Cloud/repcli.bundle/Contents/MacOS (Black Cloud Sensor).
+
+=@=
+
+TS: 18082023.12.04PM
+Search: "Microkernel iBootStage1"
+Re: 2023-04-05 47:38.097015 Microkernel iBootStage1 for j274
+
+Result: https://en.m.wikipedia.org/wiki/Microkernel
+In computer science, a microkernel (often abbreviated as μ-kernel) is the near-minimum amount of software that can provide the mechanisms needed to implement an operating system (OS). These mechanisms include low-level address space management, thread management, and inter-process communication (IPC).
+Inter-process communication (IPC) is any mechanism which allows separate processes to communicate with each other, usually by sending messages. Shared memory is, strictly defined, also an inter-process communication mechanism, but the abbreviation IPC usually refers to message passing only, and it is the latter that is particularly relevant to microkernels. IPC allows the operating system to be built from a number of smaller programs called servers, which are used by other programs on the system, invoked via IPC. Most or all support for peripheral hardware is handled in this fashion, with servers for device drivers, network protocol stacks, file systems, graphics, etc.
+
+IPC can be synchronous or asynchronous. Asynchronous IPC is analogous to network communication: the sender dispatches a message and continues executing. The receiver checks (polls) for the availability of the message, or is alerted to it via some notification mechanism. Asynchronous IPC requires that the kernel maintains buffers and queues for messages, and deals with buffer overflows; it also requires double copying of messages (sender to kernel and kernel to receiver). In synchronous IPC, the first party (sender or receiver) blocks until the other party is ready to perform the IPC. It does not require buffering or multiple copies, but the implicit rendezvous can make programming tricky. Most programmers prefer asynchronous send and synchronous receive.
+
+Servers
+Microkernel servers are essentially daemon programs like any others, except that the kernel grants some of them privileges to interact with parts of physical memory that are otherwise off limits to most programs. This allows some servers, particularly device drivers, to interact directly with hardware.
+
+A basic set of servers for a general-purpose microkernel includes file system servers, device driver servers, networking servers, display servers, and user interface device servers. This set of servers (drawn from QNX) provides roughly the set of services offered by a Unix monolithic kernel. The necessary servers are started at system startup and provide services, such as file, network, and device access, to ordinary application programs. 
+
+Device drivers
+
+Device drivers frequently perform direct memory access (DMA), and therefore can write to arbitrary locations of physical memory, including various kernel data structures. Such drivers must therefore be trusted. It is a common misconception that this means that they must be part of the kernel. In fact, a driver is not inherently more or less trustworthy by being part of the kernel.
+
+===
+
+2023softwareupdated: (SoftwareUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] Product Evaluation: 002-41708 (002-41708.English.dist): Volume check failed: Error Domain=PKDistributionError Code=106 "Command Line Tools for Xcode can’t be installed on “Macintosh HD” because the version of macOS is too new." UserInfo={NSLocalizedDescription=Command Line Tools for Xcode can’t be installed on “Macintosh HD” because the version of macOS is too new.}
+
+transparencyd: (CloudKit) [com.apple.cloudkit:CK] Device is NOT an AppleInternal install
+
+softwareupdated: (SoftwareUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] Product Evaluation: zzz061-10035 (061-10035.English.dist): Installation check failed: Error Domain=PKDistributionError Code=102 "ERROR_BOOT_LEOPARD" UserInfo={type=Fatal, message=ERROR_BOOT_LEOPARD, NSLocalizedDescription=ERROR_BOOT_LEOPARD}
+
+softwareupdated: (SoftwareUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] Product Evaluation: 041-91758 (041-91758.English.dist): Installation check failed: Error Domain=PKDistributionError Code=102 "macOS High Sierra can’t be installed on this computer." UserInfo={NSLocalizedDescription=macOS High Sierra can’t be installed on this computer., NSUnderlyingError=0x136b31960 {Error Domain=PKDistributionException Code=0 "TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script" UserInfo={NSLocalizedDescription=TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script}}}
+
+===
+https://forums.macrumors.com/threads/please-help-identify-possible-compromise.2393582/
+
+===
+https://forums.hak5.org/topic/51750-trying-to-gather-proof-that-im-hackeddoes-this-usage-data-look-ok-i-dont-even-have-the-heard-app-installed-on-my-device-that-i-can-see/
+
+https://forums.hak5.org/topic/47243-iphone-log-looks-suspicious-and-i-would-like-different-opinions/
+===
+https://github.com/JamieBerghmans/Cylinder-iOS13/blob/master/deps/iPhoneOS13.2.sdk/usr/lib/libCTGreenTeaLogger.tbd
+
+===
+
+Search:
+Re: "RAP Opt-In" (in list of GEOURLs)
+
+===
+Result:
+https://eclipsesource.com/blogs/tutorials/single-sourcing-with-rap-2-1/
+The Eclipse RAP project has set out to realize the idea of ​“single sourcing”, i.e. to develop software for different target platforms from a common code base. The increasing popularity of mobile devices presents new challenges to this approach. In Version 2, the RAP project is open for interchangeable clients and thus accounts for this development.
+
+RAP is now the “Remote Application Platform”. RAP applications run on a server while the user interface is displayed and operated from a client connected via HTTP. Based on this separation we developed the vision of making the browser interchangeable against any other client. To put this idea into practice, the HTTP communication in RAP 2.0 was completely converted to an open JSON format that allows the connection of any client.
+
+Therefore the project made a transition from a pure Web framework to a universal platform for “Remote Applications”, i.e. applications that are operated locally but are running on a server. This claim is also reflected in the changed project name “Remote Application Platform”.
+
+IP LOOKUP: https://cdn-apple.mapkit.com/rap
+
+IP addresses for cdn-apple.mapkit.com
+Our DNS servers responded with these IP addresses when we queried it for the domain cdn-apple.mapkit.com. Some DNS servers may return different IP addresses based on your location.
+
+cdn-apple.mapkit.com does not have any IP addresses.
+Question and response
+
+QUESTION
+dig @ cdn-apple.mapkit.com. A
+
+ANSWER
+AUTHORITY
+mapkit.com.	86400	SOA	ns1.fabulous.com. hostmaster.ns1.fabulous.com. 2019030905 XXXXX XXXXX XXXXXX 86400
+
+ADDITIONAL
+.	0	OPT	 ; payload 1232, xrcode 0, version 0, flags 0
+
+QUESTION
+dig @ cdn-apple.mapkit.com. AAAA
+
+ANSWER
+AUTHORITY
+mapkit.com.	86400	SOA	ns1.fabulous.com. hostmaster.ns1.fabulous.com. 2019030905 XXXXX XXXXX XXXXXX 86400
+
+ADDITIONAL
+.	0	OPT	 ; payload 1232, xrcode 0, version 0, flags
+
+==
+Hostname	Type	TTL	Priority	Content
+cdn-apple.mapkit.com	 SOA	 1800		ns1.fabulous.com hostmaster@ns1.fabulous.com 2019030905 XXXXX XXXXX XXXXXX 86400
+
+===
+Result:
+Xerox® VersaLink® C7000 Color Printer & C7030 Family ...
+https://www.laserpros.com › img › xerox-manuals
+027-500 SMTP Server Fail for Mail IO RAP. ... 027-502 POP Authentication Fail for Mail IO RAP. ... (MacOS X v10.4) a. From (Dock), start the (System .
+
+Result: https://github.com/radareorg/radare2
+About
+UNIX-like reverse engineering framework and command-line toolset
+www.radare.org (text word 'mastodon' with a link briefly flashed up before redirecting)
+
+<-- io.rap, debug.rap
+/opt/radare2
+configure-plugins: Loading ./plugins.cfg ..
+configure-plugins: Generating libr/config.h ..
+configure-plugins: Generating libr/config.mk ..
+SHARED: io.shm
+STATIC: anal.6502 anal.6502_cs anal.8051 anal.arc anal.arm_cs anal.arm_gnu anal.avr anal.bf anal.chip8 anal.cr16 anal.cris anal.dalvik anal.ebc anal.gb anal.h8300 anal.hexagon anal.i4004 anal.i8080 anal.java anal.m680x_cs anal.m68k_cs anal.malbolge anal.mcore anal.mips_cs anal.mips_gnu anal.msp430 anal.nios2 anal.null anal.pic anal.ppc_cs anal.ppc_gnu anal.riscv anal.rsp anal.sh anal.snes anal.sparc_cs anal.sparc_gnu anal.sysz anal.tms320 anal.v810 anal.v850 anal.vax anal.wasm anal.ws anal.x86_cs anal.xap anal.xcore_cs anal.xtensa anal.z80 asm.6502 asm.6502_cs asm.8051 asm.arc asm.arm_as asm.arm_cs asm.arm_gnu asm.arm_winedbg asm.avr asm.bf asm.chip8 asm.cr16 asm.cris_gnu asm.dalvik asm.dcpu16 asm.ebc asm.gb asm.h8300 asm.hexagon asm.hppa_gnu asm.i4004 asm.i8080 asm.java asm.lanai_gnu asm.lh5801 asm.lm32 asm.m680x_cs asm.m68k_cs asm.malbolge asm.mcore asm.mcs96 asm.mips_cs asm.mips_gnu asm.msp430 asm.nios2 asm.null asm.pic asm.ppc_cs asm.ppc_gnu asm.propeller asm.riscv asm.rsp asm.sh asm.snes asm.sparc_cs asm.sparc_gnu asm.spc700 asm.sysz asm.tms320 asm.tricore asm.v810 asm.v850 asm.vax asm.wasm asm.ws asm.x86_as asm.x86_cs asm.x86_nasm asm.x86_nz asm.xap asm.xcore_cs asm.xtensa asm.z80 bin.any bin.art bin.avr bin.bf bin.bflt bin.bios bin.bootimg bin.cgc bin.coff bin.dex bin.dol bin.dyldcache bin.elf bin.elf64 bin.fs bin.java bin.mach0 bin.mach064 bin.mbn bin.mdmp bin.menuet bin.mz bin.nes bin.nin3ds bin.ninds bin.ningb bin.ningba bin.nro bin.nso bin.omf bin.p9 bin.pe bin.pe64 bin.pebble bin.psxexe bin.qnx bin.sfc bin.smd bin.sms bin.spc700 bin.symbols bin.te bin.vsf bin.wasm bin.xbe bin.xnu_kernelcache bin.z64 bin.zimg bin_ldr.ldr_linux bin_xtr.xtr_dyldcache bin_xtr.xtr_fatmach0 bin_xtr.xtr_pemixed bp.arm bp.bf bp.mips bp.ppc bp.x86 core.a2f core.java crypto.aes crypto.aes_cbc crypto.base64 crypto.base91 crypto.blowfish crypto.cps2 crypto.des crypto.punycode crypto.rc2 crypto.rc4 crypto.rc6 crypto.rol crypto.ror crypto.rot crypto.serpent crypto.xor debug.bf debug.bochs debug.esil debug.gdb debug.io debug.native debug.null debug.qnx debug.rap debug.windbg egg.exec egg.xor fs.ext2 fs.fat fs.fb fs.hfs fs.hfsplus fs.io fs.iso9660 fs.jfs fs.minix fs.ntfs fs.posix fs.r2 fs.reiserfs fs.sfs fs.tar fs.udf fs.ufs fs.xfs io.ar io.bfdbg io.bochs io.debug io.default io.gdb io.gprobe io.gzip io.http io.ihex io.mach io.malloc io.mmap io.null io.procpid io.ptrace io.qnx io.r2k io.r2pipe io.r2web io.rap io.rbuf io.self io.shm io.sparse io.tcp io.w32 io.w32dbg io.windbg io.winedbg io.zip lang.vala parse.6502_pseudo parse.arm_pseudo parse.att2intel parse.avr_pseudo parse.chip8_pseudo parse.dalvik_pseudo parse.m68k_pseudo parse.mips_pseudo parse.mreplace parse.ppc_pseudo parse.sh_pseudo parse.wasm_pseudo parse.x86_pseudo parse.z80_pseudo
+cp: './plugins.cfg' and 'plugins.cfg' are the same file
+-->
+
+===
+Search: "app is holding power assertion"
+Re: Mentioned in logs
+Result:
+https://developer.apple.com/forums/thread/703782
+com.apple.nand
+Has anyone ever seen this in their Apple computer logs? Do you know what it does?
+Replies
+Yes, I just stumbled on it when looking at unfamiliar ASPCarry on my M1, 22D49
+foo@bar-MacBook-Pro ~ % sudo launchctl list
+1239 0 com.apple.nand.aspcarry
+sudo launchctl procinfo 1239 program path = /usr/libexec/ASPCarryLog
+system/com.apple.nand.aspcarry = { active count = 2 path = /System/Library/LaunchDaemons/com.apple.nand.aspcarry.plist
+From Logs log show --predicate ' eventMessage CONTAINS "nand"' Acquiring assertion targeting [osservice<com.apple.nand.aspcarry>:1049] from originator [osservice<com.apple.powerd>:320] with description <RBSAssertionDescriptor| "App is holding power assertion" ID:385-320-883 target:1049 attributes:[ <RBSDomainAttribute| domain:"com.apple.appnap" name:"PowerAssertion" sourceEnvironment:"(null)">, <RBSAcquisitionCompletionAttribute| policy:AfterApplication> ]>
+This is about as far as I've gotten when I saw this post.
+//# No further replies
+
+=== POWER
+Energy Efficiency Guide for Mac Apps > Respond to Thermal State Changes
+https://developer.apple.com/library/archive/documentation/Performance/Conceptual/power_efficiency_guidelines_osx/RespondToThermalStateChanges.html
+
+
+
+https://www.jamf.com/blog/fake-airplane-mode-a-mobile-tampering-technique-to-maintain-connectivity/
+
+===
+
+https://blog.talosintelligence.com/weaknesses-mac-os-vmware-msrpc/
+DCE/RPC stands for “Distributed Computing Environment/Remote Procedure Calls.” which was a standardized protocol for implementing Remote Procedure Call (RPC) mechanisms. It is kept relevant today by the fact that Microsoft’s RPC mechanism used throughout the Windows ecosystem is closely based on DCE/RPC specifications. In contrast, DCERPC is an open-source implementation compatible with Microsoft RPC (MSRPC) specifications. We will use DCERPC to refer to the open-source implementation and MSRPC to refer to the protocol specification.
+
