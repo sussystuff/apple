@@ -1,0 +1,573 @@
+com.apple.ScreenSharing
+https://www.virustotal.com/gui/file/d4004855c4b2f3b0cd8bf244a9fdb9430ac8f4a984aed2f126c80a82c833aa9e
+
+Signature Verification: File signature could not be verified
+
+x86_64
+======
+File Header:
+File Type	
+executable file
+Magic	
+0xfeedfacf
+Required Architecture	
+x86_64
+Sub-architecture	
+X86_64_ALL
+Reserved	
+0x0
+Contained Load Commands	
+44
+Load Commands Size	
+5592
+Flags	
+DYLDLINK, NOUNDEFS, PIE, TWOLEVEL
+...
+
+Shared Libraries:
+/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes
+/System/Library/Frameworks/Security.framework/Versions/A/Security
+/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+/System/Library/PrivateFrameworks/CommunicationsFilter.framework/Versions/A/CommunicationsFilter
+/System/Library/PrivateFrameworks/ConversationKit.framework/Versions/A/ConversationKit
+/System/Library/PrivateFrameworks/KerberosHelper.framework/Versions/A/KerberosHelper
+/System/Library/PrivateFrameworks/PhoneNumbers.framework/Versions/A/PhoneNumbers
+/System/Library/PrivateFrameworks/ScreenSharing.framework/Versions/A/ScreenSharing
+/System/Library/PrivateFrameworks/SocialAppsCore.framework/Versions/A/SocialAppsCore
+/usr/lib/libDiagnosticMessagesClient.dylib
+...
+
+Load Comments:
+0x80000034
+0x30000
+0x80000033
+0x31c90
+LC_SYMTAB
+LC_DYSYMTAB
+LC_LOAD_DYLINKER
+LC_UUID
+0x32
+0x7379532f
+0x7262694c
+0x6d617246
+0x462f736b
+0x6f697461
+0x77656d61
+0x73726556
+0x462f432f
+LC_LOAD_DYLIB
+LC_LOAD_WEAK_DYLIB
+...
+
+=====
+ARM64
+=====
+
+File Header:
+File Type	
+executable file
+Magic	
+0xfeedfacf
+Required Architecture	
+ARM64
+Sub-architecture	
+ARM64E
+Reserved	
+0x0
+Contained Load Commands	
+44
+Load Commands Size	
+5832
+Flags	
+DYLDLINK, NOUNDEFS, PIE, TWOLEVEL
+...
+
+Shared Libraries:
+System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes
+/System/Library/Frameworks/Security.framework/Versions/A/Security
+/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+/System/Library/PrivateFrameworks/CommunicationsFilter.framework/Versions/A/CommunicationsFilter
+/System/Library/PrivateFrameworks/ConversationKit.framework/Versions/A/ConversationKit
+/System/Library/PrivateFrameworks/KerberosHelper.framework/Versions/A/KerberosHelper
+/System/Library/PrivateFrameworks/PhoneNumbers.framework/Versions/A/PhoneNumbers
+/System/Library/PrivateFrameworks/ScreenSharing.framework/Versions/A/ScreenSharing
+/System/Library/PrivateFrameworks/SocialAppsCore.framework/Versions/A/SocialAppsCore
+/usr/lib/libDiagnosticMessagesClient.dylib
+...
+
+Load Comments:
+0x80000034
+0x30000
+0x80000033
+0x31c58
+LC_SYMTAB
+LC_DYSYMTAB
+LC_LOAD_DYLINKER
+LC_UUID
+0x32
+0x7379532f
+0x7262694c
+0x6d617246
+0x462f736b
+0x6f697461
+0x77656d61
+0x73726556
+0x462f432f
+LC_LOAD_DYLIB
+LC_LOAD_WEAK_DYLIB
+...
+
+===
+Execution Parents (files that create this file)
+ZIP	Archivo.zip
+...
+
+Files Opened
+/${DaemonNameOrIdentifierHere}
+/.AddressBookLocks
+/.CalendarLocks
+/.LINKS
+/.LINKS/1F2D5E93-D8B8-4071-9194-A421173850D8
+/.LINKS/2E54E30E-EE24-44A2-A1FB-77899FBD1F2E
+/.LINKS/45295F55-98B4-41DB-918D-4BDA1C9CB0A7
+/.LINKS/D626DB39-6D34-477D-AA10-5765C4920FF5
+/3448AD00-E1E7-4DC7-9EB2-35D08ECEF401
+/5B92C00C-B5A4-416E-920E-1534FCC06BC4
+/77FAE36C-D811-460D-BBB2-1A486F170839
+/AudioComponentRegistrar
+/FECAFBD1-48FA-4F6E-8337-317356488E9E
+/Library/Apple/System/Library/CoreServices/SafariSupport.bundle
+/Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents
+/Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/Info.plist
+/Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/Resources/Base.lproj
+/Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/Resources/en.lproj
+/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources
+/Library/Application Support/CrashReporter/AnonymousIdentifier_564DA901-888D-0A3D-B6BA-6650005EA062.plist
+/Library/Frameworks/Mono.framework/Versions/6.12.0/bin
+/Library/Managed Preferences/com.apple.MCXDebug.plist
+/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist
+/Library/Preferences/com.apple.MCXDebug.plist
+/Library/Preferences/com.apple.networkd.plist
+/System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex
+/System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex/Contents
+/System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex/Contents/Info.plist
+/System/Applications/News.app
+/System/Applications/News.app/Contents
+/System/Applications/News.app/Contents/Info.plist
+/System/Applications/News.app/Contents/PlugIns/NewsToday2.appex
+/System/Applications/News.app/Contents/PlugIns/NewsToday2.appex/Contents
+/System/Applications/News.app/Contents/PlugIns/NewsToday2.appex/Contents/Info.plist
+/System/Applications/News.app/Contents/Resources
+/System/Applications/News.app/Contents/Resources/Base.lproj
+/System/Applications/News.app/Contents/Resources/MCRestrictions.plist
+/System/Applications/News.app/Contents/Resources/en.lproj
+/System/Applications/Stocks.app
+/System/Applications/Stocks.app/Contents
+/System/Applications/Stocks.app/Contents/Info.plist
+/System/Applications/Stocks.app/Contents/PlugIns/StocksWidget.appex
+/System/Applications/Stocks.app/Contents/PlugIns/StocksWidget.appex/Contents
+/System/Applications/Stocks.app/Contents/PlugIns/StocksWidget.appex/Contents/Info.plist
+/System/Applications/Utilities/Terminal.app
+/System/Applications/Utilities/Terminal.app/Contents
+/System/Applications/Utilities/Terminal.app/Contents/Info.plist
+/System/Applications/Utilities/Terminal.app/Contents/_MASReceipt/receipt
+/System/Library/Caches/MobileActivation/data_ark.plist
+/System/Library/CoreServices
+/System/Library/CoreServices/.SystemVersionPlatform.plist
+/System/Library/CoreServices/AirPlayUIAgent.app
+/System/Library/CoreServices/AirPlayUIAgent.app/Contents
+/System/Library/CoreServices/AirPlayUIAgent.app/Contents/Info.plist
+/System/Library/CoreServices/ClimateProxy.app/Contents/PlugIns/WeatherWidget.appex
+/System/Library/CoreServices/ClimateProxy.app/Contents/PlugIns/WeatherWidget.appex/Contents
+/System/Library/CoreServices/ClimateProxy.app/Contents/PlugIns/WeatherWidget.appex/Contents/Info.plist
+/System/Library/CoreServices/Clock.app/Contents/PlugIns/WorldClockWidget.appex
+/System/Library/CoreServices/Clock.app/Contents/PlugIns/WorldClockWidget.appex/Contents
+/System/Library/CoreServices/Clock.app/Contents/PlugIns/WorldClockWidget.appex/Contents/Info.plist
+/System/Library/CoreServices/ControlCenter.app
+/System/Library/CoreServices/ControlCenter.app/Contents
+/System/Library/CoreServices/ControlCenter.app/Contents/Info.plist
+/System/Library/CoreServices/CoreLocationAgent.app
+/System/Library/CoreServices/CoreLocationAgent.app/Contents
+/System/Library/CoreServices/CoreLocationAgent.app/Contents/Info.plist
+/System/Library/CoreServices/CoreServicesUIAgent.app
+/System/Library/CoreServices/CoreServicesUIAgent.app/Contents
+/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/Info.plist
+/System/Library/CoreServices/Dock.app
+/System/Library/CoreServices/Dock.app/Contents
+/System/Library/CoreServices/Dock.app/Contents/Info.plist
+/System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc
+/System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents
+/System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/Info.plist
+/System/Library/CoreServices/Finder.app
+/System/Library/CoreServices/Finder.app/Contents
+/System/Library/CoreServices/Finder.app/Contents/Info.plist
+/System/Library/CoreServices/FolderActionsDispatcher.app
+/System/Library/CoreServices/FolderActionsDispatcher.app/Contents
+/System/Library/CoreServices/FolderActionsDispatcher.app/Contents/Info.plist
+/System/Library/CoreServices/Keychain Circle Notification.app
+/System/Library/CoreServices/Keychain Circle Notification.app/Contents
+/System/Library/CoreServices/Keychain Circle Notification.app/Contents/Info.plist
+/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu
+/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents
+/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/Info.plist
+/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc
+/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents
+/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/Info.plist
+/System/Library/CoreServices/NotificationCenter.app
+/System/Library/CoreServices/NotificationCenter.app/Contents
+/System/Library/CoreServices/NotificationCenter.app/Contents/Info.plist
+/System/Library/CoreServices/Resources
+/System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetExtension.appex
+/System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetExtension.appex/Contents
+/System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetExtension.appex/Contents/Info.plist
+/System/Library/CoreServices/ServerVersion.plist
+/System/Library/CoreServices/Software Update.app/Contents/Resources
+/System/Library/CoreServices/Spotlight.app
+/System/Library/CoreServices/Spotlight.app/Contents
+/System/Library/CoreServices/Spotlight.app/Contents/Info.plist
+/System/Library/CoreServices/System Events.app
+/System/Library/CoreServices/System Events.app/Contents
+/System/Library/CoreServices/System Events.app/Contents/Info.plist
+/System/Library/CoreServices/System Events.app/Contents/_MASReceipt/receipt
+/System/Library/CoreServices/SystemUIServer.app
+/System/Library/CoreServices/SystemUIServer.app/Contents
+/System/Library/CoreServices/SystemUIServer.app/Contents/Info.plist
+/System/Library/CoreServices/SystemVersion.bundle
+/System/Library/CoreServices/SystemVersion.bundle//Base.lproj
+/System/Library/CoreServices/SystemVersion.bundle//English.lproj
+/System/Library/CoreServices/SystemVersion.bundle/English.lproj
+/System/Library/CoreServices/SystemVersion.bundle/English.lproj/SystemVersion.strings
+/System/Library/CoreServices/SystemVersion.plist
+/System/Library/CoreServices/TextInputMenuAgent.app
+/System/Library/CoreServices/TextInputMenuAgent.app/Contents
+/System/Library/CoreServices/TextInputMenuAgent.app/Contents/Info.plist
+/System/Library/CoreServices/TextInputSwitcher.app
+/System/Library/CoreServices/TextInputSwitcher.app/Contents
+/System/Library/CoreServices/TextInputSwitcher.app/Contents/Info.plist
+/System/Library/CoreServices/UIKitSystem.app
+/System/Library/CoreServices/UIKitSystem.app/Contents
+/System/Library/CoreServices/UIKitSystem.app/Contents/Info.plist
+/System/Library/CoreServices/backupd.bundle/Contents/Resources
+/System/Library/CoreServices/loginwindow.app
+/System/Library/CoreServices/loginwindow.app/Contents
+/System/Library/CoreServices/loginwindow.app/Contents/Info.plist
+/System/Library/CoreServices/powerd.bundle
+/System/Library/CoreServices/powerd.bundle/Info.plist
+/System/Library/CryptoTokenKit/com.apple.ifdreader.slotd
+/System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents
+/System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/Info.plist
+/System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext
+/System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/Info.plist
+/System/Library/Frameworks/Accounts.framework/Versions/A/Support
+/System/Library/Frameworks/AddressBook.framework/Executables
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/Info.plist
+/System/Library/Frameworks/AudioToolbox.framework
+/System/Library/Frameworks/AudioToolbox.framework/Resources
+/System/Library/Frameworks/AudioToolbox.framework/Resources/Info.plist
+/System/Library/Frameworks/AudioToolbox.framework/Versions/A/Resources
+/System/Library/Frameworks/AudioToolbox.framework/Versions/A/Resources/Info.plist
+/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc
+/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents
+/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/Info.plist
+/System/Library/Frameworks/CFNetwork.framework/Resources/CFNETWORK_DIAGNOSTICS
+/System/Library/Frameworks/CoreAudio.framework
+/System/Library/Frameworks/CoreAudio.framework/Resources
+/System/Library/Frameworks/CoreAudio.framework/Resources/Base.lproj/
+/System/Library/Frameworks/CoreAudio.framework/Resources/Base.lproj/Resources
+/System/Library/Frameworks/CoreAudio.framework/Resources/Info.plist
+/System/Library/Frameworks/CoreAudio.framework/Resources/Resources
+/System/Library/Frameworks/CoreAudio.framework/Resources/en.lproj/
+/System/Library/Frameworks/CoreAudio.framework/Resources/en.lproj/Resources
+/System/Library/Frameworks/CoreAudio.framework/Versions/A/Resources
+/System/Library/Frameworks/CoreAudio.framework/Versions/A/Resources/Info.plist
+/System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc
+/System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents
+/System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework
+/System/Library/Frameworks/CoreMediaIO.framework/Resources
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AVC.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AVC.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AVC.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleCamera.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleCamera.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleCamera.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleCameraInterface.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleCameraInterface.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleCameraInterface.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleH13CameraInterface.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleH13CameraInterface.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/AppleH13CameraInterface.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/IIDC.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/IIDC.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/IIDC.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/iOSScreenCapture.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/iOSScreenCapture.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Resources/iOSScreenCapture.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AVC.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AVC.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AVC.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCamera.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCamera.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCamera.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCameraInterface.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCameraInterface.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCameraInterface.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleH13CameraInterface.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleH13CameraInterface.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleH13CameraInterface.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/IIDC.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/IIDC.plugin/Contents
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/IIDC.plugin/Contents/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/Info.plist
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/VDC.plugin
+/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/VDC.plugin/Contents
+/System/Library/Sandbox/Profiles/mobileactivationd.sb
+/System/Volumes/Data/Users/user1/Library/Caches/GeoServices
+/System/Volumes/Data/Users/user1/Library/Caches/GeoServices/Navd
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync01e6.5fyJvs
+/Users/user1/Library/Caches/GeoServices/Experiments.pbd
+/Users/user1/Library/Caches/com.apple.parsecd/session.490.45ECCB3C-D39C-49AA-8714-BA492B5750E3.open
+/Users/user1/Library/Logs/DiagnosticReports/.SiriSearchFeedback-2022-11-03-072852.diag
+/Users/user1/Library/Safari/CloudTabs.db
+/Users/user1/Library/Safari/CloudTabs.db-shm
+/Users/user1/Library/Safari/CloudTabs.db-wal
+/Users/user1/Library/Saved Application State/com.apple.wifi.WiFiAgent.savedState/data.data
+/Users/user1/Library/Saved Application State/com.apple.wifi.WiFiAgent.savedState/windows.plist
+/dev/io8log
+/dev/io8logtemp
+/etc/master.passwd
+/private/var/db/locationd/Library/Caches/GeoServices/Resources
+/tmp/tmpn5h8y9ol
+/usr/lib/log
+/usr/libexec/UserEventAgent
+/var/db/locationd/Library/Caches/GeoServices/Experiments.pbd
+/var/root/Library/HTTPStorages/SubmitDiagInfo.binarycookies
+...
+
+Files Written:
+/System/Library/Caches/MobileActivation/data_ark.plist
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync01e6.5fyJvs
+/Users/user1/Library/Caches/com.apple.ap.adprivacyd/fsCachedData/FE947E78-35C2-458F-A009-076EC34551DA.tmp
+/Users/user1/Library/Caches/com.apple.parsecd/session.490.45ECCB3C-D39C-49AA-8714-BA492B5750E3.open
+...
+
+Files Deleted:
+
+/Users/user1/Library/Caches/com.apple.ap.adprivacyd/fsCachedData/FE947E78-35C2-458F-A009-076EC34551DA
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-16_B84DB664.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-17_D02C3664.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-18_A475CB07.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-19_321A1873.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-20_6E005C18.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-21_B2E50F7C.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-22_828F7873.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-23_CAC6AA2D.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-24_EAFF8E4B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-25_C6CA810A.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-26_7BB02307.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-27_065CFE37.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-28_13681717.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-29_C248A781.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-30_36B098A4.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-03-31_0A760023.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-01_924D4C07.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-02_8BB5223B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-03_537D76FE.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-04_1B02CD97.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-05_97E8DB31.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-06_EA0ADDEE.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-07_6534A0E1.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-08_8568ACEE.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-09_BD9FAFBC.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-10_447A83B0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-11_C2D69308.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-12_DCEE878D.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-13_CFFB6287.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-14_69D21920.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-15_34F2819B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-16_39BB68EC.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-17_E81A0BD1.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-18_4E4CA956.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-19_B5045B60.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-20_1BB9B9A0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-21_5978FB77.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-22_AE3A4F15.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-23_54128DFA.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-24_D8DB25C6.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-25_879C9319.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-26_65352922.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-27_3A989288.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-28_D18F4EB5.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-29_8E0F39BB.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-04-30_6A2D72B0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-01_C994DA1E.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-02_19C4CB2C.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-03_E43856A2.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-04_E8C5111B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-05_DA8BC120.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-06_A1CB82AC.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-07_3A4407A8.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-08_6E700C7B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-09_B9BE87F3.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-10_AAD3A435.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-11_7E7CA948.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-12_6CF32A39.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-13_1ABE72D7.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-14_CFF37B0D.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-15_C91935BB.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-16_0AA071B2.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-17_8FFD8C9C.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-18_4F1D3ABB.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-19_B96F42CC.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-20_654783E5.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-21_B60FEAFE.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-22_D9620752.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-23_D733C891.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-24_8CF2B79D.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-25_D547C2E9.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-26_82C8DF09.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-27_F8E2E534.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-28_98A89D75.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-29_1126F0AC.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-30_7CF3D291.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-05-31_673BC775.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-01_7B265F62.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-02_DAA0F053.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-03_EA679976.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-04_779F305B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-05_C31746A5.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-06_7C6C4260.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-07_543A7363.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-08_27B3608E.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-09_AABC9DEA.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-10_62797C27.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-11_4D27655D.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-12_D1DD8486.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-13_AD283A6B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-14_45471758.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-15_955B59C5.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-16_B5DEC198.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-17_C5E8641D.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-18_482D2C23.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-19_96DFB1FC.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-20_6502E51C.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-21_C84E2D83.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-22_EE889531.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-23_06C665E5.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-24_36CAA9D0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-25_FC58D19F.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-26_AB615C4A.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-27_AFC70B70.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-28_BDCCB39B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-29_E6D92CAE.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-06-30_8D85CA48.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-01_F739E843.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-02_B843A1A0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-03_58A55BB8.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-04_4C759C99.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-05_8E16717E.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-06_35AEBBE0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-07_C04D884B.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-08_4F87770A.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-09_4EF1DAC0.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-10_56E28AF6.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-11_31242848.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-15_3467EF09.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-19_AF5417E1.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-20_B3222025.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-21_13E4389E.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-22_3C394EF3.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2022-07-23_23147EA5.PLSQL-shm
+/var/db/powerlog/Library/BatteryLife/CurrentPowerlog.PLSQL-journal
+_LOCK
+database.lock
+...
+
+Files Copied:
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync01e6.5fyJvs
+- /Users/user1/Library/Application Support/com.apple.spotlight/appList.dat
+/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/TemporaryItems/NSIRD_SafariSupport_daJIvT/details.plist
+- /Users/user1/Library/Safari/lock/details.plist
+/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/TemporaryItems/NSIRD_SafariSupport_fjT8tp/details.plist
+- /Users/user1/Library/Safari/lock/details.plist
+/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/com.apple.parsecd/TemporaryItems/NSIRD_parsecd_OTHjck/session.490.45ECCB3C-D39C-49AA-8714-BA492B5750E3.open
+- /Users/user1/Library/Caches/com.apple.parsecd/session.490.45ECCB3C-D39C-49AA-8714-BA492B5750E3.open
+...
+
+Files Dropped
+
+/Users/user1/Library/Caches/com.apple.ap.adprivacyd/fsCachedData/FE947E78-35C2-458F-A009-076EC34551DA.tmp
+sha256	
+138a89e25ef87b832bbf069e441f87d696638ea69a1a0a3a543008b8183277ce
+type	
+TEXT
+...
+
+Shell Commands
+/Users/user1/Desktop/Screen Sharing
+...
+
+Processes Tree
+
+689 - /usr/libexec/adprivacyd
+691 - /Users/user1/Desktop/Screen Sharing
+706 - /usr/libexec/PerfPowerServices
+724 - /usr/libexec/dirhelper
+ 725 - /usr/libexec/dirhelper n/a
+ 726 - /usr/libexec/dirhelper n/a
+ 727 - /usr/libexec/dirhelper n/a
+ 728 - /usr/libexec/dirhelper n/a
+ 729 - /usr/libexec/dirhelper n/a
+ 730 - /usr/libexec/dirhelper n/a
+ 731 - /usr/libexec/dirhelper n/a
+ 732 - /usr/libexec/dirhelper n/a
+ 733 - /usr/libexec/dirhelper n/a
+ 734 - /usr/libexec/dirhelper n/a
+ 735 - /usr/libexec/dirhelper n/a
+ 736 - /usr/libexec/dirhelper n/a
+ 737 - /usr/libexec/dirhelper n/a
+ 738 - /usr/libexec/dirhelper n/a
+ 739 - /usr/libexec/dirhelper n/a
+ 740 - /usr/libexec/dirhelper n/a
+ 741 - /usr/libexec/dirhelper n/a
+ 742 - /usr/libexec/dirhelper n/a
+ 743 - /usr/libexec/dirhelper n/a
+ 744 - /usr/libexec/dirhelper n/a
+ 745 - /usr/libexec/dirhelper n/a
+ 746 - /usr/libexec/dirhelper n/a
+ 747 - /usr/libexec/dirhelper n/a
+ 748 - /usr/libexec/dirhelper n/a
+...
+
+Highlighted Text
+Expected in: /System/Library/PrivateFrameworks/ScreenSharing.framework/Versions/A/ScreenSharing
+Referenced from: /Users/user1/Desktop/Screen Sharing (which was built for Mac OS X 13.2)
+dyld: Symbol not found: _gSSZoomTable
+
+
