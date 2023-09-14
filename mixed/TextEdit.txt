@@ -1,0 +1,406 @@
+com.apple.TextEdit
+https://www.virustotal.com/gui/file/e6887e290dc4350946c2771e6fc829c601cddc0c6a8914e7be6b34bdfc6f1572
+
+Files Opened
+
+/Library/Preferences/com.apple.networkd.plist
+/Library/Preferences/com.apple.networkextension.uuidcache.plist
+/System/Library/Address Book Plug-Ins
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/Info.plist
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/Resources
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/Resources/Base.lproj
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/Resources/English.lproj
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/Resources/en.lproj
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/Resources/en.lproj/InfoPlist.strings
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/Info.plist
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/MacOS/DirectoryServices
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/Resources
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/Resources/Base.lproj
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/Resources/English.lproj
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/Resources/en.lproj
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/Resources/en.lproj/InfoPlist.strings
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents/Info.plist
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents/Resources
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents/Resources/Base.lproj
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents/Resources/English.lproj
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents/Resources/en.lproj
+/System/Library/Address Book Plug-Ins/Exchange.sourcebundle/Contents/Resources/en.lproj/InfoPlist.strings
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/Info.plist
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/Resources
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/Resources/Base.lproj
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/Resources/English.lproj
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/Resources/en.lproj
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/Resources/en.lproj/InfoPlist.strings
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/Info.plist
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/MacOS/LocalSource
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/Resources
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/Resources/Base.lproj
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/Resources/English.lproj
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/Resources/en.lproj
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/Resources/en.lproj/InfoPlist.strings
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents/Info.plist
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents/Resources
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents/Resources/Base.lproj
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents/Resources/English.lproj
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents/Resources/en.lproj
+/System/Library/Address Book Plug-Ins/POIPlugin.sourcebundle/Contents/Resources/en.lproj/InfoPlist.strings
+/System/Library/CoreServices/ServerVersion.plist
+/System/Library/CoreServices/SystemVersion.bundle
+/System/Library/CoreServices/SystemVersion.bundle//Base.lproj
+/System/Library/CoreServices/SystemVersion.bundle//English.lproj
+/System/Library/CoreServices/SystemVersion.bundle/English.lproj
+/System/Library/CoreServices/SystemVersion.bundle/English.lproj/SystemVersion.strings
+/System/Library/CoreServices/SystemVersion.plist
+/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app
+/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app/Contents
+/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app/Contents/Info.plist
+/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app/Contents/MacOS/AddressBookSourceSync
+/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app/Contents/Resources
+/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app/Contents/XPCServices
+/System/Library/Frameworks/CFNetwork.framework
+/System/Library/Frameworks/CFNetwork.framework//Base.lproj
+/System/Library/Frameworks/CFNetwork.framework//en.lproj
+/System/Library/Frameworks/CFNetwork.framework/Resources
+/System/Library/Frameworks/CFNetwork.framework/Resources/Base.lproj
+/System/Library/Frameworks/CFNetwork.framework/Resources/CFNETWORK_DIAGNOSTICS
+/System/Library/Frameworks/CFNetwork.framework/Resources/Info.plist
+/System/Library/Frameworks/CFNetwork.framework/Resources/builtinTLDDafsaData.bin
+/System/Library/Frameworks/CFNetwork.framework/Resources/en.lproj
+/System/Library/Frameworks/CFNetwork.framework/Versions/A/Resources
+/System/Library/Frameworks/CFNetwork.framework/Versions/A/Resources/Info.plist
+/System/Library/Frameworks/CFNetwork.framework/Versions/A/Resources/en.lproj
+/System/Library/Frameworks/CoreFoundation.framework
+/System/Library/Frameworks/CoreFoundation.framework//Base.lproj
+/System/Library/Frameworks/CoreFoundation.framework//en.lproj
+/System/Library/Frameworks/CoreFoundation.framework//en_US.lproj
+/System/Library/Frameworks/CoreFoundation.framework/Resources
+/System/Library/Frameworks/CoreFoundation.framework/Resources/Base.lproj
+/System/Library/Frameworks/CoreFoundation.framework/Resources/Info.plist
+/System/Library/Frameworks/CoreFoundation.framework/Resources/en.lproj
+/System/Library/Frameworks/CoreFoundation.framework/Resources/en.lproj/Error.strings
+/System/Library/Frameworks/CoreFoundation.framework/Resources/en_US.lproj
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Resources
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Resources/Info.plist
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Resources/en.lproj
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Resources/en.lproj/Error.strings
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/LaunchServices
+/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework
+/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Metadata
+/System/Library/Frameworks/Foundation.framework
+/System/Library/Frameworks/Foundation.framework//Base.lproj
+/System/Library/Frameworks/Foundation.framework//en.lproj
+/System/Library/Frameworks/Foundation.framework//en_US.lproj
+/System/Library/Frameworks/Foundation.framework/Resources
+/System/Library/Frameworks/Foundation.framework/Resources/Base.lproj
+/System/Library/Frameworks/Foundation.framework/Resources/Info.plist
+/System/Library/Frameworks/Foundation.framework/Resources/en.lproj
+/System/Library/Frameworks/Foundation.framework/Resources/en.lproj/FoundationErrors.strings
+/System/Library/Frameworks/Foundation.framework/Resources/en_US.lproj
+/System/Library/Frameworks/Foundation.framework/Versions/C/Resources
+/System/Library/Frameworks/Foundation.framework/Versions/C/Resources/Info.plist
+/System/Library/Frameworks/Foundation.framework/Versions/C/Resources/en.lproj
+/System/Library/Frameworks/Foundation.framework/Versions/C/Resources/en.lproj/FoundationErrors.strings
+/System/Library/Frameworks/WebKit.framework
+/System/Library/Frameworks/WebKit.framework/Resources
+/System/Library/Frameworks/WebKit.framework/Resources/Base.lproj
+/System/Library/Frameworks/WebKit.framework/Resources/English.lproj
+/System/Library/Frameworks/WebKit.framework/Resources/Info.plist
+/System/Library/Frameworks/WebKit.framework/Resources/en.lproj
+/System/Library/Frameworks/WebKit.framework/Resources/en.lproj/InfoPlist.strings
+/System/Library/Frameworks/WebKit.framework/Versions/A/Resources
+/System/Library/Frameworks/WebKit.framework/Versions/A/Resources/Info.plist
+/System/Library/Frameworks/WebKit.framework/Versions/A/Resources/en.lproj
+/System/Library/Frameworks/WebKit.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+/System/Library/PrivateFrameworks/AddressBookCore.framework
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Base.lproj
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/Base.lproj
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/Info.plist
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/RegisteredDefaults.plist
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/en.lproj
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/en.lproj/ABLDAPStrings.strings
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/en.lproj/ABStrings.strings
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/en.lproj/ABStrings.stringsdict
+/System/Library/PrivateFrameworks/AddressBookCore.framework/Resources/en.lproj/LocalizedDefaults.plist
+/System/Library/PrivateFrameworks/AddressBookCore.framework/en.lproj
+/System/Library/PrivateFrameworks/AppleMediaServices.framework
+/System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources
+/System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/Info.plist
+/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/Resources
+/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/Resources/Info.plist
+/System/Library/PrivateFrameworks/ContactsFoundation.framework
+/System/Library/PrivateFrameworks/ContactsFoundation.framework/Resources
+/System/Library/PrivateFrameworks/ContactsFoundation.framework/Resources/Base.lproj
+/System/Library/PrivateFrameworks/ContactsFoundation.framework/Resources/English.lproj
+/System/Library/PrivateFrameworks/ContactsFoundation.framework/Resources/Info.plist
+/System/Library/PrivateFrameworks/ContactsFoundation.framework/Resources/en.lproj
+/System/Library/PrivateFrameworks/ContactsFoundation.framework/Resources/en.lproj/LocalizedDefaults.plist
+/System/Library/PrivateFrameworks/ContactsPersistence.framework
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Resources
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Resources/Base.lproj
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Resources/English.lproj
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Resources/Info.plist
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Resources/en.lproj
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/Resources/ABAddressBook.momd
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/Resources/ABAddressBook.momd/ABAddressBook-20A2.omo
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/Resources/ABAddressBook.momd/Base.lproj
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/Resources/ABAddressBook.momd/VersionInfo.plist
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/Resources/ABAddressBook.momd/en.lproj
+/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/Current
+/System/Library/PrivateFrameworks/ReminderKit.framework
+/System/Library/PrivateFrameworks/ReminderKit.framework//Base.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework//en.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework/Resources
+/System/Library/PrivateFrameworks/ReminderKit.framework/Resources/Base.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework/Resources/Info.plist
+/System/Library/PrivateFrameworks/ReminderKit.framework/Resources/en.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework/Resources/en.lproj/Localizable.strings
+/System/Library/PrivateFrameworks/ReminderKit.framework/Resources/en.lproj/Localizable.stringsdict
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/Info.plist
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/ReminderData.momd
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/ReminderData.momd//Base.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/ReminderData.momd//en.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/ReminderData.momd/ReminderData_v3_Release_2021.omo
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/ReminderData.momd/VersionInfo.plist
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/en.lproj
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/en.lproj/Localizable.strings
+/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict
+/System/Library/PrivateFrameworks/TipsDaemon.framework
+/System/Library/PrivateFrameworks/TipsDaemon.framework/Resources
+/System/Library/PrivateFrameworks/TipsDaemon.framework/Resources/Info.plist
+/System/Library/PrivateFrameworks/TipsDaemon.framework/Versions/A/Resources
+/System/Library/PrivateFrameworks/TipsDaemon.framework/Versions/A/Resources/Info.plist
+/System/Library/Sandbox/Profiles/com.apple.ap.promotedcontentd.sb
+/System/Library/Sandbox/Profiles/com.apple.corefoundation.sb
+/System/Library/Sandbox/Profiles/com.apple.remindd.sb
+/System/Library/Sandbox/Profiles/com.apple.tipsd.sb
+/System/Library/Sandbox/Profiles/system.sb
+/System/Volumes/Data/.fseventsd/0000000000b10371
+/System/Volumes/Data/Users/user1/Library/Application Support/CrashReporter/.DS_Store
+/System/Volumes/Data/Users/user1/Library/Application Support/CrashReporter/TextEdit_564D08E4-701B-B528-C11D-77B13C17BB25.plist
+/Users/maria/.CFUserTextEncoding
+/Users/maria/Desktop
+/Users/maria/Desktop/Info.plist
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/a/p/APAdPolicy
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/f/8dfcfb291b4fa378b52703e1231526a83622635d949af670104173eeb061d49c
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/f/90dc1245bdb12a01e805745e9b74905788d07042b27a7cfc9fbe50b0b6fc893d
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/014334c67a8888340bbdd1987b5034a8316b9cc02da2b48a132dfa5a33eecc30
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/919b71d74399ab0469d7620b970f3c234d52eb3e623f3d4da66d82a4da8cd3a4
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/a5458ac6fa58fa8120a03eaa02adeb0e81a1a9fce4902a86bb963583d01ad380
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/b15ac38f4f8c7e347584be549156714436f40014ddc57623cede759a8bb96325
+/Users/maria/Library/Caches/com.apple.remindd/Cache.db
+/Users/maria/Library/Caches/com.apple.remindd/Cache.db-wal
+/Users/maria/Library/Caches/com.apple.remindd/RemoteConfiguration.plist
+/Users/maria/Library/Caches/com.apple.remindd/fsCachedData_remove
+/Users/maria/Library/Group Containers/group.com.apple.tips/Library/Caches/JSON
+/Users/maria/Library/HTTPStorages/com.apple.remindd
+/Users/maria/Library/HTTPStorages/com.apple.remindd.binarycookies
+/Users/maria/Library/HTTPStorages/com.apple.tipsd
+/Users/maria/Library/HTTPStorages/com.apple.tipsd.binarycookies
+/Users/maria/Library/HTTPStorages/com.apple.tipsd/httpstorages.sqlite
+/Users/maria/Library/HTTPStorages/com.apple.tipsd/httpstorages.sqlite-wal
+/Users/maria/Library/HTTPStorages/promotedcontentd
+/Users/maria/Library/Reminders/Container_v1/Stores
+/Users/maria/Library/Reminders/Container_v1/Stores/Data-277D0DDC-9960-480C-9DA8-B9FEF1CE5557.sqlite
+/Users/maria/Library/Reminders/Container_v1/Stores/Data-277D0DDC-9960-480C-9DA8-B9FEF1CE5557.sqlite-wal
+/Users/maria/Library/Reminders/Container_v1/Stores/Data-FA233AF5-7192-41F5-BE42-9C264488CB9A.sqlite
+/Users/maria/Library/Reminders/Container_v1/Stores/Data-FA233AF5-7192-41F5-BE42-9C264488CB9A.sqlite-wal
+/Users/maria/Library/Reminders/DataAccess/AccountInformation.plist
+/Users/user1/Library/Application Support/AddressBook/AddressBook-v22.abcddb
+/Users/user1/Library/Application Support/AddressBook/AddressBook-v22.abcddb-shm
+/Users/user1/Library/Application Support/AddressBook/AddressBook-v22.abcddb-wal
+/Users/user1/Library/Application Support/AddressBook/Configuration.plist
+/Users/user1/Library/Application Support/AddressBook/Metadata
+/Users/user1/Library/Application Support/AddressBook/Metadata/.info
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync01ca.IEpyKe
+/Users/user1/Library/Caches/CloudKit
+/Users/user1/Library/Caches/CloudKit/com.apple.assistant.assistantd
+/Users/user1/Library/Caches/CloudKit/com.apple.assistant.assistantd/1149c95d44c49c6476cfcef3b1bb58df808fc9be
+/Users/user1/Library/Caches/CloudKit/com.apple.assistant.assistantd/745028c72683801e45d882b9b76307c0b258408a
+/Users/user1/Library/Caches/CloudKit/com.apple.assistant.assistantd/a7251ab568c11a3a6168372c6e3c87169b2d665c
+/Users/user1/Library/Caches/CloudKit/com.apple.avatarsd
+/Users/user1/Library/Caches/CloudKit/com.apple.avatarsd/740cb274de093e23dbcd79ce2d24ba20c095de7b
+/Users/user1/Library/Caches/CloudKit/com.apple.avatarsd/a1fdd045e89381384e1777c91c981b211fa0dc29
+/Users/user1/Library/Caches/CloudKit/com.apple.avatarsd/e3218955454ddfc3c690909bd6d691c9f2d0b139
+/Users/user1/Library/Caches/CloudKit/com.apple.callhistory.sync-helper
+/Users/user1/Library/Caches/CloudKit/com.apple.callhistory.sync-helper/44e26b57cd8c4005e49858d475504a9e7170bf78
+/Users/user1/Library/Caches/CloudKit/com.apple.callhistory.sync-helper/7be4885e5a6519e9dfae052b9df74edada351480
+/Users/user1/Library/Caches/CloudKit/com.apple.callhistory.sync-helper/d852d90ee7057b785c8de4fbbfa837386f3297f9
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudpaird
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudpaird/05bd3e8ef728635c1fbeec6254c78d43517fc7db
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudpaird/3676b2a64cc12b4d47dcaca1ee52ab5eeb833deb
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudpaird/5c64ef931d8658ccf3553c9467b17fa4a3f57288
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudpaird/b41d238ed1acfe99c25e162e76892ab9e9ec1930
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudpaird/ce49f3500a597aa2dca9af15112d99e9363cd778
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudphotod
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudphotod/164de80409ad5f5ace14701896b578c7079da252
+/Users/user1/Library/Caches/CloudKit/com.apple.cloudphotod/250148ebfb805a382b401f61e6f6b19176d69212
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.fmfd
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.fmfd/13f631a3598f936e415e0dce3963008159ae2a66
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.fmfd/475a63d3945d1ee8b5616367e893d6c9f96282e3
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.fmfd/6f2b8ef094adc2a70c45cdb0d186258cb201f786
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.searchpartyuseragent
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.searchpartyuseragent/6b8d601777f7c5ac575cb3c8ed208959da5cc46f
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.searchpartyuseragent/d0a125489a3b76b1e8871596e0342aaca9619a05
+/Users/user1/Library/Caches/CloudKit/com.apple.icloud.searchpartyuseragent/e0374387eaaa50a07c255feb8de110c97094e028
+/Users/user1/Library/Caches/CloudKit/com.apple.identityservicesd
+/Users/user1/Library/Caches/CloudKit/com.apple.identityservicesd/849759fb8eb7a3da707532c88ed982ae01375646
+/Users/user1/Library/Caches/CloudKit/com.apple.identityservicesd/8f1b0311fbe12e91b90cf18e34e9b4d63c38e602
+/Users/user1/Library/Caches/CloudKit/com.apple.identityservicesd/c45ab79a64a9baa0921af8c64ffce2faec3dde64
+/Users/user1/Library/Caches/CloudKit/com.apple.imagent
+/Users/user1/Library/Caches/CloudKit/com.apple.imagent/595e8bb0c8c5bca9dd197a05597a294fb2d5d1bb
+/Users/user1/Library/Caches/CloudKit/com.apple.imagent/6fe52de9b209fe993ece0f2445dff3edf1a1679b
+/Users/user1/Library/Caches/CloudKit/com.apple.imagent/f1e426547ff4c4d5809164ec35ee0872d7600a35
+/Users/user1/Library/Caches/CloudKit/com.apple.knowledge-agent
+/Users/user1/Library/Caches/CloudKit/com.apple.knowledge-agent/57884fce175b6b1d242db964015f8f050da9c3aa
+/Users/user1/Library/Caches/CloudKit/com.apple.knowledge-agent/84d2318fa391deed049846dc3f60e452cf01c377
+/Users/user1/Library/Caches/CloudKit/com.apple.knowledge-agent/cb76e6f7c01e6fba7b0f09a3fb202aeec42b4b73
+/Users/user1/Library/Caches/CloudKit/com.apple.passd
+/Users/user1/Library/Caches/CloudKit/com.apple.passd/3c9243e9598b2040d83f86987d721d1e609c4cd2
+/Users/user1/Library/Caches/CloudKit/com.apple.protectedcloudstorage.protectedcloudkeysyncing
+/Users/user1/Library/Caches/CloudKit/com.apple.protectedcloudstorage.protectedcloudkeysyncing/69c058b849aa11ed1ab3ee58001a9f314a4c4130
+/Users/user1/Library/Caches/CloudKit/com.apple.protectedcloudstorage.protectedcloudkeysyncing/8a2e8c6967aae41d65311f6ce82c02d943427d19
+/Users/user1/Library/Caches/CloudKit/com.apple.protectedcloudstorage.protectedcloudkeysyncing/aa73de30954c5cf0c85ed82c798fc05ce34a64b6
+/Users/user1/Library/Caches/CloudKit/com.apple.remindd
+/Users/user1/Library/Caches/CloudKit/com.apple.remindd/708e49fabf083cb1251012ad1d8f97303f32a83a
+/Users/user1/Library/Caches/CloudKit/com.apple.remindd/ee62608d884020bffc762604e345955df0304eb1
+/Users/user1/Library/Caches/CloudKit/com.apple.securityd
+/Users/user1/Library/Caches/CloudKit/com.apple.securityd/444b262b252686c99622264f1d476ced07a32cb1
+/Users/user1/Library/Caches/CloudKit/com.apple.securityd/74e7468cdef4548041e4d20c3debfdc2b011227a
+/Users/user1/Library/Caches/CloudKit/com.apple.securityd/fa1e3fbf25118f4c6b2e02d52f316e01347e101a
+/Users/user1/Library/Caches/CloudKit/com.apple.suggestd
+/Users/user1/Library/Caches/CloudKit/com.apple.suggestd/07c18a856448b261a3f74cf2e104e3a00abf128d
+/Users/user1/Library/Caches/CloudKit/com.apple.suggestd/9689277fc800e022bb77d1141f289a17802a0e5b
+/Users/user1/Library/Caches/CloudKit/com.apple.suggestd/c6641c96deceb9b2b4fc35feacc62a5ca5cc0f7a
+/Users/user1/Library/Caches/CloudKit/com.apple.syncdefaultsd
+/Users/user1/Library/Caches/CloudKit/com.apple.syncdefaultsd/46997fc7f15bd5b9b28f9415b5f510378f86f047
+/Users/user1/Library/Caches/CloudKit/com.apple.syncdefaultsd/a7e45990e14ac73500672725791cc9d2458fd751
+/Users/user1/Library/Caches/CloudKit/com.apple.syncdefaultsd/e68d78a76d4b43bfe289cedd12bc322d2a429b44
+/Users/user1/Library/Caches/CloudKit/com.apple.textinput.KeyboardServices
+/Users/user1/Library/Caches/CloudKit/com.apple.textinput.KeyboardServices/16eec71a93d98426bd4f0adf6f1feee9a29311f6
+/Users/user1/Library/Caches/CloudKit/com.apple.textinput.KeyboardServices/73860e57795d7b199e55275ab90eb2a8027ab7a1
+/Users/user1/Library/Caches/CloudKit/com.apple.triald
+/Users/user1/Library/Caches/CloudKit/com.apple.triald/3b1dd1e0f6212bc95788fb9626a7531ae55126f1
+/Users/user1/Library/Caches/CloudKit/com.apple.triald/495f217bcfcdbe6b904cf8e8c72bfe7a84ead235
+/Users/user1/Library/Caches/CloudKit/com.apple.triald/b2980566609fa0fc7f5dad5576e3f107264278dd
+/Users/user1/Library/Caches/CloudKit/com.apple.willowd
+/Users/user1/Library/Caches/CloudKit/com.apple.willowd/7bd8fe3bd494d0f84f5e8669dba459f817ecd033
+/Users/user1/Library/Caches/CloudKit/com.apple.willowd/84aa04eb48bbce96cce41ef359e5bedd37611e43
+/dev/autofs_nowait
+/dev/urandom
+/etc/master.passwd
+/private/var/db/analyticsd/Library/Preferences/analyticsd.plist
+/private/var/db/timezone/tz/2022g.1.0/zoneinfo/America/Los_Angeles
+/private/var/db/timezone/tz/2022g.1.0/zoneinfo/posixrules
+/private/var/db/uuidtext/09
+/private/var/db/uuidtext/24
+/private/var/db/uuidtext/3F
+/private/var/db/uuidtext/96
+/private/var/db/uuidtext/A7
+/private/var/db/uuidtext/E7
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/.LINKS
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/tmpsqlitetruncatedbYYiz3P
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/tmpsqlitetruncatedbYYiz3P-journal
+/private/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/.AddressBookLocks/_Users_user1_Library_Application Support_AddressBook_Metadata_.MetaData.lock_lock
+/private/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/.AddressBookLocks/database.lock
+/private/var/folders/_2/f1dk13r15vgb7756v1t3kfb40000gn/T/.LINKS
+/tmp/tmphypawjj2
+/usr/lib
+/usr/lib/libobjc-trampolines.dylib
+/usr/lib/libstdc++.6.dylib
+/usr/lib/log/
+/usr/libexec
+/usr/libexec//Base.lproj
+/usr/libexec//English.lproj
+/usr/libexec//en.lproj
+/usr/libexec/Info.plist
+/usr/libexec/UserEventAgent
+/usr/libexec/promotedcontentd
+/usr/libexec/remindd
+/usr/libexec/tipsd
+/usr/share/icu/icudt70l.dat
+/var/db/analyticsd/aggregate_persist_temp
+/var/db/nsurlstoraged/dafsaData.bin
+/var/db/timezone/icutz/icutz44l.dat
+/var/db/timezone/zoneinfo/posixrules
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/.LINKS/2FD51130-5F68-4E0B-ADDE-6E0661B00727
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/.LINKS/728754D8-B0F5-4BF4-8C0C-9AA89DBB2082
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.tipsd/CFNetworkDownload_ORBimk.tmp
+...
+
+Files Written
+
+/System/Volumes/Data/.fseventsd/0000000000b10371
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/a/p/APAdPolicy
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/f/8dfcfb291b4fa378b52703e1231526a83622635d949af670104173eeb061d49c
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/f/90dc1245bdb12a01e805745e9b74905788d07042b27a7cfc9fbe50b0b6fc893d
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/014334c67a8888340bbdd1987b5034a8316b9cc02da2b48a132dfa5a33eecc30
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/919b71d74399ab0469d7620b970f3c234d52eb3e623f3d4da66d82a4da8cd3a4
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/a5458ac6fa58fa8120a03eaa02adeb0e81a1a9fce4902a86bb963583d01ad380
+/Users/maria/Library/Application Support/com.apple.ap.promotedcontentd/EFS/s/s/b15ac38f4f8c7e347584be549156714436f40014ddc57623cede759a8bb96325
+/Users/user1/Library/Application Support/AddressBook/Metadata/.info
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync01ca.IEpyKe
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/TemporaryItems/NSIRD_remindd_9Yvg6u/RemoteConfiguration.plist
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.tipsd/CFNetworkDownload_ORBimk.tmp
+/var/db/analyticsd/aggregate_persist_temp
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/TemporaryItems/NSIRD_remindd_9Yvg6u/RemoteConfiguration.plist
+...
+
+Files Deleted
+
+Users/maria/Library/Caches/com.apple.remindd/fsCachedData_remove
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/.LINKS/2FD51130-5F68-4E0B-ADDE-6E0661B00727
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/.LINKS/728754D8-B0F5-4BF4-8C0C-9AA89DBB2082
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/tmpsqlitetruncatedbYYiz3P
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/tmpsqlitetruncatedbYYiz3P-journal
+/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.tipsd/CFNetworkDownload_ORBimk.tmp
+...
+
+Files Copied
+
+/Users/user1/Library/Application Support/com.apple.spotlight/.dat.nosync01ca.IEpyKe
+/Users/user1/Library/Application Support/com.apple.spotlight/appList.dat
+
+/var/db/analyticsd/aggregate_persist_temp
+/var/db/analyticsd/aggregates/Daily/a6/ee67f1-791c-472c-afad-a776381af62e_2
+...
+
+Files With Modified Attributes
+
+/Users/maria/Library/Caches/com.apple.remindd/RemoteConfiguration.plist
+...
+
+Files Dropped
+
+/private/var/folders/8s/wczf490s3zxb_mlq9d3sw90r0000gn/T/com.apple.remindd/TemporaryItems/NSIRD_remindd_9Yvg6u/RemoteConfiguration.plist
+sha256	6a17c684bc209562e101f2935f4ea6f076f6a2168cc83b0ba1caaa1fbccb8899
+type	XML
+...
+
+Shell Commands
+
+/Users/maria/Desktop/TextEdit
+/usr/bin/syslog -s -k com.apple.message.domain com.apple.security.assessment.current_state com.apple.message.signature assessments disabled com.apple.message.signature2 devid enabled Message Gatekeeper state assessments disabled/devid enabled
+
+
+Processes Tree
+
+688 - /usr/bin/syslog -s -k com.apple.message.domain com.apple.security.assessment.current_state com.apple.message.signature assessments disabled com.apple.message.signature2 devid enabled Message Gatekeeper state assessments disabled/devid enabled
+698 - /Users/maria/Desktop/TextEdit
+739 - /usr/libexec/remindd
+743 - /usr/libexec/promotedcontentd
+745 - /usr/libexec/tipsd
