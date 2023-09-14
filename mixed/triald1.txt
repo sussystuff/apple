@@ -1,0 +1,219 @@
+com.apple.triald
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key> 
+	<string>com.apple.triald</string>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+	</array>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.triald</string>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.managed configuration.profiled-access</key>
+	<true/>
+	<key>com.apple.managed configuration.profiled.configuration profiles</key>
+	<array>
+		<string>Removal</string>
+		<string>SilentNonUIInstallation</string>
+		<string>Inspection</string>
+	</array>
+	<key>com.apple.managedconfiguration.profiled.profile-list-read </key>
+	<true/>
+	<key>com.apple.private.CacheDelete</key>
+	<array>
+		<string>CLIENT_ENTITLEMENT</string>
+		<string>PURGEABLE_ENTITLEMENT</string>
+		<string>PURGE_ENTITLEMENT</string>
+	</array>
+	<key>com.apple.private.MobileContainerManager.allowed</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.Lookup</key>
+	<dict>
+	<key>appData</key>
+	<true/>
+	<key>pluginData</key>
+	<true/>
+	</dict>
+	<key>com.apple.private.aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAttentionAssets</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingNLOverrides</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriDictationAssets</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingNL</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrHammer</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriExperienceCam</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriInferredHelpfulness</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriTextToSpeech</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrAssistant</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriFindMyConfigurationFiles</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingAsrUaap</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingMorphun</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriDialogAssets</string>
+	</array>
+	<key>com.apple.private.assets.bypass-asset-types-check</key>
+	<true/>
+	<key>com.apple.private.assets.change-daemon-config</key>
+	<true/>
+	<key>com.apple.private.biome.read-write</key>
+	<string>Lighthouse.Ledger.TrialdEvent</string>
+	<key>com.apple.private.cloudkit.buddyAccess</key>
+	<true/>
+	<key>com.apple.private.cloudkit.masquerade</key>
+	<true/>
+	<key>com.apple.private.cloudkit.setEnvironment</key>
+	<true/>
+	<key>com.apple.private.cloudkit.systemService</key>
+	<true/>
+	<key>com.apple.private.kernel.global-proc-info</key>
+	<true/>
+	<key>com.apple.private.security.storage.triald</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceLiverpool</string>
+	</array>
+	<key>com.apple.proactive.eventtracker</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/ManagedPreferences/mobile/</string>
+		<string>/Library/Managed Preferences/mobile</string>
+		<string>/private/var/MobileAsset/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.cache_delete.public</string>
+		<string>com.apple.cache_delete</string>
+		<string>com.apple.mobile asset.autoasset</string>
+		<string>com.apple.commcenter.coretelephony.xpc</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant.backedup</string>
+		<string>com.apple.assistant.support</string>
+		<string>com.apple.softwareupdateservicesd</string>
+	</array>
+	<key>com.apple.security.network.client </key>
+	<true/>
+	<key>com.apple.triald.system.internal</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>triald</string>
+	</array>
+</dict>
+</plist>
+
+
+/usr/lib/dyld
+/System/Library/PrivateFrameworks/TrialServer.framework/Versions/A/TrialServer
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+H_PAGEZERO,__TEXT@@
+text_TEXTĐ&I
+Ð&_stubs_TEXT4°4. _const_TEXTà48à4_cstring_TEXT5Ó5_oslogstring_TEXTð7Þð7_objc_methname___TEXTÎ8
+Î8_objc_classname___TEXTÛ9Û9_objc_methtype_TEXTõ9õ9_info_plist_TEXT::__unwind_info_TEXT ? ?_eh_frame_TEXT ?X ?( _DATA_CONST@@@@_got_DATA_CONST@8@_const_DATA_CONST8Ap8A_cfstring_DATA_CONST "A "A_objc_catlist_DATA_CONSTHCHC_objc_nlcatlist_DATA_
+CONSTPCPC_objc_imageinfo_DATA_CONSTXCXC_DATA@@_objc_const_DATA_objc_selrefs_DATAH_objc_class refs_DATAÈ È_bss_DATAèH_LINKEDITÀÀàq4À ̈3 ̈Ä
+àÄ/
+èÈ°
+P-ÐCF
+
+
+H_PAGEZERO_TEXT@@
+_text_TEXT%
+%
+_auth_stubs_TEXT22_objc_stubs_TEXT 4 4_objc_methlist__TEXT 5,
+5__const__TEXTP5HP5__cstring__TEXT5Ó5__oslogstring__TEXTk8½k8__objc_classname__TEXT(9(9__objc_methname__TEXTB9B9__objc_methtype__TEXTQ:Q:__info_ plist__TEXTd:d:__unwind_info__TEXT|?|?È__DATA_CONST@@@@__auth_got__DATA_CONST@@!__got__DATA_CONSTA AC__auth_ptr__DATA_CONST0A0A__const_DATA_CONST8Ap8A__cfstring_DATA_CONST ̈A  ̈A__objc_catlist__DATA_CONSTHCHC__objc_nlcatlist__DATA_CONSTPCPC__
+objc_imageinfo__DATA_CONSTXCXC_DATA@@_objc_const_DATA@__objc_selrefs__DATA@P@__objc_classrefs__DATA __bss__DATA°H_LINKEDITÀÀðq4À ̈3 ̈Ä èÄ/
+øÈ°
+P-ØCG
+
+
+@(#) PROGRAM: triald PROJECT: trial-347.4.1
+fffff¶u@TRISandboxErrorDomain v24@?0q8@"NSString "16HOME failed to get passwd entry for uid %ufailed to resolve user's home directory: %{darwin.errno} dfailed to initialize temporary directory: %{darwin. errno}dfailed to resolve temporary directory: %{darwin. errno}dfailed to initialize cache directory: %{darwin.errno}dfailed to resolve cache directory: %{darwin. errno}dTMPDIRDARWIN_CACHE_DIRFailed to enter sandbox: %scom.apple.trialdTRIDaemonScoped Swizzling.mfailed to lookup -[NSDate descriptionWithLocale: ] failed to lookup -[NSDate tri_memoryFriendlyDescriptionWithLocale: ]v8@?0Expression was unexpectedly nil/false: %@ [self
+tri_memoryFriendly DescriptionWithLocale: locale] @"NSString "8@?0%Y-%m-%d %H:%M:%S +0000 Sandbox error: %@$HOME not set, falling back to using getpwuidFailed to enter sandbox: %{public}sError entering sandbox: %@Unable to set private sandbox for com.apple.triald, errno:
+%ddictionaryWithObjects: forKeys: count: initWithDomain: code:userInfo:stringWithFormat: descriptionWithLocale: currentHandlerhandleFailureInMethod: object file:lineNumber:description: tri_memoryFriendly DescriptionWithLocale: timeIntervalSince1970 initWithUTF8String: LoadTRIDaemon Scoped Swizzling@24@0:8@ 16v16@0:8<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-// Apple //DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>BuildMachine0SBuild</key>
+<string>20A241133</string>
+<key>CFBundleAllowMixed Localizations</key>
+<true/>
+<key>CFBundleDevelopmentRegion</key>
+<string>English</string>
+<key>CFBundleExecutable</key>
+<string>triald</string>
+<key>CFBundleIdentifier</key>
+<string>com.apple.triald</string>
+<key>CFBundleInfoDictionaryVersion</key>
+<string>6.0</string>
+<key>CFBundle PackageType</key> <string>APPL</string>
+<key>CFBundleShortVersionString</key>
+<string>1.0</string>
+<key>CFBundleSupportedPlatforms</key>
+<array>
+<string>MacOSX</string>
+</array>
+<key>CFBundle Version</key>
+<string>347.4.1</string>
+<key>DTCompiler</key>
+<string>com.apple.compilers. llvm.clang.1_0</string>
+<key>DTPlatformBuild</key>
+<string>14A6270d</string>
+<key>DTPlatformName</key>
+<string>macosx</string>
+<key>DTPlatformVersion</key>
+<string>13.2</string>
+<key>DTSDKBuild</key>
+<string>22D36</string>
+<key>DTSDKName</key>
+<string>macosx13.2.internal</string>
+<key>DTXcode </key> <string>1400</string>
+<key>DTXcodeBuild</key>
+<string>14A6270d</string>
+<key>LSMinimumSystemVersion</key>
+<string>13.2</string>
+</dict>
+</plist>
+$$ÑXÐ&
+<<4<
+Bà xã?
+J
+!
+a8zRx
+Ŏìÿÿÿÿÿÿ‹ðìÿÿÿÿÿÿÿÿÿÿ
+!"#$%&0(.5Û900] 7Û9082?2A7 È5 ÈI5 % È05 9' È05: Èä5 7' È6 6' ÈS6 3' È6 ÈÌ6 Èç6 1' È7 C' Èc7 )' È7 5@@@9õ9M/ 09:3-
+Ü9 P@:9#9181968Â99¬99)*+, h-0@8d°B&Jp°â
+6hz ̈1⁄4Ìà
+8\ÂÜ8Тn¶Ú, VÀÔBn¤Ò_NSLocalizedDescriptionKey_NSTemporary Directory_TRIDServerRun_TRILogCategory_Server_NSConcrete StackBlock____chkstk_darwin___bzero_
+__error___stack_chk_fail___stack_chk_guard_os_log_debug_impl_os_log_default_os_log_error_impl_os_log_fault_impl_set_user_dir_suffix_class_ getInstanceMethod_confstr_dispatch_once_getenv_getpwuid_getuid_gmtime_r_method_exchangeImplementations_objc_alloc_objc_autorelease_objc_ autoreleasePoolPop_objc_autoreleasePoolPush_objc_autoreleaseReturnValue_objc_msgSend_objc_opt_class_objc_release_objc_retain_objc_
+retainAutoreleasedReturnValue_objc_retainBlock_objc_unsafeClaimAutoreleasedReturnValue_os_log_type_enabled_realpath$DARWIN_EXTSN_sandbox_init_with_ parameters_strftime___CFConstantStringClassReference_OBJC_CLASS_$_NSDate_OBJC_CLASS_$_NSError_OBJC_CLASS_$_NSDictionary_OBJC_CLASS_$_NSString_OBJC_
+CLASS $ NSAssertionHandler_mh_execute_headerDMa ¶ 1\%£*%&]3 [a¡ <BEa3Ij°ÇÖí&@8AJ \o ̈1⁄4Òëô
+'GSe~μÃÓáî$Mby
+!"#%()*+,-.
+!"#$%
+&'()*+,-._mh_execute_header_NSLocalizedDescriptionKey_NSTemporaryDirectory_OBJC_CLASS_$_NSAssertionHandler_OBJC_CLASS_$_NSDate_OBJC_CLASS_$_ __chkstk_darwin___bzero___error___stack_chk_fail___stack_chk_guard_os_log_debug_impl_os_log_default_os_log_error_impl_os_log_fault_impl_set_ user_dir_suffix_class_getInstanceMethod_confstr_dispatch_once_getenv_getpwuid_getuid_gmtime_r_method_exchangeImplementations_objc_alloc_objc_ autorelease_objc_autoreleasePoolPop_objc_autoreleasePoolPush_objc_autoreleaseReturnValue_objc_msgSend_objc_opt_class_objc_release_objc_retain_objc_
+NSDictionary_OBJC_CLASS_$_NSError_OBJC_CLASS_$_NSString_TRIDServerRun_TRILogCategory_Server_NSConcrete StackBlock___CFConstantStringClass Reference__
+retainAutoreleased ReturnValue_objc_retainBlock_objc_unsafeClaimAutoreleased ReturnValue_os_log_type_enabled_realpath$DARWIN_EXTSN_sandbox_init_with_ parameters_strftimer
+
+
