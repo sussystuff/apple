@@ -1,0 +1,128 @@
+com.apple.translationd
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abs-client</key>
+	<string>1821501079</string>
+	<key>application-identifier</key>
+	<string>translationd</string>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.developer.networking.multicast</key>
+	<true/>
+	<key>com.apple.developer.networking.multipath_extended</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.VoiceServicesVocalizerVoice</string> 
+		<string>com.apple.MobileAsset.VoiceServices.CustomVoice</string> 
+		<string>com.apple.MobileAsset.VoiceServices.GryphonVoice</string> 
+		<string>com.apple.MobileAsset.VoiceServices.VoiceResources</string>
+		<string>com.apple.MobileAsset.Trial.Siri.SiriTextToSpeech</string> 
+		<string>com.apple.MobileAsset.LanguageDetectorAssets</string>
+		<string>com.apple.MobileAsset.SpeechEndpointAssets</string> 
+		<string>com.apple.MobileAsset.SpeechTranslationAssets</string> 
+		<string>com.apple.MobileAsset.SpeechTranslationAssets2</string> 
+		<string>com.apple.MobileAsset.SpeechTranslationAssets3</string> 
+		<string>com.apple.MobileAsset.SpeechTranslationAssets4</string>
+	</array>
+	<true/>
+	<key>com.apple.private.assets.bypass-asset-types-check</key> 
+	<key>com.apple.private.coreaudio.borrowaudiosession.allow</key>
+	<true/>
+	<key>com.apple.private.feedbacklogger</key>
+	<true/>
+	<key>com.apple.private.network.socket-delegate</key>
+	<true/>
+	<key>com.apple.private.sandbox.profile:embedded</key> 
+	<string>temporary-sandbox</string>
+	<key>com.apple.private.speech.synthesis.custom.voices.allow</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.private.translation</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/mobile/Library/Trial/</string>
+		<string>/private/var/MobileAsset/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>Library/Translation/</string>
+		<string>Library/Caches/com.apple.translationd/</string>
+		<string>Library/HTTPStorages/com.apple.translationd/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>IOSurfaceRootUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.assistant.settings</string>
+		<string>com.apple.assistant.analytics</string>
+		<string>com.apple.siri.analytics. assistant</string>
+		<string>com.apple.fairplayd.versioned</string>
+		<string>com.apple.triald.namespace-management</string>
+		<string>com.apple.audio.AudioQueueServer</string>
+		<string>com.apple.audio.AudioSession</string>
+		<string>com.apple.audio.AudioComponentRegistrar</string>
+		<string>com.apple.voiceservices.tts</string>
+		<string>com.apple.mobile asset.autoasset</string>
+		<string>com.apple.sirittsd</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant.backedup</string>
+		<string>com.apple.coreaudio</string>
+		<string>com.apple.voice trigger</string>
+		<string>com.apple.coremedia</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.translationd</string>
+		<string>com.apple.osprey</string>
+		<string>com.apple.voiceservices</string>
+	</array>
+	<key>com.apple.security.network.client </key>
+	<true/>
+	<key>com.apple.security.ts.ane-client </key>
+	<true/>
+	<key>com.apple.security.ts.asset-access </key>
+	<true/>
+	<key>com.apple.security.ts.opengl-or-metal</key>
+	<true/>
+	<key>com.apple.security.ts.power-assertions</key>
+	<true/>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.translationd</string>
+	<key>com.apple.siri. analytics.assistant</key>
+	<true/>
+	<key>com.apple.trial.client</key>
+	<array>
+		<string>406</string>
+	</array>
+	<key>com.apple.voiced.can-dump-audio</key>
+	<true/>
+	<key>fairplay-client </key>
+	<string>511712240</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.siri.osprey</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>
+
+usr/lib/dyld
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+/System/Library/PrivateFrameworks/Translation.framework/Versions/A/Translation
+
+
+h@@$V¦Â_objc_alloc_init_objc_auto release PoolPop_objc_autoreleasePoolPush_objc_msgSend_objc_release_OBJC_CLASS_$_LTDaemon_mh_execute_header, r<BEa0AZt_mh_execute _header_OBJC_CLASS_$__LTDaemon_objc_alloc_init_objc_autorelease PoolPop_objc_autoreleasePoolPush_objc_msgSend_objc_release
+
