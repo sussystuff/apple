@@ -1,0 +1,225 @@
+com.apple.AppleQEMUGuestAgent
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.admin.writeconfig</key>
+	<true/>
+	<key>com.apple.private.security.storage-exempt.heritable</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCC ServiceSystemPolicyAllFiles</string>
+	</array>
+</dict>
+</plist>
+
+
+!H_PAGEZEROh_TEXT@@
+_text_TEXTI¿I_stubs_TEXT __init_offsets___
+TEXT0
+0
+__gcc_except_tab__
+TEXT4
+Ô4
+__const_TEXT_cstring_TEXT¾__oslogstring__TEXTƉ8fƉ8__objc_methname__TEXT69×69_unwind_info__TEXT=l=__eh_frame__TEXT?x? 
+x__DATA_CONST@@@@__got_DATA_CONST@À@
+__const_DATA_CONSTÀDðÀD__cfstring__DATA_CONST°E`°E__objc_imageinfo_DATA_CONST____objc_intobj__DATA_CONST____objc_arraydata__DATA_CONST0_0___objc__dictobj__DATA_CONST@(@___DATA@@__objc_selrefs_DATAƉ__objc_classrefs_DATAƉxƉ__data__DATAH@H__bss__DATAxH__LINKEDITÀÀy4À3Ï
+ÏèÞ
+
+
+!H_PAGEZERO¸__
+TEXT 
+__text__
+TEXT
+` ̈__auth_stubs__TEXTÐ¼pÐ¼__objc_stubs___TEXT@Å@@Å___init_offsets
+_TEXTÌÌ__gcc_except_tab_TEXTÌ¤Ì__const__TEXT(Þ(Þ__cstring_
+TEXTCÞ¼CÞ__oslogstring__TEXTÿøaÿø__objc_methname_TEXT`Ùô`Ù__ unwind_info__TEXTTýXTý__eh_frame__TEXT°ÿP°ÿ__DATA_CONST@@ _auth_got__DATA_CONSTH__got__DATA_CONSTHpH__auth_ptr__DATA_ 
+CONST¸¸__const___DATA_CONSTÀðÀ___cfstring___DATA_CONST°`°__objc_ imageinfo__DATA_CONST__objc_intobj__DATA_CONST__objc_arraydata
+__DATA_CONST00__objc_dictobj__DATA_CONST@(@_DATA@@@@__objc_
+selrefs_DATA@Ð@__objc_classrefs__DATAÐAxÐA__data_DATAHB@HB__
+bss__DATABxH_LINKEDITðx43
+à
+
+P«h
+
+
+/usr/lib/dyld
+/System/Library/PrivateFrameworks/System Administration. framework/Versions/A/SystemAdministration
+/System/Library/Frameworks/Security Foundation.framework/Versions/A/SecurityFoundation
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libc++.1.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+com.apple.AppleQEMUGuestAgentstatustransactionsclassdescerrorGenericErrormissingargumentsid%s: id is not a number
+handleGuestSyncid is not a numberreturnhandleGuestSyncDelimitedversionenabledguest-execnamesuccess-responseguest-exec-statusguest-infoguest-syncguest-sync-delimitedguest-pingguest-file-openguest-file-closeguest-file-readguest-file-writeapple-guest-file-vsock-readapple-guest-file-vsock-writeguest-file-seekguest-file-flushguest-network-get-interfacesguest-shutdownapple-guest-set-remote-loginguest-set-timeguest-get-timeapple-guest-signal-pidsupported_commands%s: apple-window-size is not a dictionary getWindowSizeapple-window-size is not a dictionary%s: failed to allocate NSMutableDictionary
+failed to allocate NSMutableDictionaryxyrowscolumns%s: %s is not a number
+%@ is not a numberpath%s: path is not a string
+handleGuestExecpath is not a stringarg%s: arg is not an array
+arg is not an array%s: arg parameter is not a string
+arg parameter is not a stringenv%s: env is not an array
+env is not an array%s: env parameter is not a string
+env parameter is not a stringinput-data%s: input-data is not a string
+input-data is not a stringinput-data is not valid base64capture-output%s: capture-output is not a number capture-output is not a number apple-working-directory%s: apple-working-directory is not a string
+apple-working-directory is not a string%s: apple-working-directory %s does not exist
+apple-working-directory %s does not existapple-stdinapple-stdoutapple-stderr %s: %s is not a string
+%@ is not a string%s: %s %s does not exist
+%@ does not existapple-vsock-stdioapple-vsock-stdio is not a stringapple-vsock-stdio is mutually exclusive with other stdio flagsvsockapple-vsock-stdio is invalid (expecting vsock://cid: port)apple-window-size apple-termios %s: apple-termios is not a dictionary
+apple-termios is not a dictionaryiflagoflagcflaglflagispeedospeedcc%s: cc is not an array
+cc is not an array%s: cc must be length %d
+cc must be length %d%s: cc value '%s' at index %d is not a number
+cc value '%@' at index %d is not a numberapple-uidapple-userapple-user and apple-uid cannot both be specified %s: apple-uid is not a number apple-uid is not a numberfailed to find user %d: %suser %d does not exist%s: apple-user is not a string
+apple-user is not a stringfailed to find user %@: %suser %@ does not existapple-gidapple-groupapple-group and apple-gid cannot both be specified%s: apple-gid is not a number
+apple-gid is not a numberfailed to find group %d: %sgroup %d does not exist%s: apple-group is not a string
+apple-group is not a string failed to find group %@: %sgroup %@ does not existvsock transport not availablefailed to create vsock socket: %sfailed to to connect to 'vsock://%u:%u': %sunable to allocate stdin pipefailed to open %@: %sfailed to update window size for %@: %sfailed to update termios for %@: %s/dev/null failed to open /dev/null: %sstdout_%dstderr_%dunable to initialize stdout and stderr paths failed to open %s: %sfailed to openpty: %sfailed to fork pty child: %sfailed to block signals: %sfailed to fork child: %spid%s: pid is not a number
+handleGuestExecStatuspid is not a numberexitedout-dataerr-dataexitcodesignalinvalid PIDhandleGuestFileOpenrmode%s: mode is not a string mode is not a stringinvalid path or modehandle%s: handle is not a number
+handleGuestFileClosehandle is not a number%s: handle is not a valid file
+handle is not a valid filefclose error %dhandleGuestFileReadcount%s: count is not a number
+count is not a numberfread error %dbuf-b64eofhandleGuestFileWrite%s: buf-b64 is not a string
+buf-b64 is not a stringunable to decode buf-b64requested write of %zu bytes, but provided buffer is only %lu bytesfwrite error %dhandleGuestFileVSockReadWritecid%s: cid is not a number
+cid is not a numberport%s: port is not a number
+port is not a numberbuffer-size%s: buffer-size is not a number
+buffer-size is not a number%s: no vsock transport available
+no vsock transport available %s: failed to create vsock socket with error: %s
+failed to create vsock socket with error: %s%s: failed to get socket buffer size with error: %s
+failed to get socket buffer size with error: %s%s: buffer-size must be a positive number
+buffer-size must be a positive number%s: failed to connect to %u:%u with error: %s
+failed to connect to %u:%u with error: %s%s: failed to allocate buffer
+failed to allocate buffer%s: write error: %s
+write error: %s%s: failed to close socket with error: %s
+failed to close socket with error: %shandleGuestFileSeekoffset%s: offset is not a number 
+offset is not a numberwhencesetcurendunknown whence value%s: whence is not a number or string
+whence is not a number or stringfseek error %dposition handleGuestFileFlushfflush error %dgetifaddrs error %dhardware-addressip-addressesipv4ip-address-typeip-address prefixipv6handleGuest Shutdownhaltpower downrebootunsupported modefailed to shutdowntime %s: time is not a number handleGuestSetTimetime is not a numberfailed to set timefailed to get timeenabled is not a numberfailed to set remote loginsignal is not a numberfailed to get path for file descriptor %dfailed to open path '%s' with errno: %sfailed to get window size for file descriptor %d with errno: %sfailed to set window size for file descriptor %d with errno: %sfailed to send signal to process %d with errno: %srequest is not a dictionaryexecutecannot find 'execute' keyargumentsarguments is not a dictionary Unknown command: %s
+CommandNotFound Invalid command '%@'AppleQEMUGuestAgent %s
+1.3-AppleVirtIO-188.40.4~854com.apple.iokit.matchingv16@?0@"NSObject<OS_xpc_object>"8/dev/tty.org.qemu.guest_agent. 0AppleVirtIOConsoleInvalid guest agent environment.
+v8@?0Unable to register for HID power button events.
+Error exclusively acquiring serial port: (%s)
+Error clearing O_NONBLOCK (%s)
+com.apple.AQGA.isolation-queueThe connection has ended.
+B40@?0@"NSObject<OS_dispatch_data>"8Q16r^v24Q32JSONObjectWithData error: %s
+invalid JSONUnhandled exception: '%s'
+Error %@: %@IODeviceTree:/optionsIODeviceTree:/productValue %llu too large for uint32
+Error creating vsock socket: %s.
+Error connecting to vsock peer at address cid %u and port %u: %s. apple-guest-agent-portError getting the IOMain port: %s
+Cannot find entry %s on this system
+Error creating CFString for key %s in %s
+Unable to find key %s in %s
+Expecting data for %s in %s
+Expecting no more than %lu bytes of data for uint64 key %s in %s IOSerialBSDClientIODialinDeviceIOServicekern.hv_vmm_presentPrimaryUsagePageIv40@?0^v8^v16^v24^{__IOHIDEvent=}32allocator<T>:: allocate(size_t n) 'n' exceeds maximum supported size%{public}sRequest: '%{public}@ %{sensitive, mask.hash}@'
+Response: '%{sensitive, mask.hash}@'
+dictionarysetObject:forKey:dictionaryWithObject:forKey: initWithFileDescriptor:readDataToEndOfFileobjectForKey:
+unsignedLongLongValuenumberWithUnsignedLongLong: arraydictionaryWithObjectsAndKeys:addObject:setValue:forKey: countByEnumeratingWithState:objects:count:UTF8StringstringWithFormat:shortValuedefaultManagercountcStringUsingEncoding: initWithBase64EncodedString:options:boolValuefileExistsAtPath: initWithString:schemeisEqualToString:hostportintValuelongValueobjectAtIndex:descriptioncharValueunsignedIntValuefileURLWithPath: URLBYAppendingPathComponent:pathbyteslengthintegerValuenumberWithBool:base64EncodedStringWithOptions:dataWithLength:mutableBytessetLength:stringWithUTF8String:sharedAuthenticatorauthorizationauthenticateUsingAuthorizationSync: sharedInternetServicessetSSHServerEnabled:JSONObjectWithData:options:error:localizedDescriptiondataappendBytes:Length:dataWithJSONObject:options:error:appendData:namereason<@ÑXQ!aÑX!
+Q
+QpAI@X. @
+XL4
+SML
+_
+
+X_CFDataGetBytes_CFDataGetLength_CFDataGetTypeID_CFGetTypeID_CFReleaseCFStringCreateWithCString_IOHIDEventGetIntegerValue_IOHIDEventGetType_IOHIDEventSystemClientCreate_IOHIDEventSystemClientRegisterEventBlock_IOHIDEventSystemClientScheduleWithDispatchQueue_
+IOHIDEventSystemClientSetMatching_IOIteratorNext_IOMain Port_IOObjectCopyClass_IOObjectRelease_IORegistryEntryCreateCFProperty_
+IORegistryEntryFromPath_IORegistryEntryGetParentEntry_IOServiceGetMatchingServices_IOServiceMatching_NSTemporary Directory_OBJC_EHTYPE_$_NSException_Block_object_assign_Block_object_dispose_NSConcreteStackBlock_Unwind_Resume_ZNSt11logic_errorC2EPKc__ZNST12length_errorD1Ev__ZNSt3__112__next__primeEm__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc__ZSt9terminatev__ZTIt12length_error__ZTVSt12length_error__ZdlPv _Znwm___NSDictionary0__struct____chkstk_darwin___cxa_allocate_exception___cxa_atexit___cxa_begin_catch___cxa_free_exception___cxa_throw___darwin_check_fd_set_overflow___error___KCFBooleanTrue___objc_personality_v0___stack_chk_fail___stack_chk_guard___stderrp__exit_os_log_error_impl__os_log_impl_bootstrap_port_bzero_chdir_clock_gettime_clock_settime_close_connect_dispatch_async_dispatch_data_apply_dispatch_data_create_dispatch_data_create_concat_dispatch_data_create_subrange_dispatch_data_get_size_dispatch_get_global_queue_dispatch_queue_create_dup2_environ_ether_ntoa_execvp_ exit_fclose_fcntl_feof_ferror_fflush_fileno_fopen_fork_fprintf_fread_free_freeifaddrs_fseek_ftell_fwrite_getgrgid_getgrnam_getifaddrs_getpwnam_getpwuid_getrlimit_getsockopt_inet_ntop_ioctl_kCFALLocatorDefault_kIOMainPortDefault_kill_lseek_mach_error_string_malloc_objc_alloc_objc_autoreleasePoolPop_objc_autoreleasePoolPush_objc_autoreleaseReturnValue_objc_begin_catch_objc_end_catch_objc_enumerationMutation_objc_msgSend_objc_opt_class_objc_opt_isKindOfClass_objc_opt_new_objc_release_objc_retain_objc_retainAutorelease_objc_retainAutoreleasedReturnValue_open_openpty_os_log_create_os_log_type_enabled_os_parse_boot_arg_int_pipe_proc_pidfdinfo_proc_pidinfo_pthread_create_pthread_mutex_lock_pthread_mutex_unlock_pthread_ sigmask_qos_class_self_read_reboot3_select$1050_setgid_setrlimit_setsid_setuid_sigaction_sigwait_socket_strerror_strlcpy_strtoull_sysctlbyname_tcsetattr_unlink_vasprintf_vm_page_size_waitpid_write_xpc_set_event_stream_handler_NSConcreteGlobalBlock___CFConstantStringClassReference_OBJC_CLASS_$_NSConstantIntegerNumber_OBJC_CLASS_$_NSConstantDictionary_OBJC_CLASS_$_NSMutableDictionary_OBJC_CLASS_$_NSDictionary_OBJC_CLASS_$_NSFileHandle_OBJC_CLASS_$_NSNumber_OBJC_CLASS_$_NSMutableArray_OBJC_CLASS_$_AdminAuthenticator_OBJC_CLASS_$_ADMInternetServices_OBJC_CLASS_$_NSString_OBJC_CLASS_$_NSFileManager_OBJC_CLASS_$_NSArray_OBJC_CLASS_$_NSData_OBJC_CLASS_$_NSURL_OBJC_CLASS_$_NSMutableData_OBJC_CLASS_$_SFAuthorization_OBJC_CLASS_$_NSJSONSerialization_mh_execute_header
+
+
+*H÷
+010
+`He0*H÷
+00ö !0
+0b1
+*H÷
+0 UUS10U
+Apple Inc.1&
+0$U
+Apple Certification Authority100 Apple Root CA0
+111024173941Z
+261024173941Z01
+0 UUS10U
+Apple Inc.1&
+0$U
+Apple Certification Authority1301U*
+Apple Code Signing Certification Authority0"0
+
+*H÷
+
+0
++0Uÿ0ÿ0Ui¦ÄwBN¥VBQÚÒ    OU#0+ÐiGV   þôk.@¦÷GM^06U/0-0+ ) '%http://www.apple.com/appleca/root.crl0
+
+*H÷
+0 UUS10U
+Apple Inc.1&
+0$U
+Apple Certification Authority13010*
+Apple Code Signing Certification Authority0 
+201029183238Z
+261024173941Z0V1
+0 UUS1OU
+Apple Inc.
+10U
+Apple
+Software10U
+Software Signing0"0
+*H÷
+
+Uÿ00U#0i¦ÄwBN¥VBQÚÒ    OU 00 *H÷cd0{
+0+0m
+kThis certificate is to be used exclusively for functions internal to Apple Products and/or Apple processes.0U%
+ÿ
+0
++05U.0,0* ( &$http://crl.apple.com/codesigning.crl0UÆí>Jû.è? 
+Õ ³]Ùç³÷h50Uÿ0  *H÷cd0
+*H÷
+ ̈6?çf°s#s«ËZ^Â0O%`I1 R6 ̧ÆnJfW?U¬æõäÒu÷[Ïeû(ùiJÉ©Âþ. ~bA¦°Höq°$?>1>øþgþöØ:¾ÁÐI¿Í:M},ã}Ä [d°Îo\5¹^OËòN×£ÚÓ}
+¢ûà_7Ú$E³ò¢ØØáL4ÈQ¡
+X3`o¼½ÏV3uHäækMëT15ð9HkÀÏUê ̈xNÂëßXoÇQÕØUA¼iUÜ£  
+́ôẞ4£LÚBÚ27»ÊáçÜï5¡rVÑ0»0£ 0
+*H÷
+0b1
+0
+UUS1OU
+Apple Inc.1&
+O$U
+Apple Certification Authority10U
+Apple Root CA0
+060425214036Z
+350209214036Z0b1
+0
+UUS10U
+Apple Inc.1&
+0$U
+Apple Certification Authority10U
+Apple Root CA0"0
+*H÷
+
++!.to<
+Ûb«£qGSUÁ ̄/ A3ØûãрÍæ£LE~LKPAÄtb
+
+A3±0XíZ2h³Þesÿg^e¼IØv3e¡wÉ-£z0v0Uÿ0U0ÿ0U+ĐiGv 
+þôk.@¦÷GM^0U#0+ĐiGv_þôk.@¦÷GM^0U 00 *H÷cd0ò0*+https:// www.apple.com/appleca/0Ã+0¶³Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0
+*H÷ 
+\6L-x·íÜówòvÒW0OÁ
+=G7ò©@,Ô±Ø¾ôsîÒdËуO4Ø¢>ùxÿkÈì}9S Ó8Ä±¿0
+kÿ+üY§ |@VtÒ·#;G£Õo$âëÑ·pẞEá'Êñmxíçμ ̈Ü~"5Ê%ÕÙÖkÔ¢$#÷¡¬s`Æ[ /
+²2øDHð 8õ=&g 3j÷
+ÏÞë£/ùSj[dÀc3w÷:,VëÚ!Ú°sOμÙ6ÁUÙ§¹2BÛØÕq~¡R·½B$*Ç¶M^cÈKPaÕÚäÜÐ
+7°uu! 
+10001
+0 UUS1OU
+Apple Inc.1&
+0$U
+Apple Certification Authority1301U*
+Apple Code Signing Certification AuthoritydïêþÂ9è¥0 
+`He Ô0 *H÷
+1
+*H÷
+0
+*H÷
+1
+230131044451ZO/ *H÷
+
+
+
+
