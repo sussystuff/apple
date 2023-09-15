@@ -1,0 +1,69 @@
+com.apple.cmio.uvcassistantextension
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibridge.control</key>
+	<true/>
+	<key>com.apple.private.cmio.extension.configuration</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-monitor</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>KTCCServiceListenEvent</string>
+		<string>KTCCService PostEvent</string>
+	</array>
+	<key>com.apple.private.tcc.manager.check-by-audit-token</key>
+	<array>
+	<string>kTCCServiceCamera</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>IOHIDEventServiceUserClient</string>
+	</array>
+	<key>com.apple.systemstatus.publisher.domains</key>
+	<array>
+	<string>media</string>
+	</array>
+</dict>
+</plist>
+
+
+H__PAGEZEROx__TEXT@@__text__TEXT#6³#6__stubs__TEXTÖ<Ö<__gcc_except_tab_TEXT`=4`=__cstring__TEXT=Ü=__oslogstring__TEXTp>p>__objc_methname__TEXT
+?n
+?__unwind_info__TEXT|?||?
+_DATA_CONST@@@@__got_DATA_CONST@ð@__const__DATA_CONSTð@ð@__cfstring__DATA_CONSTA@A__objc_imageinfo__DATA_CONSTÀAÀA8__DATA@@__objc_selrefs__DATA0__objc_classrefs__DATA00__bss__DATA@H__LINKEDITÀÀ°X4À3ÃOÈÃ$àÆ
+È
+P!Æ5
+
+H_PAGEZERO_TEXT@@
+__text__TEXT03803__auth_stubs__TEXT;;__objc_stubs__TEXT <À <__const__TEXT`=`=__gcc_except_tab__TEXTp=4p=__cstring__TEXT¤=Ü¤=__oslogstring__TEXT>>__objc_methname__TEXT?r?__unwind_info_TEXTx?tx?
+
+Ø__DATA_CONST@@@@__auth_got__DATA_CONST@0@__got__DATA_ CONSTØ@0@4__const__DATA_CONSTð@ð@__cfstring__DATA_ CONSTA@A__objc_imageinfo__DATA_CONSTÀAÀA8___DATA@@__objc_selrefs_DATA0__objc_classrefs_DATA00_bss__DATA@H_LINKEDITLINKEDITÀÀÀX4À3Ã0ÐÃ$ðÆÈ
+P!Æ7
+
+
+/usr/lib/dyldÇÐýÅËL4v÷a>L2
+4*Àx(#
+6
+p/System/Library/PrivateFrameworks/UVCExtension.framework/Versions/A/UVCExtension
+`ÿ¡,/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+8ä/usr/lib/libobjc.A.dylib
+8Q'/usr/lib/libSystem.B.dylib
+hÿ¡/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation&¸Ã)ÈÃ°ÉOUHåAVSHí0H
+HHEèH]
+
+
+com.apple.UVCAssistantProvidercom.apple.uvcassistantcom.apple.cmio.uvcassistantextensionv8@?0UVCAssistant state^{os_state_data_s=I (?-b32I) {os_state_data_decoder_s=[64c][64c]}[64c][0C]}16@?0^{os_state_hints_s=I*II}8UVCAssistant sandbox error ret %d error %sFailed to start ..UVCAssistant setup state handler for %@Failed to serialize state:
+%@initWithBundleID:queue:activateserializedataWithPropertyList:format:options:error:lengthgetBytes:Length:$(!(@#6H@
+×<Hs9`=
+(½P¼ámÑXQa
+
+OOZ<<ï=@(¶<È<>@(¶<È<ï= È= ÈÊ=$@%?8?j?
+?c?.? hí!0@$P~¬ÌúDb¢²Ü,
+Jb¤Âð
+(Br°ä8TÞ_UVCExtensionLog__Block_object_assign__Block_object_dispose__NSConcreteStackBlock__Unwind_Resume___objc_personality_v0___stack_chk_fail___stack_chk_guard___strlcpy_chk__dispatch_main_q__os_log_impl_calloc_createDispatchQueue_dispatch_async_and_wait_dispatch_main_dispatch_once_objc_alloc_objc_copyWeak_objc_destroyWeak_objc_initWeak_objc_loadWeakRetained_objc_msgSend_objc_release_objc_retain_objc_retainAutorelease_objc_retainAutoreleasedReturnValue_os_log_type_enabled_os_state_add_handler_sandbox_free_error_sandbox_init___CFConstantStringClassReference_OBJC_CLASS_$_UVCExtensionProvider_OBJC_CLASS_$_NSPropertyListSerialization__mh_execute_headermain%£l½{ìV6&¶<BEa#6Hk|©ÀĐò·=0]ez¢±½ÌÞí -Ei~ ̈
+!"#
+!"#__mh_execute_header_main_OBJC_CLASS_$_NSPropertyListSerialization_OBJC_CLASS_$_UVCExtensionProvider_UVCExtensionLog_Block_object_assign__Block_object_assign__Block_object_dispose_NSConcreteStackBlock_Unwind_Resume___CFConstantStringClassReference___objc_personality_v0___stack_chk_fail___stack_chk_guard___strlcpy_chk_dispatch_main_q_os_log_impl_calloc_createDispatchQueue_dispatch_async_and_wait_dispatch_main_dispatch_once_objc_alloc_objc_copyWeak_ objc_destroyWeak_objc_initWeak_objc_loadWeakRetained_objc_msgSend_objc_release_objc_retain_objc_retainAutorelease_objc_retainAutoreleasedReturnValue_os_log_type_enabled_os_state_add_handler_sandbox_free_error_sandbox_init
