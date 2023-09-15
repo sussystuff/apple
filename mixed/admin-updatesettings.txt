@@ -1,0 +1,111 @@
+com.apple.admin.updatesettings
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-// Apple //DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.icloud.findmydeviced.access</key>
+	<true>
+	<key>com.apple.locationd.authorizeapplications</key>
+	<true/>
+	<key>com.apple.locationd.effective_bundle</key>
+	<true/>
+	<key>com.apple.private.admin.writeconfig</key>
+	<true/>
+	<key>com.apple.private.softwareupdated.OSUpdate</key>
+	<true/>
+	<key>com.apple.private.systempreferences</key>
+	<true/>
+	<key>com.apple.private.tcc.manager</key>
+	<true/>
+	<key>com.apple.rootless.storage.UpdateSettings</key>
+	<true/>
+</dict>
+</plist>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-// Apple //DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Property List-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixed Localizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.admin.updatesettings</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundle PackageType</key>
+	<string>FMWK</string>
+	<key>CFBundle Short VersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundle Version</key>
+	<string>1</string>
+</dict>
+</plist>
+
+
+/System/Library/PrivateFrameworks/GeoKit.framework/Versions/A/GeoKit
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+/System/Library/PrivateFrameworks/OSUpdate.framework/Versions/A/OSUpdate
+/System/Library/PrivateFrameworks/EmbeddedOSSupportHost.framework/Versions/A/EmbeddedOSSupportHost
+/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+/System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService
+/System/Library/Frameworks/Security.framework/Versions/A/Security
+/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+/System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes
+/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Frameworks/CommerceCore.framework/Versions/A/CommerceCore
+/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+
+UserPictureUpgraderJPEGMD5-f-mas-oUpdate Settings RunStampcom.apple.update settings major VersionminorVersionpatchVersionLast run was on %ld. %ld. %ld. Skipping this timeworking quueOD working quuev8@?00D default node didn't open, giving up...system.preferences system.services.directory.configureUpdateGuestAccount authorization failed (%@) obtainWithRights failed (%@)/System/Library/Caches/com.apple.preferencepanes.systemcache/var/db/.AppleSetupDone/etc/httpd/users/etc/apache2/users/bin/cp-r/etc/apache2//usr/bin/find/etc/httpd/users/-depth1-execcp{}/etc/apache2/users/;/Library/Preferences/com.apple.sharing.firewall.plist/System/Library/SystemConfiguration/PrinterNotifications.bundle/Contents/MacOS/makequeues-hUpdateSettings Error: makequeues -r returned %dcom.apple.updatesettings_did_disable_ftpdid_disable_ftpcom.apple.ServiceManagement.daemons.modifycom.apple.ftpdSMJobSetEnabled failed for com.apple.ftpd error:%@/var/db/.MASManifest/Users/Shared/Faxes/Users/Shared/Faxes/.localized/usr/bin/touch/Library/Desktop Pictures/AndromedaGalaxy.jpgsystemUpdateDateadminmbr_group_name_to_uuid failed with err=%ldmbr_check_membership failed with err=%ldmbr_string_to_uuid failed with err=%ld/etc/ScreenSharing.Launchdcom.apple.familycontrols.loggingcom.apple.MCX/System/Library/Preference Panes/Accounts.prefPanePUBLIC_SHAREPOINT_NAME%@'s Public Folder_lpadmindsRecTypeStandard:GroupsdsAttrTypeStandard: GroupMembersDidFixPublicSharePointscom.apple.updatesetings org.samba.smbdorg.samba.nmbddsRecTypeStandard:Users### Error: %ld File: %s Line:%i/AppleInternal/Library/BuildRoots/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/Library/Caches/com.apple.xbs/Sources/UpdateSettings/UpdateLocalUserRecords.mdsAttrTypeStandard:RecordNamedsAttrTypeStandard: RealNamedsAttrTypeNative: _writers_picturedsAttrType Standard:UniqueIDdsAttrTypeStandard:GeneratedUIDdsAttrTypeStandard:MCXSettingsdsAttrTypeStandard:CopyTimestampdsAttrTypeNative:_writers_hintdsAttrTypeNative:_writers_AvatarRepresentationdsAttrTypeNative:_writers_unlockOptionsdsAttrTypeNative:_writers_jpegphotodsAttrTypeNative:_writers_LinkedIdentitydsAttrTypeStandard:AuthenticationAuthoritydsAttrTypeStandard:NFSHomeDirectorydsAttrTypeStandard:JPEGPhotodsAttrTypeNative:_writers_inputSourcesdsAttrTypeNative:inputSourcesdsRecordsAllattributeValuedsAttrTypeStandard:Picture/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/UserIcon.icnsdsAttrTypeNative:AvatarRepresentationOdsAttrTypeNative:unlockOptions;ShadowHash;attributeValueID;ShadowHash;HASHLIST: <SALTED-SHA1,SMB-NT,SMB-LAN-MANAGER>RequireAdminToAddPrinterscom.apple.mcxprintingdsAttrTypeNative:StashedMCXSettings/Library/Caches/Desktop Pictures/_securityagentiPubliccom.apple.LSSharedFileList.OverridePathcom.apple.sharing.uuidcreatePath: cannot create path (%@) because (%@) is a file.com.apple.preferences.LockPanesActivecom.apple.timezone.auto/System/Library/LocationBundles/TimeZone.bundlesetAuthorizationStatus: NO for TimeZoneshared/var/ db/.WOLShutOffDone/System/Library/PreferencePanes/EnergySaver.prefPane/Contents/Resources/WOLShutOffList.plistMachineListUpdateSettings was unable to write WOLShutOff cookieUpdateSettings could not read blacklist for WOLShutOff/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/StockUserPictureInfo.plist/Library/User Pictures%s: admin group not foundCreateRemoteAppleEventsGroupdsAttrTypeStandard:CommentdsAttrTypeStandard: NestedGroupsdsAttrTypeStandard:PrimaryGroupID%s: error creating group: %@%s: query failed: %@FetchGroupWithRecord Namecom.apple.access_remote_aecom.apple.access_remote_ae-disabledFindNextAvailableGroupIDRemote Apple Events XXXXXXXXXXX-XXXX-XXXX-XXXX-XXXX00000%.3xUpdateTimeZone calledSystem time zone is nilUpdateTimeZone system time zone is %@Asia/KashgarAsia/UrumqiNot an affected time zonecom.apple.preferences.timezone.new.selected_cityNo time zone cityTime zone city pref value is not string+@$Invalid city IDLookup of city ID failed City has no time zone name System and city time zones matchMigrating time zone to %@smbacquireAuthentication - authorization is nil.acquireAuthentication - obtainWithRight failed, error: %@authenticator is NOT authenticated system. preferences.datetime/var/db/timezone/ zoneinfoDesktop Admin Image Generation Numbercom.apple.dockGeneration Number2%@/Library/Caches/com.apple.desktop.admin.png/### Error: %d File: %s Line: %i/Apple Internal/ Library/Build Roots/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/Library/Caches/com.apple.xbs/Sources/UpdateSettings/UpdatePassword Policy.misBootVolume APFSFDE : %dnodeWithSession failed to get node (%@) get accountPolicies error :%@com.apple.defaultpasswordpolicy%@ foundcom.apple.defaultpasswordpolicy.fde policyAttribute Password matches '^$1.{4,}+' policyAttribute Password matches.{4,}+'set accountPolicies error : %@com.apple.framework.SystemAdministration PASSWORD_POLICY_DESCRIPTIONEnter a password that is four characters or more or leave the password field blank. Localizable PASSWORD_POLICY_NO_EMPTY_DESCRIPTION Enter a password that is four characters or more.appProductionStubbundle IDadamIDinstaller Version IDversionv32@?0@8Q16^c24kMDItemAppStoreAdamIDKMDItemAppStoreInstallerVersion IDKMDItemAppStore Has Receipt=1 && KMDItemAppStoreReceiptType == "ProductionStub "c32@?0@8Q16^c24Failed to delete old manifest (% @) c24@?0@" NSURL "8@"NSError" 16ChalkboardElectric Guitartif%s, failed to find group records: %@fetchGroups %s: no groups returned %s: failed to find group record: %@fetchGroupWithRealName^[0-9]+$dsAttrTypeNative: IsHiddengroup %@: error retrieving hidden attribute: %@group %@: skipping because it isn't hidden %s %dcom.apple.sharepoint.group.com.apple.OpenDirectory%@: error changing name to %@: %@Renamed SharePoint group '%@' to '%@' .%s: failed to find suitable name for group '%@'renameGroupIfNumericName%s: failed to get nodeUpdateAllNumeric Group Names%s started UpdateSharePointGroupNames%s finishedFailed to find sharepoint records: %@addedRemoteAppleEventsAccess/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/Support/AEServeranycom.apple.AEServerDisplay Sleep Uses DimDidResetStandby DelayAC PowerStandby
+Delaycom.apple.preference.generalHandoffSearchTermsBlackListcom.apple.systemprefsYESNOBundleIDsBlackListcom.apple.preferences.passwordcom.apple.preferences. walletcom.apple.preference.batterycom.apple.preference.energysavercom.apple.preference.displays displays NightShift TabNightShift is not supported on this system./ System/Library/PrivateFrameworks/CoreBrightness. framework/Core BrightnessFailed to load CoreBrightness.framework (%s) CBClient NSClassFromString(@"CBClient") returned NilstringWithUTF8String: process Info operatingSystem VersionobjectForKeyedSubscript:integer Value numberWithInteger: dictionaryWithObjects: forKeys: count: authorization sharedAuthenticatordefaultSession nodeWithSession: type: error: code obtainWithRights: flags: environment: authorized Rights: error: authenticateUsingAuthorizationSync: verifyAndUpdateSystemCachearrayWithObjects: launchedTaskWithLaunchPath: arguments: waitUntilExitarrayWithObject: terminationStatusdefaultManagerfileExistsAtPath: removeItemAtPath: error: dateprepareRosettaUpdateUTF8Stringdictionary For Domain:
+sharedSession openDefaultLocalNode dictionaryWithCapacity: arrayWithCapacity: bundleWithPath:localizedStringForKey:value: table: lengthcountobjectAtIndex: addObject: initWithRecord Name: type: node: open removeAttribute: closenumberWithBool: find RecordsWithName: type: attribute: objectForKey: addAttribute:value: pathToStockPictureFromData : arrayWithObjects: count: countByEnumeratingWithState: objects: count: isEqualToString: add Value: toAttributeType: unsignedIntValuesetValue: withValueID: forAttributeType:
+dictionaryFromXMLString: objectWithRAWDictionary: objectForKey: inDomain: boolValuesetObject: forKey: stringByAppending PathComponent: stringWithFormat: indexOfObject: dictionaryWithObjectsAndKeys: fileURLWith Path: contains Object:isAbsolutePathpathComponents objectAtIndexedSubscript:fileExistsAtPath:isDirectory: createDirectoryAtPath: attributes: setAuthorizationStatus: forBundle: addEntriesFromDictionary: initWithContentsOfFile: arrayWithContentsOfFile: initWithCapacity: LoadStockPictures InfoFilenumberWith Unsigned Integer: jpeg MD5hashisEqualToData: deallocsizeDictvalueForKey: stringValuecreateRecordWithRecord Type: name: attributes: error :queryWithNode: for RecordTypes: attribute: match Type: queryValues: returnAttributes: maximum Results: error: resultsAllowing Partial: error: firstObjectsystemTimeZonenamesetWithObjects: Long LongValuecityWithGeonameID:inContext: timeZone NamesharedSystemClocksetTimeZone: sharedInternetServicesnumberOfClients For Protocols: dataUsing Encoding: mutableCopymutableBytesbytesinitWithData: encoding: obtainWithRight: flags: error: authenticateUsingAuthorization:isAuthenticatedintValuedictionaryWithObject: forKey: dataWithBytes: Length: setDefaultDASession: copyDiskForPath: error:isAPFSVolumeDisk: error: initWithManager:isFileVaultEnabled: enabled: account PoliciesAndReturnError: setObject: forKeyedSubscript:setAccount Policies: error: fileURLWithPath: isDirectory: arraycontents Of DirectoryAtURL: includingPropertiesForKeys: options: error: pathpathExtension receiptFromBundleAtURL: receiptTypeadamIDinstallerVersion IDenumerateObjectsUsingBlock: isEqualToDictionary: indexOfObjectPassingTest:writeToFile: atomically: enumeratorAtURL: includingPropertiesForKeys: options: errorHandler: nextObjectlastPathComponentstringBy Deleting PathExtensiongetResourceValue: forKey: error: removeItemAtURL: error: regularExpressionWithPattern: options: error: recordNamefirstMatchInString:options: range: rangevaluesForAttribute: error:setValue: forAttribute: error: domainsyncGuest Stateshared Remote AEConfigsetRemoteAppleEventsEnabled: removeObject: setValue: forKey: addObjectsFromArray: fileSystemRepresentationsupportsBlue Light Reduction v16@0:8@24@0:8@16@"NSMutable Dictionary "@16@0:8Successfully added TCC access for Remote AppleEvents since they were enabled before the upgrade. FAILED to add TCC access for Remote Apple Events since they were enabled before the upgrade, and disabling the job file.Remote AppleEvents was disabled before the upgrade. Couldn't get default standby delay Unable to set standby delay: %xUpdating TouchID status& (%@) Updating Battery status& (%@) Updating preference panes search terms& 
+
+
+_AuthorizationCreate_Authorization Free_AuthorizationRightGet_Authorization RightSet_CC_MD5_CFArrayAppendValue_CFArrayCreateMutable_CFArray GetCount_CFArray GetTypeID
+CFBooleanGetTypeID_CFBooleanGetValue_CFBundleCopyBundleLocalizations_CFBundle Copy InfoDictionaryForURL_CFBundleCopyLocalizedStringForLocalization_ CFBundleGetBundleWithIdentifier_CFDictionaryGetTypeID_CFDictionaryGetValue_CFGetTypeID_CFMakeCollectable_CFNumberGetTypeID_CFNumberGetValue_CFPreferencesCopyValue
+_CFPreferencesSetValue_CFPreferencesSynchronize_CFRelease_CFRetain_CFStringGetTypeID_CFUUIDCreate_CFUUIDCreateString_CSGetLocalIdentityAuthority_
+CSIdentity Add Member_CSIdentity Commit_CSIdentityCreateGroupMembershipQuery_CSIdentityGetUUID_CSIdentityQueryCopyResults_CSIdentityQueryCreateForName_
+CSIdentityQueryExecute_CSIdentityRemoveMember_DASessionCreate_FSRefMakePath_GEODefaultManagedObjectContext_IOPMCopyDefaultPreferences_IOPMRevertPMPreferences_
+IOPMSetPMPreference_IOPSGetSupported PowerSources_LSSharedFileListCopySnapshot_LSSharedFileListCreate_LSSharedFileListInsertItemURL_LSSharedFileListItemResolve_
+MDItemCopyAttribute_MDQueryCreate_MDQueryExecute_MDQueryGetResultAtIndex_MDQueryGetResultCount_MDQuerySetSearchScope_NSClassFromString_NSFileGroupOwner Account Name _NSFileOwner AccountName_NSFile Posix Permissions_NSLog_NSURLFileSizeKey_SMJobIsEnabled_SMJobSetEnabled_TCCAccess Set For IndirectObject_
+TCCCreateDesignatedRequirementIdentityFromPath_Block_object_assign_Block_object_dispose_NSConcreteStackBlock_Unwind_Resume___NSDictionary0_struct____bzero_____ KCFBooleanTrue___objc_personality_v0___stack_chk_fail___stack_chk_guard_dispatch_queue_attr_concurrent_kCFBundleShortVersionStringKey_os_log_debug_impl_os_log _default_os_log_error_impl_os_log_impl_calloc_dispatch_async_dispatch_barrier_async_dispatch_main_dispatch_once_dispatch_queue_attr_make_with_autorelease_
+frequency_dispatch_queue_create_dispatch_sync_dlerror_dlopen_ds BuildListFromStrings Alloc_dsDataListDeallocate_eos_device_is_supported_exit_kCFAllocatorDefault_ KCFBooleanTrue_kCFBundleIdentifierKey_kCFPreferencesAny Application_kCFPreferencesAnyUser_kCFPreferencesCurrentHost_kCFTypeArrayCallBacks_kLSSharedFileListItemLast _KLSSharedFileListItemShareName_KLSSharedFileListSharePoints_KMDItemCFBundleIdentifier_kMDItemVersion_KMDQueryScope Computer Indexed_
+KODPolicyCategoryPasswordContent_kODPolicyKeyContent_kODPolicyKeyContentDescription_KODPolicy KeyIdentifier_KODRecordTypeGroups_KODRecordTypeSharePoints_
+KSMDomainSystemLaunchd_kTCCServiceAppleEvents_mbr_check_membership_mbr_group_name_to_uuid_mbr_string_to_uuid_objc_alloc_objc_alloc_init_objc_autorelease_objc_ enumerationMutation_objc_msgSend_objc_msgSendSuper2_objc_msgSend_stret_objc_opt_class_objc_opt_isKindOfClass_objc_opt_new_objc_release_objc_retain_open_os_log_
+type_enabled_sleep_stat$INODE64_strcmp_sysctl_syslog$DARWIN_EXTSN_unlink_NSConcreteGlobalBlock___CF ConstantStringClassReference_OBJC_CLASS_$_
+NSConstant Integer Number_OBJC_CLASS_$_NSConstantArray_OBJC_CLASS_$_NSData_OBJC_CLASS_$_NSAutoreleasePool_OBJC_CLASS_$_NSString_OBJC_CLASS_$_NSProcess Info_OBJC_ CLASS_$_NSNumber_OBJC_CLASS_$_NSDictionary_OBJC_CLASS_$_SFAuthorization_OBJC_CLASS_$_AdminDSAuthenticator_OBJC_CLASS_$_ODNode_OBJC_CLASS_$_ODSession_OBJC_CLASS_$_ AdminDirectoryService_OBJC_CLASS_$_ADMDSNode_OBJC_CLASS_$_NSMutableDictionary_OBJC_CLASS_$_NSMutableArray_OBJC_CLASS_$_NSBundle_OBJC_CLASS_$_ADMDSRecord_OBJC_ CLASS_$_MCXPrefObject_OBJC_CLASS_$_NSURL_OBJC_CLASS_$_CLLocationManager_OBJC_CLASS_$_ODQuery_OBJC_CLASS_$_NSTimeZone_OBJC_CLASS_$_NSSet_OBJC_CLASS_$_GEOCity_OBJC_ CLASS_$_ADMSystemClock_OBJC_CLASS_$_ADMInternetServices_OBJC_CLASS_$_AdminAuthenticator_OBJC_CLASS_$_NSError_OBJC_CLASS_$_DMManager_OBJC_CLASS_$_DMAPFS_OBJC_CLASS
+NSPrefPanesCenter_OBJC_CLASS_$_NSTask_OBJC_CLASS_$_NSArray_OBJC_CLASS_$_NSFileManager_OBJC_CLASS_$_NSDate_OBJC_CLASS_$_SUOSUMacBuddy Controller_OBJC_CLASS_$_
+_$_ISPurchase Receipt_OBJC_CLASS_$_NSRegularExpression_OBJC_CLASS_$_ADMGuestUserConfig_OBJC_CLASS_$_ADMRemote AEConfig_objc_empty_cache_OBJC_CLASS_$_NSObject_OBJC_
+METACLASS_$_NSObject_mh_execute_header\
+
+__mh_execute_header_AuthorizationCreate_Authorization Free_AuthorizationRightGet_Authorization RightSet_CC_MD5_CFArrayAppendValue_CFArrayCreateMutable_ CFArrayGetCount_CFArrayGetTypeID_CFBooleanGetTypeID_CFBooleanGetValue_CFBundleCopyBundle Localizations_CFBundleCopy InfoDictionary ForURL_
+CFBundleCopyLocalizedStringForLocalization_CFBundleGetBundleWithIdentifier_CFDictionaryGetTypeID_CFDictionaryGetValue_CFGetTypeID_CFMakeCollectable_
+CFNumberGetTypeID_CFNumberGetValue_CFPreferencesCopyValue_CFPreferencesSetValue_CFPreferences Synchronize_CFRelease_CFRetain_CFStringGetTypeID_CFUUIDCreate_ CSIdentityQueryCopyResults_CSIdentityQueryCreateForName_CSIdentityQueryExecute_CSIdentityRemove Member_DASessionCreate_FSRefMakePath_GEODefaultManagedObjectContext
+CFUUIDCreateString_CSGetLocalIdentityAuthority_CSIdentityAddMember_CSIdentityCommit_CSIdentityCreateGroupMembershipQuery_CSIdentityGetUUID_
+IOPMCopyDefaultPreferences_IOPMRevert PMPreferences_IOPMSetPMPreference_IOPSGetSupported Power Sources_LSSharedFileListCopySnapshot_LSSharedFileListCreate_ LSSharedFileListInsertItemURL_LSShared FileListItemResolve_MDItemCopyAttribute_MDQueryCreate_MDQueryExecute_MDQueryGetResultAtIndex_MDQueryGetResultCount_
+MDQuerySetSearchScope_NSClassFromString_NSFileGroupOwner AccountName_NSFileOwner AccountName_NSFilePosixPermissions_NSLog_NSURLFileSizeKey_OBJC_CLASS_$_ADMDSNode_OBJC_CLASS_$_ADMDSRecord_OBJC_CLASS_$_ADMGuestUserConfig_OBJC_CLASS_$_ADMInternetServices_OBJC_CLASS_$_ADMRemoteAEConfig_OBJC_CLASS_$_ADMSystemClock_OBJC_CLASS_$_AdminAuthenticator_OBJC_CLASS_$_AdminDSAuthenticator_OBJC_CLASS_$_AdminDirectoryService_OBJC_CLASS_$_CLLocationManager_OBJC_CLASS_$_DMAPFS_OBJC_CLASS_$_DMManager_OBJC_CLASS_$_GEOCity_OBJC_CLASS_$_ISPurchaseReceipt_OBJC_CLASS_$_MCXPrefObject_OBJC_CLASS_$_NSArray_OBJC_CLASS_$_NSAutoreleasePool_OBJC_CLASS_$_NSBundle_OBJC_NSFileManager_OBJC_CLASS_$_NSMutableArray_OBJC_CLASS_$_NSMutableDictionary_OBJC_CLASS_$_NSNumber_OBJC_CLASS_$_NSObject_OBJC_CLASS_$_NSPrefPanesCenter_OBJC_CLASS_$CLASS_$_NSConstantArray_OBJC_CLASS_$_NSConstantIntegerNumber_OBJC_CLASS_$_NSData_OBJC_CLASS_$_NSDate_OBJC_CLASS_$_NSDictionary_OBJC_CLASS_$_NSError_OBJC_CLASS_$__NSProcessInfo_OBJC_CLASS_$_NSRegularExpression_OBJC_CLASS_$_NSSet_OBJC_CLASS_$_NSString_OBJC_CLASS_$_NSTask_OBJC_CLASS_$_NSTimeZone_OBJC_CLASS_$_NSURL_OBJC_CLASS_$_ODNode_OBJC_CLASS_$_ODQuery_OBJC_CLASS_$_ODSession_OBJC_CLASS_$_SFAuthorization_OBJC_CLASS_$_SUOSUMacBuddyController_OBJC_METACLASS_$_NSObject_SMJobIsEnabled_SMJobSetEnabled_TCCAccessSetForIndirectObject_TCCCreateDesignatedRequirementIdentityFromPath_Block_object_assign_Block_object_dispose_NSConcreteGlobalBlock__NSConcreteStackBlock_Unwind_Resume___CFConstantStringClassReference___NSDictionary@_struct___bzero___kCFBooleanTrue___objc_personality_v0___stack_chk_fail___stack_chk_guard_dispatch_queue_attr_concurrent_kCFBundleShortVersionStringKey_objc_empty_cache_os_log_debug_impl_os_log_default_os_log_error_impl_os_log_impl_calloc_dispatch_async_dispatch_barrier_async_dispatch_main_dispatch_once_dispatch_queue_attr_make_with_autorelease_frequency_dispatch_queue_create_dispatch_sync_dlerror_dlopen_dsBuildListFromStringsAlloc_dsDataListDeallocate_eos_device_is_supported_exit_kCFALLocatorDefault_kCFBooleanTrue_kCFBundleIdentifierKey_KCFPreferencesAnyApplication_kCFPreferencesAnyUser_kCFPreferencesCurrentHost_kCFTypeArrayCallBacks_kLSSharedFileListItemLast_kLSSharedFileListItemShareName_KLSSharedFileListSharePoints_KMDItemCFBundleIdentifier_KMDItemVersion_KMDQueryScopeComputerIndexed_kODPolicyCategoryPasswordContent_KODPolicyKeyContent_KODPolicyKeyContentDescription_kODPolicyKeyIdentifier_KODRecordTypeGroups_KODRecordTypeSharePoints_KSMDomainSystemLaunchd_KTCCServiceAppleEvents_mbr_check_membership_mbr_group_name_to_uuid_mbr_string_to_uuid_objc_alloc_objc_alloc_init_objc_autorelease_objc_enumerationMutation_objc_msgSend_objc_msgSendSuper2_objc_msgSend_stret_objc_opt_class_objc_opt_isKindOfClass_objc_opt_new_objc_release_objc_retain_open_os_log_type_enabled_sleep_stat$INODE64_strcmp_sysctl_syslog$DARWIN_EXTSN_unlink
+
+com.apple.admin.updatesettings
+
+
+
+
