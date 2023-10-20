@@ -1,0 +1,336 @@
+The CaptivePortal we are experiencing on our Internet appears to be more than just an initial system check for connecting to the Internet. I can only go by the many limitations placed on what we can and cannot do on our devices. For example, such blocked websites and the inability to upload images or files to Apple Community forum and VirusTotal and the inability to share files from Google Drive. It is also worth mentioning that Safari and other browsers on all the iOS devices are mysteriously beta versions.
+
+In the WiFi setting the following appears:
+Portal state
+Captive portal detected
+
+In the net.plist is the following:
+
+			<dict>
+				<key>_name</key>
+				<string>Captive Network Assistant</string>
+				<key>arch_kind</key>
+				<string>arch_arm_i64</string>
+				<key>lastModified</key>
+				<date>2023-07-01T16:46:50Z</date>
+				<key>obtained_from</key>
+				<string>apple</string>
+				<key>path</key>
+				<string>/System/Library/CoreServices/Captive Network Assistant.app</string>
+				<key>signed_by</key>
+				<array>
+					<string>Software Signing</string>
+					<string>Apple Code Signing Certification Authority</string>
+					<string>Apple Root CA</string>
+				</array>
+				<key>version</key>
+				<string>5.0</string>
+			</dict>
+			<dict>
+				<key>_name</key>
+				<string>CaptiveNetwork</string>
+				<key>lastModified</key>
+				<date>2023-07-01T16:46:50Z</date>
+				<key>obtained_from</key>
+				<string>unknown</string>
+				<key>path</key>
+				<string>/System/Library/PrivateFrameworks/CaptiveNetwork.framework</string>
+				<key>private_framework</key>
+				<string>yes</string>
+				<key>version</key>
+				<string>13.0</string>
+			</dict>
+		<dict>
+			<key>command</key>
+			<string>captiveagent</string>
+			<key>net</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>-&gt;0x86***********e15</string>
+					<key>type</key>
+					<string>unix</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>-&gt;0x86***********d4d</string>
+					<key>type</key>
+					<string>unix</string>
+				</dict>
+			</array>
+		</dict>
+
+In logs, com.apple.WebKit.WebContent.CaptivePortal creates the following service stubs:
+<Notice>: Service stub created for com.apple.AddressBook.ABPersonViewService
+<Notice>: Service stub created for com.apple.ANECompilerService
+<Notice>: Service stub created for com.apple.AnnotationKit.MigratorService
+<Notice>: Service stub created for com.apple.appkit.xpc.ColorPickerImageLoader
+<Notice>: Service stub created for com.apple.appkit.xpc.defaultSyncService
+<Notice>: Service stub created for com.apple.appkit.xpc.documentPopoverViewService
+<Notice>: Service stub created for com.apple.appkit.xpc.LegacyExternalColorPickerService.arm64
+<Notice>: Service stub created for com.apple.appkit.xpc.LegacyExternalColorPickerService.x86_64
+<Notice>: Service stub created for com.apple.appkit.xpc.openAndSavePanelService
+<Notice>: Service stub created for com.apple.appkit.xpc.sandboxedServiceRunner
+<Notice>: Service stub created for com.apple.appkit.xpc.VersionsUIHelper
+<Notice>: Service stub created for com.apple.appkit.xpc.WindowSharingControlViewService
+<Notice>: Service stub created for com.apple.AppStoreDaemon.StoreAEService
+<Notice>: Service stub created for com.apple.AppStoreDaemon.StoreUIService
+<Notice>: Service stub created for com.apple.AssetCacheLocatorService
+<Notice>: Service stub created for com.apple.AssetCacheProfilePlugin
+<Notice>: Service stub created for com.apple.audio.CarbonComponentScanner.x86-64
+<Notice>: Service stub created for com.apple.audio.ComponentTagHelper
+<Notice>: Service stub created for com.apple.audio.DriverHelper
+<Notice>: Service stub created for com.apple.audio.InfoHelper
+<Notice>: Service stub created for com.apple.audio.SandboxHelper
+<Notice>: Service stub created for com.apple.AuthenticationServices.Helper
+<Notice>: Service stub created for com.apple.AuthKitUI.AKAuthorizationRemoteViewService
+<Notice>: Service stub created for com.apple.automator.xpc.workflowServiceRunner
+<Notice>: Service stub created for com.apple.BTMProfileService
+<Notice>: Service stub created for com.apple.CalendarWeatherKitService
+<Notice>: Service stub created for com.apple.CGXPCServicesAgent
+<Notice>: Service stub created for com.apple.ClassroomKit.ClassroomMCXService
+<Notice>: Service stub created for com.apple.CMValidateMovieDataReferenceService
+<Notice>: Service stub created for com.apple.ColorSyncXPCAgent
+<Notice>: Service stub created for com.apple.ContactsUI.ContactPickerService
+<Notice>: Service stub created for com.apple.CoreDisplay.XPCService
+<Notice>: Service stub created for com.apple.coremedia.pluginformatreader
+<Notice>: Service stub created for com.apple.coremedia.pluginformatreader.zonto
+<Notice>: Service stub created for com.apple.coremedia.videodecoder
+<Notice>: Service stub created for com.apple.coremedia.videodecoder.zonto
+<Notice>: Service stub created for com.apple.coremedia.videoencoder
+<Notice>: Service stub created for com.apple.coremedia.videoencoder.zonto
+<Notice>: Service stub created for com.apple.CoreMLModelSecurityService
+<Notice>: Service stub created for com.apple.ctcategories.service
+<Notice>: Service stub created for com.apple.DataDetectorsActionService
+<Notice>: Service stub created for com.apple.DataDetectorsViewService
+<Notice>: Service stub created for com.apple.desktopservices.ArchiveService
+<Notice>: Service stub created for com.apple.DPSubmissionService
+<Notice>: Service stub created for com.apple.ExecutionPolicyService
+<Notice>: Service stub created for com.apple.extensionkitservice
+<Notice>: Service stub created for com.apple.externalaccessory.WACEAService
+<Notice>: Service stub created for com.apple.FaceTime.FTConversationService
+<Notice>: Service stub created for com.apple.FeatureFlagsProfileService
+<Notice>: Service stub created for com.apple.foundation.UserScriptService
+<Notice>: Service stub created for com.apple.FTLivePhotoService
+<Notice>: Service stub created for com.apple.icloud.FindMyDevice.FindMyDeviceEraseXPCService
+<Notice>: Service stub created for com.apple.icloud.FindMyDevice.FindMyDeviceIdentityXPCService
+<Notice>: Service stub created for com.apple.ImageIOXPCService
+<Notice>: Service stub created for com.apple.ImageKit.RecentPictureService
+<Notice>: Service stub created for com.apple.intents.intents-helper
+<Notice>: Service stub created for com.apple.internal.DataDetectorsRemoteScanner
+<Notice>: Service stub created for com.apple.iTunesCloud.SharedListeningConnectionService
+<Notice>: Service stub created for com.apple.LinkPresentation.LinkSnapshotGeneratorService
+<Notice>: Service stub created for com.apple.LocalAuthenticationRemoteService
+<Notice>: Service stub created for com.apple.LoginUserService
+<Notice>: Service stub created for com.apple.LOMXPCService
+<Notice>: Service stub created for com.apple.LookupViewService
+<Notice>: Service stub created for com.apple.managedclient.pds.AirPlay
+<Notice>: Service stub created for com.apple.managedclient.pds.AppleService
+<Notice>: Service stub created for com.apple.managedclient.pds.Assessment
+<Notice>: Service stub created for com.apple.managedclient.pds.CardDAV
+<Notice>: Service stub created for com.apple.managedclient.pds.Certificate
+<Notice>: Service stub created for com.apple.managedclient.pds.EraseDevice
+<Notice>: Service stub created for com.apple.managedclient.pds.Exchange
+<Notice>: Service stub created for com.apple.managedclient.pds.FileVaultEscrow
+<Notice>: Service stub created for com.apple.managedclient.pds.Firewall
+<Notice>: Service stub created for com.apple.managedclient.pds.FirmwarePassword
+<Notice>: Service stub created for com.apple.managedclient.pds.Font
+<Notice>: Service stub created for com.apple.managedclient.pds.MAIDService
+<Notice>: Service stub created for com.apple.managedclient.pds.MDM
+<Notice>: Service stub created for com.apple.managedclient.pds.PlugInKit
+<Notice>: Service stub created for com.apple.managedclient.pds.SampleService
+<Notice>: Service stub created for com.apple.managedclient.pds.SingleSignOn
+<Notice>: Service stub created for com.apple.managedclient.pds.SystemPolicy
+<Notice>: Service stub created for com.apple.MediaLibraryService
+<Notice>: Service stub created for com.apple.MediaPlayer.RemotePlayerService
+<Notice>: Service stub created for com.apple.ModelIO.AssetLoader
+<Notice>: Service stub created for com.apple.mscamerad-xpc
+<Notice>: Service stub created for com.apple.OSLogService
+<Notice>: Service stub created for com.apple.PerfPowerTelemetryClientRegistrationService
+<Notice>: Service stub created for com.apple.Photos.CPLDiagnose
+<Notice>: Service stub created for com.apple.photos.ImageConversionService
+<Notice>: Service stub created for com.apple.Photos.Migration
+<Notice>: Service stub created for com.apple.Photos.Migration.Reader
+<Notice>: Service stub created for com.apple.photos.VideoConversionService
+<Notice>: Service stub created for com.apple.private.ANEStorageMaintainer
+<Notice>: Service stub created for com.apple.quicklook.QuickLookUIService
+<Notice>: Service stub created for com.apple.RemoteManagementMCXService
+<Notice>: Service stub created for com.apple.Safari.CredentialExtractionHelper
+<Notice>: Service stub created for com.apple.Safari.SearchHelper
+<Notice>: Service stub created for com.apple.SafariFoundation.CredentialProviderExtensionHelper
+<Notice>: Service stub created for com.apple.SafariServices
+<Notice>: Service stub created for com.apple.SafariServices.ExtensionHelper
+<Notice>: Service stub created for com.apple.SceneKit.C3DColladaResourcesCoordinator
+<Notice>: Service stub created for com.apple.scenekit.SCNSceneLoader
+<Notice>: Service stub created for com.apple.ScreenTimeViewService
+<Notice>: Service stub created for com.apple.security.pboxd
+<Notice>: Service stub created for com.apple.security.XPCAcmeService
+<Notice>: Service stub created for com.apple.siri.DeepSyncVerificationService
+<Notice>: Service stub created for com.apple.siri.media-indexer
+<Notice>: Service stub created for com.apple.speech.SpeechSynthesisServerXPC
+<Notice>: Service stub created for com.apple.StorageManagement.CloudStorageHelper
+<Notice>: Service stub created for com.apple.StorageManagement.MessagesHelper
+<Notice>: Service stub created for com.apple.StoreKit.UIService
+<Notice>: Service stub created for com.apple.StreamingUnzipService
+<Notice>: Service stub created for com.apple.SystemExtensionsMDM
+<Notice>: Service stub created for com.apple.TCCProfileService
+<Notice>: Service stub created for com.apple.textkit.nsattributedstringagent
+<Notice>: Service stub created for com.apple.USDLib.FormatLoader
+<Notice>: Service stub created for com.apple.ZhuGeService
+
+
+It regularly creates the 'implicit endpoint upfront', and then 'drains messages'.
+
+(com.apple.WebKit.WebContent.CaptivePortal) <Notice>: created the implicit endpoint upfront
+(com.apple.WebKit.WebContent.CaptivePortal) <Notice>: draining messages from com.apple.WebKit.WebContent.CaptivePortal
+
+CaptivePortal also gets a number of warnings, these are some examples:
+
+<Warning>: denied lookup: name = com.apple.distributed_notifications@Uv3, requestor = com.apple.WebKi[644], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.tccd.system, flags = 0x8, requestor = com.apple.WebKi[644], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.analyticsd, flags = 0x8, requestor = com.apple.WebKi[644], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.audio.AudioComponentRegistrar, requestor = com.apple.WebKi[644], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.audio.SandboxHelper, requestor = com.apple.WebKi[644], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.windowserver.active, flags = 0x9, requestor = com.apple.WebKi[644], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.analyticsd, flags = 0x8, requestor = com.apple.WebKi[1175], error = 159: Sandbox restriction
+<Warning>: denied lookup: name = com.apple.windowserver.active, flags = 0x9, requestor = com.apple.WebKi[1175], error = 159: Sandbox restriction
+
+I've included a snippet from a macOS log. Logs are typically long and boring, however it is interesting at times to watch particular events unfold where an action is initally denied and how it gets around that to succeed. 
+
+
+Error       0x0                  6462   0    UserEventAgent: (CoreFoundation) [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x******a50> XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXEC0
+Default     0x0                  6462   0    UserEventAgent: [com.apple.UserEventAgent:Daemon] Calling initializer for /System/Library/UserEventPlugins/CaptiveUserAgent.plugin
+Info        0x0                  6462   0    UserEventAgent: (CaptiveUserAgent) [com.apple.captive:UserAgent] CaptiveUserAgent built Jun 16 2023 23:28:57
+Info        0x0                  87     0    configd: (CaptiveNetworkSupport) [com.apple.captive:Controller] Session uid 501 pid 6462 REGISTERED
+Info        0x0                  87     0    configd: (CaptiveNetworkSupport) [com.apple.captive:Controller] CommandHandlerServer: UserSession pid 6462 registered
+Info        0x0                  6462   0    UserEventAgent: (CaptiveUserAgent) [com.apple.captive:UserAgent] Reconnected
+Info        0x0                  6462   0    UserEventAgent: (CaptiveNetwork) [com.apple.captive:Framework] Connected
+Default     0x0                  6462   0    UserEventAgent: [com.apple.UserEventAgent:Daemon] Initializer for /System/Library/UserEventPlugins/CaptiveUserAgent.plugin finished (took 0.000887 seconds)
+Info        0x0                  87     0    configd: (CaptiveNetworkSupport) [com.apple.captive:Controller] network information changed
+Default     0x0                  87     0    configd: [com.apple.SystemConfiguration:IPMonitor] network changed: v4(en1:XXX.XXX.X.XXX) v6(en1:XXXX:XXXX:XXXX:1::1) DNS Proxy SMB
+Info        0x0                  87     0    configd: [com.apple.SystemConfiguration:IPMonitor] Post "com.apple.system.config.network_change" (delayed: 0.000000: 0x11)
+Info        0x0                  114    0    opendirectoryd: [com.apple.opendirectoryd:session] Received a network change notification
+Default     0x0                  6482   0    nsurlsessiond: [com.apple.nsurlsessiond:background] received network changed event
+Default     0x0                  175    0    nsurlsessiond: [com.apple.nsurlsessiond:background] received network changed event
+Default     0x0                  6519   0    dmd: [com.apple.dmd:ConfigurationEngine] Detected network change
+Default     0x0                  87     0    configd: (CaptiveNetworkSupport) [com.apple.captive:Controller] interface en1 is active
+Default     0x0                  178    0    airportd: (IO80211) [com.apple.WiFiManager:] SC: <airport[178]> airportdProcessSystemConfigurationEvent: Processing 'State:/Network/Global/IPv4'
+Default     0x0                  178    0    airportd: (IO80211) [com.apple.WiFiManager:] SC: <airport[178]> airportdProcessSystemConfigurationEvent: Processing 'State:/Network/Global/IPv6'
+Default     0x0                  178    0    airportd: (CoreWiFi) [com.apple.WiFiManager:] [corewifi] SCNetworkConfiguration event: keys=(
+    "State:/Network/Global/IPv4",
+    "State:/Network/Global/IPv6"
+)
+Info        0x0                  87     0    configd: [com.apple.SystemConfiguration:IPMonitor] hostname: ptr query start
+Default     0x0                  87     0    configd: (Network) [com.apple.network:] -[NWConcrete_nw_resolver initWithEndpoint:parameters:path:log_str:] [R130] created for IPv4#8*****e9:0 using: generic, attribution: developer
+Default     0x0                  87     0    configd: (Network) [com.apple.network:path] nw_path_evaluator_start [XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXF28 IPv4#8*****e9:0 generic, attribution: developer]
+face: en1[802.11], ipv4, ipv6, dns
+Default     0x0                  87     0    configd: (Network) [com.apple.network:] nw_resolver_set_update_handler_block_invoke [R130] started
+Info        0x0                  6465   0    ControlCenter: [com.apple.controlcenter:display] NSApplicationDidChangeScreenParametersNotification
+Info        0x787a3              6485   0    routined: (ContactsPersistence) [com.apple.contacts:persistence] Did connect to remote endpoint <NSXPCListenerEndpoint: 0x******6c0>
+Activity    0x79290              5910   0    coreduetd: (BiomeStorage) _BMXPCFileManager._fileHandleForFileAtPath:flags:protection:error:
+Default     0x0                  6478   0    CommCenter: [com.apple.CommCenter:rm] #I available = true
+Default     0x0                  1      0    launchd: [pid/6471/com.apple.WebKit.WebContent.CaptivePortal.XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX47F [6567]:] service state: running
+Default     0x0                  1      0    launchd: [pid/6471/com.apple.WebKit.WebContent.CaptivePortal.XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX47F [6567]:] internal event: INIT, code = 0
+Default     0x0                  1      0    launchd: [pid/6471/com.apple.WebKit.WebContent.CaptivePortal.XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX47F [6567]:] Successfully spawned CaptivePortal[6567] because ipc (mach)
+Activity    0x796f0              6567   0    com.apple.WebKit.WebContent.CaptivePortal: (CoreFoundation) Resetting CFPreferences/NSUserDefaults
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Loading] Received Launch Services database 0x******3f0
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Loading] Received Launch Services database 0x******740
+Info        0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:db-spi] Replacing local LS database with a copy pushed by process 6536.
+Info        0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:db-spi] Replacing local LS database with a copy pushed by process 6536.
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Process] WebProcess::platformInitializeWebProcess <private>
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Process] WebProcess::platformInitializeWebProcess <private>
+Info        0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (HIServices) [com.apple.hiservices:processmgr] Checking in with CAS, pid=6567
+Info        0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (HIServices) [com.apple.hiservices:processmgr] Checking in with CAS, pid=6572
+Info        0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas] LSApplicationCheckIn(), app being registered is:"/System/Volumes/Preboot/Cryptexes/Incoming/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal"
+Info        0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas] LSApplicationCheckIn(), app being registered is:"/System/Volumes/Preboot/Cryptexes/Incoming/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal"
+Info        0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas]  { "LSExecutableSDKVersion"="13.2", "LSUIElement"=true, "CFBundleGetInfoString"="18614.4.6.1.6, Copyright 2003-2022 Apple Inc.", "CFBundleExecutablePath"="/System/Volumes/Preboot/Cryptexes/Incoming/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal", "LSBundlePath"="/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc", "NSDisableKeyboardLayoutAdjustedShortcuts"=true, "CFBundleVersion"="18614.4.6.1.6", "DTPlatformName"="macosx", "XPCService"={ "_MultipleInstances"=true, "_HighBitsASLR"=true, "_ProcessType"="App", "RunLoopType"="NSRunLoop", "JoinExistingSession"=true, "ServiceType"="Application" }, "CFBundleExecutable"="com.apple.WebKit.WebContent.CaptivePortal", "DTXcode"="1400", "LSCheckInTime*"=now-ish 2023/08/20 19:15:49, "NSMainNibFile"="WebContentProcess", "LSFileQuarantineEnabled"=true, "CFBundleSupportedPlatforms"=( <…>
+Info        0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas]  { "LSExecutableSDKVersion"="13.2", "LSUIElement"=true, "CFBundleGetInfoString"="18614.4.6.1.6, Copyright 2003-2022 Apple Inc.", "CFBundleExecutablePath"="/System/Volumes/Preboot/Cryptexes/Incoming/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal", "LSBundlePath"="/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc", "NSDisableKeyboardLayoutAdjustedShortcuts"=true, "CFBundleVersion"="18614.4.6.1.6", "DTPlatformName"="macosx", "XPCService"={ "_MultipleInstances"=true, "_HighBitsASLR"=true, "_ProcessType"="App", "RunLoopType"="NSRunLoop", "JoinExistingSession"=true, "ServiceType"="Application" }, "CFBundleExecutable"="com.apple.WebKit.WebContent.CaptivePortal", "DTXcode"="1400", "LSCheckInTime*"=now-ish 2023/08/20 19:15:49, "NSMainNibFile"="WebContentProcess", "LSFileQuarantineEnabled"=true, "CFBundleSupportedPlatforms"=( <…>
+Info        0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas] Registering for notification <private> on default queue, to re-boostrap client connection.
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKIN: pid=6572
+Info        0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas] Registering for notification <private> on default queue, to re-boostrap client connection.
+Info        0x0                  116    0    launchservicesd: [com.apple.launchservices:cas] applicationCheckIn("LSSession:id=100320 @ 0x******110 Apps:35 " client=6572 msg=<private>
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKIN: pid=6567
+Info        0x798af              150    0    runningboardd: (RunningBoard) [com.apple.runningboard:monitor] Ignoring insignificant state update for xpcservice<com.apple.WebKit.WebContent.CaptivePortal([app<application.com.apple.Safari.12778.13207(501)>:6471])(501)>:6572
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Process] 0x******110 - [sessionID=2] WebProcess::initializeWebProcess: Presenting processPID=6471
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Process] 0x******110 - [sessionID=2] WebProcess::initializeWebProcess: Presenting processPID=6471
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Loading] 0x******a08 - [webPageID=43] WebPage::constructor:
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Loading] 0x******408 - [webPageID=13] WebPage::constructor:
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=13, frameID=4, isMainFrame=1] FrameLoader::setPolicyDocumentLoader: Setting policy document loader to 0x******000 (was 0x0)
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=43, frameID=4, isMainFrame=1] FrameLoader::setPolicyDocumentLoader: Setting policy document loader to 0x******000 (was 0x0)
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:Network] 0x******000 - [pageID=13, frameID=4, isMainFrame=1] DocumentLoader::DocumentLoader::attachToFrame: m_frame=0x******370
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:Network] 0x******000 - [pageID=43, frameID=4, isMainFrame=1] DocumentLoader::DocumentLoader::attachToFrame: m_frame=0x******4a0
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=43, frameID=4, isMainFrame=1] FrameLoader::setProvisionalDocumentLoader: Setting provisional document loader to 0x******000 (was 0x0)
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=13, frameID=4, isMainFrame=1] FrameLoader::setProvisionalDocumentLoader: Setting provisional document loader to 0x******000 (was 0x0)
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=13, frameID=4, isMainFrame=1] FrameLoader::setDocumentLoader: Setting document loader to 0x******000 (was 0x0)
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=43, frameID=4, isMainFrame=1] FrameLoader::setDocumentLoader: Setting document loader to 0x******000 (was 0x0)
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=13, frameID=4, isMainFrame=1] FrameLoader::transitionToCommitted: Clearing provisional document loader (m_provisionalDocumentLoader=0x******000)
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=43, frameID=4, isMainFrame=1] FrameLoader::transitionToCommitted: Clearing provisional document loader (m_provisionalDocumentLoader=0x******000)
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=13, frameID=4, isMainFrame=1] FrameLoader::setProvisionalDocumentLoader: Setting provisional document loader to 0x0 (was 0x******000)
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=43, frameID=4, isMainFrame=1] FrameLoader::setProvisionalDocumentLoader: Setting provisional document loader to 0x0 (was 0x******000)
+Activity    0x79645              6559   0    familycircled: (Accounts) accounts/accounts-with-types-sync
+Activity    0x79646              6559   0    familycircled: (Accounts) accounts/accounts-with-types-sync
+Info        0x792b2              114    0    opendirectoryd: [com.apple.opendirectoryd:session] node assigned UUID - XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX212
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+Error       0x0                  0      0    kernel: (Sandbox) 1 duplicate report for Sandbox: com.apple.WebKit.WebContent.Cap(6572) deny(1) file-read-data /dev/dtracehelper
+Error       0x0                  0      0    kernel: (Sandbox) Sandbox: com.apple.Safari.SandboxBroker(6575) deny(1) iokit-open-user-client AppleNVMeEANUC
+Default     0x0                  0      0    kernel: IOUC AppleNVMeEANUC failed MACF in process pid 6575, com.apple.Safari
+Default     0x0                  6575   0    com.apple.Safari.SandboxBroker: (libMobileGestalt.dylib) IOServiceOpen failed for class 'AppleNVMeEAN'
+Default     0x0                  6575   0    com.apple.Safari.SandboxBroker: (libMobileGestalt.dylib) Could not open EAN service and connect
+Default     0x0                  6575   0    com.apple.Safari.SandboxBroker: (libMobileGestalt.dylib) Failed to copy 'aptk' from EAN
+Default     0x0                  6575   0    com.apple.Safari.SandboxBroker: (libMobileGestalt.dylib) Failed to copy APTicket properties. Falling back to default policy.
+Default     0x0                  6575   0    com.apple.Safari.SandboxBroker: (libMobileGestalt.dylib) Creating default MGSysConfigPolicy
+Fault       0x796f4              6567   14   com.apple.WebKit.WebContent.CaptivePortal: (libMobileGestalt.dylib) invalid product id '(null)'
+Fault       0x79794              6572   14   com.apple.WebKit.WebContent.CaptivePortal: (libMobileGestalt.dylib) invalid product id '(null)'
+Activity    0x796f4              6567   0    com.apple.WebKit.WebContent.CaptivePortal: (libsystem_trace.dylib) Activity for state dumps
+Activity    0x79794              6572   0    com.apple.WebKit.WebContent.CaptivePortal: (libsystem_trace.dylib) Activity for state dumps
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:Network] 0x******000 - [pageID=13, frameID=4, isMainFrame=1] DocumentLoader::startLoadingMainResource: Returning empty document
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:Network] 0x******000 - [pageID=43, frameID=4, isMainFrame=1] DocumentLoader::startLoadingMainResource: Returning empty document
+Info        0x795b1              6474   0    System Settings: (IconServices) [com.apple.iconservices:default] SATISFIED_PERSISTENT_CACHE: <private>
+Default     0x798eb              150    0    runningboardd: (AppServerSupport) [com.apple.libxpc.OSLaunchdJob:all] <OSLaunchdJob | handle=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX4EB>: submitExtension created a job
+Info        0x798eb              150    0    runningboardd: (RunningBoard) [com.apple.runningboard:job] Setting one-shot instance on launch: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXDF6
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:ProcessSuspension] 0x******408 - [webPageID=13] WebPage::unfreezeLayerTree: Removing a reason to freeze layer tree (reason=1, new=0, old=0)
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:ProcessSuspension] 0x******a08 - [webPageID=43] WebPage::unfreezeLayerTree: Removing a reason to freeze layer tree (reason=1, new=0, old=0)
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Layout] 0x******f00 - [webFrame=0x******228, webFrameID=4, webPage=0x******408, webPageID=13] WebFrameLoaderClient::completePageTransitionIfNeeded: dispatching didCompletePageTransition
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebKit) [com.apple.WebKit:Layout] 0x******f40 - [webFrame=0x******258, webFrameID=4, webPage=0x******a08, webPageID=43] WebFrameLoaderClient::completePageTransitionIfNeeded: dispatching didCompletePageTransition
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=13, frameID=4, isMainFrame=1] FrameLoader::setState: main frame load completed
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:ResourceLoading] 0x******4e0 - [pageID=43, frameID=4, isMainFrame=1] FrameLoader::setState: main frame load completed
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging] Memory usage info dump at MainFrameLoadCompleted:
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging] Memory usage info dump at MainFrameLoadCompleted:
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   backforward_cache_page_count: 0
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   backforward_cache_page_count: 0
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   internal_mb: 6
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   internal_mb: 6
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   page_count: 1
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   page_count: 1
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   document_count: 1
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   document_count: 1
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   phys_footprint_mb: 6
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   phys_footprint_mb: 6
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   compressed_mb: 0
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   compressed_mb: 0
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   virtual_size_mb: 485200
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   virtual_size_mb: 485304
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   javascript_gc_heap_capacity_mb: 0
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   javascript_gc_heap_capacity_mb: 0
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   resident_size_mb: 33
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   resident_size_mb: 33
+Default     0x0                  6567   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   javascript_gc_heap_extra_memory_size_mb: 0
+Default     0x0                  6572   0    com.apple.WebKit.WebContent.CaptivePortal: (WebCore) [com.apple.WebKit:PerformanceLogging]   javascript_gc_heap_extra_memory_size_mb: 0
+Default     0x798eb              150    0    runningboardd: (AppServerSupport) [com.apple.libxpc.OSLaunchdJob:all] <OSLaunchdJob | handle=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX4EB>: createInstance created a job <OSLaunchdJob | handle=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX503>
+Info        0x798eb              150    0    runningboardd: (RunningBoard) [com.apple.runningboard:general] submitted extension job XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXX503
+Info        0x795b1              6474   0    System Settings: (IconServices) [com.apple.iconservices:default] Retrieved cached image for <private>. Searched against `<private>` resulted in (24.000000,24.000000)@1.000000x: <private>
+Activity    0x7990b              6471   0    Safari: (Security) SecTrustEvaluateIfNecessary
+Default     0x0                  6567   7    com.apple.WebKit.WebContent.CaptivePortal: (SkyLight) [com.apple.SkyLight:default] Set a breakpoint at SLSLogBreak to catch errors/faults as they are logged.
+Error       0x0                  6567   7    com.apple.WebKit.WebContent.CaptivePortal: (SkyLight) [com.apple.SkyLight:default] 0 is not a valid connection ID.
+Fault       0x796f7              6567   2    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas] CONNECT: Attempt to connect to launchserivcesd prohibited because kLSServerConnectionStatusDoNotConnectToServerMask.
+Activity    0x796f7              6567   0    com.apple.WebKit.WebContent.CaptivePortal: (libsystem_trace.dylib) Activity for state dumps
+Info        0x795b1              6474   0    System Settings: (IconServices) [com.apple.iconservices:default] STORE_LOOKUP: <private> - <private>
+Activity    0x7990c              6471   0    Safari: (Security) SecTrustEvaluateIfNecessary
+Info        0x795b1              6474   0    System Settings: (IconServices) [com.apple.iconservices:default] STORE_LOOKUP_RESULT: found
+Default     0x0                  6572   7    com.apple.WebKit.WebContent.CaptivePortal: (SkyLight) [com.apple.SkyLight:default] Set a breakpoint at SLSLogBreak to catch errors/faults as they are logged.
+Error       0x0                  6572   7    com.apple.WebKit.WebContent.CaptivePortal: (SkyLight) [com.apple.SkyLight:default] 0 is not a valid connection ID.
+Fault       0x79795              6572   2    com.apple.WebKit.WebContent.CaptivePortal: (LaunchServices) [com.apple.launchservices:cas] CONNECT: Attempt to connect to launchserivcesd prohibited because kLSServerConnectionStatusDoNotConnectToServerMask.
+Activity    0x79795              6572   0    com.apple.WebKit.WebContent.CaptivePortal: (libsystem_trace.dylib) Activity for state dumps
+Default     0x79940              6127   0    secinitd: (AppSandbox) AppSandboxUtilRealPathForUTF8StringPath(/Users/redacted)
+Activity    0x7990d              6471   0    Safari: (Security) SecTrustEvaluateIfNecessary
